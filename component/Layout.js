@@ -1,10 +1,20 @@
-import React from 'react'
+import React,{useState} from 'react'
+import HeroSection from './HeroSection'
 import Navbar from './Navbar'
+import Sidebar from './Sidebar'
 
 const Layout = ({children}) => {
+
+  const [isOpen,setOpen] =useState(false)
+
+  const toggle =()=>{
+    setOpen(!isOpen)
+  }
   return (
     <div>
-        <Navbar/>
+      <Sidebar isOpen={isOpen} toggle={toggle}/>
+        <Navbar toggle={toggle}/>
+        <HeroSection/>
         {children}
         </div>
   )
