@@ -1,4 +1,4 @@
-html,
+/* html,
 body {
   padding: 0;
   margin: 0;
@@ -9,12 +9,11 @@ body {
 a {
   color: inherit;
   text-decoration: none;
-}
+} */
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Encode Sans Expanded'
-  sans-serif;
+  font-family: 'Encode Sans Expanded', sans-serif;
 }

@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import HeroSection from './HeroSection'
+import InfoSection from './InfoSection'
 import Navbar from './Navbar'
 import Sidebar from './Sidebar'
 
@@ -15,6 +16,7 @@ const Layout = ({children}) => {
       <Sidebar isOpen={isOpen} toggle={toggle}/>
         <Navbar toggle={toggle}/>
         <HeroSection/>
+        <InfoSection/>
         {children}
         </div>
   )
