@@ -5,11 +5,11 @@ function MyApp({ Component, pageProps }) {
 
 
   return (
-  <Layout>
+  // <Layout>
 
+  // </Layout>
     <Component {...pageProps} />
     
-  </Layout>
   )
 }
 

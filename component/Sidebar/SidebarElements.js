@@ -39,6 +39,9 @@ export const SidebarMenu = styled.ul`
   @media screen and (max-width: 480px) {
     grid-template-rows: repeat(6, 80px);
   }
+  @media screen and (max-width: 320px) {
+    grid-template-rows: repeat(6, 50px);
+  }
 `;
 export const SidebarLink = styled.a`
   display: flex;
@@ -51,7 +54,9 @@ export const SidebarLink = styled.a`
   text-decoration: none;
   color: #fff;
   cursor: pointer;
-
+  @media screen and (max-width: 320px) {
+    font-size: 14px;
+  }
   &:hover {
     color: #01bf71;
     transition: 0.2s ease-in-out;
@@ -61,6 +66,11 @@ export const SideBtnWrap = styled.div`
   display: flex;
   justify-content: center;
   padding-top:90px ;
+  @media screen and (max-width: 320px) {
+    font-size: 14px;
+  padding-top:50px ;
+
+  }
 `;
 
 export const SidebarRoute = styled.a`

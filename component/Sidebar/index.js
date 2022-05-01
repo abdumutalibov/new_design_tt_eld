@@ -9,7 +9,7 @@ const Sidebar = ({isOpen, toggle}) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="products" onClick={toggle}>Products</SidebarLink>
+          <SidebarLink href="#products" onClick={toggle}>Products</SidebarLink>
           <SidebarLink to="features" onClick={toggle}>Features</SidebarLink>
           <SidebarLink to="reviews" onClick={toggle}>Reviews</SidebarLink>
           <SidebarLink to="pricing" onClick={toggle}>Pricing</SidebarLink>
@@ -17,7 +17,7 @@ const Sidebar = ({isOpen, toggle}) => {
           <SidebarLink to="request" onClick={toggle}>Request Demo</SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-            <SidebarRoute to='/signin'>
+            <SidebarRoute href='/signin'>
 Sigin In
             </SidebarRoute>
         </SideBtnWrap>

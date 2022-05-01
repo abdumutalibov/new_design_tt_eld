@@ -3,6 +3,10 @@ import HeroSection from './HeroSection'
 import InfoSection from './InfoSection'
 import Navbar from './Navbar'
 import Sidebar from './Sidebar'
+import {homeObjOne ,homeObjTwo, homeObjThree} from './InfoSection/Data'
+import "bootstrap/dist/css/bootstrap.css";
+import Services from './Services'
+import Footer from './Footer'
 
 const Layout = ({children}) => {
 
@@ -16,7 +20,11 @@ const Layout = ({children}) => {
       <Sidebar isOpen={isOpen} toggle={toggle}/>
         <Navbar toggle={toggle}/>
         <HeroSection/>
-        <InfoSection/>
+        <InfoSection {...homeObjOne}/>
+        <InfoSection {...homeObjTwo}/>
+        <Services/>
+        <InfoSection {...homeObjThree}/>
+        <Footer/>
         {children}
         </div>
   )

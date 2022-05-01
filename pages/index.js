@@ -2,7 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 import styled from "styled-components";
 // import styles from '../styles/Home.module.css'
-
+import Link from "next/dist/client/link";
+import Layout from "../component/Layout";
 const Title = styled.div`
   font-size: 50px;
 `;
@@ -18,6 +19,8 @@ export default function Home() {
           rel="stylesheet"
         ></link>
       </Head>
+     
+      <Layout/>
     </div>
   );
 }

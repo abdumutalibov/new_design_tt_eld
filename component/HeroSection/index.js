@@ -10,7 +10,6 @@ import {
   HeroBgWrapper,
   ArrowForward,
   ArrowRight,
-  ImgMac,
 } from "./HeroElements";
 
 
@@ -22,7 +21,7 @@ function HeroSection() {
   return (
     <HeroContainer>
       <HeroBg>
-        <ImgBg src="Background.png" />
+        <ImgBg src="Background.svg" />
       </HeroBg>
       <HeroContent>
         <HeroH1>Advanced Fleet Management Solution</HeroH1>

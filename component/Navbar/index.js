@@ -14,18 +14,19 @@ import {
 import { FaBars } from "react-icons/fa";
 const Navbar = ({toggle}) => {
 
-  const [scrollNav, setScrollNav] =useState(false)
+  const [scrollNav, setScrollNav] =useState(true)
 
   const changeNav =()=>{
-   if(window.scroll >=80){
+   if(window.scrollY >=80){
      setScrollNav(true)
-   } else{
+   } else if(window.scrollY <=80){
      setScrollNav(false)
    }
   }
 
   useEffect(()=>{
-    window.addEventListener('scroll',changeNav)
+    window.addEventListener('scroll', changeNav);
+    return () => window.removeEventListener('scroll', changeNav);
   },[])
   return (
     <>
@@ -42,7 +43,7 @@ const Navbar = ({toggle}) => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="products">Products</NavLinks>
+              <NavLinks href="#products">Products</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to="features">Features</NavLinks>
@@ -61,7 +62,7 @@ const Navbar = ({toggle}) => {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to='/signin'>Get it Now</NavBtnLink>
+            <NavBtnLink href='/Signin'>Get it Now</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>
