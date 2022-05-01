@@ -32,7 +32,8 @@ const InfoSection = ({
 }) => {
   return (
     <>
-      <InfoContainer lightBg={lightBg} id={id}>
+      <InfoContainer lightBg={lightBg} >
+
         <InfoWrapper>
           <InfoRow imgStart={imgStart}>
             <Column1>

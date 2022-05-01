@@ -1,4 +1,5 @@
 import React from "react";
+import Link from 'next/link'
 import {
   FooterContainer,
   FooterLinkItems,
@@ -23,7 +24,7 @@ import {
 } from "react-icons/fa";
 const Footer = () => {
   return (
-    <FooterContainer>
+    <FooterContainer id='products'>
       <FooterWrap>
         <FooterLinksContainer>
           <FooterLinksWrapper>
@@ -65,7 +66,10 @@ const Footer = () => {
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo href="/">dolla </SocialLogo>
+            <Link  href="/">
+            
+            <SocialLogo>dolla </SocialLogo>
+            </Link>
             <WebsiteRights>dolla @ {new Date().getFullYear()} All rights reserved. </WebsiteRights>
             <SocialIcons>
               <SocialIconLink href="/" target="_blank" aria-label="Facebook">
