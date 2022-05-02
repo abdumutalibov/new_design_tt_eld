@@ -1,8 +1,8 @@
 import styled from "styled-components";
 export const Nav = styled.nav`
   background: ${({ scrollNav }) => (scrollNav ? "#37353B" : "transparent")};
-  height: 80px;
-  margin-top: -80px;
+  height: 104px;
+  margin-top: -240px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,8 +22,9 @@ export const NavbarContainer = styled.div`
   z-index: 1;
   width: 100%;
   /* padding: 0 24px; */
-  max-width: 1100px;
+  max-width: 100rem;
   color: #de3;
+  /* background:red; */
 `;
 
 export const NavLogo = styled.a`
@@ -36,9 +37,10 @@ export const NavLogo = styled.a`
   margin-left: 24px;
   font-weight: bold;
   text-decoration: none;
+  margin-right: auto;
 `;
 export const NavImg = styled.img`
-  height: 40px;
+  height: 50px;
   color: white;
   cursor: pointer;
 `;
@@ -47,7 +49,7 @@ export const MobileIcon = styled.div`
   @media screen and (max-width: 960px) {
     display: block;
     position: absolute;
-    top: -10px;
+    top: 0px;
     right: 0;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
@@ -57,7 +59,7 @@ export const MobileIcon = styled.div`
   @media screen and (max-width: 768px) {
     display: block;
     position: absolute;
-    top: -10px;
+    top: 0px;
     right: 0;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
@@ -72,7 +74,8 @@ export const NavMenu = styled.div`
   align-items: center;
   list-style: none;
   text-align: center;
-  margin-right: -22px;
+  margin-right: 22px;
+  /* background:red; */
 
   @media screen and (max-width: 960px) {
     display: none;
@@ -99,19 +102,19 @@ export const NavLinks = styled.a`
     color: #000;
   }
 
-  /* border-bottom: ${({ active }) => active && "3px solid #01bf71"}; */
-  color: ${({ active }) => active && "#01bf71"};
+  /* color: ${({ active }) => active && "#01bf71"}; */
   :hover{
-    /* color: #01bf71; */
+    color: #01bf71;
   }
   `;
-NavLinks.Item =styled.div`
 
-`
 
 export const NavBtn = styled.nav`
   display: flex;
   align-items: center;
+  margin-right: 24px;
+
+
   @media screen and (max-width: 960px) {
     display: none;
   }
@@ -120,23 +123,28 @@ export const NavBtn = styled.nav`
   }
 `;
 export const NavBtnLink = styled.a`
-  border-radius: 50px;
-  background: #01bf71;
-  white-space: nowrap;
+  border-radius: 8px;
+  /* background: #01bf71; */
+  border: 5px solid #FFFFFF;
+  /* white-space: nowrap; */
   padding: 10px 22px;
-  color: #010606;
-  font-size: 16px;
-  outline: none;
-  border: none;
+  color: white;
+  font-size: 18px;
+  /* outline: none; */
+  /* border: none; */
   cursor: pointer;
   transition: all 0.2s ease-in;
   text-decoration: none;
   @media screen and (max-width: 320px) {
-    font-size: 14px;
+    font-size: 18px;
   }
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #fff;
+    /* background: #fff; */
+  background: #01bf71;
+
     color: #010606;
+  font-weight:500;
+
   }
 `;

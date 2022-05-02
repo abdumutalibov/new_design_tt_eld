@@ -10,13 +10,18 @@ import {
   HeroBgWrapper,
   ArrowForward,
   ArrowRight,
+  ImgMac,
 } from "./HeroElements";
 
 
 function HeroSection() {
   const [hover, setHover] = useState(false);
+  const [hovers, setHovers] = useState(false);
   const onHover = () => {
     setHover(!hover);
+  };
+  const onHovers = () => {
+    setHovers(!hovers);
   };
   return (
     <HeroContainer>
@@ -42,15 +47,15 @@ function HeroSection() {
           </Button>
           <Button2
             to="signup"
-            onMouseEnter={onHover}
-            onMouseLeave={onHover}
+            onMouseEnter={onHovers}
+            onMouseLeave={onHovers}
             primary="true"
             dark='true'
           >
-            Get started {hover ? <ArrowForward /> : <ArrowRight />}
+            Free trial{hovers ? <ArrowForward /> : <ArrowRight />}
           </Button2>
         </HeroBgWrapper>
-        {/* <ImgMac src="mac.svg"/> */}
+        <ImgMac src="mac.svg"/>
       </HeroContent>
     </HeroContainer>
   );

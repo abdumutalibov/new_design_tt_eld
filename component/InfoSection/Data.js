@@ -33,7 +33,7 @@ export const homeObjTwo = {
     darkText:true
 };
 export const homeObjThree = {
-  id: 'ff',
+  id: 'foter',
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
