@@ -7,6 +7,7 @@ import {homeObjOne ,homeObjTwo, homeObjThree} from './InfoSection/Data'
 import "bootstrap/dist/css/bootstrap.css";
 import Services from './Services'
 import Footer from './Footer'
+import HelpYou from './HelpYou'
 
 const Layout = ({children}) => {
 
@@ -20,6 +21,7 @@ const Layout = ({children}) => {
       <Sidebar isOpen={isOpen} toggle={toggle}/>
         <Navbar toggle={toggle}/>
         <HeroSection/>
+        <HelpYou/>
         <InfoSection {...homeObjOne}/>
         <InfoSection {...homeObjTwo}/>
         <Services/>
