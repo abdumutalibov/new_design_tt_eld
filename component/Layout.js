@@ -8,6 +8,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import Services from './Services'
 import Footer from './Footer'
 import HelpYou from './HelpYou'
+import Drives from './Driver\'s'
 
 const Layout = ({children}) => {
 
@@ -22,6 +23,7 @@ const Layout = ({children}) => {
         <Navbar toggle={toggle}/>
         <HeroSection/>
         <HelpYou/>
+        <Drives/>
         <InfoSection {...homeObjOne}/>
         <InfoSection {...homeObjTwo}/>
         <Services/>
