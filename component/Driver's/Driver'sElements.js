@@ -40,7 +40,7 @@ export const DriversWrapper = styled.div`
   z-index: 1;
   width: 100%;
   padding: 0 20px 0 24px;
-  max-width: 100rem;
+  max-width: 90rem;
   @media screen and (max-width: 768px) {
     font-size: 2rem;
     padding: 0 10px;

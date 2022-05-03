@@ -26,9 +26,9 @@ const Layout = ({children}) => {
         <HelpYou/>
         <Drives/>
         <EasyTracking/>
+        <Services/>
         <InfoSection {...homeObjOne}/>
         <InfoSection {...homeObjTwo}/>
-        <Services/>
         <InfoSection {...homeObjThree}/>
         <Footer/>
         {children}

@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const EasyContainer = styled.div`
-  height: 1200px;
+  height: 900px;
   display: flex;
   width: 100%;
+  margin-top: 100px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -25,6 +26,7 @@ export const EasyWrapper = styled.div`
   align-items: center;
   width: 100%;
   height: 700px;
+
   padding: 0 24px 0 24px;
   max-width: 100rem;
   @media screen and (max-width: 768px) {
