@@ -9,6 +9,7 @@ import Services from './Services'
 import Footer from './Footer'
 import HelpYou from './HelpYou'
 import Drives from './Driver\'s'
+import EasyTracking from './EasyTracking'
 
 const Layout = ({children}) => {
 
@@ -24,6 +25,7 @@ const Layout = ({children}) => {
         <HeroSection/>
         <HelpYou/>
         <Drives/>
+        <EasyTracking/>
         <InfoSection {...homeObjOne}/>
         <InfoSection {...homeObjTwo}/>
         <Services/>

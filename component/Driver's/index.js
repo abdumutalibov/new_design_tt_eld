@@ -1,8 +1,5 @@
 import React from "react";
 import {
-  Border,
-  Border2,
-  BtnWrap,
   Column1,
   Column2,
   Column3,

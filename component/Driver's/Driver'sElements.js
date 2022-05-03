@@ -95,7 +95,7 @@ padding: 0 10px 0 10px;
   }
 `;
 export const Column1 = styled.div`
-  grid-area: col1;
+  /* grid-area: col1; */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -149,7 +149,7 @@ export const Line = styled.p`
   }
 `;
 export const Column2 = styled.div`
-  grid-area: col2;
+  /* grid-area: col2; */
   margin-left: 10px;
 `;
 export const ImgPhone = styled.img`
@@ -168,7 +168,7 @@ export const ImgPhone = styled.img`
   }
 `;
 export const Column3 = styled.div`
-  grid-area: col2;
+  /* grid-area: col2; */
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
