@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Footer from "../Footer";
 
 export const ServicesContainer = styled.div`
   height: 1900px;

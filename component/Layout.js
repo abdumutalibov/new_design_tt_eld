@@ -10,6 +10,7 @@ import Footer from './Footer'
 import HelpYou from './HelpYou'
 import Drives from './Driver\'s'
 import EasyTracking from './EasyTracking'
+import Rating from './Rating'
 
 const Layout = ({children}) => {
 
@@ -27,6 +28,7 @@ const Layout = ({children}) => {
         <Drives/>
         <EasyTracking/>
         <Services/>
+        <Rating/>
         <InfoSection {...homeObjOne}/>
         <InfoSection {...homeObjTwo}/>
         <InfoSection {...homeObjThree}/>
