@@ -21,7 +21,7 @@ const Navbar = ({ toggle }) => {
   const changeNav = () => {
     if (window.scrollY >= 80) {
       setScrollNav(true);
-    } else{
+    } else {
       setScrollNav(false);
     }
   };
@@ -29,8 +29,6 @@ const Navbar = ({ toggle }) => {
   useEffect(() => {
     window.addEventListener("scroll", changeNav);
   }, []);
-
-
 
   return (
     <>
@@ -52,8 +50,7 @@ const Navbar = ({ toggle }) => {
             <NavMenu active={isTabActive}>
               <NavItem>
                 <Link href="#about">
-                  <NavLinks 
-                
+                  <NavLinks
                     smooth={true}
                     duration={500}
                     spy={true}

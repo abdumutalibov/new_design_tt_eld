@@ -13,6 +13,9 @@ export const Nav = styled.nav`
   @media screen and (max-width: 960px) {
     transition: 0.8 all ease;
   }
+  @media screen and (max-width:480px){
+height: 74px;
+}
 `;
 
 export const NavbarContainer = styled.div`
@@ -43,6 +46,9 @@ export const NavImg = styled.img`
   height: 50px;
   color: white;
   cursor: pointer;
+  @media screen and (max-width:480px){
+height: 34px;
+}
 `;
 export const MobileIcon = styled.div`
   display: none;
@@ -67,6 +73,11 @@ export const MobileIcon = styled.div`
     color: #fff;
     /* transition: 0.8 all ease; */
   }
+  @media screen and (max-width:480px){
+    position: absolute;
+    top: -13px;
+    right: 0;
+}
 `;
 
 export const NavMenu = styled.div`
