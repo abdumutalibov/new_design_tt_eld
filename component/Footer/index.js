@@ -1,17 +1,11 @@
 import React from "react";
-import Link from "next/link";
 import {
   FooterContainer,
-  FooterLinkItems,
-  FooterLinksContainer,
-  FooterLinksWrapper,
-  FooterLinkTitle,
+ 
   FooterWrap,
-  FooterLink,
   SocialMedia,
   SocialMediaWrap,
   SocialLogo,
-  WebsiteRights,
   SocialIcons,
   SocialIconLink,
   Logo,
