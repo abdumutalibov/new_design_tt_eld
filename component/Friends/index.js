@@ -20,7 +20,7 @@ const Friends = () => {
         setHover4(!hover4);
       };
   return (
-    <FriendsContainer>
+    <FriendsContainer id="request">
       <FriendsH1>Let’s be Friends</FriendsH1>
       <FriendsText>
         We are here to help you. You can follow us on social networks to stay up

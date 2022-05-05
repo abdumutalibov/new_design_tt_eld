@@ -14,17 +14,13 @@ import {
   SocialIconLinks,
 } from "./FooterElements";
 import {
-  FaFacebook,
   FaInstagram,
-  FaTelegram,
   FaTelegramPlane,
   FaYoutube,
-  FaTwitter,
-  FaLinkedin,
 } from "react-icons/fa";
 const Footer = () => {
   return (
-    <FooterContainer id="products">
+    <FooterContainer >
       <FooterWrap>
         <SocialMedia>
           <SocialMediaWrap>

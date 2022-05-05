@@ -20,7 +20,7 @@ import {
 
 const EasyTracking = () => {
   return (
-    <EasyContainer>
+    <EasyContainer id="pricing">
       <EasyWrapper>
         <EasyH1>Easy tracking of trucks, counting times</EasyH1>
         <EasyP>

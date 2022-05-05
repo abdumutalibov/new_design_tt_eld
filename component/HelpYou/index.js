@@ -14,7 +14,7 @@ import {
 
 const HelpYou = () => {
   return (
-    <HelpContainer>
+    <HelpContainer id="features">
       <HelpH1>How can <HelpSpan>TT ELD</HelpSpan> help you?</HelpH1>
       <HelpTitle>
         Working hard for something we don’t care about is called stressed,

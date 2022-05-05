@@ -49,7 +49,7 @@ const Navbar = ({ toggle }) => {
             </MobileIcon>
             <NavMenu active={isTabActive}>
               <NavItem>
-                <Link href="#about">
+                <Link href="#products">
                   <NavLinks
                     smooth={true}
                     duration={500}
@@ -67,7 +67,7 @@ const Navbar = ({ toggle }) => {
                 </Link>
               </NavItem>
               <NavItem>
-                <Link href="#discover">
+                <Link href="#features">
                   <NavLinks
                     onClick={() => {
                       isTabActive && setIsActive("Qabul qilgan");
@@ -79,7 +79,7 @@ const Navbar = ({ toggle }) => {
                 </Link>
               </NavItem>
               <NavItem>
-                <Link href="#foter">
+                <Link href="#reviews">
                   <NavLinks
                     onClick={() => {
                       isTabActive && setIsActive("Jonatilgan");

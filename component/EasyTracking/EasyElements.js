@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const EasyContainer = styled.div`
-  height: 900px;
+  height: 990px;
   display: flex;
   width: 100%;
   margin-top: 100px;

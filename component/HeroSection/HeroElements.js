@@ -112,8 +112,8 @@ line-height: 48px;
 `
 
 export const HeroBgWrapper =styled.div`
-margin-top: 32px;
-margin-bottom:80px;
+margin-top: 19px;
+margin-bottom:40px;
 display: flex;
 flex-direction: row;
 align-items: center;

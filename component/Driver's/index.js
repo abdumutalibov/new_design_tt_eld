@@ -14,7 +14,6 @@ import {
   ImgPhone,
   ImgWrap,
   Line,
-  Subtitle,
   TextWrapper,
   TextWrapper1,
   TopLine,
@@ -23,7 +22,7 @@ import {
 const Drives = () => {
   return (
     <>
-      <DriversContainer>
+      <DriversContainer id="reviews">
         <DriversImg>
           <ImgBg src="Base.svg" />
         </DriversImg>

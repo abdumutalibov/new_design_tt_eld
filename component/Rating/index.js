@@ -16,7 +16,7 @@ import {
 
 const Rating = () => {
   return (
-    <RatingContainer>
+    <RatingContainer id="about">
       <RatingH1>Our Rating Among Customers</RatingH1>
       <RatingText>
         TT ELD is a company that serves many customers at the same time and we

@@ -8,7 +8,6 @@ import {
   FormCol,
   FormCol1,
   FormContent,
-  FormH1,
   FormInput,
   FormLabel,
   FormMainCol,
@@ -32,7 +31,6 @@ import {
   LoginTxt2,
   LoginTxt3,
   LoginTxt4,
-  Text,
 } from "./FrequentlyElements";
 
 const Frequntly = () => {
