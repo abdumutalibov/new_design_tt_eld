@@ -12,6 +12,7 @@ import Drives from './Driver\'s'
 import EasyTracking from './EasyTracking'
 import Rating from './Rating'
 import Frequntly from './Frequently'
+import Friends from './Friends'
 
 const Layout = ({children}) => {
 
@@ -31,10 +32,12 @@ const Layout = ({children}) => {
         <Services/>
         <Rating/>
         <Frequntly/>
-        <InfoSection {...homeObjOne}/>
-        {/* <InfoSection {...homeObjTwo}/>
-        <InfoSection {...homeObjThree}/>
-        <Footer/> */}
+        <Friends/>
+        
+        {/* <InfoSection {...homeObjOne}/>
+        <InfoSection {...homeObjTwo}/>
+        <InfoSection {...homeObjThree}/> */}
+        <Footer/>
         {children}
         </div>
   )

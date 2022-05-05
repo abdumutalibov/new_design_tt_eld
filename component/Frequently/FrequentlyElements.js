@@ -170,13 +170,10 @@ export const FrequntlyT2 = styled.h2`
   @media screen and (max-width: 480px) {
     font-size: 16px;
     line-height: 32px;
-    /* padding: 10px; */
     margin-right: auto;
   }
   @media screen and (max-width: 280px) {
     font-size: 9px;
-    /* line-height: 23px; */
-    /* padding: 10px; */
     margin-right: auto;
   }
 `;
@@ -204,8 +201,7 @@ export const FrequentlyP2 = styled.p`
   }
 `;
 export const FrequentlyDecrement2 = styled.img`
-  /* margin-left: 72rem; */
-  /* width: 10px; */
+  
   cursor: pointer;
 
   @media screen and (max-width: 280px) {
@@ -216,12 +212,10 @@ export const FrequentlyLogin = styled.div`
   background-color: #2b2d31;
   padding: 60px 90px;
 
-  /* background-color: blue; */
   @media screen and (max-width: 1280px) {
     padding: 0 0 60px 0;
   }
   @media screen and (max-width: 960px) {
-    /* padding: 0 0 0px 0; */
   }
   @media screen and (max-width: 768px) {
     padding: 0 0 20px 0;
@@ -262,8 +256,8 @@ export const LoginTxt1 = styled.div`
   line-height: 68px;
   color: #ffffff;
   margin-bottom: 12px;
-  @media screen and (min-width: 1024px)  and (max-width: 1280px) {
-    font-size:30px;
+  @media screen and (min-width: 1024px) and (max-width: 1280px) {
+    font-size: 30px;
   }
   @media screen and (max-width: 768px) {
     font-size: 25px;
@@ -276,7 +270,6 @@ export const LoginTxt1 = styled.div`
     line-height: 32px;
     margin: 10px;
     text-align: center;
-    /* max-width: 50rem; */
   }
 `;
 export const LoginTxt2 = styled.div`
@@ -349,30 +342,20 @@ export const LoginContainer = styled.div`
   margin-left: 120px;
   max-height: 69rem;
   background-color: white;
-  /* position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 0;
-  z-index: 0;
-  overflow: hidden; */
   @media screen and (max-width: 1280px) {
     padding: 0;
     font-size: 13px;
     margin: 60px 0 0 0;
-
   }
   @media screen and (max-width: 960px) {
     padding: 0;
     font-size: 13px;
     margin: 60px 0 0 0;
-
   }
   @media screen and (max-width: 768px) {
     padding: 0;
     font-size: 13px;
     margin: 60px 0 0 0;
-
   }
   @media screen and (max-width: 480px) {
     margin-top: 60px;
@@ -393,7 +376,7 @@ export const FormWrap = styled.div`
 
 export const FormContent = styled.div`
   height: 100%;
- 
+
   @media screen and (max-width: 768px) {
     padding: 0px;
     margin: 0;
@@ -437,17 +420,14 @@ export const FormLabel = styled.label`
   line-height: 22px;
   color: #5a7184;
   @media screen and (max-width: 768px) {
-  padding: 1px 1px;
-font-size:18px;
-margin-bottom: 5px;
-
+    padding: 1px 1px;
+    font-size: 18px;
+    margin-bottom: 5px;
   }
-@media screen and (max-width: 480px) {
-  padding: 1px 1px;
-  font-size:13px;
-  margin-bottom: 1px;
-
-
+  @media screen and (max-width: 480px) {
+    padding: 1px 1px;
+    font-size: 13px;
+    margin-bottom: 1px;
   }
 `;
 
@@ -462,12 +442,10 @@ export const FormInput = styled.input`
   @media screen and (max-width: 1280px) {
     padding: 10px 10px;
     font-size: 11px;
-
   }
   @media screen and (max-width: 960px) {
- max-width: 1300rem;
- padding: 15px 15px;
-
+    max-width: 1300rem;
+    padding: 15px 15px;
   }
   @media screen and (max-width: 768px) {
     padding: 20px 15px;
@@ -505,9 +483,8 @@ export const Text = styled.span`
 export const FormMainCol = styled.div`
   display: flex;
   max-width: 600rem;
-/* height: auto; */
-@media screen and (max-width: 960px) {
-  max-width: 600rem;
+  @media screen and (max-width: 960px) {
+    max-width: 600rem;
   }
   @media screen and (max-width: 768px) {
     flex-direction: column;
@@ -524,16 +501,12 @@ export const FormCol = styled.div`
     max-width: 640rem;
     width: 100%;
 
-
-    /* padding: 10px; */
   }
   @media screen and (max-width: 768px) {
     margin: 0px;
-    /* padding: 10px; */
   }
   @media screen and (max-width: 480px) {
     margin: 0px;
-    /* padding: 10px; */
   }
 `;
 
@@ -559,28 +532,3 @@ export const FormCol1 = styled.div`
   }
 `;
 
-// export const FrequentlyCard = styled.div`
-
-// background: #FFFFFF;
-// border: 1.5px solid #E5EAF4;
-// box-sizing: border-box;
-// border-radius: 4px;
-// display: flex;
-// align-content: center;
-// padding: 24px;
-
-// `
-// export const FrequentlyH3 = styled.h2`
-// font-weight: 600;
-// font-size: 28px;
-// line-height: 42px;
-// color: #183B56;
-// margin-right: auto;
-// display: flex;
-// `
-// export const InCrement = styled.img`
-// width: 20px;
-// height: 26px;
-// margin-top:10px
-// /* margin-left: auto; */
-// `

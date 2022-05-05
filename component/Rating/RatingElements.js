@@ -86,10 +86,6 @@ export const RatingWrapper = styled.div`
 
 export const RatingCard = styled.div`
   background: #fff;
-  /* display: flex; */
-  /* flex-direction: column;
-  justify-content: center;
-  align-items: center; */
   border-radius: 10px;
   padding:30px 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
