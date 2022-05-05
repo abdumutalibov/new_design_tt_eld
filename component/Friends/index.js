@@ -103,6 +103,7 @@ and tips on logistics industry</IconInfo>
 to the QR code to
 download</FooterCard2>
           </FriendsFooter>
+          
     </FriendsContainer>
   );
 };

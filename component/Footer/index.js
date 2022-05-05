@@ -1,5 +1,5 @@
 import React from "react";
-import Link from 'next/link'
+import Link from "next/link";
 import {
   FooterContainer,
   FooterLinkItems,
@@ -14,82 +14,55 @@ import {
   WebsiteRights,
   SocialIcons,
   SocialIconLink,
+  Logo,
+  SocialIconName,
+  Icon,
+  SocialIconLinks,
 } from "./FooterElements";
 import {
   FaFacebook,
   FaInstagram,
+  FaTelegram,
+  FaTelegramPlane,
   FaYoutube,
   FaTwitter,
   FaLinkedin,
 } from "react-icons/fa";
 const Footer = () => {
   return (
-    <FooterContainer id='products'>
+    <FooterContainer id="products">
       <FooterWrap>
-        <FooterLinksContainer>
-          <FooterLinksWrapper>
-            <FooterLinkItems>
-              <FooterLinkTitle>About us</FooterLinkTitle>
-              <FooterLink to="/siginin">How it works</FooterLink>
-              <FooterLink to="/siginin">Testimonials</FooterLink>
-              <FooterLink to="/siginin">Careers</FooterLink>
-              <FooterLink to="/siginin">Investors</FooterLink>
-              <FooterLink to="/siginin">Terms of Service</FooterLink>
-            </FooterLinkItems>
-            <FooterLinkItems>
-              <FooterLinkTitle>Videose</FooterLinkTitle>
-              <FooterLink to="/siginin">How it works</FooterLink>
-              <FooterLink to="/siginin">Testimonials</FooterLink>
-              <FooterLink to="/siginin">Careers</FooterLink>
-              <FooterLink to="/siginin">Investors</FooterLink>
-              <FooterLink to="/siginin">Terms of Service</FooterLink>
-            </FooterLinkItems>
-          </FooterLinksWrapper>
-          <FooterLinksWrapper>
-            <FooterLinkItems>
-              <FooterLinkTitle>Contact Us</FooterLinkTitle>
-              <FooterLink to="/siginin">How it works</FooterLink>
-              <FooterLink to="/siginin">Testimonials</FooterLink>
-              <FooterLink to="/siginin">Careers</FooterLink>
-              <FooterLink to="/siginin">Investors</FooterLink>
-              <FooterLink to="/siginin">Terms of Service</FooterLink>
-            </FooterLinkItems>
-            <FooterLinkItems>
-              <FooterLinkTitle>Social Media</FooterLinkTitle>
-              <FooterLink to="/siginin">How it works</FooterLink>
-              <FooterLink to="/siginin">Testimonials</FooterLink>
-              <FooterLink to="/siginin">Careers</FooterLink>
-              <FooterLink to="/siginin">Investors</FooterLink>
-              <FooterLink to="/siginin">Terms of Service</FooterLink>
-            </FooterLinkItems>
-          </FooterLinksWrapper>
-        </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <Link  href="/">
-            
-            <SocialLogo>dolla </SocialLogo>
-            </Link>
-            <WebsiteRights>dolla @ {new Date().getFullYear()} All rights reserved. </WebsiteRights>
+            <Logo>
+              <SocialLogo src="FooterIcons/tt_eld2.svg"/>
+            </Logo>
+              <SocialIconLinks href="/" target="_blank" aria-label="Facebook">
+                <Icon src="FooterIcons/email-icon.svg" />
+                <SocialIconName>Info@tteld.com</SocialIconName>
+              </SocialIconLinks>
+
+              <SocialIconLinks href="/" target="_blank" aria-label="Instagram">
+              <Icon src="FooterIcons/phone-icon.svg" />
+                <SocialIconName>+1 (833) 888 83 53</SocialIconName>
+              </SocialIconLinks>
+              <SocialIconLinks href="/" target="_blank" aria-label="YouTube">
+              <Icon src="FooterIcons/location-icon.svg" />
+                <SocialIconName>799 N Court Street
+, Medina OH 44256</SocialIconName>
+              </SocialIconLinks>
+
             <SocialIcons>
-              <SocialIconLink href="/" target="_blank" aria-label="Facebook">
-                <FaFacebook />
-              </SocialIconLink>
-            
-              <SocialIconLink href="/" target="_blank" aria-label="Instagram">
-                <FaInstagram />
-              </SocialIconLink>
-           
               <SocialIconLink href="/" target="_blank" aria-label="YouTube">
+                <FaTelegramPlane />
+              </SocialIconLink>
+
+              <SocialIconLink href="/" target="_blank" aria-label="Twitter">
                 <FaYoutube />
               </SocialIconLink>
-           
-              <SocialIconLink href="/" target="_blank" aria-label="Twitter">
-                <FaTwitter />
-              </SocialIconLink>
-            
+
               <SocialIconLink href="/" target="_blank" aria-label="Linkedin">
-                <FaLinkedin />
+                <FaInstagram />
               </SocialIconLink>
             </SocialIcons>
           </SocialMediaWrap>
