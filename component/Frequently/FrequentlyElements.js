@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const FrequntlyContainer = styled.div`
-  height: 1900px;
+  height: 2180px;
   /* height: 100%; */
   display: flex;
   flex-direction: column;
@@ -67,6 +67,7 @@ export const FrequentlyWrapper = styled.div`
   /* margin: 0 auto; */
   /* align-items: center;
   margin-bottom: 200px; */
+  
 `;
 export const FrequntlyBox1 = styled.div`
   background: rgba(255, 255, 255, 0.97);
@@ -77,9 +78,12 @@ export const FrequntlyBox1 = styled.div`
   max-width: 87rem;
   max-height: 1700px;
   margin-bottom: 24px;
-  :hover {
-    transform: scale(1.02);
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.01);
     transition: all 0.2s ease-in-out;
+    cursor: pointer;
   }
 `;
 
@@ -140,8 +144,10 @@ export const FrequntlyBox2 = styled.div`
   box-sizing: border-box;
   border-radius: 4px;
   margin-bottom: 24px;
+  transition: all 0.2s ease-in-out;
+
   :hover {
-    transform: scale(1.02);
+    transform: scale(1.01);
     transition: all 0.2s ease-in-out;
   }
 `;
@@ -211,7 +217,7 @@ export const FrequentlyDecrement2 = styled.img`
 export const FrequentlyLogin = styled.div`
   background-color: #2b2d31;
   padding: 60px 90px;
-
+margin-top: 128px;
   @media screen and (max-width: 1280px) {
     padding: 0 0 60px 0;
   }

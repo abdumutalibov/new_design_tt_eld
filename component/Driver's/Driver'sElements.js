@@ -9,7 +9,10 @@ export const DriversContainer = styled.div`
   align-items: center;
   position: relative;
   width: 100%;
- 
+/* background: url('https://6273dea103dc9150cb2642ed--sparkly-nougat-c0f5ea.netlify.app/Base.svg');
+object-fit: cover;
+  background-repeat: no-repeat; 
+    background-size:cover; */
   @media screen and (max-width: 768px) {
     height: 248rem;
   }
@@ -151,10 +154,14 @@ export const Line = styled.p`
 export const Column2 = styled.div`
   /* grid-area: col2; */
   margin-left: 10px;
+ 
 `;
 export const ImgPhone = styled.img`
   width: 100%;
   padding: 0 30px 0 30px;
+   /* display: flex;
+  justify-content: center;
+  align-items: center; */
   @media screen and (max-width: 1024px) {
     width: 300px;
    
@@ -166,7 +173,15 @@ export const ImgPhone = styled.img`
   @media screen and (max-width: 480px) {
     width: 260px;
   }
+
 `;
+
+export const ImgIcons = styled.div`
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+`
 export const Column3 = styled.div`
   /* grid-area: col2; */
   display: flex;

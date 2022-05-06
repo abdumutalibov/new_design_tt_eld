@@ -1,9 +1,12 @@
 import React from 'react'
-import { Container, Form, FormButton, FormContent, FormH1, FormInput, FormLabel, FormWrap, Icon, Text } from './SigninElements'
+import { Container, Form, FormButton, FormContent, FormH1, FormInput, FormLabel, FormWrap, Icon, Img, ImgBg, Text } from './SigninElements'
 
 const SignIn = () => {
   return (
     <Container>
+      <Img>
+      <ImgBg src='SignIn/Base.svg'/>
+      </Img>
         <FormWrap>
             <Icon href='/'>dolla</Icon>
             <FormContent>

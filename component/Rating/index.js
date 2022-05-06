@@ -16,7 +16,7 @@ import {
 
 const Rating = () => {
   return (
-    <RatingContainer id="about">
+    <RatingContainer id="pricing">
       <RatingH1>Our Rating Among Customers</RatingH1>
       <RatingText>
         TT ELD is a company that serves many customers at the same time and we
@@ -66,8 +66,8 @@ const Rating = () => {
           <User>
             <UserImg src="Rating/men3.svg" />
             <Col>
-              <UserName>Trashae Hubbard</UserName>
-              <UserInfo>From Amazon.com</UserInfo>
+              <UserName >Trashae Hubbard</UserName>
+              <UserInfo >From Amazon.com</UserInfo>
             </Col>
           </User>
         </RatingCard>

@@ -27,7 +27,7 @@ import {
 
 const Services = () => {
   return (
-    <ServicesContainer id="products">
+    <ServicesContainer id="">
       <ServicesH1>Products suited to your needs</ServicesH1>
       <ServicesText>
         Our company provides customer service around the clock, now you can
@@ -84,7 +84,7 @@ const Services = () => {
             </ServicesTextRightItem>
           </ServicesTextRight>
         </ServicesCard>
-        <ServicesCard>
+        <ServicesCard id='reviews'>
           <ServicesIcon src="ProductsImgs/img6.svg" />
           <ServicesTextRight>
             <ServicesH2>Instructions and sticker</ServicesH2>
@@ -95,7 +95,7 @@ const Services = () => {
           </ServicesTextRight>
         </ServicesCard>
       </ServicesWrapper>
-      <ServicesFooterContainer>
+      <ServicesFooterContainer >
         <FooterWrap>
           <FooterLinksContainer>
             <FooterLinksWrapper>
@@ -145,11 +145,11 @@ const Services = () => {
                     <FooterIcon src="ProductsImgs/Vector.svg" />
                     IFTA Reports
                   </FooterLink.P>
-                  <FooterLink.P to="/siginin">
+                  <FooterLink.P to="/siginin" >
                     <FooterIcon src="ProductsImgs/Vector.svg" />
                     Chat
-                  </FooterLink.P>
-                </FooterLinkItems>
+                  </FooterLink.P >
+                </FooterLinkItems >
               </FooterColumn>
               </FooterMainColumn>
 

@@ -35,7 +35,7 @@ import {
 
 const Frequntly = () => {
   return (
-    <FrequntlyContainer>
+    <FrequntlyContainer id="about">
       <FrequntlyH1>Frequently asked question</FrequntlyH1>
       <FrequntlyText>
         Answers to frequently asked questions If you can`t find the answer you
@@ -77,19 +77,19 @@ const Frequntly = () => {
           </Col2>
         </FrequntlyBox2>
         <FrequntlyBox2>
-          <Col2>
+          <Col2 >
             <FrequntlyT2>Why exactly TT ELD</FrequntlyT2>
             <FrequentlyDecrement2 src="Frequently/plus.svg" />
           </Col2>
         </FrequntlyBox2>
         <FrequntlyBox2>
-          <Col2>
+          <Col2 id="request">
             <FrequntlyT2>Why should I buy TT ELD</FrequntlyT2>
             <FrequentlyDecrement2 src="Frequently/plus.svg" />
           </Col2>
         </FrequntlyBox2>
 
-        <FrequentlyLogin>
+        <FrequentlyLogin >
           <Col3>
             <LoginText>
               <LoginTxt1>Let’s talk to you about your company</LoginTxt1>
@@ -105,7 +105,7 @@ const Frequntly = () => {
               <LoginTxt4>+1 (833) 888 83 53 info@tteld.com</LoginTxt4>
             </LoginText>
 
-            <LoginContainer>
+            <LoginContainer >
               <FormWrap>
                 <FormContent>
                   <Form action="#">

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const RatingContainer = styled.div`
-  height: 1000px;
+  height: 900px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -73,7 +73,7 @@ export const RatingWrapper = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   grid-gap: 30px;
-  margin-bottom: 200px;
+  /* margin-bottom: 200px; */
   @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;
   }
