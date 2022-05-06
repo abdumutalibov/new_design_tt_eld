@@ -25,7 +25,7 @@ const Drives = () => {
     <>
       <DriversContainer id="">
         <DriversImg>
-          <ImgBg src="Drivers/Base.svg" />
+          {/* <ImgBg src="Drivers/Base.svg" /> */}
         </DriversImg>
         <DriversH1>Your driver’s favorite app</DriversH1>
         <DriversP>
@@ -36,6 +36,7 @@ const Drives = () => {
         <DriversWrapper>
           <Column1>
             <TextWrapper1>
+            <ImgBg src="Drivers/Base.svg" /> 
               <ImgWrap src="icon.svg" />
               <Heading1>All in one mobile app</Heading1>
               <Line>
