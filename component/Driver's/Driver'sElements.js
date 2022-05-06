@@ -10,10 +10,17 @@ export const DriversContainer = styled.div`
   align-items: center;
   position: relative;
   width: 100%;
-/* background: url('https://master--sparkly-nougat-c0f5ea.netlify.app/Drivers/Base.svg');
+  background: url('https://master--sparkly-nougat-c0f5ea.netlify.app/Drivers/Base.svg');
 object-fit: cover;
-  background-repeat: no-repeat; 
-    background-size:cover; */
+background-repeat: no-repeat; 
+    background-size:cover;
+    
+    background-size: 100%;
+    border-bottom-left-radius: 300% 50% ;
+  border-bottom-right-radius: 300% 50% ;
+    /* background-position: center; */
+    object-fit: contain;
+    object-fit: cover;
   @media screen and (max-width: 768px) {
     height: 248rem;
   }
@@ -36,6 +43,11 @@ export const ImgBg = styled.img`
   width: 100%;
   height: 100%;
   object-fit: cover;
+  /* height: 50vh; */
+  /* border-top-left-radius: 50% 38%;
+  border-top-right-radius: 50% 38%; */
+  border-bottom-left-radius: 60% 10%;
+  border-bottom-right-radius: 60% 10%;
 `;
 export const DriversWrapper = styled.div`
   display: flex;
@@ -45,10 +57,9 @@ export const DriversWrapper = styled.div`
   width: 100%;
   padding: 0 20px 0 24px;
   max-width: 90rem;
-  /* background: url('https://master--sparkly-nougat-c0f5ea.netlify.app/Drivers/Base.svg');
-object-fit: cover;
+  
   background-repeat: no-repeat; 
-    background-size:cover; */
+    background-size:cover;
   @media screen and (max-width: 768px) {
     font-size: 2rem;
     padding: 0 10px;
