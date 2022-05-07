@@ -17,6 +17,8 @@ import {
   Line,
   TextWrapper,
   TextWrapper1,
+  Top,
+  TopImg,
   TopLine,
 } from "./Driver'sElements";
 
@@ -24,8 +26,10 @@ const Drives = () => {
   return (
     <>
       <DriversContainer id="">
+        <Top>
+        </Top>
         <DriversImg>
-          {/* <ImgBg src="Base.svg" /> */}
+          <ImgBg src="Drivers/Base.svg" />
         </DriversImg>
         <DriversH1>Your driver’s favorite app</DriversH1>
         <DriversP>
@@ -64,8 +68,8 @@ const Drives = () => {
           <Column2>
             <ImgPhone src="phone.svg" />
             <ImgIcons>
-          <div>efewfwe</div>
-          <div>fwefwefw</div>
+          {/* <div>efewfwe</div>
+          <div>fwefwefw</div> */}
             </ImgIcons>
           </Column2>
 

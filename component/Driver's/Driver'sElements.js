@@ -1,54 +1,103 @@
 import styled from "styled-components";
 
 export const DriversContainer = styled.div`
-  height: 2000px;
+  height: 1499px;
   display: flex;
+
   flex-direction: column;
-  background-color: red;
+  /* background-color: #2B2D31; */
 /* height: 100%; */
   justify-content: center;
   align-items: center;
   position: relative;
   width: 100%;
-  background: url('https://master--sparkly-nougat-c0f5ea.netlify.app/Drivers/Base.svg');
-object-fit: cover;
-background-repeat: no-repeat; 
-    background-size:cover;
-    
+  /* background: url('https://master--sparkly-nougat-c0f5ea.netlify.app/Drivers/Base.svg'); */
+ object-fit: cover;
+background-repeat: no-repeat;
+    background-size:cover; 
+     /* background-color:red; */
     background-size: 100%;
-    border-bottom-left-radius: 300% 50% ;
-  border-bottom-right-radius: 300% 50% ;
-    /* background-position: center; */
+    /* border-bottom-left-radius: 300% 50% ;
+  border-bottom-right-radius: 300% 50% ;  */
+    background-position: center;
     object-fit: contain;
     object-fit: cover;
+    position: relative;
+    @media screen and (max-width: 960px) {
+    /* height: 180rem; */
+  background-color: #2B2D31;
+
+  }
   @media screen and (max-width: 768px) {
-    height: 248rem;
+    height: 180rem;
+  background-color: #2B2D31;
+
   }
   @media screen and (max-width: 480px) {
-    height: 215rem;
+    height: 176rem;
+  background-color: #2B2D31;
+
   }
   @media screen and (max-width: 280px) {
-    height: 230rem;
+    height: 190rem;
   }
 `;
 export const DriversImg = styled.div`
   position: absolute;
+  background-repeat: no-repeat; 
+    background-size:cover;
+    /* top: 0px; */
+    /* width:100%;
+    max-width: 190rem; */
+    background-size: 100%;
+    background-position: center;
+    object-fit: contain;
+`;
+export const ImgBg = styled.img`
+  width: 100%;
+  max-width: 450rem;
+  height: 100%;
+  object-fit: cover;
+  @media screen and (max-width: 1280px) {
+    height: 94rem;
+  /* background-color: #2B2D31; */
+
+  }
+  @media screen and (max-width: 960px) {
+    height: 94rem;
+  /* background-color: #2B2D31; */
+
+  }
+  @media screen and (max-width: 768px) {
+ /* display: none; */
+ height: 184rem;
+ 
+  }
+  @media screen and (max-width: 480px) {
+ display: none;
+  }
+  /* height: 50vh; */
+  /* border-top-left-radius: 300% 10%;
+  border-top-right-radius: 300% 10%; */
+  /* border-bottom-left-radius: 60% 10%;
+  border-bottom-right-radius: 60% 10%; */
+`;
+export const Top = styled.div`
+ position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   width: 100%;
-`;
-export const ImgBg = styled.img`
+`
+export const TopImg = styled.img`
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
+  
   object-fit: cover;
-  /* height: 50vh; */
-  /* border-top-left-radius: 50% 38%;
-  border-top-right-radius: 50% 38%; */
-  border-bottom-left-radius: 60% 10%;
-  border-bottom-right-radius: 60% 10%;
-`;
+  /* background-color: red; */
+  /* background-color: red; */
+`
 export const DriversWrapper = styled.div`
   display: flex;
   justify-content: space-between;

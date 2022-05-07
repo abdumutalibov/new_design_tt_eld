@@ -1,4 +1,5 @@
 import React from "react";
+import { TopImg } from "../Driver's/Driver'sElements";
 import {
   HelpCard,
   HelpCon,
@@ -14,6 +15,7 @@ import {
 
 const HelpYou = () => {
   return (
+  <>
     <HelpContainer id="features">
       <HelpH1>How can <HelpSpan>TT ELD</HelpSpan> help you?</HelpH1>
       <HelpTitle>
@@ -64,7 +66,12 @@ const HelpYou = () => {
           </HelpCon>
         </HelpCard>
       </HelpWrapper>
+
+      {/* <TopImg src='Drivers/Wave(3).svg'/> */}
     </HelpContainer>
+    
+    
+    </>
   );
 };
 
