@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import HeroSection from './HeroSection'
 import Navbar from './Navbar'
 import Sidebar from './Sidebar'
-import "bootstrap/dist/css/bootstrap.css";
+// import "bootstrap/dist/css/bootstrap.css";
 import Services from './Services'
 import Footer from './Footer'
 import HelpYou from './HelpYou'

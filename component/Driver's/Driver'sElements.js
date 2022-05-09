@@ -1,31 +1,21 @@
 import styled from "styled-components";
 
 export const DriversContainer = styled.div`
-  height: 2000px;
+  /* height: 1600px; */
   display: flex;
   flex-direction: column;
-  background-color: red;
-/* height: 100%; */
+
   justify-content: center;
   align-items: center;
   position: relative;
   width: 100%;
-  background: url('https://master--sparkly-nougat-c0f5ea.netlify.app/Drivers/Base.svg');
-object-fit: cover;
-background-repeat: no-repeat; 
-    background-size:cover;
-    
-    background-size: 100%;
-    border-bottom-left-radius: 300% 50% ;
-  border-bottom-right-radius: 300% 50% ;
-    /* background-position: center; */
-    object-fit: contain;
-    object-fit: cover;
+
   @media screen and (max-width: 768px) {
     height: 248rem;
   }
   @media screen and (max-width: 480px) {
-    height: 215rem;
+    height: 180rem;
+    background: #2B2D31;
   }
   @media screen and (max-width: 280px) {
     height: 230rem;
@@ -43,11 +33,18 @@ export const ImgBg = styled.img`
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /* height: 50vh; */
-  /* border-top-left-radius: 50% 38%;
-  border-top-right-radius: 50% 38%; */
-  border-bottom-left-radius: 60% 10%;
-  border-bottom-right-radius: 60% 10%;
+  border-bottom-left-radius: 300% 50% ;
+  border-bottom-right-radius: 300% 50% ; 
+  /* box-shadow: 0px 10px 32px #2B2D31; */
+  /* border-bottom-left-radius: 50% 38%;
+    border-bottom-right-radius: 50% 38%; */
+  @media screen and (max-width: 480px) {
+    
+    background: none;
+    border-radius: 0;
+display: none;
+background-color: #2B2D31;
+  }
 `;
 export const DriversWrapper = styled.div`
   display: flex;
@@ -57,9 +54,6 @@ export const DriversWrapper = styled.div`
   width: 100%;
   padding: 0 20px 0 24px;
   max-width: 90rem;
-  
-  background-repeat: no-repeat; 
-    background-size:cover;
   @media screen and (max-width: 768px) {
     font-size: 2rem;
     padding: 0 10px;
@@ -74,6 +68,7 @@ export const DriversWrapper = styled.div`
   }
 `;
 export const DriversH1 = styled.h1`
+margin-top: 45rem;
   font-weight: 700;
   font-size: 56px;
   line-height: 80px;
@@ -91,6 +86,8 @@ export const DriversH1 = styled.h1`
   @media screen and (max-width: 480px) {
     text-align: center;
     font-size: 22px;
+margin-top: 0rem;
+
   }
 `;
 export const DriversP = styled.p`
@@ -170,14 +167,53 @@ export const Line = styled.p`
 export const Column2 = styled.div`
   /* grid-area: col2; */
   margin-left: 10px;
- 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 `;
+export const PhoneIcons = styled.div`
+display: flex;
+@media screen and (max-width: 480px) {
+
+flex-direction:column;
+  }
+`
+export const Icons = styled.img`
+margin-right: 20px;
+padding: 56px 0 56px 0;
+@media screen and (max-width: 1024px) {
+    margin: 0 0 0px 0;
+    
+}
+@media screen and (max-width: 960px) {
+    margin: 0px 10px 0px 0;
+    width: 7rem;
+}
+@media screen and (max-width: 768px) {
+    margin: 0;
+    width: 13rem;
+}
+
+@media screen and (max-width: 480px) {
+    /* margin-bottom: 30px; */
+padding:0px;
+    /* display: flex;
+    font-size: 10px; */
+    width: 8rem;
+    margin-bottom: 20px;
+
+  }
+  @media screen and (max-width: 280px) {
+    margin: 0;
+    width: 7rem;
+
+  }
+`
+
 export const ImgPhone = styled.img`
   width: 100%;
-  padding: 0 30px 0 30px;
-   /* display: flex;
-  justify-content: center;
-  align-items: center; */
+  padding: 0 30px 0px 30px;
   @media screen and (max-width: 1024px) {
     width: 300px;
    
@@ -189,22 +225,14 @@ export const ImgPhone = styled.img`
   @media screen and (max-width: 480px) {
     width: 260px;
   }
-
 `;
-
-export const ImgIcons = styled.div`
- display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
-`
 export const Column3 = styled.div`
   /* grid-area: col2; */
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   @media screen and (max-width: 480px) {
-    margin-top: 60px;
+    /* margin-top: 60px; */
   }
 `;
 

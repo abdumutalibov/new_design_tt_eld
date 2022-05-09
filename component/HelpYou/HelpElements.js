@@ -1,12 +1,11 @@
 import styled from "styled-components";
 
 export const HelpContainer = styled.div`
-  height: 890px;
+  margin-top: 190px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-/* background:red; */
   @media screen and (max-width: 768px) {
     height: 1100px;
   }

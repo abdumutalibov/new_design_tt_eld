@@ -1,27 +1,24 @@
 import React from 'react'
-import { Container, Form, FormButton, FormContent, FormH1, FormInput, FormLabel, FormWrap, Icon, Img, ImgBg, Text } from './SigninElements'
+import { Container, Form, FormButton, FormContent, FormH1, FormInput, FormLabel, FormWrap, Icon, Img, ImgBg, Text, Top } from './SigninElements'
 
 const SignIn = () => {
   return (
     <Container>
-      <Img>
-      <ImgBg src='SignIn/Base.svg'/>
-      </Img>
-        <FormWrap>
-            <Icon href='/'>dolla</Icon>
-            <FormContent>
-                <Form action='#'>
-                    <FormH1>Sign in your account</FormH1>
-                    <FormLabel htmlFor='for'>Email</FormLabel>
-                    <FormInput type='email' required/>
-                    <FormLabel htmlFor='for'>Password</FormLabel>
-                    <FormInput type='password' required/>
-                    <FormButton type='submit'>Continue</FormButton>
-                    <Text>Forgot password</Text>
-                </Form>
-            </FormContent>
-        </FormWrap>
-    </Container>
+    <FormWrap>
+        <Icon href='/'>Back</Icon>
+        <FormContent>
+            <Form action='#'>
+                <FormH1>Sign in your account</FormH1>
+                <FormLabel htmlFor='for'>Email</FormLabel>
+                <FormInput type='email' required/>
+                <FormLabel htmlFor='for'>Password</FormLabel>
+                <FormInput type='password' required/>
+                <FormButton type='submit'>Continue</FormButton>
+                <Text>Forgot password</Text>
+            </Form>
+        </FormContent>
+    </FormWrap>
+</Container>
   )
 }
 

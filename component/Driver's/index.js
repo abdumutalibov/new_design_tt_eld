@@ -10,23 +10,29 @@ import {
   DriversWrapper,
   Heading,
   Heading1,
+  Icons,
   ImgBg,
-  ImgIcons,
   ImgPhone,
   ImgWrap,
   Line,
+  PhoneIcons,
   TextWrapper,
   TextWrapper1,
+  Top,
   TopLine,
 } from "./Driver'sElements";
 
 const Drives = () => {
   return (
     <>
-      <DriversContainer id="">
+      <DriversContainer id="reviews">
+      {/* <Top src='Drivers/Wave(3).svg'/> */}
         <DriversImg>
-          {/* <ImgBg src="Base.svg" /> */}
+
+          
+          <ImgBg src="Drivers/Base (7).svg" />
         </DriversImg>
+
         <DriversH1>Your driver’s favorite app</DriversH1>
         <DriversP>
           TTELD is an industry-leading electronic logging device. Our ELD
@@ -36,7 +42,6 @@ const Drives = () => {
         <DriversWrapper>
           <Column1>
             <TextWrapper1>
-            {/* <ImgBg src="Drivers/Base.svg" />  */}
               <ImgWrap src="icon.svg" />
               <Heading1>All in one mobile app</Heading1>
               <Line>
@@ -63,10 +68,10 @@ const Drives = () => {
 
           <Column2>
             <ImgPhone src="phone.svg" />
-            <ImgIcons>
-          <div>efewfwe</div>
-          <div>fwefwefw</div>
-            </ImgIcons>
+       <PhoneIcons>
+         <Icons src="Drivers/button-app.svg"/>
+         <Icons src="Drivers/button-play.svg"/>
+       </PhoneIcons>
           </Column2>
 
           <Column3>
@@ -95,6 +100,8 @@ const Drives = () => {
             </TextWrapper>
           </Column3>
         </DriversWrapper>
+        {/* <ImgBg src="Drivers/Blue.svg" /> */}
+
       </DriversContainer>
     </>
   );
