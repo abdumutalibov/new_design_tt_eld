@@ -10,7 +10,8 @@ export const FriendsContainer = styled.div`
   align-items: center;
   width: 100%;
   @media screen and (max-width: 960px) {
-    height: 90rem;
+    height: 100rem;
+    margin: 0;
   }
   @media screen and (max-width: 768px) {
     height: 190rem;
@@ -170,6 +171,9 @@ export const FollowUs = styled.a`
   font-size: 21.9894px;
   line-height: 30px;
   margin-bottom: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 cursor: pointer;
   text-align: center;
 
@@ -179,9 +183,13 @@ cursor: pointer;
 export const ArrowForward = styled(MdArrowForward)`
 margin-left: 8px;
 font-size: 26px;
+margin-top: 3px;
+
 `
 export const ArrowRight = styled(MdKeyboardArrowRight)`
 margin-left: 8px;
+margin-top: 3px;
+
 font-size: 26px;
 font-weight: 700;
 `
@@ -371,7 +379,6 @@ margin-right: 20px;
     margin-bottom: 30px;
     display: flex;
     font-size: 10px;
-    flex-direction: column;
     width: 8rem;
 
   }

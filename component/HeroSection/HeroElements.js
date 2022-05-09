@@ -5,7 +5,7 @@ export const HeroContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 30px;
+  /* padding: 0 30px; */
   height: 1499px;
   /* margin-top: 70px; */
   position: relative;
@@ -24,7 +24,8 @@ export const HeroContainer = styled.div`
       
   } */
   @media screen and (max-width:768px) {
-    /* height:1000px; */
+    height:1200px;
+    background: #2B2D31;
   }
   @media screen and (max-width:480px) {
     height:1200px;
@@ -49,6 +50,7 @@ export const ImgBg = styled.img`
   object-fit: cover;
   @media screen and (max-width:768px) {
     /* height:1000px; */
+    display: none;
   }
   @media screen and (max-width:480px) {
     height:1000px;
@@ -112,8 +114,9 @@ line-height: 48px;
 `
 
 export const HeroBgWrapper =styled.div`
-margin-top: 19px;
-margin-bottom:40px;
+/* margin-top: 19px;
+margin-bottom:40px; */
+margin: 48px 0 72px 0;
 display: flex;
 flex-direction: row;
 align-items: center;

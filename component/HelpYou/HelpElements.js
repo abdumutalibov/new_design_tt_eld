@@ -8,6 +8,7 @@ export const HelpContainer = styled.div`
   align-items: center;
   @media screen and (max-width: 768px) {
     height: 1100px;
+    margin: 0;
   }
 
   @media screen and (max-width: 480px) {

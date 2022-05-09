@@ -9,7 +9,7 @@ export const FrequntlyContainer = styled.div`
   align-items: center;
   width: 100%;
   @media screen and (max-width: 960px) {
-    height: 190rem;
+    height: 165rem;
   }
   @media screen and (max-width: 768px) {
     height: 170rem;
@@ -425,6 +425,11 @@ export const FormLabel = styled.label`
   font-size: 16px;
   line-height: 22px;
   color: #5a7184;
+  @media screen and (max-width: 960px) {
+    padding: 1px 1px;
+    font-size: 22px;
+    margin-bottom:10px;
+  }
   @media screen and (max-width: 768px) {
     padding: 1px 1px;
     font-size: 18px;
@@ -451,7 +456,8 @@ export const FormInput = styled.input`
   }
   @media screen and (max-width: 960px) {
     max-width: 1300rem;
-    padding: 15px 15px;
+    padding: 25px 15px;
+    font-size: 18px;
   }
   @media screen and (max-width: 768px) {
     padding: 20px 15px;
@@ -471,6 +477,11 @@ export const FormButton = styled.button`
   color: #fff;
   font-size: 20px;
   cursor: pointer;
+  @media screen and (max-width: 960px) {
+    font-size: 22px;
+
+    padding: 25px 15px;
+  }
   @media screen and (max-width: 768px) {
     font-size: 18px;
   }

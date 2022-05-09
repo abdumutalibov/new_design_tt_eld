@@ -116,8 +116,19 @@ export const TextCard1 = styled.div`
   flex-direction: column;
   align-items: flex-end;
   margin-bottom: 40px;
+  @media screen and (max-width: 768px) {
+    padding: 0 30px;
+    display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+    text-align: left;
+  }
   @media screen and (max-width: 480px) {
     padding: 0 30px;
+    display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+    text-align: left;
   }
 `;
 export const TextCard2 = styled.div`
@@ -145,6 +156,7 @@ export const Heading1 = styled.h1`
   }
   @media screen and (max-width: 480px) {
     font-size: 20px;
+    text-align: left;
   }
   @media screen and (max-width: 280px) {
     font-size: 16px;
@@ -159,8 +171,15 @@ export const TextP = styled.p`
   @media screen and (max-width: 1024px) {
     font-size: 15px;
   }
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+  text-align: left;
+
+  }
   @media screen and (max-width: 480px) {
     font-size: 16px;
+  text-align: left;
+
   }
   @media screen and (max-width: 280px) {
     font-size: 13px;

@@ -8,7 +8,7 @@ export const RatingContainer = styled.div`
   align-items: center;
   width: 100%;
   @media screen and (max-width: 960px) {
-    height: 90rem;
+    height: 70rem;
   }
   @media screen and (max-width: 768px) {
     height: 90rem;
@@ -144,6 +144,15 @@ export const User = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+  padding: 30px 0 0px 0;
+  @media screen and (max-width: 960px) {
+  padding: 12px 0 20px 0;
+   
+  }
+  @media screen and (max-width: 480px) {
+  padding: 12px 0 20px 0;
+   
+  }
 `;
 export const Col = styled.div`
   flex-direction: column;
