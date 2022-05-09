@@ -16,7 +16,7 @@ export const FrequntlyContainer = styled.div`
   }
 
   @media screen and (max-width: 480px) {
-    height: 160rem;
+    height: 150rem;
   }
   @media screen and (max-width: 280px) {
     height: 180rem;
@@ -64,9 +64,7 @@ export const FrequntlyText = styled.p`
 export const FrequentlyWrapper = styled.div`
   max-width: 90rem;
   padding: 0 24px;
-  /* margin: 0 auto; */
-  /* align-items: center;
-  margin-bottom: 200px; */
+
   
 `;
 export const FrequntlyBox1 = styled.div`
@@ -461,11 +459,15 @@ export const FormInput = styled.input`
   }
   @media screen and (max-width: 768px) {
     padding: 20px 15px;
-    font-size: 16px;
+    font-size: 20px;
   }
   @media screen and (max-width: 480px) {
-    padding: 7px 10px;
-    font-size: 10px;
+    padding: 10px 10px;
+    font-size: 12px;
+  }
+  @media screen and (max-width: 280px) {
+    padding: 10px 5px;
+    font-size: 11px;
   }
 `;
 
@@ -486,7 +488,7 @@ export const FormButton = styled.button`
     font-size: 18px;
   }
   @media screen and (max-width: 480px) {
-    padding: 7px 10px;
+    padding: 8px 10px;
 
     font-size: 15px;
   }
@@ -532,8 +534,7 @@ export const FormCol1 = styled.div`
   flex-direction: column;
   margin-right: 12px;
   @media screen and (max-width: 960px) {
-    /* margin-right:auto; */
-    /* padding: 10px; */
+    
     max-width: 540rem;
     margin-right: auto;
     width: 100%;
@@ -541,11 +542,9 @@ export const FormCol1 = styled.div`
   }
   @media screen and (max-width: 768px) {
     margin: 0px;
-    /* padding: 10px; */
   }
   @media screen and (max-width: 480px) {
     margin: 0px;
-    /* padding: 10px; */
   }
 `;
 

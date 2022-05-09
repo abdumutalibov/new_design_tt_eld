@@ -8,8 +8,20 @@ export const EasyContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  @media screen and (max-width: 1280px) {
+    height: 70rem;
+    margin: 0;
+    padding: 0;
+  }
+  @media screen and (max-width: 960px) {
+    height: 100rem;
+    margin: 0;
+    padding: 0;
+  }
   @media screen and (max-width: 768px) {
     height: 100rem;
+    margin: 0;
+    padding: 0;
   }
   @media screen and (max-width: 480px) {
     height: 100rem;
@@ -54,7 +66,7 @@ export const EasyH1 = styled.h1`
   }
   @media screen and (max-width: 768px) {
     text-align: center;
-    font-size: 22px;
+    font-size: 33px;
   }
   @media screen and (max-width: 480px) {
     text-align: center;
@@ -75,8 +87,15 @@ export const EasyP = styled.p`
     text-align: center;
     font-size: 20px;
   }
+  @media screen and (max-width: 768px) {
+    font-size: 27px;
+    padding: 0 10px;
+    text-align: center;
+  line-height: 38px;
+/* margin-bottom:300px; */
+  }
   @media screen and (max-width: 480px) {
-    font-size: 16px;
+    font-size: 20px;
     padding: 0 10px;
     text-align: center;
   line-height: 38px;
@@ -108,6 +127,16 @@ export const Column1 = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  @media screen and (max-width: 768px) {
+    max-width: 40rem;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0 30px; */
+
+  }
 `;
 export const TextCard1 = styled.div`
   max-width: 340px;
@@ -117,11 +146,13 @@ export const TextCard1 = styled.div`
   align-items: flex-end;
   margin-bottom: 40px;
   @media screen and (max-width: 768px) {
-    padding: 0 30px;
+    /* padding: 0 30px; */
     display: flex;
   flex-direction: column;
   align-items: flex-start;
     text-align: left;
+  max-width: 370px;
+width: 100%;
   }
   @media screen and (max-width: 480px) {
     padding: 0 30px;
@@ -135,6 +166,10 @@ export const TextCard2 = styled.div`
   max-width: 340px;
   max-height: 205px;
   margin-bottom: 50px;
+  @media screen and (max-width: 768px) {
+  max-width: 370px;
+width: 100%;
+  }
   @media screen and (max-width: 480px) {
     padding: 0 30px;
   }
@@ -153,6 +188,10 @@ export const Heading1 = styled.h1`
   color: #1a2944;
   @media screen and (max-width: 1024px) {
     font-size: 24px;
+  }  
+  @media screen and (max-width: 768px) {
+    font-size: 30px;
+  padding-bottom:10px ;
   }
   @media screen and (max-width: 480px) {
     font-size: 20px;
@@ -172,9 +211,10 @@ export const TextP = styled.p`
     font-size: 15px;
   }
   @media screen and (max-width: 768px) {
-    font-size: 16px;
+    font-size: 24px;
   text-align: left;
-
+max-width: 30rem;
+width: 100%;
   }
   @media screen and (max-width: 480px) {
     font-size: 16px;
@@ -194,7 +234,8 @@ export const ImgMiniMac = styled.img`
   }
   @media screen and (max-width: 768px) {
     width: 260px;
-    margin-bottom: 80px;
+    margin: 40px 0 60px 0;
+
   }
   @media screen and (max-width: 480px) {
     width: 260px;
@@ -206,6 +247,16 @@ export const Column3 = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  @media screen and (max-width: 768px) {
+    max-width: 40rem;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0 30px; */
+
+  }
   @media screen and (max-width: 480px) {
     margin-top: 60px;
   }
@@ -215,6 +266,9 @@ export const TextCard = styled.div`
   max-width: 385px;
   max-height: 205px;
   margin-bottom: 80px;
+  @media screen and (max-width: 768px) {
+    padding: 0 30px;
+  }
   @media screen and (max-width: 480px) {
     padding: 0 30px;
   }
@@ -226,6 +280,9 @@ export const Heading = styled.h2`
   color: #1a2944;
   @media screen and (max-width: 1024px) {
     font-size: 24px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 30px;
   }
   @media screen and (max-width: 480px) {
     font-size: 20px;
@@ -243,7 +300,7 @@ export const TextP2 = styled.p`
     font-size: 15px;
   }
   @media screen and (max-width: 768px) {
-    font-size: 16px;
+    font-size: 24px;
   }
   @media screen and (max-width: 480px) {
     font-size: 16px;

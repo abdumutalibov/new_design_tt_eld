@@ -5,9 +5,7 @@ export const HeroContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding: 0 30px; */
   height: 1499px;
-  /* margin-top: 70px; */
   position: relative;
   z-index: 1;
 
@@ -28,7 +26,7 @@ export const HeroContainer = styled.div`
     background: #2B2D31;
   }
   @media screen and (max-width:480px) {
-    height:1200px;
+    height:1100px;
   }
 `;
 

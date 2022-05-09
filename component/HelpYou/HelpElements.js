@@ -1,18 +1,21 @@
 import styled from "styled-components";
 
 export const HelpContainer = styled.div`
-  margin-top: 190px;
+  /* margin-top: 190px; */
+  padding:10rem 0 5px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   @media screen and (max-width: 768px) {
-    height: 1100px;
+    height: 900px;
     margin: 0;
+    padding: 0;
   }
 
   @media screen and (max-width: 480px) {
-    height: 1300px;
+    height: 1400px;
+    padding: 0;
   }
 `;
 
@@ -27,7 +30,9 @@ grid-template-columns: 1fr 1fr 1fr ;
 align-items: center;
 grid-gap: 26px;
 padding: 0 24px;
-
+@media screen and (max-width:1280px){
+    grid-template-columns: 1fr 1fr ;
+}
 @media screen and (max-width:1000px){
     grid-template-columns: 1fr 1fr;
 }

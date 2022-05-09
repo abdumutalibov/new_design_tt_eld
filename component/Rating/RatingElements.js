@@ -15,7 +15,8 @@ export const RatingContainer = styled.div`
   }
 
   @media screen and (max-width: 480px) {
-    height: 100rem;
+    height: 85rem;
+   
   }
   @media screen and (max-width: 280px) {
     height: 95rem;
@@ -38,6 +39,7 @@ export const RatingH1 = styled.h1`
   @media screen and (max-width: 480px) {
     font-size: 26px;
     line-height: 40px;
+    
   }
 `;
 export const RatingText = styled.p`

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {MdArrowForward,MdKeyboardArrowRight} from 'react-icons/md'
+import { MdArrowForward, MdKeyboardArrowRight } from "react-icons/md";
 
 export const FriendsContainer = styled.div`
   height: 1700px;
@@ -9,16 +9,20 @@ export const FriendsContainer = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
+  /* background-color: red; */
   @media screen and (max-width: 960px) {
     height: 100rem;
     margin: 0;
   }
   @media screen and (max-width: 768px) {
     height: 190rem;
+    margin: 0;
+    padding: 0;
   }
 
   @media screen and (max-width: 480px) {
-    height: 180rem;
+    height: 160rem;
+    padding: 0;
   }
   @media screen and (max-width: 280px) {
     height: 155rem;
@@ -80,11 +84,15 @@ export const FriendsWrapper = styled.div`
     grid-template-columns: 1fr;
     padding: 0 20px;
   }
+  @media screen and (max-width: 480px) {
+    margin-bottom: 100px;
+    padding: 0;
+  }
 `;
 export const FriendsCard = styled.div`
-display: flex;
-align-items: center;
-flex-direction: column;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   background: #fff;
   border-radius: 10px;
   padding: 20px 10px;
@@ -101,22 +109,23 @@ flex-direction: column;
   @media screen and (max-width: 960px) {
     max-width: 380px;
     max-height: 274px;
-    margin-bottom:40px;
+    margin-bottom: 40px;
   }
   @media screen and (max-width: 480px) {
     padding: 15px;
-    margin-top: 40px;
+    margin-top: 15px;
+    padding: 0 10px;
   }
 `;
 export const ImgIcon = styled.img`
-margin: 0 ;
+  margin: 0;
   width: 78px;
   height: 78px;
   margin-bottom: 40px;
   @media screen and (max-width: 912px) {
     /* margin-top: -10; */
     width: 105px;
-  height: 105px;
+    height: 105px;
   }
   @media screen and (max-width: 768px) {
     /* margin-top: -10; */
@@ -133,7 +142,6 @@ export const IconName = styled.div`
     font-size: 30px;
     line-height: 23px;
     margin-bottom: 24px;
-    
   }
   @media screen and (max-width: 480px) {
     font-size: 26px;
@@ -174,55 +182,56 @@ export const FollowUs = styled.a`
   display: flex;
   justify-content: center;
   align-items: center;
-cursor: pointer;
+  cursor: pointer;
   text-align: center;
 
   color: #1470c6;
 `;
 
 export const ArrowForward = styled(MdArrowForward)`
-margin-left: 8px;
-font-size: 26px;
-margin-top: 3px;
-
-`
+  margin-left: 8px;
+  font-size: 26px;
+  margin-top: 3px;
+`;
 export const ArrowRight = styled(MdKeyboardArrowRight)`
-margin-left: 8px;
-margin-top: 3px;
+  margin-left: 8px;
+  margin-top: 3px;
 
-font-size: 26px;
-font-weight: 700;
-`
+  font-size: 26px;
+  font-weight: 700;
+`;
 export const FriendsFooter = styled.div`
-height: 310px;
-background-color: #FAFAFA;
-display: flex;
-max-width: 93rem;
+  height: 310px;
+  background-color: #fafafa;
+  display: flex;
+  max-width: 93rem;
   padding: 56px 56px;
   margin: 0 auto;
   align-items: center;
   margin-bottom: 200px;
   @media screen and (max-width: 960px) {
-    max-height:14rem ;
-
+    max-height: 14rem;
   }
   @media screen and (max-width: 768px) {
     flex-direction: column;
-    max-height:60rem ;
-    height:100%
+    margin: 0;
+    max-height: 60rem;
+    height: 100%;
   }
 
   @media screen and (max-width: 480px) {
     flex-direction: column;
     padding: 0 20px;
-    max-height:40rem ;
+    max-height: 40rem;
+    margin: 0;
+    padding: 0;
   }
-`
-export const FooterCard =styled.div`
-display: flex;
-align-items: center;
-flex-direction: column;
-background-color: #FAFAFA;
+`;
+export const FooterCard = styled.div`
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fafafa;
   border-radius: 10px;
   padding: 30px 0px 0 0;
   margin-right: 45px;
@@ -233,24 +242,24 @@ background-color: #FAFAFA;
     margin: 0 0 0px 0;
     display: flex;
     font-size: 10px;
-}
+  }
   @media screen and (max-width: 768px) {
     margin: 0;
   }
 
   @media screen and (max-width: 480px) {
     margin: 0;
-
+    padding: 0;
   }
   @media screen and (max-width: 280px) {
     margin: 0;
   }
-`
+`;
 export const FooterTxt = styled.div`
-font-weight: 600;
-font-size: 26px;
-line-height: 42px;
-color: #333333;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 42px;
+  color: #333333;
 
   max-width: 34rem;
   margin-bottom: 12px;
@@ -258,16 +267,14 @@ color: #333333;
     margin: 0 0 0px 0;
     display: flex;
     font-size: 24px;
-line-height: 32px;
-
-}
+    line-height: 32px;
+  }
   @media screen and (max-width: 960px) {
     margin: 0 0 0px 0;
     display: flex;
     font-size: 24px;
-line-height: 32px;
-
-}
+    line-height: 32px;
+  }
   @media screen and (max-width: 768px) {
     font-size: 30px;
     line-height: 40px;
@@ -284,16 +291,16 @@ line-height: 32px;
   }
 `;
 export const FooterCardImg = styled.img`
-   margin-left: 100px;
-margin-bottom: -33px;
-@media screen and (max-width: 960px) {
+  margin-left: 100px;
+  margin-bottom: -33px;
+  @media screen and (max-width: 960px) {
     width: 200px;
-    margin:30px 0px 0 0;
+    margin: 30px 0px 0 0;
     /* padding-right: 20px; */
   }
-@media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     width: 370px;
-    margin:0 0 60px 0;
+    margin: 0 0 60px 0;
   }
 
   @media screen and (max-width: 480px) {
@@ -303,55 +310,55 @@ margin-bottom: -33px;
     padding: 0 20px;
   }
   @media screen and (max-width: 280px) {
-    margin: 60px 0 ;
+    margin: 60px 0;
     width: 15rem;
-
   }
-`
+`;
 export const FooterCard2 = styled.div`
-font-weight: 400;
-font-size: 20px;
-line-height: 32px;
-color: #666666;
-max-width: 13rem;
-margin-left: 100px;
-@media screen and (max-width: 960px) {
-    margin: 0 0 0 ;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #666666;
+  max-width: 13rem;
+  margin-left: 100px;
+  @media screen and (max-width: 960px) {
+    margin: 0 0 0;
     padding-left: 24px;
-}
-@media screen and (max-width: 768px) {
+  }
+  @media screen and (max-width: 768px) {
     display: flex;
     text-align: center;
     font-size: 30px;
-max-width: 23rem;
-}
+    max-width: 23rem;
+  }
 
-@media screen and (max-width: 480px) {
+  @media screen and (max-width: 480px) {
     display: flex;
     text-align: center;
     font-size: 16px;
+    padding: 10px;
   }
   @media screen and (max-width: 280px) {
     margin: 0;
   }
-`
+`;
 export const FooterImgRight = styled.div`
-margin-right: auto;
-@media screen and (max-width: 1024px) {
+  margin-right: auto;
+  @media screen and (max-width: 1024px) {
     margin-right: auto;
 
     display: flex;
-}
-@media screen and (max-width: 960px) {
+  }
+  @media screen and (max-width: 960px) {
     margin-right: auto;
 
     display: flex;
-}
-@media screen and (max-width: 768px) {
+  }
+  @media screen and (max-width: 768px) {
     margin: 0 0 60px 0;
-}
+  }
 
-@media screen and (max-width: 480px) {
+  @media screen and (max-width: 480px) {
     margin-right: 0;
     display: flex;
     /* font-size: 10px; */
@@ -359,32 +366,29 @@ margin-right: auto;
   @media screen and (max-width: 280px) {
     margin: 0;
   }
-`
+`;
 export const FooterImg = styled.img`
-margin-right: 20px;
-@media screen and (max-width: 1024px) {
+  margin-right: 20px;
+  @media screen and (max-width: 1024px) {
     margin: 0 0 0px 0;
-    
-}
-@media screen and (max-width: 960px) {
+  }
+  @media screen and (max-width: 960px) {
     margin: 0px 10px 0px 0;
     width: 7rem;
-}
-@media screen and (max-width: 768px) {
+  }
+  @media screen and (max-width: 768px) {
     margin: 0;
     width: 13rem;
-}
+  }
 
-@media screen and (max-width: 480px) {
+  @media screen and (max-width: 480px) {
     margin-bottom: 30px;
     display: flex;
     font-size: 10px;
     width: 8rem;
-
   }
   @media screen and (max-width: 280px) {
     margin: 0;
     width: 7rem;
-
   }
-`
+`;
