@@ -1,7 +1,6 @@
 import React from "react";
 import {
   Column1,
-  Column2,
   Column3,
   EasyCard,
   EasyContainer,
@@ -11,6 +10,7 @@ import {
   Heading,
   Heading1,
   ImgMiniMac,
+  ImgMiniMacTop,
   ImgWrap,
   TextCard1,
   TextCard2,
@@ -28,6 +28,8 @@ const EasyTracking = () => {
           GPS, leveraging weather and traffic data to exceed your customers
           expectations.
         </EasyP>
+        <ImgMiniMacTop src="miniMac.svg" />
+
         <EasyCard>
           <Column1>
             <TextCard1>
@@ -45,9 +47,9 @@ const EasyTracking = () => {
               </TextP>
             </TextCard1>
           </Column1>
-          <Column2>
+          {/* <Column2> */}
             <ImgMiniMac src="miniMac.svg" />
-          </Column2>
+          {/* </Column2> */}
           <Column3>
             <TextCard2>
               <ImgWrap src="icon.svg" />

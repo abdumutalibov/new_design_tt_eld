@@ -45,7 +45,7 @@ margin:0;
 padding: 0;
   }
   @media screen and (max-width: 480px) {
-    height: 168rem;
+    height: 150rem;
     background: #2B2D31;
   }
   @media screen and (max-width: 280px) {

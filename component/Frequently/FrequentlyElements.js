@@ -218,6 +218,7 @@ export const FrequentlyLogin = styled.div`
 margin-top: 128px;
   @media screen and (max-width: 1280px) {
     padding: 0 0 60px 0;
+    flex-direction: column;
   }
   @media screen and (max-width: 960px) {
   }
@@ -231,6 +232,9 @@ margin-top: 128px;
 export const Col3 = styled.div`
   display: flex;
   margin: 24px;
+  @media screen and (max-width: 1280px) {
+flex-direction:column;
+  }
   @media screen and (max-width: 960px) {
     flex-direction: column;
     margin-top: 30px;

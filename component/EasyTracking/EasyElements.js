@@ -9,12 +9,12 @@ export const EasyContainer = styled.div`
   justify-content: center;
   align-items: center;
   @media screen and (max-width: 1280px) {
-    height: 70rem;
+    height: 80rem;
     margin: 0;
     padding: 0;
   }
   @media screen and (max-width: 960px) {
-    height: 100rem;
+    height: 60rem;
     margin: 0;
     padding: 0;
   }
@@ -24,7 +24,7 @@ export const EasyContainer = styled.div`
     padding: 0;
   }
   @media screen and (max-width: 480px) {
-    height: 100rem;
+    height: 110rem;
   }
   @media screen and (max-width: 280px) {
     height: 110rem;
@@ -40,7 +40,7 @@ export const EasyWrapper = styled.div`
   height: 700px;
 
   padding: 0 24px 0 24px;
-  max-width: 100rem;
+  max-width: 300rem;
   @media screen and (max-width: 768px) {
     font-size: 2rem;
     padding: 0 10px;
@@ -104,12 +104,25 @@ export const EasyP = styled.p`
 `;
 export const EasyCard = styled.div`
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-evenly; */
+  justify-content: center;
   align-items: center;
   z-index: 1;
   width: 100%;
   padding: 0 20px 0 24px;
-  max-width: 100rem;
+  max-width: 300rem;
+  @media screen and (max-width: 1280px) {
+    display: flex;
+  /* justify-content: space-evenly; */
+  /* justify-content: center; */
+  align-items: center;
+  }
+  @media screen and (max-width: 960px) {
+    display: flex;
+  justify-content: space-between;
+  /* justify-content: center; */
+  align-items: center;
+  }
   @media screen and (max-width: 768px) {
     font-size: 2rem;
     padding: 0 10px;
@@ -118,7 +131,7 @@ export const EasyCard = styled.div`
   }
   @media screen and (max-width: 480px) {
     font-size: 2rem;
-    padding: 0 10px;
+    /* padding: 0 10px; */
     display: flex;
     flex-direction: column;
   }
@@ -127,6 +140,16 @@ export const Column1 = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  @media screen and (max-width: 1280px) {
+    max-width: 40rem;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0 30px; */
+
+  }
   @media screen and (max-width: 768px) {
     max-width: 40rem;
     width: 100%;
@@ -135,6 +158,16 @@ export const Column1 = styled.div`
     justify-content: center;
     align-items: center;
     /* padding: 0 30px; */
+
+
+  }
+  @media screen and (max-width: 480px) {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* padding: 0 30px; */
+    max-width: 140rem;
+    width: 100%;
 
   }
 `;
@@ -145,6 +178,21 @@ export const TextCard1 = styled.div`
   flex-direction: column;
   align-items: flex-end;
   margin-bottom: 40px;
+
+  @media screen and (max-width: 1280px) {
+max-width: 22rem;
+  }
+  @media screen and (max-width:960px) {
+    /* padding: 0 30px; */
+    display: flex;
+  flex-direction: column;
+    text-align: left;
+  max-width: 370px;
+width: 100%;
+margin-right: 30px;
+max-width: 22rem;
+
+  }
   @media screen and (max-width: 768px) {
     /* padding: 0 30px; */
     display: flex;
@@ -153,25 +201,47 @@ export const TextCard1 = styled.div`
     text-align: left;
   max-width: 370px;
 width: 100%;
+margin-left: 50px;
   }
   @media screen and (max-width: 480px) {
     padding: 0 30px;
-    display: flex;
+       display: flex;
   flex-direction: column;
   align-items: flex-start;
     text-align: left;
+    max-width: 170rem;
+    width: 100%;
+margin-left: 60px;
   }
 `;
 export const TextCard2 = styled.div`
   max-width: 340px;
   max-height: 205px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
+
+  @media screen and (max-width: 1280px) {
+    max-width: 22rem;
+max-height: 9.5rem;
+margin-left: 20px;
+    
+  }
+  @media screen and (max-width: 960px) {
+    max-width: 22rem;
+max-height: 9.5rem;
+    
+  }
   @media screen and (max-width: 768px) {
   max-width: 370px;
 width: 100%;
   }
   @media screen and (max-width: 480px) {
     padding: 0 30px;
+       display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+    text-align: left;
+    max-width: 170rem;
+    width: 100%;
   }
 `;
 export const ImgWrap = styled.img`
@@ -207,8 +277,11 @@ export const TextP = styled.p`
   line-height: 36px;
   text-align: right;
   color: #8c98a4;
-  @media screen and (max-width: 1024px) {
-    font-size: 15px;
+  width: 100%;
+  @media screen and (max-width: 1280px) {
+    font-size: 20px;
+    width: 100%;
+    max-width: 150rem;
   }
   @media screen and (max-width: 768px) {
     font-size: 24px;
@@ -225,12 +298,19 @@ width: 100%;
     font-size: 13px;
   }
 `;
-export const Column2 = styled.div``;
+
 export const ImgMiniMac = styled.img`
-  width: 100%;
-  padding: 0 30px 0 30px;
-  @media screen and (max-width: 1024px) {
+  /* width: 100%; */
+  /* padding: 0 30px 0 30px; */
+  display:block;
+/* width:55rem; */
+background-color: red;
+  @media screen and (max-width: 1280px) {
+    display: none;
+  }
+  @media screen and (max-width: 960px) {
     width: 300px;
+    display:none;
   }
   @media screen and (max-width: 768px) {
     width: 260px;
@@ -243,10 +323,61 @@ export const ImgMiniMac = styled.img`
     /* margin-top: 30px; */
   }
 `;
+export const ImgMiniMacTop = styled.img`
+  width: 100%;
+  padding: 0 30px 0 30px;
+  display: none;
+  @media screen and (max-width: 1280px) {
+    /* display: none; */
+    display: block;
+    width: 800px;
+margin-bottom: 32px;
+  }
+  @media screen and (max-width: 960px) {
+    width: 300px;
+    display:block;
+  }
+  @media screen and (max-width: 768px) {
+    width: 460px;
+    margin: 40px 0 60px 0;
+    display:block;
+
+  }
+  @media screen and (max-width: 480px) {
+    width: 360px;
+    padding-top: 30px;
+    /* margin-top: 30px; */
+    display:block;
+
+  }
+  @media screen and (max-width: 320px) {
+    width: 320px;
+    padding-top: 30px;
+    /* margin-top: 30px; */
+    display:block;
+
+  }
+  @media screen and (max-width: 280px) {
+    width: 280px;
+    padding-top: 30px;
+    /* margin-top: 30px; */
+    display:block;
+
+  }
+`
 export const Column3 = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  @media screen and (max-width: 1280px) {
+    max-width: 140rem;
+    width: 100%;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0 30px; */
+  }
   @media screen and (max-width: 768px) {
     max-width: 40rem;
     width: 100%;
@@ -259,18 +390,25 @@ export const Column3 = styled.div`
   }
   @media screen and (max-width: 480px) {
     margin-top: 60px;
+    /* background-color: red; */
+
   }
 `;
 
 export const TextCard = styled.div`
-  max-width: 385px;
+  max-width: 385rem;
   max-height: 205px;
   margin-bottom: 80px;
+  width: 100%;
+  @media screen and (max-width: 1280px) {
+    max-width: 385rem;
+  }
   @media screen and (max-width: 768px) {
     padding: 0 30px;
   }
   @media screen and (max-width: 480px) {
     padding: 0 30px;
+
   }
 `;
 export const Heading = styled.h2`
@@ -278,8 +416,12 @@ export const Heading = styled.h2`
   font-size: 28px;
   line-height: 40px;
   color: #1a2944;
-  @media screen and (max-width: 1024px) {
+  max-width: 30rem;
+  width: 100%;
+  @media screen and (max-width: 1280px) {
     font-size: 24px;
+    max-width: 40rem;
+  width: 100%;
   }
   @media screen and (max-width: 768px) {
     font-size: 30px;
@@ -296,8 +438,12 @@ export const TextP2 = styled.p`
   font-size: 20px;
   line-height: 36px;
   color: #8c98a4;
-  @media screen and (max-width: 1024px) {
-    font-size: 15px;
+  width: 100%;
+  @media screen and (max-width: 1280px) {
+    font-size: 20px;
+    /* background-color: blue; */
+    width: 100%;
+    max-width: 150rem;
   }
   @media screen and (max-width: 768px) {
     font-size: 24px;
