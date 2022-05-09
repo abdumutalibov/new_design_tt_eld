@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 <svg width="1536" height="228" viewBox="0 0 1536 228" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path id="Wave" fill-rule="evenodd" clip-rule="evenodd" d="M1536 228H0V0C256 69.4857 512 104.229 768 104.229C1024 104.229 1280 69.4857 1536 0V228Z" fill="#2B2D31"/>
+=======
+<svg width="1536" height="237" viewBox="0 0 1536 237" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path id="Wave" fill-rule="evenodd" clip-rule="evenodd" d="M1536 237H0V0C256 72.2286 512 108.343 768 108.343C1024 108.343 1280 72.2286 1536 0V237Z" fill="white"/>
+>>>>>>> dcbbd9edde463cf0a1e093b7ca98432dc44d80c1
 </svg>

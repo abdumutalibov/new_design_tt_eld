@@ -68,10 +68,10 @@ const Drives = () => {
 
           <Column2>
             <ImgPhone src="phone.svg" />
-       <PhoneIcons>
-         <Icons src="Drivers/button-app.svg"/>
-         <Icons src="Drivers/button-play.svg"/>
-       </PhoneIcons>
+        <PhoneIcons>
+          <Icons src="Drivers/button-app.svg"/>
+          <Icons src="Drivers/button-play.svg"/>
+        </PhoneIcons>
           </Column2>
 
           <Column3>
@@ -100,8 +100,6 @@ const Drives = () => {
             </TextWrapper>
           </Column3>
         </DriversWrapper>
-        {/* <ImgBg src="Drivers/Blue.svg" /> */}
-
       </DriversContainer>
     </>
   );

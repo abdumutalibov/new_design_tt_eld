@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const DriversContainer = styled.div`
-  /* height: 1600px; */
+
   display: flex;
   flex-direction: column;
 
@@ -35,11 +35,10 @@ export const ImgBg = styled.img`
   object-fit: cover;
   border-bottom-left-radius: 300% 50% ;
   border-bottom-right-radius: 300% 50% ; 
-  /* box-shadow: 0px 10px 32px #2B2D31; */
-  /* border-bottom-left-radius: 50% 38%;
-    border-bottom-right-radius: 50% 38%; */
+  /* border-bottom-left-radius: 50% 15%;
+    border-bottom-right-radius: 85%; */
   @media screen and (max-width: 480px) {
-    
+    /* height: 235rem; */
     background: none;
     border-radius: 0;
 display: none;
@@ -68,7 +67,7 @@ export const DriversWrapper = styled.div`
   }
 `;
 export const DriversH1 = styled.h1`
-margin-top: 45rem;
+margin-top: 55rem;
   font-weight: 700;
   font-size: 56px;
   line-height: 80px;
@@ -168,52 +167,14 @@ export const Column2 = styled.div`
   /* grid-area: col2; */
   margin-left: 10px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  
 `;
-export const PhoneIcons = styled.div`
-display: flex;
-@media screen and (max-width: 480px) {
-
-flex-direction:column;
-  }
-`
-export const Icons = styled.img`
-margin-right: 20px;
-padding: 56px 0 56px 0;
-@media screen and (max-width: 1024px) {
-    margin: 0 0 0px 0;
-    
-}
-@media screen and (max-width: 960px) {
-    margin: 0px 10px 0px 0;
-    width: 7rem;
-}
-@media screen and (max-width: 768px) {
-    margin: 0;
-    width: 13rem;
-}
-
-@media screen and (max-width: 480px) {
-    /* margin-bottom: 30px; */
-padding:0px;
-    /* display: flex;
-    font-size: 10px; */
-    width: 8rem;
-    margin-bottom: 20px;
-
-  }
-  @media screen and (max-width: 280px) {
-    margin: 0;
-    width: 7rem;
-
-  }
-`
-
 export const ImgPhone = styled.img`
   width: 100%;
-  padding: 0 30px 0px 30px;
+  padding: 0 30px 0 30px;
   @media screen and (max-width: 1024px) {
     width: 300px;
    
@@ -224,15 +185,44 @@ export const ImgPhone = styled.img`
   }
   @media screen and (max-width: 480px) {
     width: 260px;
+    margin-bottom: 40px;
   }
 `;
+export const PhoneIcons = styled.div`
+display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 56px 0 56px 0;
+  /* flex-direction: column; */
+  @media screen and (max-width: 480px) {
+    /* margin-bottom: 30px; */
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+  align-items: center;
+    font-size: 10px;
+    width: 8rem;
+padding:0px ;
+  }
+`
+export const Icons = styled.img`
+margin-right: 20px;
+@media screen and (max-width: 480px) {
+  display: flex;
+    flex-direction:column;
+    justify-content: center;
+  align-items: center;
+   width: 8rem;
+   margin: 20px 0 0 0 ;
+  }
+`
 export const Column3 = styled.div`
   /* grid-area: col2; */
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   @media screen and (max-width: 480px) {
-    /* margin-top: 60px; */
+    margin-top: 60px;
   }
 `;
 

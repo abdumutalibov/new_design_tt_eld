@@ -371,6 +371,7 @@ margin-right: 20px;
     margin-bottom: 30px;
     display: flex;
     font-size: 10px;
+    flex-direction: column;
     width: 8rem;
 
   }
