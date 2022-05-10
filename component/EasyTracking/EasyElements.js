@@ -304,7 +304,6 @@ export const ImgMiniMac = styled.img`
   /* padding: 0 30px 0 30px; */
   display:block;
 /* width:55rem; */
-background-color: red;
   @media screen and (max-width: 1280px) {
     display: none;
   }

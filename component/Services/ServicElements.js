@@ -162,6 +162,20 @@ export const ServicesFooterContainer = styled.div`
   background-color: #101522;
 
   max-width: 120rem;
+  @media screen and (min-width: 820px) and (max-width:960px) {
+    /* margin: 0; */
+    padding: 10px;
+    width: 100%;
+  max-width: 42rem;
+
+    display: flex;
+  }
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  max-width: 42rem;
+  padding: 0 10px;
+
+  }
 `;
 export const FooterWrap = styled.div`
   padding: 42px 24px;
@@ -224,7 +238,13 @@ export const FooterLinkItems = styled.div`
   box-sizing: border-box;
   color: #fff;
   max-width: 550px;
+  @media screen and (max-width: 1280px) {
+    /* margin-right: 0; */
+  }
   @media screen and (max-width: 1024px) {
+    margin-right: 0;
+  }
+  @media screen and (max-width: 960px) {
     margin-right: 0;
   }
   @media screen and (max-width: 480px) {
@@ -238,6 +258,7 @@ export const FooterLinkItems = styled.div`
 `;
 FooterLinkItems.Col = styled.div`
   margin-right: 165px;
+
   @media screen and (max-width: 1024px) {
     margin-right: 150px;
   }
@@ -271,13 +292,85 @@ export const FooterColumn = styled.div`
     margin-right: 0;
   }
 `;
+
+export const FooterLinkBtns = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  display:none;
+  @media screen and (max-width: 1280px) {
+    display:block;
+  }
+  @media screen and (max-width: 960px) {
+    margin: 0;
+    /* padding: 10px; */
+    width: 100%;
+    display: flex;
+  display:none;
+
+  }
+  @media screen and (max-width: 768px) {
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+  display:none;
+
+  }
+  @media screen and (max-width: 480px) {
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+  display:none;
+
+  }
+`;
+export const Btns = styled.button`
+  background: #ffbb00;
+  box-shadow: 0px 6px 24px rgba(255, 185, 74, 0.12);
+  border-radius: 4px;
+  margin-top: 20px;
+  border: none;
+  width: 196px;
+  height: 56px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  transition: all 0.2s ease-in-out;
+  color: #ffffff;
+  :hover {
+    background: #01bf71;
+    transition: 0.3s ease-out;
+  }
+`;
+
 export const FooterLinkBtn = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  @media screen and (max-width: 1280px) {
+    display:none;
+  }
+  @media screen and (max-width: 960px) {
+    margin: 0;
+    /* padding: 10px; */
+    width: 100%;
+    display: flex;
+  }
+  @media screen and (max-width: 768px) {
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+  }
   @media screen and (max-width: 480px) {
     margin: 0;
     padding: 10px;
+    width: 100%;
+  }
+  @media screen and (max-width: 280px) {
+    margin: 0;
+    padding: 0px;
+    font-size: 10px;
     width: 100%;
   }
 `;
@@ -292,7 +385,13 @@ export const Btn = styled.button`
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
+  transition: all 0.2s ease-in-out;
   color: #ffffff;
+  @media screen and (max-width: 280px) {
+    font-size: 13px;
+    width:160px;
+    height: 40px;
+  }
   :hover {
     background: #01bf71;
     transition: 0.3s ease-out;
@@ -309,12 +408,103 @@ export const FooterLink = styled.a`
     color: #01bf71;
     transition: 0.3s ease-out;
   }
-  @media screen and (min-width: 960px) and (max-width: 1280px) {
+
+  @media screen and (max-width: 1280px) {
+   display: none;
+  }
+  @media screen and (max-width: 960px) 
+
+   {
+
   }
   @media screen and (max-width: 480px) {
     font-size: 2px;
   }
 `;
+export const FooterLinks = styled.a`
+color: #fff;
+text-decoration: none;
+margin-bottom: 0.5rem;
+font-size: 14px;
+width: 196px;
+height: 56px;
+display: none;
+text-align: left;
+&:hover {
+  color: #01bf71;
+  transition: 0.3s ease-out;
+}
+
+@media screen and (max-width: 1280px) {
+  display: block;
+}
+@media screen and (max-width: 960px) 
+
+ {
+
+}
+@media screen and (max-width: 480px) {
+  font-size: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+`;
+FooterLinks.H1 = styled.div`
+font-weight: 600;
+font-size: 20px;
+line-height: 36px;
+font-feature-settings: 'pnum' on, 'lnum' on;
+display: none;
+
+color: #FFFFFF;
+  cursor: pointer;
+  color: #ffffff;
+  &:hover {
+    color: #01bf71;
+    transition: 0.3s ease-out;
+  }
+  @media screen and (max-width: 1280px) {
+  display: block;
+}
+@media screen and (max-width: 480px) {
+
+font-size: 16px;
+}
+@media screen and (max-width: 280px) {
+font-size: 12px;
+}
+`
+FooterLinks.T=styled.div`
+font-weight: 400;
+font-size: 15px;
+line-height: 30px;
+text-align: left;
+font-feature-settings: 'pnum' on, 'lnum' on;
+display: none;
+color: #CCCECE;
+@media screen and (max-width: 1280px)  {
+    font-size: 17px;
+    display: flex;
+  }
+@media screen and (max-width: 960px)  {
+    font-size: 17px;
+    display: flex;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 14px;
+display: flex;
+justify-content: center;
+display: flex;
+
+  }
+  @media screen and (max-width: 280px) {
+    font-size: 14px;
+    display: flex;
+   
+  }
+`
 FooterLink.H1 = styled.div`
   font-weight: 400;
   font-size: 28px;
@@ -325,7 +515,10 @@ FooterLink.H1 = styled.div`
     color: #01bf71;
     transition: 0.3s ease-out;
   }
-  @media screen and (min-width: 960px) and (max-width: 1280px) {
+  @media screen and (max-width: 1280px) {
+   display: none;
+  }
+  @media screen and (max-width: 960px)  {
     font-size: 20px;
   }
   @media screen and (max-width: 480px) {
@@ -338,6 +531,10 @@ FooterLink.H1 = styled.div`
 export const T = styled.div`
   color: #ffbb00;
 `;
+export const Span = styled.span`
+  color: #ffbb00;
+`
+
 FooterLink.T1 = styled.div`
   font-weight: 400;
   font-size: 20px;
@@ -348,7 +545,10 @@ FooterLink.T1 = styled.div`
     color: #01bf71;
     transition: 0.3s ease-out;
   }
-  @media screen and (min-width: 960px) and (max-width: 1280px) {
+  @media screen and (max-width: 1280px)  {
+    display: none;
+  }
+  @media screen and (max-width: 960px)  {
     font-size: 17px;
   }
 
@@ -385,7 +585,7 @@ FooterLink.P = styled.div`
   }
   @media screen and (max-width: 280px) {
     flex-direction: column;
-    font-size: 14px;
+    font-size: 13px;
   }
 `;
 export const FooterIcon = styled.img`

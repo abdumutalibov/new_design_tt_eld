@@ -46,6 +46,10 @@ export const NavImg = styled.img`
   height: 50px;
   color: white;
   cursor: pointer;
+  @media screen and (max-width:1024px){
+height: 39px;
+width: 114px;
+}
   @media screen and (max-width:480px){
 height: 34px;
 }
@@ -117,6 +121,16 @@ export const NavLinks = styled.a`
   :hover{
     color: #01bf71;
   }
+  @media screen and (max-width:1024px){
+    font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
   `;
 
 
@@ -146,6 +160,10 @@ export const NavBtnLink = styled.a`
   cursor: pointer;
   transition: all 0.2s ease-in;
   text-decoration: none;
+
+  @media screen and (max-width: 1024px) {
+    font-size: 14px;
+  }
   @media screen and (max-width: 320px) {
     font-size: 18px;
   }

@@ -1,11 +1,14 @@
 import React from "react";
 import {
   Btn,
+  Btns,
   FooterColumn,
   FooterIcon,
   FooterLink,
   FooterLinkBtn,
+  FooterLinkBtns,
   FooterLinkItems,
+  FooterLinks,
   FooterLinksContainer,
   FooterLinksWrapper,
   FooterMainColumn,
@@ -22,6 +25,7 @@ import {
   ServicesTextRight,
   ServicesTextRightItem,
   ServicesWrapper,
+  Span,
   T,
 } from "./ServicElements";
 
@@ -112,6 +116,19 @@ const Services = () => {
                   and feel comfortable
                 </FooterLink.H1>
                 <FooterLink.H1  to="/siginin" ><T>$105/mo.</T></FooterLink.H1>
+                <FooterLinks.H1>
+                ELD device sold separately and
+                </FooterLinks.H1>
+                <FooterLinks.H1>
+                feel comfortable <Span>$105/mo.</Span> 
+                </FooterLinks.H1>
+                <FooterLinks.T>
+
+                ELD device sold separately.
+                </FooterLinks.T>
+                <FooterLinkBtns>
+                <Btns to="/siginin">Start Now</Btns>
+              </FooterLinkBtns>
               </FooterLinkItems.Col>
               <FooterColumn>
                 <FooterLinkItems>
@@ -155,7 +172,7 @@ const Services = () => {
 
 
               <FooterLinkBtn>
-                <Btn to="/siginin">Terms of Service</Btn>
+                <Btn to="/siginin">Start Now</Btn>
               </FooterLinkBtn>
             </FooterLinksWrapper>
           </FooterLinksContainer>

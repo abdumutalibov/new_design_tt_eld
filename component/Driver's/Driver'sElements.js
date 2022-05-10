@@ -306,9 +306,11 @@ export const Column2 = styled.div`
 `;
 export const ImgPhone = styled.img`
   width: 100%;
-  padding: 0 30px 0 30px;
+  padding: 0 56px 0 56px;
   @media screen and (max-width: 1280px) {
     width: 480px;
+    padding: 0 40px 0 40px;
+
   }
   @media screen and (max-width: 1024px) {
     width: 410px;
@@ -364,6 +366,14 @@ padding:0px ;
     width: 8rem;
 padding:0px ;
   }
+  @media screen and (max-width: 280px) {
+    display: flex;
+    justify-content: center;
+  align-items: center;
+    font-size: 10px;
+    width: 7rem;
+padding:0px ;
+  }
 `
 export const Icons = styled.img`
 margin: 0 20px 0px 20px;
@@ -399,6 +409,14 @@ margin: 0 10px 0px 10px;
   align-items: center;
    width: 8rem;
    margin: 0px 10px 0 0 ;
+  }
+  @media screen and (max-width: 280px) {
+  display: flex;
+    flex-direction:column;
+    justify-content: center;
+  align-items: center;
+   width: 7rem;
+   margin: 0px 10px 0 10px ;
   }
 `
 export const Column3 = styled.div`
