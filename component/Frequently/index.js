@@ -3,14 +3,18 @@ import {
   Col,
   Col2,
   Col3,
+  DisplayInput,
   Form,
   FormButton,
   FormCol,
   FormCol1,
+  FormCol12,
+  FormCol2,
   FormContent,
   FormInput,
   FormLabel,
   FormMainCol,
+  FormMainCol2,
   FormWrap,
   FrequentlyDecrement,
   FrequentlyDecrement2,
@@ -24,9 +28,13 @@ import {
   FrequntlyH2,
   FrequntlyT2,
   FrequntlyText,
+  IconsButtonSpan,
+  IconsText,
+  IconsText2,
   LoginContainer,
   LoginHr,
   LoginText,
+  LoginTextButton,
   LoginTxt1,
   LoginTxt2,
   LoginTxt3,
@@ -77,7 +85,7 @@ const Frequntly = () => {
           </Col2>
         </FrequntlyBox2>
         <FrequntlyBox2>
-          <Col2 >
+          <Col2>
             <FrequntlyT2>Why exactly TT ELD</FrequntlyT2>
             <FrequentlyDecrement2 src="Frequently/plus.svg" />
           </Col2>
@@ -89,7 +97,7 @@ const Frequntly = () => {
           </Col2>
         </FrequntlyBox2>
 
-        <FrequentlyLogin >
+        <FrequentlyLogin>
           <Col3>
             <LoginText>
               <LoginTxt1>Let’s talk to you about your company</LoginTxt1>
@@ -105,7 +113,7 @@ const Frequntly = () => {
               <LoginTxt4>+1 (833) 888 83 53 info@tteld.com</LoginTxt4>
             </LoginText>
 
-            <LoginContainer >
+            <LoginContainer>
               <FormWrap>
                 <FormContent>
                   <Form action="#">
@@ -136,29 +144,63 @@ const Frequntly = () => {
                       placeholder="Company Name"
                       required
                     />
-                    <FormLabel htmlFor="for">Your Email</FormLabel>
-                    <FormInput
-                      name='email'
-                      type="email"
-                      placeholder="youremail@gmail.com"
-                      required
-                    />
-                    <FormLabel htmlFor="for">Amount of truck</FormLabel>
-                    <FormInput
-                      name="truckAmount"
-                      type="number"
-                      placeholder="Amount of trucks"
-                      required
-                    />
+                    <DisplayInput>
+                      <FormLabel htmlFor="for">Your Email</FormLabel>
+                      <FormInput
+                        name="email"
+                        type="email"
+                        placeholder="youremail@gmail.com"
+                        required
+                      />
+                      <FormLabel htmlFor="for">Amount of truck</FormLabel>
+                      <FormInput
+                        name="truckAmount"
+                        type="number"
+                        placeholder="Amount of trucks"
+                        required
+                      />
+                    </DisplayInput>
+
+                    <FormMainCol2>
+                      <FormCol12>
+                        <FormLabel htmlFor="for">Your Email</FormLabel>
+                        <FormInput
+                          name="email"
+                          type="email"
+                          placeholder="youremail@gmail.com"
+                          required
+                        />
+                      </FormCol12>
+                      <FormCol2>
+                        <FormLabel htmlFor="for">Amount of truck</FormLabel>
+                        <FormInput
+                          name="truckAmount"
+                          type="number"
+                          placeholder="Amount of trucks"
+                          required
+                        />
+                      </FormCol2>
+                    </FormMainCol2>
+
                     <FormButton type="submit">Send message</FormButton>
                   </Form>
                 </FormContent>
               </FormWrap>
             </LoginContainer>
+
+            <LoginTextButton>Any problem about your booking?</LoginTextButton>
+            <LoginTextButton>
+              You can contact us on :
+              <IconsButtonSpan>
+                <IconsText src="FooterIcons/email-icon.svg"/>Info@tteld.com
+              </IconsButtonSpan>
+              <IconsButtonSpan>
+                <IconsText2 src="FooterIcons/phone-icon.svg"/>+1 (833) 888 83 53
+              </IconsButtonSpan>
+            </LoginTextButton>
           </Col3>
         </FrequentlyLogin>
       </FrequentlyWrapper>
-  
     </FrequntlyContainer>
   );
 };
