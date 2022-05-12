@@ -7,6 +7,7 @@ export const HelpContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
   @media screen and (max-width: 768px) {
     height: 900px;
     margin: 0;
@@ -20,7 +21,9 @@ export const HelpContainer = styled.div`
 `;
 
 export const HelpWrapper = styled.div`
-max-width: 90rem;
+   max-width: 86rem;
+
+
 width: 100%;
 
 /* background-color:red; */
@@ -56,12 +59,16 @@ display: flex;
 flex-direction: row;
 justify-content: flex-start;
 align-items: center;
+max-width: 419px;
 max-height: 104px;
-padding: 30px;
-box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+padding: 20px;
+/* box-shadow: 0 1px 3px rgba(0,0,0,0.2); */
+border: 2px solid #EAE9F2;
+border-radius: 8px;
 transition: all 0.2s ease-in-out;
 border: 2px solid #EAE9F2;
 border-radius: 8px;
+
 &:hover{
     transform: scale(1.02);
     transition:all 0.2s ease-in-out;
@@ -102,12 +109,12 @@ color: #FAAD13;
 export const HelpTitle = styled.p`
 /* font-size: 1rem; */
 text-align: center;
-max-width: 1000px;
+max-width: 880px;
 font-weight: 400;
 font-size: 24px;
 line-height: 48px;
 color: #8C98A4;
-margin-bottom: 70px;
+margin-bottom: 60px;
 @media screen and (max-width:768px){
     /* font-size: 2rem; */
     text-align:center;
@@ -115,9 +122,12 @@ margin-bottom: 70px;
 }
 `
 export const HelpH2 = styled.h2`
-font-size: 1rem;
-font-weight: 700;
-margin-bottom: 10px;
+font-weight: 600;
+font-size: 20px;
+line-height: 32px;
+
+
+color: #1F1911;
 
 @media screen and (max-width:320px){
     font-size:15px

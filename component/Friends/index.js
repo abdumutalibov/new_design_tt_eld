@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 import {
+  Arrow,
   ArrowForward,
   ArrowRight,
   FollowUs,
@@ -59,7 +60,7 @@ const Friends = () => {
             primary="true"
             dark="true"
           >
-            Follow Us{hover1 ? <ArrowForward /> : <ArrowRight />}
+            Follow Us <Arrow src="Friends/Arrow.svg"/> 
           </FollowUs>
         </FriendsCard>
         <FriendsCard>
@@ -75,7 +76,7 @@ const Friends = () => {
             primary="true"
             dark="true"
           >
-            Follow Us{hover2 ? <ArrowForward /> : <ArrowRight />}
+              Follow Us <Arrow src="Friends/Arrow.svg"/>  
           </FollowUs>
         </FriendsCard>
         <FriendsCard>
@@ -89,7 +90,7 @@ const Friends = () => {
             primary="true"
             dark="true"
           >
-            Follow Us{hover3 ? <ArrowForward /> : <ArrowRight />}
+               Follow Us <Arrow src="Friends/Arrow.svg"/> 
           </FollowUs>
         </FriendsCard>
         <FriendsCard>
@@ -105,7 +106,7 @@ const Friends = () => {
             primary="true"
             dark="true"
           >
-            Subscribe{hover4 ? <ArrowForward /> : <ArrowRight />}
+            Subscribe <Arrow src="Friends/Arrow.svg"/> 
           </FollowUs>
         </FriendsCard>
       </FriendsWrapper>

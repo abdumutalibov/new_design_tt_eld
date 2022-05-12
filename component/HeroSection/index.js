@@ -28,6 +28,9 @@ function HeroSection() {
       <HeroBg>
         <ImgBg src="Background.svg" />
       </HeroBg>
+      <div className="">
+
+      </div>
       <HeroContent>
         <HeroH1>Advanced Fleet Management Solution</HeroH1>
         <HeroP>
@@ -43,7 +46,7 @@ function HeroSection() {
             primary="true"
             dark='true'
           >
-            Get started {hover ? <ArrowForward /> : <ArrowRight />}
+            Get started <ArrowForward /> 
           </Button>
           <Button2
             to="signup"
@@ -52,7 +55,7 @@ function HeroSection() {
             primary="true"
             dark='true'
           >
-            Free trial{hovers ? <ArrowForward /> : <ArrowRight />}
+            Free trial <ArrowForward />  
           </Button2>
         </HeroBgWrapper>
         <ImgMac src="mac.svg"/>

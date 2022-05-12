@@ -8,6 +8,7 @@ import {
   FooterLinkBtn,
   FooterLinkBtns,
   FooterLinkItems,
+  FooterLinkItems2,
   FooterLinks,
   FooterLinksContainer,
   FooterLinksWrapper,
@@ -71,9 +72,9 @@ const Services = () => {
         <ServicesCard>
           <ServicesIcon src="ProductsImgs/img4.svg" />
           <ServicesTextRight>
-            <ServicesH2>Instructions and sticker</ServicesH2>
+            <ServicesH2>IOSX ELD Device</ServicesH2>
             <ServicesTextRightItem>
-              <ServicesP>$25.00 USD</ServicesP>
+              <ServicesP>$120.00 USD</ServicesP>
               <ServicesIconShopping src="ProductsImgs/shopping.svg" />
             </ServicesTextRightItem>
           </ServicesTextRight>
@@ -83,7 +84,7 @@ const Services = () => {
           <ServicesTextRight>
             <ServicesH2>PT30 - OBD II 16 Pin cable</ServicesH2>
             <ServicesTextRightItem>
-              <ServicesP>$120.00 USD</ServicesP>
+              <ServicesP>$25.00 USD</ServicesP>
               <ServicesIconShopping src="ProductsImgs/shopping.svg" />
             </ServicesTextRightItem>
           </ServicesTextRight>
@@ -149,7 +150,7 @@ const Services = () => {
                     Tracking History
                   </FooterLink.P>
                 </FooterLinkItems>
-                <FooterLinkItems>
+                <FooterLinkItems2>
                   <FooterLink.P to="/siginin">
                     <FooterIcon src="ProductsImgs/Vector.svg" />
                     Driver Alarm
@@ -166,13 +167,13 @@ const Services = () => {
                     <FooterIcon src="ProductsImgs/Vector.svg" />
                     Chat
                   </FooterLink.P >
-                </FooterLinkItems >
+                </FooterLinkItems2 >
               </FooterColumn>
               </FooterMainColumn>
 
 
               <FooterLinkBtn>
-                <Btn to="/siginin">Start Now</Btn>
+                <Btn to="/siginin">Start now</Btn>
               </FooterLinkBtn>
             </FooterLinksWrapper>
           </FooterLinksContainer>

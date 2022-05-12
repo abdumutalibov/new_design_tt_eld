@@ -20,7 +20,13 @@ export const Button = styled.a`
   max-width: 230px;
   max-height: 67px;
   font-weight: 500;
+  font-weight: 600;
+font-size: 22px;
+line-height: 32px;
+/* identical to box height, or 145% */
 
+
+color: #2D2B31;
   &:hover {
     transition: all 0.2s ease-in-out;
     background: ${({ primary }) => (primary ? "#37353B" : "#01BF71")};
@@ -54,7 +60,15 @@ export const Button2 = styled.a`
   justify-content: center;
   align-items: center;
   transition: all 0.2s ease-in-out;
+  max-width: 240px;
+  max-height: 67px;
   margin-right: 20px;
+  font-weight: 600;
+font-size: 22px;
+line-height: 32px;
+/* identical to box height, or 145% */
+
+
   &:hover {
     transition: all 0.2s ease-in-out;
     background: ${({ primary }) => (primary ? "#fff" : "#01BF71")};

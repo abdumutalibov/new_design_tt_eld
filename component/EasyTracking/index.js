@@ -33,14 +33,15 @@ const EasyTracking = () => {
         <EasyCard>
           <Column1>
             <TextCard1>
-              <ImgWrap src="icon.svg" />
+              <ImgWrap src="Easy/icon.svg" />
               <Heading1>Time for the road</Heading1>
               <TextP>
                 Ability to pre-calculate the time of arrival at the address
               </TextP>
             </TextCard1>
             <TextCard1>
-              <ImgWrap src="icon.svg" />
+            <ImgWrap src="Easy/icon.svg" />
+
               <Heading1>Trajectory of motion</Heading1>
               <TextP>
               Through the map, you can see where the driver is and track it
@@ -52,12 +53,14 @@ const EasyTracking = () => {
           {/* </Column2> */}
           <Column3>
             <TextCard2>
-              <ImgWrap src="icon.svg" />
+            <ImgWrap src="Easy/icon.svg" />
+
               <Heading>Real-time GPS</Heading>
               <TextP2>Get more out of your equipment with real-time GPS</TextP2>
             </TextCard2>
             <TextCard2>
-              <ImgWrap src="icon.svg" />
+            <ImgWrap src="Easy/icon.svg" />
+
               <Heading>Remote access</Heading>
               <TextP2>Remote access to diagnostics, and insights from automated reports</TextP2>
             </TextCard2>

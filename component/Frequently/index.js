@@ -1,9 +1,13 @@
-import React from "react";
+import { useState } from "react";
+
 import {
+  Accordion,
   Col,
   Col2,
   Col3,
+  Content,
   DisplayInput,
+  Dropwn,
   Form,
   FormButton,
   FormCol,
@@ -31,6 +35,7 @@ import {
   IconsButtonSpan,
   IconsText,
   IconsText2,
+  Item,
   LoginContainer,
   LoginHr,
   LoginText,
@@ -39,9 +44,24 @@ import {
   LoginTxt2,
   LoginTxt3,
   LoginTxt4,
+  Show,
+  Title,
+  TitleH2,
+  TitleSpan,
+  Wrapper,
 } from "./FrequentlyElements";
 
 const Frequntly = () => {
+  const [selected, setSelected] = useState(null);
+
+  const toggle = (i) => {
+    if (selected === i) {
+      return setSelected(null);
+    }
+    setSelected(i);
+  };
+  const [border, setBorder] = useState("1.5px solid #ffb94a");
+  const [color, setColor] = useState('#1470c6');
   return (
     <FrequntlyContainer id="about">
       <FrequntlyH1>Frequently asked question</FrequntlyH1>
@@ -50,7 +70,7 @@ const Frequntly = () => {
         are looking for here please let us know and we will definitely answer
       </FrequntlyText>
       <FrequentlyWrapper>
-        <FrequntlyBox1>
+        {/* <FrequntlyBox1>
           <Col>
             <FrequntlyH2>What is TT ELD ?</FrequntlyH2>
             <FrequentlyDecrement src="Frequently/minus.svg" />
@@ -62,10 +82,6 @@ const Frequntly = () => {
             device and application
           </FrequentlyP>
         </FrequntlyBox1>
-        {/* <FrequentlyCard>
-          <FrequentlyH3>How TT ELD helps us ?</FrequentlyH3>
-          <InCrement src="Frequently/plus.svg" />
-        </FrequentlyCard> */}
         <FrequntlyBox2>
           <Col2>
             <FrequntlyT2>What is TT ELD ?</FrequntlyT2>
@@ -95,9 +111,35 @@ const Frequntly = () => {
             <FrequntlyT2>Why should I buy TT ELD</FrequntlyT2>
             <FrequentlyDecrement2 src="Frequently/plus.svg" />
           </Col2>
-        </FrequntlyBox2>
+        </FrequntlyBox2> */}
 
-        <FrequentlyLogin>
+        {data.map((item, i) => (
+          <FrequntlyBox2 className={selected === i ? "border" : "border1"}>
+            <Col onClick={() => toggle(i)}>
+
+             
+              <FrequntlyT2
+             className={selected === i ? "color" : "color1"}
+              >
+                {item.question}
+              </FrequntlyT2>
+              <TitleSpan>
+                {selected === i ? (
+                  <FrequentlyDecrement src="Frequently/minus.svg" />
+                ) : (
+                  <FrequentlyDecrement2 src="Frequently/plus.svg" />
+                )}
+              </TitleSpan>
+            </Col>
+            <FrequentlyP
+              className={selected === i ? "content show" : "content"}
+            >
+              {item.answer}
+            </FrequentlyP>
+          </FrequntlyBox2>
+        ))}
+
+        <FrequentlyLogin id="request">
           <Col3>
             <LoginText>
               <LoginTxt1>Let’s talk to you about your company</LoginTxt1>
@@ -110,7 +152,8 @@ const Frequntly = () => {
               <LoginTxt3>
                 Any problem about your booking? You can contact us on :
               </LoginTxt3>
-              <LoginTxt4>+1 (833) 888 83 53 info@tteld.com</LoginTxt4>
+              <LoginTxt4>+1 (833) 888 83 53 </LoginTxt4>
+              <LoginTxt4>info@tteld.com </LoginTxt4>
             </LoginText>
 
             <LoginContainer>
@@ -192,10 +235,12 @@ const Frequntly = () => {
             <LoginTextButton>
               You can contact us on :
               <IconsButtonSpan>
-                <IconsText src="FooterIcons/email-icon.svg"/>Info@tteld.com
+                <IconsText src="FooterIcons/email-icon.svg" />
+                Info@tteld.com
               </IconsButtonSpan>
               <IconsButtonSpan>
-                <IconsText2 src="FooterIcons/phone-icon.svg"/>+1 (833) 888 83 53
+                <IconsText2 src="FooterIcons/phone-icon.svg" />
+                +1 (833) 888 83 53
               </IconsButtonSpan>
             </LoginTextButton>
           </Col3>
@@ -206,3 +251,36 @@ const Frequntly = () => {
 };
 
 export default Frequntly;
+
+const data = [
+  {
+    question: "What is TT ELD ?",
+    answer:
+      "Everything you need to manage your fleet. All in one place. Driver Safety, GPS Tracking, and ELD Compliance. The most easy-to-use ELDdevice and application",
+  },
+  {
+    question: "How TT ELD helps us",
+    answer:
+      "Fast Refresh will perform a full reload when you edit a file that is imported by modules outside of the React rendering tree. It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh. Fast Refresh requires at least one parent function component in your React tree.",
+  },
+  {
+    question: "What are the advantages of TT ELD",
+    answer:
+      "Fast Refresh will perform a full reload when you edit a file that is imported by modules outside of the React rendering tree. It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh. Fast Refresh requires at least one parent function component in your React tree.",
+  },
+  {
+    question: "How TT ELD works",
+    answer:
+      "Fast Refresh will perform a full reload when you edit a file that is imported by modules outside of the React rendering tree. It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh. Fast Refresh requires at least one parent function component in your React tree.",
+  },
+  {
+    question: "Why exactly TT ELD",
+    answer:
+      "Fast Refresh will perform a full reload when you edit a file that is imported by modules outside of the React rendering tree. It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh. Fast Refresh requires at least one parent function component in your React tree.",
+  },
+  {
+    question: "Why should I buy TT ELD",
+    answer:
+      "Fast Refresh will perform a full reload when you edit a file that is imported by modules outside of the React rendering tree. It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh. Fast Refresh requires at least one parent function component in your React tree.",
+  },
+];

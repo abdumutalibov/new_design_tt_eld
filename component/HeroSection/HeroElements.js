@@ -5,7 +5,7 @@ export const HeroContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 1499px;
+  height: 1450px;
   position: relative;
   z-index: 1;
 
@@ -55,6 +55,7 @@ export const ImgBg = styled.img`
   }
   /* background:#232a34;  */
 `;
+        {/* <ImgBg src="Hero/Background1.svg" /> */}
 
 export const HeroContent = styled.div`
   z-index: 3;
@@ -71,10 +72,14 @@ export const HeroContent = styled.div`
 export const HeroH1 = styled.h1`
 padding-top: 40px;
 margin-top: 180px;
-  color: #fff;
-  font-weight: 700;
+font-weight: 700;
 font-size: 56px;
-  text-align: center;
+line-height: 80px;
+/* identical to box height, or 143% */
+
+text-align: center;
+
+color: #FFFFFF;
   /* max-width:120rem; */
 
   @media screen and (max-width:768px) {
@@ -94,7 +99,7 @@ export const HeroP = styled.p`
 margin-top: 24px;
 color: #fff;
 text-align: center;
-max-width: 1200px;
+max-width: 1050px;
 font-weight: 400;
 font-size: 24px;
 line-height: 48px;
@@ -127,13 +132,13 @@ flex-direction: column;
 }
 `
 export const ArrowForward = styled(MdArrowForward)`
-margin-left: 8px;
-font-size: 20px;
+margin-left: 10px;
+font-size: 25px;
 `
 
 export const ArrowRight = styled(MdKeyboardArrowRight)`
-margin-left: 8px;
-font-size: 20px;
+margin-left: 10px;
+font-size: 25px;
 `
  export const ImgMac = styled.img`
  width: 100%;

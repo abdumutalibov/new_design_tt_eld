@@ -64,10 +64,29 @@ export const ImgBg = styled.img`
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-bottom-left-radius: 300% 50% ;
-  border-bottom-right-radius: 300% 50% ; 
+ 
+ 
+position: relative;
+display: grid;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+border-bottom-left-radius: 200% 50% ;
+  border-bottom-right-radius: 200% 50% ;
+    transform: scaleX(1.1);
   /* border-bottom-left-radius: 50% 15%;
     border-bottom-right-radius: 85%; */
+    ::before{
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: '';
+      width: 100%;
+      height: 100%;
+       border-bottom-left-radius: 100% 50% ;
+  border-bottom-right-radius: 100% 50% ;
+    transform: scaleX(1.2);
+    }
     @media screen and (max-width: 1280px) {
 display: none;
 }
@@ -116,13 +135,13 @@ export const DriversWrapper = styled.div`
   }
 `;
 export const DriversH1 = styled.h1`
-margin-top: 30rem;
+margin-top: 25rem;
 padding-top: 10rem;
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 80px;
-  text-align: center;
-  color: #ffffff;
+font-weight: 700;
+font-size: 56px;
+line-height: 80px;
+text-align: center;
+color: #FFFFFF;
   z-index: 1;
   @media screen and (max-width: 1280px) {
     text-align: center;
@@ -151,15 +170,20 @@ padding: 6px;
   }
 `;
 export const DriversP = styled.p`
-  font-weight: 600;
-  font-size: 24px;
+font-size: 24px;
+color: #d7d5d7;
+display: flex;
+justify-content: center;
+align-items: center;
+  font-weight: 500;
   line-height: 48px;
-  z-index: 1;
   text-align: center;
-  max-width: 70rem;
-padding: 0 10px 0 10px;
-  color: #fff;
+  max-width: 56rem;
+  margin:0 auto;
+  z-index: 1;
+padding: 0 0px 0 20px;
   margin-bottom: 95px;
+  margin-top: 16px;
   @media screen and (max-width: 1024px) {
     text-align: center;
     font-size: 20px;
@@ -174,15 +198,18 @@ export const Column1 = styled.div`
   /* grid-area: col1; */
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px;
 `;
 export const TextWrapper1 = styled.div`
-  max-width: 373px;
+  max-width: 385px;
   max-height: 205px;
+  margin-bottom: 95px;
+  margin-top: 0px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  margin-bottom: 80px;
   @media screen and (max-width: 1280px) {
     margin-bottom: 100px;
 
@@ -207,8 +234,8 @@ export const TextWrapper1 = styled.div`
   }
 `;
 export const ImgWrap = styled.img`
-  width: 20px;
-  height: 20px;
+  width: 26px;
+  height: 26px;
   margin-bottom: 20px;
   @media screen and (max-width: 1280px) {
   margin-bottom: 24px;
@@ -259,6 +286,7 @@ export const Line = styled.p`
   line-height: 36px;
   text-align: right;
   color: #a9a6ac;
+  max-width: 23rem;
   
   @media screen and (max-width: 1280px) {
     font-weight: 400;
@@ -291,6 +319,9 @@ export const Column2 = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 0 100px 0 100px;
+
+  
   @media screen and (max-width: 1280px) {
    margin: 0;
   }
@@ -306,7 +337,7 @@ export const Column2 = styled.div`
 `;
 export const ImgPhone = styled.img`
   width: 100%;
-  padding: 0 56px 0 56px;
+  /* padding: 0 56px 0 56px; */
   @media screen and (max-width: 1280px) {
     width: 480px;
     padding: 0 40px 0 40px;
@@ -334,7 +365,8 @@ export const PhoneIcons = styled.div`
 display: flex;
   justify-content: center;
   align-items: center;
-  padding: 56px 0 56px 0;
+  padding: 56px 0 106px 0;
+
   @media screen and (max-width: 1280px) {
 margin-top: 70px;
 padding: 0;
@@ -377,7 +409,6 @@ padding:0px ;
 `
 export const Icons = styled.img`
 margin: 0 20px 0px 20px;
-
 @media screen and (max-width: 1280px) {
   
   width: 174px;
@@ -424,15 +455,19 @@ export const Column3 = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  margin-bottom: 150px;
   @media screen and (max-width: 480px) {
     margin-top: 60px;
   }
 `;
 
 export const TextWrapper = styled.div`
-  max-width: 385px;
+max-width: 385px;
   max-height: 205px;
-  margin-bottom: 80px;
+  margin-bottom: 95px;
+  display: flex;
+  flex-direction: column;
+
   @media screen and (max-width: 1280px) {
     margin-bottom: 100px;
   }
@@ -476,6 +511,7 @@ export const TopLine = styled.p`
   font-size: 21px;
   line-height: 36px;
   color: #a9a6ac;
+  max-width: 23rem;
   @media screen and (max-width: 1280px) {
     font-weight: 400;
 font-size: 14.6px;

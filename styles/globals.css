@@ -15,6 +15,62 @@ a {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Encode Sans Expanded', sans-serif;
+  /* font-family: 'Encode Sans Expanded', sans-serif; */
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+    /* font-family: 'Encode Sans Expanded', sans-serif; */
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    font-family: 'Open Sans';
   scroll-behavior: smooth;
+}
+.main{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.main::before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 100%;
+   border-bottom-left-radius: 100% 50% ;
+border-bottom-right-radius: 100% 50% ;
+/* background-color: red; */
+transform: scaleX(1.2);
+}
+
+.content {
+  color: #8b7f75;
+  max-height:0 ;
+  overflow: hidden;
+  /* transition: all 0.5 cubic-bezier(0,1,0,1); */
+  transition: all 0.7s ease-in-out;
+
+}
+.content.show{
+  height: auto;
+max-height: 999px;
+/* transition: all 0.5s cubic-bezier(1,0,1,0); */
+transition: all 1.2s ease-in-out;
+
+}
+.color{
+  color: #1470c6;
+}
+.color1{
+  color: #183b56;
+}
+
+.border{
+  border: 2px solid #ffb94a;
+}
+.border1{
+  border: 1.8px solid #e5eaf4;
 }

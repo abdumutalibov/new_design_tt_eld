@@ -2,14 +2,13 @@ import styled from "styled-components";
 import { MdArrowForward, MdKeyboardArrowRight } from "react-icons/md";
 
 export const FriendsContainer = styled.div`
-  height: 1700px;
-  margin-top: 200px;
+  height: 1500px;
+  /* margin-top: 200px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-  /* background-color: red; */
   @media screen and (max-width: 960px) {
     height: 100rem;
     margin: 0;
@@ -54,8 +53,8 @@ export const FriendsText = styled.p`
   line-height: 48px;
   text-align: center;
   color: #8c98a4;
-  max-width: 63rem;
-  margin-bottom: 64px;
+  max-width: 59rem;
+  margin-bottom: 40px;
   @media screen and (max-width: 480px) {
     font-size: 16px;
     line-height: 28px;
@@ -68,14 +67,15 @@ export const FriendsText = styled.p`
   }
 `;
 export const FriendsWrapper = styled.div`
-  max-width: 90rem;
-  padding: 0 24px;
-  margin: 0 auto;
+  max-width: 88rem;
+  padding: 0 24px 0 18px;
+  /* margin: 0 auto; */
+  /* margin-right: 20px; */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
-  grid-gap: 30px;
-  margin-bottom: 200px;
+  grid-gap: 13px;
+  /* margin-bottom: 200px; */
 
   @media screen and (max-width: 1280px) {
     margin: 0;
@@ -102,6 +102,7 @@ export const FriendsCard = styled.div`
   background: #fff;
   border-radius: 10px;
   padding: 20px 10px;
+  width: 100%;
   /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); */
   /* box-shadow: 2px 4px 24px rgba(151, 151, 151, 0.12); */
   transition: all 0.2s ease-in-out;
@@ -171,13 +172,14 @@ color: #3B485E;
   }
 `;
 export const IconInfo = styled.div`
-  font-weight: 400;
-  font-size: 19px;
-  line-height: 36px;
-  text-align: center;
+ font-weight: 400;
+font-size: 20px;
+line-height: 36px;
+text-align: center;
   color: #8c98a4;
   margin-bottom: 20px;
-
+  max-width: 40rem;
+  width: 100%;
   @media screen and (max-width: 1280px) {
     font-weight: 400;
 font-size: 16px;
@@ -237,6 +239,7 @@ color: #1470C6;
 export const ArrowForward = styled(MdArrowForward)`
   margin-left: 8px;
   font-size: 26px;
+  font-weight: 700px;
   margin-top: 3px;
 `;
 export const ArrowRight = styled(MdKeyboardArrowRight)`
@@ -246,15 +249,22 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
   font-size: 26px;
   font-weight: 700;
 `;
+export const Arrow = styled.img`
+  margin-left: 8px;
+  font-size: 26px;
+  font-weight: 700px;
+  margin-top: 3px;
+`;
 export const FriendsFooter = styled.div`
   height: 310px;
   background-color: #fafafa;
   display: flex;
-  max-width: 193rem;
+  width: 100%;
+  max-width: 83rem;
   padding: 56px 56px;
   margin: 0 auto;
   align-items: center;
-  margin-bottom: 200px;
+  /* margin-bottom: 200px; */
   @media screen and (max-width: 1280px) {
     margin: 0;
     position: relative;
@@ -288,12 +298,11 @@ export const FooterCard = styled.div`
   flex-direction: column;
   background-color: #fafafa;
   border-radius: 10px;
-  padding: 30px 0px 0 0;
-  margin-right: 45px;
-  position: relative;
-  transition: all 0.2s ease-in-out;
+  padding: 10px 0px 20px 0;
+  margin-right: 46px;
   max-width: 34rem;
   max-height: 550rem;
+  margin-right:120px;
   @media screen and (max-width: 1280px) {
     margin: 0 0 0px 0;
     display: flex;
@@ -331,12 +340,12 @@ export const FooterCard = styled.div`
   }
 `;
 export const FooterTxt = styled.div`
-  font-weight: 600;
-  font-size: 26px;
-  line-height: 42px;
-  color: #333333;
+ font-weight: 600;
+font-size: 26px;
+line-height: 42px;
+color: #333333;
 
-  max-width: 34rem;
+  max-width: 477px;
   margin-bottom: 12px;
   @media screen and (max-width: 1280px) {
     font-weight: 600;
@@ -381,7 +390,7 @@ max-width: 24rem;
   }
 `;
 export const FooterCardImg = styled.img`
-  margin-left: 100px;
+  /* margin-left: 90px; */
   margin-bottom: -33px;
   @media screen and (max-width: 1280px) {
     width: 203px;
@@ -450,6 +459,7 @@ color: #666666;
 `;
 export const FooterImgRight = styled.div`
   margin-right: auto;
+  padding: 10px 0 0px 0;
   @media screen and (max-width: 1024px) {
     margin-right: auto;
 

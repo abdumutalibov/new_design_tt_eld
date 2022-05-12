@@ -38,7 +38,7 @@ const Navbar = ({ toggle }) => {
             <Link href="/" passHref>
               <NavLogo>
                 <NavImg
-                  src="https://tteld.com/assets/images/custom/logo-footer.png"
+                  src="Drivers/Logo.svg"
                   alt=""
                 />
               </NavLogo>

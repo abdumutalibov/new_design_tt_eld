@@ -1,7 +1,8 @@
 import styled from "styled-components";
 export const Nav = styled.nav`
-  background: ${({ scrollNav }) => (scrollNav ? "#37353B" : "transparent")};
+  /* background: ${({ scrollNav }) => (scrollNav ? "#37353B" : "transparent")}; */
   height: 104px;
+  /* margin-bottom: 63px; */
   margin-top: -240px;
   display: flex;
   justify-content: center;
@@ -24,10 +25,10 @@ export const NavbarContainer = styled.div`
   height: 80px;
   z-index: 1;
   width: 100%;
-  /* padding: 0 24px; */
-  max-width: 90rem;
+  
+  max-width: 83rem;
   color: #de3;
-  /* background:red; */
+  
 `;
 
 export const NavLogo = styled.a`
@@ -37,18 +38,24 @@ export const NavLogo = styled.a`
   font-size: 1.5rem;
   display: flex;
   align-items: center;
-  margin-left: 24px;
+  /* margin-left: 24px; */
   font-weight: bold;
   text-decoration: none;
   margin-right: auto;
 `;
 export const NavImg = styled.img`
-  height: 50px;
+  height: 55px;
   color: white;
   cursor: pointer;
+  @media screen and (max-width:1280px){
+  margin-left: 24px;
+
+  }
   @media screen and (max-width:1024px){
 height: 39px;
 width: 114px;
+  margin-left: 24px;
+
 }
   @media screen and (max-width:480px){
 height: 34px;
@@ -111,7 +118,11 @@ export const NavLinks = styled.a`
   padding: 0 1.5rem;
   height: 100%;
   cursor: pointer;
-  
+  font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
   &.active {
     border-bottom: 3px solid #01bf71;
     color: #000;
@@ -137,9 +148,17 @@ color: #FFFFFF;
 export const NavBtn = styled.nav`
   display: flex;
   align-items: center;
+  margin-right: 7px;
+
+  @media screen and (max-width:1280px){
   margin-right: 24px;
 
+  }
+  @media screen and (max-width:1024px){
 
+  margin-right: 24px;
+
+}
   @media screen and (max-width: 960px) {
     display: none;
   }
@@ -149,18 +168,18 @@ export const NavBtn = styled.nav`
 `;
 export const NavBtnLink = styled.a`
   border-radius: 8px;
-  /* background: #01bf71; */
   border: 2px solid #FFFFFF;
-  /* white-space: nowrap; */
   padding: 10px 22px;
   color: white;
   font-size: 18px;
-  /* outline: none; */
-  /* border: none; */
   cursor: pointer;
   transition: all 0.2s ease-in;
   text-decoration: none;
-
+  font-weight: 600;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+color: #FFFFFF;
   @media screen and (max-width: 1024px) {
     font-size: 14px;
   }
@@ -169,11 +188,12 @@ export const NavBtnLink = styled.a`
   }
   &:hover {
     transition: all 0.2s ease-in-out;
-    /* background: #fff; */
-  background: #01bf71;
-
+  background: #fff;
+  border: solid 2px #706e77;
     color: #010606;
-  font-weight:500;
-
+  font-weight: 600;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
   }
 `;

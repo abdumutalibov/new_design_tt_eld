@@ -20,7 +20,8 @@ export const ServicesContainer = styled.div`
 `;
 
 export const ServicesWrapper = styled.div`
-  max-width: 90rem;
+       max-width: 86rem;
+
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -44,12 +45,14 @@ export const ServicesCard = styled.div`
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  padding: 45px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  /* box-shadow: 2px 4px 24px rgba(151, 151, 151, 0.12); */
+  padding: 35px;
+  border-radius: 4px;
+  
+  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); */
+  box-shadow: 2px 4px 24px rgba(151, 151, 151, 0.12);
   transition: all 0.2s ease-in-out;
-  max-width: 450px;
-  max-height: 450px;
+  max-width: 419px;
+  max-height: 449px;
   &:hover {
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
@@ -85,12 +88,13 @@ export const ServicesIcon = styled.img`
   }
 `;
 export const ServicesIconShopping = styled.img`
-  height: 18px;
+  height: 23px;
 `;
 export const ServicesTextRight = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
+  margin-top: 30px;
 `;
 export const ServicesTextRightItem = styled.div`
   display: flex;
@@ -118,7 +122,7 @@ export const ServicesText = styled.p`
   line-height: 48px;
   text-align: center;
   color: #8c98a4;
-  max-width: 1040px;
+  max-width: 60rem;
   margin-bottom: 70px;
   @media screen and (max-width: 768px) {
     font-size: 20px;
@@ -137,7 +141,13 @@ export const ServicesH2 = styled.h2`
   line-height: 49px;
   color: #1a2944;
   margin-bottom: 15px;
+  font-weight: 600;
+font-size: 26px;
+line-height: 49px;
+/* identical to box height, or 188% */
 
+
+color: #1A2944;
   @media screen and (max-width: 1280px) {
     font-size: 16px;
   }
@@ -150,18 +160,29 @@ export const ServicesH2 = styled.h2`
 `;
 
 export const ServicesP = styled.p`
-  font-size: 1rem;
   text-align: center;
   margin-right: auto;
+  font-weight: 400;
+font-size: 24px;
+/* line-height: 36px; */
+/* identical to box height, or 150% */
+
+
+color: #5A7184;
   @media screen and (max-width: 280px) {
     font-size: 14px;
   }
 `;
 
 export const ServicesFooterContainer = styled.div`
-  background-color: #101522;
-
-  max-width: 120rem;
+ background: #2B2D31;
+width: 100%;
+max-width: 82.7rem;
+border-radius: 4px;
+  margin-right: 5px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
   @media screen and (min-width: 820px) and (max-width:960px) {
     /* margin: 0; */
     padding: 10px;
@@ -178,12 +199,12 @@ export const ServicesFooterContainer = styled.div`
   }
 `;
 export const FooterWrap = styled.div`
-  padding: 42px 24px;
+  padding: 30px 74px;
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 100rem;
-
+  max-width: 85rem;
+width: 100%;
   margin: 0 auto;
   @media screen and (max-width: 480px) {
     flex-direction: column;
@@ -195,12 +216,13 @@ export const FooterLinksContainer = styled.div`
   display: flex;
   justify-content: center;
 
+width: 100%;
   @media screen and (max-width: 820px) {
   }
 `;
 export const FooterLinksWrapper = styled.div`
   display: flex;
-
+width: 100%;
   @media screen and (max-width: 1280px) {
     flex-direction: column;
     display: flex;
@@ -218,7 +240,8 @@ export const FooterLinksWrapper = styled.div`
 export const FooterMainColumn = styled.div`
   display: flex;
   margin-right: 0;
-
+  max-width: 300rem;
+width: 100%;
   @media screen and (max-width: 1280px) {
     display: flex;
   }
@@ -233,13 +256,39 @@ export const FooterLinkItems = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-right: 166px;
   text-align: left;
   box-sizing: border-box;
   color: #fff;
-  max-width: 550px;
+  width: 100%;
+  max-width: 500rem;
+  margin-right: 30px;
   @media screen and (max-width: 1280px) {
-    /* margin-right: 0; */
+  }
+  @media screen and (max-width: 1024px) {
+    margin-right: 0;
+  }
+  @media screen and (max-width: 960px) {
+    margin-right: 0;
+  }
+  @media screen and (max-width: 480px) {
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+  }
+  @media screen and (min-width: 540px) and (max-width: 960px) {
+    margin: 0;
+  }
+`;
+export const FooterLinkItems2 = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  box-sizing: border-box;
+  color: #fff;
+  width: 100%;
+  max-width: 500rem;
+  @media screen and (max-width: 1280px) {
   }
   @media screen and (max-width: 1024px) {
     margin-right: 0;
@@ -257,8 +306,9 @@ export const FooterLinkItems = styled.div`
   }
 `;
 FooterLinkItems.Col = styled.div`
-  margin-right: 165px;
-
+  /* margin-right: 165px; */
+max-width: 26rem;
+width: 100%;
   @media screen and (max-width: 1024px) {
     margin-right: 150px;
   }
@@ -279,6 +329,8 @@ FooterLinkItems.Col = styled.div`
 
 export const FooterColumn = styled.div`
   display: flex;
+  max-width: 300rem;
+width: 100%;
   @media screen and (min-width: 960px) and (max-width: 1280px) {
     display: flex;
     margin-right: 0;
@@ -402,7 +454,8 @@ export const FooterLink = styled.a`
   text-decoration: none;
   margin-bottom: 0.5rem;
   font-size: 14px;
-  width: 196px;
+  width: 100%;
+  max-width: 196rem;
   height: 56px;
   &:hover {
     color: #01bf71;
@@ -430,6 +483,7 @@ width: 196px;
 height: 56px;
 display: none;
 text-align: left;
+
 &:hover {
   color: #01bf71;
   transition: 0.3s ease-out;
@@ -509,6 +563,8 @@ FooterLink.H1 = styled.div`
   font-weight: 400;
   font-size: 28px;
   line-height: 48px;
+  max-width: 20rem;
+width: 100%;
   cursor: pointer;
   color: #ffffff;
   &:hover {
@@ -560,12 +616,15 @@ FooterLink.T1 = styled.div`
   }
 `;
 FooterLink.P = styled.div`
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 48px;
+  max-width: 50rem;
   cursor: pointer;
   text-align: center;
-  color: #ffffff;
+  font-weight: 400;
+font-size: 20px;
+line-height: 48px;
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #FFFFFF;
   &:hover {
     color: #01bf71;
     transition: 0.3s ease-out;
@@ -589,7 +648,7 @@ FooterLink.P = styled.div`
   }
 `;
 export const FooterIcon = styled.img`
-  width: 16px;
-  height: 11px;
+  width: 20px;
+  height: 17px;
   margin-right: 12px;
 `;

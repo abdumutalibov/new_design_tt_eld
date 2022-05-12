@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const RatingContainer = styled.div`
-  height: 900px;
+  height: 800px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,11 +23,14 @@ export const RatingContainer = styled.div`
   }
 `;
 export const RatingH1 = styled.h1`
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 80px;
-  text-align: center;
-  color: #1a2944;
+ font-weight: 700;
+font-size: 56px;
+line-height: 80px;
+/* identical to box height, or 143% */
+
+text-align: center;
+
+color: #1A2944;
   @media screen and (max-width: 912px) {
   padding: 10px;
   }
@@ -48,7 +51,8 @@ export const RatingText = styled.p`
   line-height: 48px;
   text-align: center;
   color: #8c98a4;
-  max-width: 74rem;
+  max-width: 70rem;
+  margin: 20px 0  50px 0;
   @media screen and (max-width: 912px) {
   padding: 10px;
   }
@@ -68,13 +72,13 @@ export const RatingText = styled.p`
 `;
 
 export const RatingWrapper = styled.div`
-  max-width: 90rem;
-  padding: 0 24px;
+  max-width: 85rem;
+  padding: 0 24px 0 22px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  grid-gap: 30px;
+  grid-gap: 40px;
   /* margin-bottom: 200px; */
   @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;
@@ -87,9 +91,9 @@ export const RatingWrapper = styled.div`
 `;
 
 export const RatingCard = styled.div`
-  background: #fff;
-  border-radius: 10px;
-  padding:30px 30px;
+  background: #FAFAFA;
+  border-radius:8px;
+  padding:30px 34px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   /* box-shadow: 2px 4px 24px rgba(151, 151, 151, 0.12); */
   transition: all 0.2s ease-in-out;
@@ -146,7 +150,7 @@ export const User = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 30px 0 0px 0;
+  padding: 38px 0 0px 0;
   @media screen and (max-width: 960px) {
   padding: 12px 0 20px 0;
    
@@ -165,7 +169,7 @@ export const UserImg = styled.img`
   height: 48px;
 `;
 export const UserName = styled.div`
-  font-weight: 500;
+  font-weight: 600;
   font-size: 21px;
   line-height: 32px;
   color: #19191b;

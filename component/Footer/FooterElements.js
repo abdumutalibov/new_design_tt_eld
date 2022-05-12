@@ -1,6 +1,6 @@
 import styled from "styled-components";
 export const FooterContainer = styled.div`
-  background-color: #101522;
+  background-color: #19191B;
   width: 100%;
   height: 100px;
   text-align: center;
@@ -33,7 +33,8 @@ export const FooterWrap = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 190rem;
+  max-width: 83rem;
+
   width: 100%;
   /* margin: 0 auto; */
   
@@ -140,6 +141,7 @@ font-size: 1.5rem;
 display: flex;
 align-items: center;
 font-weight: bold;
+margin-right: 30px;
 @media screen and (max-width: 1024px) {
 width: 100px;
   }
@@ -208,14 +210,13 @@ display: flex;
   }
 `
 export const SocialIcons = styled.div`
-display: flex;
-justify-content: space-between;
-align-items: center;
-max-width: 200px;
+max-width: 170px;
 width: 100%;
+
 display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-left: 20px;
 @media screen and (max-width: 1024px) {
 padding: 0;
 margin: 0;
@@ -317,11 +318,8 @@ color: #fff;
 font-size: 24px;
 margin-right:auto;
 display: flex;
-/* margin-bottom: 40px; */
-display: flex;
   align-items: center;
   justify-content: center;
-
 @media screen and (max-width: 960px) {
 display: flex;
 align-items: center;
@@ -341,13 +339,14 @@ font-size:40px;
 
 export const SocialIconLink = styled.a`
 color: #fff;
-font-size: 24px;
-margin-right:auto;
+font-size: 26px;
+/* margin-right:auto; */
 display: flex;
 /* margin-bottom: 40px; */
 display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 25px;
   @media screen and (max-width: 1024px) {
     font-size: 20px;
     margin-left:0px;

@@ -19,15 +19,15 @@ import {
   PhoneIcons,
   TextWrapper,
   TextWrapper1,
-  Top,
   TopLine,
 } from "./Driver'sElements";
-
+import styled from '../../styles/Drivers.module.css'
 const Drives = () => {
   return (
     <>
       <DriversContainer >
-      {/* <Top src='Drivers/Wave(3).svg'/> */}
+
+<div className={styled.main}>
         <DriversImg >
 
           
@@ -42,7 +42,7 @@ const Drives = () => {
         <DriversWrapper >
           <Column1>
             <TextWrapper1>
-              <ImgWrap src="icon.svg" />
+              <ImgWrap src="Drivers/icon.svg" />
               <Heading1>All in one mobile app</Heading1>
               <Line>
                 Give workers everything they need to be productive through their
@@ -50,7 +50,7 @@ const Drives = () => {
               </Line>
             </TextWrapper1>
             <TextWrapper1>
-              <ImgWrap src="icon.svg" />
+            <ImgWrap src="Drivers/icon.svg" />
               <Heading1>Real time Updates</Heading1>
               <Line>
                 Give drivers the right information at the right time. Notify
@@ -58,7 +58,7 @@ const Drives = () => {
               </Line>
             </TextWrapper1>
             <TextWrapper1 >
-              <ImgWrap src="icon.svg" />
+            <ImgWrap src="Drivers/icon.svg" />
               <Heading1>Inspection discretion</Heading1>
               <Line>
               Show only what’s legally required to be recorded
@@ -77,7 +77,7 @@ const Drives = () => {
 
           <Column3>
             <TextWrapper>
-              <ImgWrap src="icon.svg" />
+            <ImgWrap src="Drivers/icon.svg" />
               <Heading>Mobile Workflows</Heading>
               <TopLine>
                 Automatically guide drivers through tasks to make sure they
@@ -85,7 +85,7 @@ const Drives = () => {
               </TopLine>
             </TextWrapper>
             <TextWrapper>
-              <ImgWrap src="icon.svg" />
+            <ImgWrap src="Drivers/icon.svg" />
               <Heading>Intuitive Design</Heading>
               <TopLine>
                 Minimize user error and training time with the most
@@ -93,7 +93,7 @@ const Drives = () => {
               </TopLine>
             </TextWrapper>
             <TextWrapper >
-              <ImgWrap src="icon.svg" />
+            <ImgWrap src="Drivers/icon.svg" />
               <Heading>Telematics & Data</Heading>
               <TopLine>
                 Diagnostic tools allow you to review your truck’s key parameters
@@ -101,6 +101,7 @@ const Drives = () => {
             </TextWrapper>
           </Column3>
         </DriversWrapper>
+        </div>
       </DriversContainer>
     </>
   );
