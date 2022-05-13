@@ -1,6 +1,7 @@
 import React from "react";
 import {
   Column1,
+  Column2,
   Column3,
   EasyCard,
   EasyContainer,
@@ -9,9 +10,11 @@ import {
   EasyWrapper,
   Heading,
   Heading1,
+  Heading2,
   ImgMiniMac,
   ImgMiniMacTop,
   ImgWrap,
+  ImgWraps,
   TextCard1,
   TextCard2,
   TextP,
@@ -48,23 +51,26 @@ const EasyTracking = () => {
               </TextP>
             </TextCard1>
           </Column1>
-          {/* <Column2> */}
+         
             <ImgMiniMac src="miniMac.svg" />
-          {/* </Column2> */}
-          <Column3>
+         
+          <Column2>
             <TextCard2>
-            <ImgWrap src="Easy/icon.svg" />
-
-              <Heading>Real-time GPS</Heading>
-              <TextP2>Get more out of your equipment with real-time GPS</TextP2>
+              <ImgWrap src="Easy/icon.svg" />
+              <Heading2>Real-time GPS</Heading2>
+              <TextP2>
+              Get more out of your equipment with real-time GPS
+              </TextP2>
             </TextCard2>
             <TextCard2>
             <ImgWrap src="Easy/icon.svg" />
 
-              <Heading>Remote access</Heading>
-              <TextP2>Remote access to diagnostics, and insights from automated reports</TextP2>
+              <Heading2>Remote access</Heading2>
+              <TextP2>
+              Remote access to diagnostics, and insights from automated reports
+              </TextP2>
             </TextCard2>
-          </Column3>
+          </Column2>
         </EasyCard>
       </EasyWrapper>
     </EasyContainer>

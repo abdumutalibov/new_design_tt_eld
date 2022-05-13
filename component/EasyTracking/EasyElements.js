@@ -2,16 +2,27 @@ import styled from "styled-components";
 
 export const EasyContainer = styled.div`
   height: 980px;
-  display: flex;
   width: 100%;
   margin-top: 100px;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   @media screen and (max-width: 1280px) {
-    height: 80rem;
+    height: 90rem;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
     margin: 0;
-    padding: 0;
+  }
+  @media screen and (max-width: 1024px) {
+    height: 70rem;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    margin: 0;
   }
   @media screen and (max-width: 960px) {
     height: 60rem;
@@ -41,6 +52,13 @@ export const EasyWrapper = styled.div`
 
   padding: 0 24px 0 24px;
   max-width: 300rem;
+  @media screen and (max-width: 1280px) {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+
   @media screen and (max-width: 768px) {
     font-size: 2rem;
     padding: 0 10px;
@@ -60,9 +78,16 @@ export const EasyH1 = styled.h1`
   line-height: 80px;
   text-align: center;
   color: #1a2944;
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1280px) {
     text-align: center;
-    font-size: 36px;
+    font-size: 49px;
+  }
+  @media screen and (max-width: 1024px) {
+    font-weight: 700;
+font-size: 40px;
+line-height: 56px;
+text-align: center;
+color: #1A2944;
   }
   @media screen and (max-width: 768px) {
     text-align: center;
@@ -83,9 +108,19 @@ export const EasyP = styled.p`
   color: #8c98a4;
   max-width: 65rem;
   margin-bottom: 70px;
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1280px) {
     text-align: center;
-    font-size: 20px;
+    font-size: 22px;
+    max-width: 60rem;
+  }
+  @media screen and (max-width: 1024px) {
+    font-weight: 400;
+font-size: 18px;
+line-height: 36px;
+text-align: center;
+color: #8C98A4;
+max-width: 50rem;
+
   }
   @media screen and (max-width: 768px) {
     font-size: 27px;
@@ -116,7 +151,10 @@ export const EasyCard = styled.div`
     display: flex;
   /* justify-content: space-evenly; */
   /* justify-content: center; */
+  justify-content: center;
   align-items: center;
+  max-width: 70rem;
+
   }
   @media screen and (max-width: 960px) {
     display: flex;
@@ -143,6 +181,15 @@ export const Column1 = styled.div`
   justify-content: flex-start;
 
   @media screen and (max-width: 1280px) {
+    /* max-width: 100rem; */
+    width: 90%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  @media screen and (max-width: 768px) {
     max-width: 40rem;
     width: 100%;
     margin: 0;
@@ -150,6 +197,31 @@ export const Column1 = styled.div`
     justify-content: center;
     align-items: center;
     /* padding: 0 30px; */
+
+
+  }
+  @media screen and (max-width: 480px) {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* padding: 0 30px; */
+    max-width: 140rem;
+    width: 100%;
+
+  }
+`;
+export const Column2 = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  @media screen and (max-width: 1280px) {
+    /* max-width: 100rem; */
+    width: 90%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
   }
   @media screen and (max-width: 768px) {
@@ -176,16 +248,18 @@ export const Column1 = styled.div`
 export const TextCard1 = styled.div`
     max-width: 300px;
   max-height: 160px;
-  /* margin-bottom: 40px; */
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   margin-bottom: 40px;
   @media screen and (max-width: 1280px) {
-max-width: 22rem;
+    max-width: 22rem;
+    max-height: 290px;
+
+margin-left: 30px;
   }
   @media screen and (max-width:960px) {
-    /* padding: 0 30px; */
+    
     display: flex;
   flex-direction: column;
     text-align: left;
@@ -217,23 +291,39 @@ margin-left: 60px;
   }
 `;
 export const TextCard2 = styled.div`
-  max-width: 330px;
+    max-width: 300px;
   max-height: 160px;
+  /* margin-bottom: 40px; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   margin-bottom: 40px;
   @media screen and (max-width: 1280px) {
     max-width: 22rem;
-max-height: 9.5rem;
-margin-left: 20px;
-    
+    max-height: 290px;
+
+margin-right: 70px;
   }
-  @media screen and (max-width: 960px) {
-    max-width: 22rem;
-max-height: 9.5rem;
+  @media screen and (max-width:960px) {
     
-  }
-  @media screen and (max-width: 768px) {
+    display: flex;
+  flex-direction: column;
+    text-align: left;
   max-width: 370px;
 width: 100%;
+margin-right: 30px;
+max-width: 22rem;
+
+  }
+  @media screen and (max-width: 768px) {
+    /* padding: 0 30px; */
+    display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+    text-align: left;
+  max-width: 370px;
+width: 100%;
+margin-left: 50px;
   }
   @media screen and (max-width: 480px) {
     padding: 0 30px;
@@ -243,26 +333,80 @@ width: 100%;
     text-align: left;
     max-width: 170rem;
     width: 100%;
+margin-left: 60px;
   }
 `;
+
 export const ImgWrap = styled.img`
   width: 26px;
   height: 26px;
   margin-bottom: 20px;
+  @media screen and (max-width: 1280px) {
+   margin-bottom: 14px;
+  }
 `;
-
+export const ImgWraps = styled.img`
+  width: 26px;
+  height: 26px;
+  margin-bottom: px;
+  /* @media screen and (max-width: 1280px) {
+   margin-bottom: 10px;
+  } */
+`;
 export const Heading1 = styled.h1`
   font-weight: 600;
   font-size: 28px;
   line-height: 40px;
   text-align: right;
   color: #1a2944;
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1280px) {
     font-size: 24px;
+    max-width: 40rem;
+  width: 100%;
+  }
+  @media screen and (max-width: 1024px) {
+    font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+color: #1A2944;
+
   }  
   @media screen and (max-width: 768px) {
     font-size: 30px;
   padding-bottom:10px ;
+  text-align: left;
+
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 20px;
+    text-align: left;
+  }
+  @media screen and (max-width: 280px) {
+    font-size: 16px;
+  }
+`;
+export const Heading2 = styled.h1`
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 40px;
+  color: #1a2944;
+  @media screen and (max-width: 1280px) {
+    font-size: 24px;
+    max-width: 40rem;
+  width: 100%;
+  }
+  @media screen and (max-width: 1024px) {
+    font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+color: #1A2944;
+
+  }  
+  @media screen and (max-width: 768px) {
+    font-size: 30px;
+  padding-bottom:10px ;
+  text-align: left;
+
   }
   @media screen and (max-width: 480px) {
     font-size: 20px;
@@ -283,6 +427,52 @@ export const TextP = styled.p`
     font-size: 20px;
     width: 100%;
     max-width: 150rem;
+  }
+  @media screen and (max-width: 1024px) {
+    font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+text-align: right;
+color: #8C98A4;
+max-width: 18rem;
+
+
+
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 24px;
+  text-align: left;
+max-width: 30rem;
+width: 100%;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 16px;
+  text-align: left;
+
+  }
+  @media screen and (max-width: 280px) {
+    font-size: 13px;
+  }
+`;
+export const TextP2 = styled.p`
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  color: #8c98a4;
+  width: 100%;
+  @media screen and (max-width: 1280px) {
+    font-size: 20px;
+    width: 100%;
+    max-width: 150rem;
+  }
+  @media screen and (max-width: 1024px) {
+    font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+color: #8C98A4;
+mix-blend-mode: normal;
+max-width: 16rem;
+
   }
   @media screen and (max-width: 768px) {
     font-size: 24px;
@@ -310,6 +500,11 @@ export const ImgMiniMac = styled.img`
   @media screen and (max-width: 1280px) {
     display: none;
   }
+
+  /* @media screen and (max-width: 1024px) {
+    width: 100px;
+    display:none;
+  } */
   @media screen and (max-width: 960px) {
     width: 300px;
     display:none;
@@ -332,7 +527,13 @@ export const ImgMiniMacTop = styled.img`
   @media screen and (max-width: 1280px) {
     /* display: none; */
     display: block;
-    width: 800px;
+    width: 900px;
+margin-bottom: 32px;
+  }
+  @media screen and (max-width: 1024px) {
+    /* display: none; */
+    display: block;
+    width: 760px;
 margin-bottom: 32px;
   }
   @media screen and (max-width: 960px) {
@@ -367,93 +568,4 @@ margin-bottom: 32px;
 
   }
 `
-export const Column3 = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  @media screen and (max-width: 1280px) {
-    max-width: 140rem;
-    width: 100%;
-    margin-left: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* padding: 0 30px; */
-  }
-  @media screen and (max-width: 768px) {
-    max-width: 40rem;
-    width: 100%;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* padding: 0 30px; */
 
-  }
-  @media screen and (max-width: 480px) {
-    margin-top: 60px;
-    /* background-color: red; */
-
-  }
-`;
-
-export const TextCard = styled.div`
-  max-width: 385rem;
-  max-height: 205px;
-  margin-bottom: 80px;
-  width: 100%;
-  @media screen and (max-width: 1280px) {
-    max-width: 385rem;
-  }
-  @media screen and (max-width: 768px) {
-    padding: 0 30px;
-  }
-  @media screen and (max-width: 480px) {
-    padding: 0 30px;
-
-  }
-`;
-export const Heading = styled.h2`
-  font-weight: 600;
-  font-size: 28px;
-  line-height: 40px;
-  color: #1a2944;
-  max-width: 30rem;
-  width: 100%;
-  @media screen and (max-width: 1280px) {
-    font-size: 24px;
-    max-width: 40rem;
-  width: 100%;
-  }
-  @media screen and (max-width: 768px) {
-    font-size: 30px;
-  }
-  @media screen and (max-width: 480px) {
-    font-size: 20px;
-  }
-  @media screen and (max-width: 280px) {
-    font-size: 16px;
-  }
-`;
-export const TextP2 = styled.p`
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 36px;
-  color: #8c98a4;
-  width: 100%;
-  @media screen and (max-width: 1280px) {
-    font-size: 20px;
-    /* background-color: blue; */
-    width: 100%;
-    max-width: 150rem;
-  }
-  @media screen and (max-width: 768px) {
-    font-size: 24px;
-  }
-  @media screen and (max-width: 480px) {
-    font-size: 16px;
-  }
-  @media screen and (max-width: 280px) {
-    font-size: 13px;
-  }
-`;

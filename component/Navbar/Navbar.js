@@ -1,6 +1,6 @@
 import styled from "styled-components";
 export const Nav = styled.nav`
-  /* background: ${({ scrollNav }) => (scrollNav ? "#37353B" : "transparent")}; */
+  background: ${({ scrollNav }) => (scrollNav ? "#37353B" : "transparent")};
   height: 104px;
   /* margin-bottom: 63px; */
   margin-top: -240px;
@@ -11,6 +11,10 @@ export const Nav = styled.nav`
   position: sticky;
   top: 0;
   z-index: 10;
+  @media screen and (max-width: 1280px) {
+     height: 84px;
+     
+  }
   @media screen and (max-width: 960px) {
     transition: 0.8 all ease;
   }
@@ -28,7 +32,17 @@ export const NavbarContainer = styled.div`
   
   max-width: 83rem;
   color: #de3;
-  
+  @media screen and (max-width:1280px){
+    max-width: 68.5rem;  
+  background-color: red;
+    
+}
+@media screen and (max-width:1024px){
+  background-color: red;
+  max-width: 52.2rem;   
+
+
+}
 `;
 
 export const NavLogo = styled.a`
@@ -38,23 +52,29 @@ export const NavLogo = styled.a`
   font-size: 1.5rem;
   display: flex;
   align-items: center;
-  /* margin-left: 24px; */
   font-weight: bold;
   text-decoration: none;
   margin-right: auto;
+  @media screen and (max-width:1280px){
+    padding: 0;
+  }
+  @media screen and (max-width:1024px){
+  }
 `;
 export const NavImg = styled.img`
   height: 55px;
   color: white;
   cursor: pointer;
   @media screen and (max-width:1280px){
-  margin-left: 24px;
+    height: 39px;
+    width: 114px;
+/* margin: 0; */
 
   }
   @media screen and (max-width:1024px){
 height: 39px;
 width: 114px;
-  margin-left: 24px;
+  /* margin-left: 24px; */
 
 }
   @media screen and (max-width:480px){
@@ -127,15 +147,22 @@ color: #FFFFFF;
     border-bottom: 3px solid #01bf71;
     color: #000;
   }
-
-  /* color: ${({ active }) => active && "#01bf71"}; */
   :hover{
     color: #01bf71;
   }
-  @media screen and (max-width:1024px){
+  @media screen and (max-width:1280px){
     font-weight: 400;
 font-size: 14px;
 line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+  }
+  @media screen and (max-width:1024px){
+    font-weight: 400;
+font-size: 11px;
+line-height: 20px;
+padding: 0 1.1rem;
+
 /* identical to box height, or 143% */
 
 text-align: center;
@@ -143,21 +170,20 @@ text-align: center;
 color: #FFFFFF;
 }
   `;
-
-
 export const NavBtn = styled.nav`
   display: flex;
   align-items: center;
   margin-right: 7px;
 
   @media screen and (max-width:1280px){
-  margin-right: 24px;
-
+  /* margin-right: 24px; */
+  
+margin: 0;
   }
   @media screen and (max-width:1024px){
 
-  margin-right: 24px;
-
+  /* margin-right: 24px; */
+margin:0;
 }
   @media screen and (max-width: 960px) {
     display: none;
@@ -180,8 +206,27 @@ font-size: 18px;
 line-height: 26px;
 text-align: center;
 color: #FFFFFF;
+@media screen and (max-width: 1280px) {
+  display: flex;
+  align-items: center;
+    width: 120px;
+    height: 36px;
+    font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+  }
   @media screen and (max-width: 1024px) {
-    font-size: 14px;
+    display: flex;
+  align-items: center;
+    width: 105px;
+    height: 36px;
+    font-weight: 600;
+font-size: 11px;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
   }
   @media screen and (max-width: 320px) {
     font-size: 18px;

@@ -8,6 +8,9 @@ export const FrequntlyContainer = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
+  @media screen and (max-width: 1280px) {
+    padding-top: 60px;
+  }
   @media screen and (max-width: 960px) {
     height: 165rem;
   }

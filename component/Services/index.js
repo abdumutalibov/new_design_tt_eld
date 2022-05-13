@@ -118,7 +118,7 @@ const Services = () => {
                 </FooterLink.H1>
                 <FooterLink.H1  to="/siginin" ><T>$105/mo.</T></FooterLink.H1>
                 <FooterLinks.H1>
-                ELD device sold separately and
+                ELD is easy to operate and
                 </FooterLinks.H1>
                 <FooterLinks.H1>
                 feel comfortable <Span>$105/mo.</Span> 

@@ -7,6 +7,12 @@ export const ServicesContainer = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
+  @media screen and (max-width: 1280px) {
+    height: 100rem;
+  }
+  @media screen and (max-width: 1024px) {
+    height: 95rem;
+  }
   @media screen and (max-width: 960px) {
     height: 135rem;
   }
@@ -20,7 +26,7 @@ export const ServicesContainer = styled.div`
 `;
 
 export const ServicesWrapper = styled.div`
-       max-width: 86rem;
+       max-width: 186rem;
 
   margin: 0 auto;
   display: grid;
@@ -28,6 +34,18 @@ export const ServicesWrapper = styled.div`
   align-items: center;
   grid-gap: 30px;
   margin-bottom: 200px;
+  @media screen and (max-width: 1280px) {
+    max-width: 1100px;
+    width: 100%;
+    margin-bottom: 150px;
+  }
+  @media screen and (max-width: 1024px) {
+    max-width: 835px;
+    width: 100%;
+  grid-gap: 20px;
+  margin-bottom: 128px;
+
+  }
   @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;
   }
@@ -48,8 +66,8 @@ export const ServicesCard = styled.div`
   padding: 35px;
   border-radius: 4px;
   
-  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); */
-  box-shadow: 2px 4px 24px rgba(151, 151, 151, 0.12);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 2px 4px 24px rgba(151, 151, 151, 0.12); */
   transition: all 0.2s ease-in-out;
   max-width: 419px;
   max-height: 449px;
@@ -57,6 +75,10 @@ export const ServicesCard = styled.div`
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
+  }
+  @media screen and (max-width: 1024px) {
+    padding: 25px;
+
   }
   @media screen and (max-width: 960px) {
     max-width: 380px;
@@ -71,6 +93,11 @@ export const ServicesIcon = styled.img`
   height: 274px;
   margin-bottom: 10px;
   @media screen and (max-width: 1280px) {
+   
+    width: 234px;
+    height: 180px;
+  }
+  @media screen and (max-width: 1024px) {
     width: 185px;
     height: 184px;
   }
@@ -89,6 +116,16 @@ export const ServicesIcon = styled.img`
 `;
 export const ServicesIconShopping = styled.img`
   height: 23px;
+  @media screen and (max-width: 1280px) {
+    height: 20px;
+
+
+  }
+  @media screen and (max-width: 1024px) {
+    height: 18px;
+
+
+  }
 `;
 export const ServicesTextRight = styled.div`
   width: 100%;
@@ -98,7 +135,8 @@ export const ServicesTextRight = styled.div`
 `;
 export const ServicesTextRightItem = styled.div`
   display: flex;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
 `;
 export const ServicesH1 = styled.h1`
   font-weight: 700;
@@ -106,6 +144,21 @@ export const ServicesH1 = styled.h1`
   line-height: 80px;
   text-align: center;
   color: #1a2944;
+  @media screen and (max-width: 1280px) {
+    font-weight: 700;
+font-size: 50px;
+line-height: 56px;
+text-align: center;
+color: #1A2944;
+  }
+  @media screen and (max-width: 1024px) {
+    font-weight: 700;
+font-size: 40px;
+line-height: 56px;
+text-align: center;
+color: #1A2944;
+}
+
   @media screen and (max-width: 768px) {
     font-size: 30px;
     line-height: 30px;
@@ -123,7 +176,27 @@ export const ServicesText = styled.p`
   text-align: center;
   color: #8c98a4;
   max-width: 60rem;
+  margin-top: 10px;
+
   margin-bottom: 70px;
+  @media screen and (max-width: 1280px) {
+    font-weight: 400;
+font-size: 22px;
+line-height: 36px;
+text-align: center;
+color: #8C98A4;
+max-width: 50rem;
+margin-top: 20px;
+
+  }
+  @media screen and (max-width: 1024px) {
+    font-weight: 400;
+font-size: 18px;
+line-height: 36px;
+text-align: center;
+color: #8C98A4;
+max-width: 40rem;
+}
   @media screen and (max-width: 768px) {
     font-size: 20px;
     line-height: 30px;
@@ -149,7 +222,17 @@ line-height: 49px;
 
 color: #1A2944;
   @media screen and (max-width: 1280px) {
-    font-size: 16px;
+    font-weight: 600;
+    font-size: 22px;
+
+line-height: 32px;
+color: #1A2944;
+  }
+  @media screen and (max-width: 1024px) {
+    font-weight: 600;
+font-size: 17px;
+line-height: 32px;
+color: #1A2944;
   }
   @media screen and (max-width: 480px) {
     font-size: 18px;
@@ -169,6 +252,18 @@ font-size: 24px;
 
 
 color: #5A7184;
+@media screen and (max-width: 1280px) {
+  font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+color: #5A7184;
+  }
+  @media screen and (max-width: 1024px) {
+    font-weight: 400;
+font-size: 15.8425px;
+line-height: 24px;
+color: #5A7184;
+  }
   @media screen and (max-width: 280px) {
     font-size: 14px;
   }
@@ -183,6 +278,19 @@ border-radius: 4px;
   /* display: flex;
   justify-content: center;
   align-items: center; */
+  @media screen and (max-width: 1280px) {
+    width: 100%;
+  max-width: 1099px;
+  padding: 0;
+margin: 0;
+  }
+  @media screen and (max-width: 1024px) {
+    width: 100%;
+  max-width: 837px;
+  padding: 0;
+margin: 0;
+
+  }
   @media screen and (min-width: 820px) and (max-width:960px) {
     /* margin: 0; */
     padding: 10px;
@@ -206,8 +314,15 @@ export const FooterWrap = styled.div`
   max-width: 85rem;
 width: 100%;
   margin: 0 auto;
+  @media screen and (max-width: 1024px) {
+  padding: 32px 0px 32px 44px;
+    
+  }
   @media screen and (max-width: 480px) {
     flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-right: 0;
   }
 `;
@@ -244,6 +359,14 @@ export const FooterMainColumn = styled.div`
 width: 100%;
   @media screen and (max-width: 1280px) {
     display: flex;
+    width: 100%;
+  max-width: 300rem;
+
+  }
+  @media screen and (max-width: 1024px) {
+    display: flex;
+    width: 100%;
+  max-width: 300rem;
   }
   @media screen and (max-width: 912px) {
     flex-direction: column;
@@ -263,9 +386,15 @@ export const FooterLinkItems = styled.div`
   max-width: 500rem;
   margin-right: 30px;
   @media screen and (max-width: 1280px) {
+    width: 100%;
+
   }
   @media screen and (max-width: 1024px) {
-    margin-right: 0;
+    width: 100%;
+  /* max-width: 500rem; */
+/* width: 300px; */
+    margin-right: 10px;
+
   }
   @media screen and (max-width: 960px) {
     margin-right: 0;
@@ -289,9 +418,12 @@ export const FooterLinkItems2 = styled.div`
   width: 100%;
   max-width: 500rem;
   @media screen and (max-width: 1280px) {
+    margin-left: 70px;
+
   }
   @media screen and (max-width: 1024px) {
-    margin-right: 0;
+    margin-left: 70px;
+    
   }
   @media screen and (max-width: 960px) {
     margin-right: 0;
@@ -306,11 +438,17 @@ export const FooterLinkItems2 = styled.div`
   }
 `;
 FooterLinkItems.Col = styled.div`
-  /* margin-right: 165px; */
-max-width: 26rem;
+/* max-width: 22rem; */
 width: 100%;
+@media screen and (max-width: 1280px) {
+    /* margin-left: 0 auto; */
+    max-width: 28rem;
+width: 100%;
+  }
   @media screen and (max-width: 1024px) {
-    margin-right: 150px;
+    margin-left: 0 auto;
+    max-width: 22rem;
+width: 100%;
   }
   @media screen and (max-width: 912px) {
     display: flex;
@@ -331,10 +469,30 @@ export const FooterColumn = styled.div`
   display: flex;
   max-width: 300rem;
 width: 100%;
-  @media screen and (min-width: 960px) and (max-width: 1280px) {
-    display: flex;
+
+@media screen and (max-width: 1280px) {
+  display: flex;
     margin-right: 0;
+    width: 100%;
+    max-width: 300rem;
   }
+  @media screen and (max-width: 1024px) {
+  display: flex;
+    margin-right: 0;
+    width: 100%;
+    max-width: 300rem;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  @media screen and (max-width: 960px) {
+  display: flex;
+    margin-right: 0;
+    width: 100%;
+    max-width: 300rem;
+  }
+ 
+
   @media screen and (min-width: 540px) and (max-width: 960px) {
     display: flex;
     margin-right: 0;
@@ -393,6 +551,17 @@ export const Btns = styled.button`
   :hover {
     background: #01bf71;
     transition: 0.3s ease-out;
+  }
+  @media screen and (max-width: 1280px) {
+    display:block;
+  }
+  @media screen and (max-width: 1024px) {
+    width: 169px;
+  height: 44px;
+  font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+color: #FFFFFF;
   }
 `;
 
@@ -483,13 +652,15 @@ width: 196px;
 height: 56px;
 display: none;
 text-align: left;
-
 &:hover {
   color: #01bf71;
   transition: 0.3s ease-out;
 }
 
 @media screen and (max-width: 1280px) {
+  display: block;
+}
+@media screen and (max-width: 1024px) {
   display: block;
 }
 @media screen and (max-width: 960px) 
@@ -521,6 +692,18 @@ color: #FFFFFF;
   @media screen and (max-width: 1280px) {
   display: block;
 }
+@media screen and (max-width: 1024px) {
+  display: block;
+  font-weight: 600;
+font-size: 20px;
+line-height: 36px;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #FFFFFF;
+max-width: 20rem;
+width: 100%;
+  margin: 0;
+  padding: 0;
+}
 @media screen and (max-width: 480px) {
 
 font-size: 16px;
@@ -540,6 +723,14 @@ color: #CCCECE;
 @media screen and (max-width: 1280px)  {
     font-size: 17px;
     display: flex;
+    width: 100%;
+  }
+  @media screen and (max-width: 1024px)  {
+    font-size: 17px;
+    display: flex;
+    /* width: 100%; */
+    max-width: 300px;
+    margin-right: 450px;
   }
 @media screen and (max-width: 960px)  {
     font-size: 17px;
@@ -618,7 +809,6 @@ FooterLink.T1 = styled.div`
 FooterLink.P = styled.div`
   max-width: 50rem;
   cursor: pointer;
-  text-align: center;
   font-weight: 400;
 font-size: 20px;
 line-height: 48px;
@@ -629,9 +819,16 @@ color: #FFFFFF;
     color: #01bf71;
     transition: 0.3s ease-out;
   }
+  @media screen and (max-width: 1280px) {
+    font-size: 16px;
+width: 100%;
+  }
   @media screen and (max-width: 1024px) {
-    font-size: 14px;
-    margin-right: 90px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 42px;
+width: 100%;
+color: #FFFFFF;
   }
   @media screen and (max-width: 960px) {
     margin: 0 20px 0 20px;

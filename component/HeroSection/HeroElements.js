@@ -21,6 +21,10 @@ export const HeroContainer = styled.div`
       z-index: 2;
       
   } */
+  @media screen and (max-width:1280px) {
+    height:1375px;
+    background: #2B2D31;
+  }
   @media screen and (max-width:768px) {
     height:1200px;
     background: #2B2D31;
@@ -46,6 +50,13 @@ export const ImgBg = styled.img`
   height: 1500px;
   -o-object-fit: cover;
   object-fit: cover;
+  @media screen and (max-width:1280px) {
+    height:1460px;
+    background: none;
+  }
+  @media screen and (max-width:960px) {
+    
+  }
   @media screen and (max-width:768px) {
     /* height:1000px; */
     display: none;
@@ -55,7 +66,6 @@ export const ImgBg = styled.img`
   }
   /* background:#232a34;  */
 `;
-        {/* <ImgBg src="Hero/Background1.svg" /> */}
 
 export const HeroContent = styled.div`
   z-index: 3;
@@ -81,7 +91,20 @@ text-align: center;
 
 color: #FFFFFF;
   /* max-width:120rem; */
-
+  @media screen and (max-width:1280px) {
+    font-weight: 700;
+font-size: 50px;
+line-height: 56px;
+text-align: center;
+color: #FFFFFF;
+  }
+  @media screen and (max-width:1024px) {
+    font-weight: 700;
+font-size: 40px;
+line-height: 56px;
+text-align: center;
+color: #FFFFFF;
+  }
   @media screen and (max-width:768px) {
     font-size: 40px;
   }
@@ -103,6 +126,25 @@ max-width: 1050px;
 font-weight: 400;
 font-size: 24px;
 line-height: 48px;
+@media screen and (max-width:1280px) {
+  font-weight: 400;
+font-size: 22px;
+line-height: 48px;
+text-align: center;
+color: #FFFFFF;
+max-width: 60rem;
+/* background-color: red; */
+
+  }
+  @media screen and (max-width:1024px) {
+  font-weight: 400;
+font-size: 18px;
+line-height: 36px;
+text-align: center;
+color: #FFFFFF;
+max-width: 48rem;
+
+  }
 @media screen and (max-width:768px) {
     font-size: 24px;
   }
@@ -117,14 +159,17 @@ line-height: 48px;
 `
 
 export const HeroBgWrapper =styled.div`
-/* margin-top: 19px;
-margin-bottom:40px; */
 margin: 48px 0 72px 0;
 display: flex;
 flex-direction: row;
 align-items: center;
 max-width: 1500px;
-/* background-color:red; */
+@media screen and (max-width: 1280px){
+margin: 71px 0 151px 0;
+}
+@media screen and (max-width: 960px){
+
+}
 @media screen and (max-width: 480px){
   display: flex;
 flex-direction: column;
@@ -135,6 +180,10 @@ export const ArrowForward = styled(MdArrowForward)`
 margin-left: 10px;
 font-size: 25px;
 `
+export const ArrowForwards = styled(MdArrowForward)`
+margin-left: 10px;
+font-size: 65px;
+`
 
 export const ArrowRight = styled(MdKeyboardArrowRight)`
 margin-left: 10px;
@@ -142,14 +191,22 @@ font-size: 25px;
 `
  export const ImgMac = styled.img`
  width: 100%;
- /* height:100%; */
 margin: 0 0 10px 0;
 padding-right:0 ;
+@media screen and (max-width:1280px) {
+    width: 850px;
+  }
+@media screen and (max-width:960px) {
+  width: 700px;
+    
+  }
 @media screen and (max-width:768px) {
-    /* height:1000px; */
+  width: 490px;
+
   }
   @media screen and (max-width:480px) {
-    /* height:1000px; */
+    width: 230px;
+
   }
 // @media screen and (max-width:960px) {
 //     width: 700px;

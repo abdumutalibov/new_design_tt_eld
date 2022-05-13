@@ -16,29 +16,29 @@ export const Button = styled.a`
   justify-content: center;
   align-items: center;
   transition: all 0.2s ease-in-out;
-  margin-right: 48px;
+  margin-right: 38px;
   max-width: 230px;
   max-height: 67px;
   font-weight: 500;
   font-weight: 600;
 font-size: 22px;
 line-height: 32px;
-/* identical to box height, or 145% */
-
-
 color: #2D2B31;
   &:hover {
     transition: all 0.2s ease-in-out;
     background: ${({ primary }) => (primary ? "#37353B" : "#01BF71")};
     color: ${({ dark }) => (dark ? "#fff" : "#fff")};
   }
+@media screen and (max-width:1280px) {
+  max-width: 220px;
+  max-height: 64px;
+}
   @media screen and (max-width: 768px) {
     margin-right: 0;
     margin-right: 20px;
   }
   @media screen and (max-width: 480px) {
     margin-right: 0;
-    /* margin-top:20px; */
     padding: ${({ big }) => (big ? "14px 48px" : "10px 20px")};
     font-size: ${({ fontBig }) => (fontBig ? "20px" : "12px")};
   }
@@ -75,6 +75,10 @@ line-height: 32px;
     color: ${({ dark }) => (dark ? "#000" : "#fff")};
     border: solid 4px #706e77;
   }
+  @media screen and (max-width:1280px) {
+  max-width: 217px;
+  max-height: 64px;
+}
   @media screen and (max-width: 768px) {
     margin-right: 0;
     /* margin-top:20px; */

@@ -11,6 +11,7 @@ import {
   ArrowForward,
   ArrowRight,
   ImgMac,
+  ArrowForwards,
 } from "./HeroElements";
 
 
@@ -48,7 +49,7 @@ function HeroSection() {
           >
             Get started <ArrowForward /> 
           </Button>
-          <Button2
+          <Button
             to="signup"
             onMouseEnter={onHovers}
             onMouseLeave={onHovers}
@@ -56,7 +57,7 @@ function HeroSection() {
             dark='true'
           >
             Free trial <ArrowForward />  
-          </Button2>
+          </Button>
         </HeroBgWrapper>
         <ImgMac src="mac.svg"/>
       </HeroContent>
