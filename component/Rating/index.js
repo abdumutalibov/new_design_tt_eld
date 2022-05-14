@@ -1,4 +1,5 @@
 import React from "react";
+import Slider from "react-slick";
 import {
   Col,
   ImgStar,
@@ -15,6 +16,14 @@ import {
 } from "./RatingElements";
 
 const Rating = () => {
+  const settings = {
+    className: "center",
+    centerMode: true,
+    infinite: true,
+    centerPadding: "960px",
+    slidesToShow: 3,
+    speed: 500,
+  };
   return (
     <RatingContainer id="pricing">
       <RatingH1>Our Rating Among Customers</RatingH1>
@@ -22,6 +31,7 @@ const Rating = () => {
         TT ELD is a company that serves many customers at the same time and we
         are glad to see you among our customers
       </RatingText>
+      {/* <Slider {...settings}> */}
       <RatingWrapper>
         <RatingCard>
           <ImgStar src="Rating/star.svg" />
@@ -31,6 +41,7 @@ const Rating = () => {
             independently tested for ELD mandate compliance by the PIT Group
             research firm
           </RatingP>
+
           <User>
             <UserImg src="Rating/men1.svg" />
             <Col>
@@ -39,6 +50,7 @@ const Rating = () => {
             </Col>
           </User>
         </RatingCard>
+
         <RatingCard>
           <ImgStar src="Rating/star2.svg" />
           <RatingP>
@@ -66,12 +78,13 @@ const Rating = () => {
           <User>
             <UserImg src="Rating/men3.svg" />
             <Col>
-              <UserName >Trashae Hubbard</UserName>
-              <UserInfo >From Amazon.com</UserInfo>
+              <UserName>Trashae Hubbard</UserName>
+              <UserInfo>From Amazon.com</UserInfo>
             </Col>
           </User>
         </RatingCard>
       </RatingWrapper>
+      {/* </Slider> */}
     </RatingContainer>
   );
 };

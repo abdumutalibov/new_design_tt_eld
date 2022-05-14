@@ -1,116 +1,44 @@
 import styled from "styled-components";
 
-export const RatingContainer = styled.div`
-  height: 800px;
+export const Container = styled.div`
+  width: 100%;
+  margin: 0 auto;
+  max-width: 86rem;
+  grid-gap: 30px;
+  height: 500px;
+
+  @media screen and (max-width: 1280px) {
+    max-width: 73rem;
+    background-color: red;
+    grid-gap: 30px;
+  }
+  @media screen and (max-width: 1024px) {
+    max-width: 55rem;
+    grid-gap: 30px;
+  }
+  @media screen and (max-width: 960px) {
+  }
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+  }
+`;
+
+export const ArrowNext = styled.div``;
+export const ArrowPrev = styled.div``;
+
+export const RatingWrappers = styled.div`
+  max-width: 30rem;
+  padding: 0 20px ;
+  margin: 0 auto;
+  /* grid-template-columns: 1fr 1fr 1fr; */
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  @media screen and (max-width: 960px) {
-    height: 70rem;
-  }
-  @media screen and (max-width: 768px) {
-    height: 90rem;
-  }
-
-  @media screen and (max-width: 480px) {
-    height: 85rem;
-  }
-  @media screen and (max-width: 280px) {
-    height: 95rem;
-  }
-`;
-export const RatingH1 = styled.h1`
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 80px;
-  /* identical to box height, or 143% */
-
-  text-align: center;
-
-  color: #1a2944;
-  @media screen and (max-width: 1280px) {
-    font-weight: 700;
-font-size: 50px;
-line-height: 56px;
-text-align: center;
-
-color: #1A2944;
-  }
-  @media screen and (max-width: 1024px) {
-    font-weight: 700;
-font-size: 40px;
-line-height: 56px;
-text-align: center;
-
-color: #1A2944;
-  }
-  @media screen and (max-width: 912px) {
-    padding: 10px;
-  }
-  @media screen and (max-width: 768px) {
-    font-size: 30px;
-    line-height: 30px;
-    margin-bottom: 20px;
-  }
-  @media screen and (max-width: 480px) {
-    font-size: 26px;
-    line-height: 40px;
-  }
-`;
-export const RatingText = styled.p`
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 48px;
-  text-align: center;
-  color: #8c98a4;
-  max-width: 70rem;
-  margin: 20px 0 50px 0;
-  @media screen and (max-width: 1280px) {
-    font-weight: 400;
-font-size: 22px;
-line-height: 36px;
-text-align: center;
-color: #8C98A4;
-max-width: 48rem;
-
-  }
-  @media screen and (max-width: 1024px) {
-    font-weight: 400;
-font-size: 18px;
-line-height: 36px;
-text-align: center;
-color: #8C98A4;
-max-width: 41rem;
-
-  }
-  @media screen and (max-width: 912px) {
-    padding: 10px;
-  }
-  @media screen and (max-width: 768px) {
-    font-size: 16px;
-    line-height: 32px;
-    padding: 10px;
-  }
-  @media screen and (max-width: 480px) {
-    font-size: 16px;
-    line-height: 32px;
-    padding: 10px;
-  }
-  @media screen and (max-width: 280px) {
-    font-size: 14px;
-  }
-`;
-
-export const RatingWrapper = styled.div`
-  max-width: 85rem;
-  padding: 0 24px 0 22px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
-  grid-gap: 40px;
+  margin: 10px auto;
+  height: 100%;
+  grid-gap: 10px;
   /* margin-bottom: 200px; */
   @media screen and (max-width: 1280px) {
     max-width: 73rem;
@@ -119,7 +47,6 @@ export const RatingWrapper = styled.div`
   @media screen and (max-width: 1024px) {
     max-width: 55rem;
     grid-gap: 30px;
-  
   }
   @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;
@@ -131,7 +58,7 @@ export const RatingWrapper = styled.div`
   }
 `;
 
-export const RatingCard = styled.div`
+export const RatingCards = styled.div`
   background: #fafafa;
   border-radius: 8px;
   padding: 30px 34px;
@@ -162,8 +89,7 @@ export const RatingCard = styled.div`
     margin-top: 40px;
   }
 `;
-
-export const ImgStar = styled.img`
+export const ImgStars = styled.img`
   /* margin-right: auto; */
   margin-bottom: 20px;
   @media screen and (max-width: 768px) {

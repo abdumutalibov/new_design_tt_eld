@@ -11,7 +11,7 @@ import EasyTracking from './EasyTracking'
 import Rating from './Rating'
 import Frequntly from './Frequently'
 import Friends from './Friends'
-
+import MultipleRows from './Review/review'
 const Layout = ({children}) => {
 
   const [isOpen,setOpen] =useState(false)
@@ -29,6 +29,7 @@ const Layout = ({children}) => {
         <EasyTracking/>
         <Services/>
         <Rating/>
+        <MultipleRows/>
         <Frequntly/>
         <Friends/>
         

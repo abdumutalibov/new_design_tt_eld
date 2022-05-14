@@ -123,10 +123,13 @@ const Services = () => {
                 <FooterLinks.H1>
                 feel comfortable <Span>$105/mo.</Span> 
                 </FooterLinks.H1>
-                <FooterLinks.T>
+                {/* <FooterLinks.T>
 
-                ELD device sold separately.
-                </FooterLinks.T>
+               
+                </FooterLinks.T> */}
+                {/* <FooterLinks.T>
+                   ELD device sold separately.
+                </FooterLinks.T> */}
                 <FooterLinkBtns>
                 <Btns to="/siginin">Start Now</Btns>
               </FooterLinkBtns>

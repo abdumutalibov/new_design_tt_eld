@@ -74,3 +74,41 @@ transition: all 1.2s ease-in-out;
 .border1{
   border: 1.8px solid #e5eaf4;
 }
+
+.slide img{
+  /* width: 20rem; */
+  /* margin: 0 auto; */
+}
+
+.slide{
+  /* transform: scale(1.0); 
+  transition: transform 300ms; */
+   opacity: 0.5;
+}
+
+.activeSlide{
+  /* transform: scale(1.0); */
+  opacity: 1;
+}
+
+.arrow{
+  /* background-color: #fff;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10; */
+}
+.arrow svg{
+/* transition: color 300ms; */
+}
+
+.arrow svg:hover{
+  /* color: #68edff; */
+}
+.next{
+  /* right: 0%;
+  top: 0%; */
+}
+.prev{
+  /* right: 0%;
+  top: 0%; */
+}

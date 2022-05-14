@@ -1,13 +1,10 @@
 import Head from "next/head";
-import Image from "next/image";
-import styled from "styled-components";
-// import styles from '../styles/Home.module.css'
-import Link from "next/dist/client/link";
 import Layout from "../component/Layout";
-const Title = styled.div`
-  font-size: 50px;
-`;
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
 export default function Home() {
+
   return (
     <div className="">
       <Head>
@@ -22,8 +19,10 @@ export default function Home() {
      {/* <link href='open-sans.css' rel='stylesheet' type='text/css'></link> */}
          {/* <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@400;700&family=Open+Sans:ital,wght@1,300;1,400;1,500;1,600&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet"></link> */}
          <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,600,300,700," rel="stylesheet" type="text/css"></link>
+         <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /> 
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
       </Head>
-     
+     {/* <Editor/> */}
       <Layout/>
     </div>
   );
