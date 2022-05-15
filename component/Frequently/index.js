@@ -70,48 +70,7 @@ const Frequntly = () => {
         are looking for here please let us know and we will definitely answer
       </FrequntlyText>
       <FrequentlyWrapper>
-        {/* <FrequntlyBox1>
-          <Col>
-            <FrequntlyH2>What is TT ELD ?</FrequntlyH2>
-            <FrequentlyDecrement src="Frequently/minus.svg" />
-          </Col>
-
-          <FrequentlyP>
-            Everything you need to manage your fleet. All in one place. Driver
-            Safety, GPS Tracking, and ELD Compliance. The most easy-to-use ELD
-            device and application
-          </FrequentlyP>
-        </FrequntlyBox1>
-        <FrequntlyBox2>
-          <Col2>
-            <FrequntlyT2>What is TT ELD ?</FrequntlyT2>
-            <FrequentlyDecrement2 src="Frequently/plus.svg" />
-          </Col2>
-        </FrequntlyBox2>
-        <FrequntlyBox2>
-          <Col2>
-            <FrequntlyT2>What are the advantages of TT ELD</FrequntlyT2>
-            <FrequentlyDecrement2 src="Frequently/plus.svg" />
-          </Col2>
-        </FrequntlyBox2>
-        <FrequntlyBox2>
-          <Col2>
-            <FrequntlyT2>How TT ELD works</FrequntlyT2>
-            <FrequentlyDecrement2 src="Frequently/plus.svg" />
-          </Col2>
-        </FrequntlyBox2>
-        <FrequntlyBox2>
-          <Col2>
-            <FrequntlyT2>Why exactly TT ELD</FrequntlyT2>
-            <FrequentlyDecrement2 src="Frequently/plus.svg" />
-          </Col2>
-        </FrequntlyBox2>
-        <FrequntlyBox2>
-          <Col2 id="request">
-            <FrequntlyT2>Why should I buy TT ELD</FrequntlyT2>
-            <FrequentlyDecrement2 src="Frequently/plus.svg" />
-          </Col2>
-        </FrequntlyBox2> */}
+  
 
         {data.map((item, i) => (
           <FrequntlyBox2 className={selected === i ? "border" : "border1"}>
@@ -284,3 +243,49 @@ const data = [
       "Fast Refresh will perform a full reload when you edit a file that is imported by modules outside of the React rendering tree. It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh. Fast Refresh requires at least one parent function component in your React tree.",
   },
 ];
+
+
+
+
+      {/* <FrequntlyBox1>
+          <Col>
+            <FrequntlyH2>What is TT ELD ?</FrequntlyH2>
+            <FrequentlyDecrement src="Frequently/minus.svg" />
+          </Col>
+
+          <FrequentlyP>
+            Everything you need to manage your fleet. All in one place. Driver
+            Safety, GPS Tracking, and ELD Compliance. The most easy-to-use ELD
+            device and application
+          </FrequentlyP>
+        </FrequntlyBox1>
+        <FrequntlyBox2>
+          <Col2>
+            <FrequntlyT2>What is TT ELD ?</FrequntlyT2>
+            <FrequentlyDecrement2 src="Frequently/plus.svg" />
+          </Col2>
+        </FrequntlyBox2>
+        <FrequntlyBox2>
+          <Col2>
+            <FrequntlyT2>What are the advantages of TT ELD</FrequntlyT2>
+            <FrequentlyDecrement2 src="Frequently/plus.svg" />
+          </Col2>
+        </FrequntlyBox2>
+        <FrequntlyBox2>
+          <Col2>
+            <FrequntlyT2>How TT ELD works</FrequntlyT2>
+            <FrequentlyDecrement2 src="Frequently/plus.svg" />
+          </Col2>
+        </FrequntlyBox2>
+        <FrequntlyBox2>
+          <Col2>
+            <FrequntlyT2>Why exactly TT ELD</FrequntlyT2>
+            <FrequentlyDecrement2 src="Frequently/plus.svg" />
+          </Col2>
+        </FrequntlyBox2>
+        <FrequntlyBox2>
+          <Col2 id="request">
+            <FrequntlyT2>Why should I buy TT ELD</FrequntlyT2>
+            <FrequentlyDecrement2 src="Frequently/plus.svg" />
+          </Col2>
+        </FrequntlyBox2> */}

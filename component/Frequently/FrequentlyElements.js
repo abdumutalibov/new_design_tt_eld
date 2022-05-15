@@ -244,13 +244,11 @@ export const FrequntlyT2 = styled.h2`
     font-weight: 600;
 font-size: 24px;
 line-height: 36px;
-color: #183B56;
   }
   @media screen and (max-width: 1024px) {
     font-weight: 600;
 font-size: 24px;
 line-height: 36px;
-color: #183B56;
  
   }
   @media screen and (max-width: 768px) {
@@ -374,8 +372,19 @@ export const LoginTxt1 = styled.div`
   color: #ffffff;
   margin-bottom: 12px;
   @media screen and (max-width: 1280px)  {
-    font-size: 30px;
-    text-align: center;
+    font-weight: 700;
+font-size: 50px;
+line-height: 56px;
+text-align: center;
+color: #FFFFFF;
+  }
+  @media screen and (max-width: 1024px)  {
+    font-weight: 700;
+font-size: 38.4px;
+line-height: 56px;
+text-align: center;
+
+color: #FFFFFF;
   }
   @media screen and (max-width: 960px) {
     font-size: 25px;
@@ -403,11 +412,21 @@ export const LoginTxt2 = styled.div`
   margin-bottom: 24px;
   color: #a7a8aa;
   @media screen and (max-width: 1280px) {
-    font-size: 19px;
-    line-height: 32px;
-    margin: 10px;
-    text-align: center;
-    max-width: 48rem;
+    font-weight: 400;
+font-size: 22px;
+line-height: 36px;
+text-align: center;
+color: #A7A8AA;
+    max-width: 50rem;
+  }
+  @media screen and (max-width: 1024px) {
+    font-weight: 400;
+font-size: 18px;
+line-height: 36px;
+text-align: center;
+color: #A7A8AA;
+max-width: 42rem;
+
   }
   @media screen and (max-width: 960px) {
     font-size: 19px;
@@ -488,11 +507,21 @@ display: none;
 
 @media screen and (max-width: 1280px)  {
   font-weight: 600;
+font-size: 22px;
+line-height: 40px;
+color: #FAFAFB;
+    display: flex;
+    max-width:45rem ;
+  }
+  @media screen and (max-width: 1024px)  {
+    font-weight: 600;
 font-size: 20px;
 line-height: 40px;
 color: #FAFAFB;
     display: flex;
     max-width:45rem ;
+    margin: 24px 0 0 0;
+    padding: 0;
   }
   @media screen and (max-width: 960px) {
     font-size: 25px;
@@ -527,12 +556,14 @@ font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
 color: #FFFFFF;
 @media screen and (max-width: 1280px)  {
   font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+color: #FFFFFF;
+  }
+  @media screen and (max-width: 1024px)  {
+    font-weight: 400;
 font-size: 16px;
 line-height: 24px;
-/* identical to box height, or 150% */
-margin-right: 50px;
-font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
-
 color: #FFFFFF;
   }
   @media screen and (max-width: 960px) {
@@ -556,6 +587,14 @@ color: #FFFFFF;
 `
 export const IconsText = styled.img`
 margin: 0 8px 0 20px;
+@media screen and (max-width: 1280px) {
+   width: 30px;
+   height: 30px;
+  }
+  @media screen and (max-width: 1024px) {
+    width: 30px;
+   height: 24px;
+  }
 @media screen and (max-width: 960px) {
    width: 40px;
   }
@@ -611,6 +650,8 @@ export const LoginContainer = styled.div`
     padding: 0;
     font-size: 13px;
     margin: 60px 0 0 0;
+  max-width: 65rem;
+width: 100%;
   }
   @media screen and (max-width: 960px) {
     padding: 0;
@@ -634,7 +675,13 @@ export const FormWrap = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-
+  @media screen and (max-width: 1280px) {
+    padding: 0;
+    font-size: 13px;
+    /* margin: 60px 0 0 0; */
+  max-width: 65rem;
+width: 100%;
+  }
   @media screen and (max-width: 400px) {
     height: 80%;
   }
@@ -696,6 +743,12 @@ export const FormLabel = styled.label`
   color: #5a7184;
   @media screen and (max-width: 1280px) {
     font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #5A7184;
+  }
+  @media screen and (max-width: 1024px) {
+    font-weight: 600;
 font-size: 16px;
 line-height: 22px;
 color: #5A7184;
@@ -729,9 +782,19 @@ font-size: 15px;
   color: #959EAD;
   @media screen and (max-width: 1280px) {
     font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #959EAD;
+margin-bottom: 26px;
+
+  }
+  @media screen and (max-width: 1024px) {
+    font-weight: 600;
 font-size: 16px;
 line-height: 22px;
 color: #959EAD;
+margin-bottom: 25px;
+
   }
   @media screen and (max-width: 960px) {
     max-width: 1300rem;
@@ -760,6 +823,23 @@ export const FormButton = styled.button`
   color: #fff;
   font-size: 20px;
   cursor: pointer;
+  @media screen and (max-width: 1280px) {
+    font-weight: 600;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+color: #FFFFFF;
+margin-top: 18px;
+
+  }
+  @media screen and (max-width: 1024px) {
+    font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+color: #FFFFFF;
+margin-top: 18px;
+  }
   @media screen and (max-width: 960px) {
     font-size: 22px;
 
@@ -800,6 +880,9 @@ export const FormMainCol = styled.div`
 export const FormCol = styled.div`
   display: flex;
   flex-direction: column;
+  margin: 0px;
+    max-width: 640rem;
+    width: 100%;
   @media screen and (max-width: 1280px) {
     margin: 0px;
     max-width: 640rem;
@@ -828,7 +911,7 @@ export const FormCol1 = styled.div`
     max-width: 540rem;
     margin-right: auto;
     width: 100%;
-    margin-right: 12px;
+    margin-right: 24px;
   }
   @media screen and (max-width: 960px) {
     
@@ -867,11 +950,11 @@ export const FormMainCol2 = styled.div`
 export const FormCol2 = styled.div`
   display: flex;
   flex-direction: column;
+  
   @media screen and (max-width: 1280px) {
     margin: 0px;
     max-width: 640rem;
     width: 100%;
-
   }
   @media screen and (max-width: 960px) {
     margin: 0px;
@@ -895,7 +978,7 @@ export const FormCol12 = styled.div`
     max-width: 540rem;
     margin-right: auto;
     width: 100%;
-    margin-right: 12px;
+    margin-right: 24px;
   }
   @media screen and (max-width: 960px) {
     
