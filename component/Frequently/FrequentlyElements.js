@@ -32,6 +32,20 @@ export const FrequntlyH1 = styled.h1`
   text-align: center;
   color: #1a2944;
   margin-bottom: 16px;
+  @media screen and (max-width: 1280px) {
+    font-weight: 700;
+font-size: 50px;
+line-height: 56px;
+text-align: center;
+color: #1A2944;
+  }
+  @media screen and (max-width: 1024px) {
+    font-weight: 700;
+font-size: 40px;
+line-height: 56px;
+text-align: center;
+color: #1A2944;
+  }
   @media screen and (max-width: 912px) {
     padding: 10px;
   }
@@ -53,6 +67,25 @@ export const FrequntlyText = styled.p`
   color: #8c98a4;
   max-width: 64rem;
   margin-bottom: 60px;
+  @media screen and (max-width: 1280px) {
+    font-weight: 400;
+font-size: 22px;
+line-height: 36px;
+text-align: center;
+color: #8C98A4;
+max-width: 54rem;
+
+  }
+  @media screen and (max-width: 1024px) {
+    font-weight: 400;
+font-size: 18px;
+line-height: 36px;
+text-align: center;
+color: #8C98A4;
+max-width: 44rem;
+margin-bottom: 56px;
+
+  }
   @media screen and (max-width: 480px) {
     font-size: 16px;
     line-height: 28px;
@@ -68,7 +101,13 @@ export const FrequentlyWrapper = styled.div`
   max-width: 85rem;
   padding: 0 24px 0 22px;
 
-  
+  @media screen and (max-width: 1280px) {
+    max-width: 1140px;
+  }
+  @media screen and (max-width: 1024px) {
+    max-width: 55rem;
+ 
+  }
 `;
 
 
@@ -96,6 +135,13 @@ export const Col = styled.div`
   /* margin: 24px; */
   align-items: center;
   cursor: pointer;
+  @media screen and (max-width: 1280px) {
+    max-width: 1140px;
+  }
+  @media screen and (max-width: 1024px) {
+    max-width: 55rem;
+ 
+  }
   @media screen and (max-width: 480px) {
     font-size: 19px;
     line-height: 32px;
@@ -108,7 +154,7 @@ export const FrequntlyH2 = styled.h2`
   line-height: 42px;
   color: #1470c6;
   margin-right: auto;
-
+color: red;
   @media screen and (max-width: 480px) {
     font-size: 19px;
     line-height: 32px;
@@ -124,6 +170,19 @@ export const FrequentlyP = styled.p`
   width: 100%;
   margin-right: 210px;
   /* padding-left: 24px; */
+  @media screen and (max-width: 1280px) {
+    font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+color: #5A7184;
+  }
+  @media screen and (max-width: 1024px) {
+    font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+color: #5A7184;
+ 
+  }
   @media screen and (max-width: 768px) {
     font-size: 16px;
     line-height: 32px;
@@ -141,6 +200,7 @@ export const FrequentlyP = styled.p`
 `;
 export const FrequentlyDecrement = styled.img`
   cursor: pointer;
+  
 `;
 export const FrequntlyBox2 = styled.div`
   background: #ffffff;
@@ -155,6 +215,13 @@ width: 100%;
     transform: scale(1.005);
     transition: all 0.2s ease-in-out;
   }
+  @media screen and (max-width: 1280px) {
+    max-width: 1140px;
+  }
+  @media screen and (max-width: 1024px) {
+    max-width: 55rem;
+ 
+  }
 `;
 export const Col2 = styled.div`
   display: flex;
@@ -164,6 +231,7 @@ export const Col2 = styled.div`
     line-height: 32px;
     margin: 10px;
   }
+  
 `;
 export const FrequntlyT2 = styled.h2`
   font-weight: 600;
@@ -172,7 +240,19 @@ export const FrequntlyT2 = styled.h2`
   padding: 0;
   margin-bottom: 6px;
   margin-right: auto;
-  
+  @media screen and (max-width: 1280px) {
+    font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+color: #183B56;
+  }
+  @media screen and (max-width: 1024px) {
+    font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+color: #183B56;
+ 
+  }
   @media screen and (max-width: 768px) {
     font-size: 20px;
     line-height: 32px;

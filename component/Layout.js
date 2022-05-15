@@ -29,7 +29,7 @@ const Layout = ({children}) => {
         <EasyTracking/>
         <Services/>
         <Rating/>
-        <MultipleRows/>
+        {/* <MultipleRows/> */}
         <Frequntly/>
         <Friends/>
         

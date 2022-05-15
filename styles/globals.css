@@ -78,17 +78,19 @@ transition: all 1.2s ease-in-out;
 .slide img{
   /* width: 20rem; */
   /* margin: 0 auto; */
+  /* margin: 0 -80px; */
 }
 
 .slide{
   /* transform: scale(1.0); 
   transition: transform 300ms; */
-   opacity: 0.5;
+   /* opacity: 0.5;
+   background-color: red; */
 }
 
 .activeSlide{
   /* transform: scale(1.0); */
-  opacity: 1;
+  /* opacity: 1; */
 }
 
 .arrow{
@@ -111,4 +113,18 @@ transition: all 1.2s ease-in-out;
 .prev{
   /* right: 0%;
   top: 0%; */
+}
+.margin{
+
+}
+
+.slides{
+  /* transform: scale(1.0); 
+  transition: transform 300ms; */
+   opacity: 0.5;
+}
+
+.activeSlides{
+  /* transform: scale(1.0); */
+  opacity: 1;
 }

@@ -2,7 +2,7 @@ import { useState } from "react";
 import Slider from "react-slick";
 import { ArrowNext, ArrowPrev, Col, Container, ImgStars, RatingCards, RatingP, RatingWrappers, User, UserImg, UserInfo, UserName } from "./styled";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
-function review() {
+function Review() {
 
   const NextArrow = ({ onClick }) => {
     return (
@@ -24,14 +24,21 @@ function review() {
     infinite: true,
     lazyLoad: true,
     speed: 300,
-    slidesToShow: 3,
+    slidesToShow: 2.3,
     centerMode: true,
     centerPadding: "0",
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
+
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    // dots: true,
     beforeChange:(current, next)=> setImageIndex(next)
   };
   return (
+    <>
+    
     <Container>
       <Slider {...settings}>
         {userRows.map((item ,id ) => (
@@ -40,7 +47,7 @@ function review() {
           
           <div
             key={id}
-            className={id === imageIndex ? "slide activeSlide" : "slide"}
+            className={id === imageIndex ? "slides activeSlides" : "slides"}
           >
             {/* <RatingCard>{img}</RatingCard> */}
             <RatingCards>
@@ -63,10 +70,11 @@ function review() {
         ))}
       </Slider>
     </Container>
+    </>
   );
 }
 
-export default review;
+export default Review;
 
 
 export const userRows = [
@@ -102,6 +110,17 @@ export const userRows = [
   {
     id: 4,
     username: "Paromita Haque",
+    info: "From Amazon.com",
+    imgStar:"Rating/star2.svg",
+
+    avatar:"Rating/men2.svg",
+    title:
+      " We were able to try out the device and all the back office things we need. Our drivers were so happy to no longer waste a ton of time messing with tablets. If you want a reliable, easy-to-use device, TT  ELD is where you need to go.",
+  },
+
+  {
+    id: 5,
+    username: "Tony Haque",
     info: "From Amazon.com",
     imgStar:"Rating/star2.svg",
 

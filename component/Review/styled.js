@@ -5,16 +5,18 @@ export const Container = styled.div`
   margin: 0 auto;
   max-width: 86rem;
   grid-gap: 30px;
-  height: 500px;
-
+  /* height: 500px; */
+display:none;
   @media screen and (max-width: 1280px) {
-    max-width: 73rem;
-    background-color: red;
-    grid-gap: 30px;
+    /* max-width: 73rem; */
+    display: block;
+    margin: 0px;
+    padding: 0px;
   }
   @media screen and (max-width: 1024px) {
-    max-width: 55rem;
-    grid-gap: 30px;
+    width: 100%;
+    margin: 0px;
+    padding: 0;
   }
   @media screen and (max-width: 960px) {
   }
@@ -25,28 +27,36 @@ export const Container = styled.div`
   }
 `;
 
-export const ArrowNext = styled.div``;
-export const ArrowPrev = styled.div``;
+
+export const ArrowNext = styled.div`
+display: none;
+`;
+export const ArrowPrev = styled.div`
+display: none;
+`;
 
 export const RatingWrappers = styled.div`
-  max-width: 30rem;
-  padding: 0 20px ;
+  /* max-width: 30rem; */
+  padding: 0 24px 0 22px;
   margin: 0 auto;
-  /* grid-template-columns: 1fr 1fr 1fr; */
-  display: flex;
-  justify-content: center;
+  display: grid;
   align-items: center;
-  margin: 10px auto;
-  height: 100%;
-  grid-gap: 10px;
-  /* margin-bottom: 200px; */
+  
   @media screen and (max-width: 1280px) {
-    max-width: 73rem;
-    grid-gap: 30px;
+    max-width: 155rem;
+    /* margin: 0; */
+    /* padding: 10px 0px 10px 0px; */
+    padding-top:10px ;
+    padding-bottom: 10px;
+    max-height: max-content;
+height: 100%;
   }
   @media screen and (max-width: 1024px) {
     max-width: 55rem;
-    grid-gap: 30px;
+    /* margin: 0; */
+    padding: 10px 0px 10px 0px;
+    max-height: max-content;
+height: 100%;
   }
   @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;
@@ -59,11 +69,12 @@ export const RatingWrappers = styled.div`
 `;
 
 export const RatingCards = styled.div`
-  background: #fafafa;
+background: #fafafa;
   border-radius: 8px;
   padding: 30px 34px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  /* box-shadow: 2px 4px 24px rgba(151, 151, 151, 0.12); */
+  
+  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); */
+  box-shadow: 2px 4px 24px rgba(151, 151, 151, 0.12);
   transition: all 0.2s ease-in-out;
   max-width: 450px;
   max-height: 550px;
@@ -73,12 +84,18 @@ export const RatingCards = styled.div`
     cursor: pointer;
   }
   @media screen and (max-width: 1280px) {
-    max-width: 380px;
-    max-height: 274px;
+    max-width: 450px;
+  max-height: 550px;
+    max-height: max-content;
+height: 100%;
+cursor: grab;
   }
   @media screen and (max-width: 1024px) {
-    max-width: 380px;
+    max-width: 420px;
     max-height: 274px;
+    max-height: max-content;
+height: 100%;
+cursor: grab;
   }
   @media screen and (max-width: 960px) {
     max-width: 380px;
@@ -101,6 +118,19 @@ export const RatingP = styled.p`
   font-size: 18px;
   line-height: 32px;
   color: #47464d;
+  @media screen and (max-width: 1280px) {
+    font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #47464d;  
+  }
+  @media screen and (max-width: 1024px) {
+    font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #47464D;
+  }
   @media screen and (max-width: 912px) {
     font-size: 14px;
     line-height: 23px;
@@ -146,6 +176,18 @@ export const UserName = styled.div`
   font-size: 21px;
   line-height: 32px;
   color: #19191b;
+  @media screen and (max-width: 1280px) {
+    font-weight: 600;
+  font-size: 21px;
+  line-height: 32px;
+  color: #19191b;
+  }
+  @media screen and (max-width: 1024px) {
+    font-weight: 500;
+font-size: 21px;
+line-height: 32px;
+color: #19191B;
+  }
   @media screen and (max-width: 768px) {
     font-size: 14px;
     line-height: 23px;

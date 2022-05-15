@@ -6,7 +6,19 @@ export const RatingContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-height:60rem;
   width: 100%;
+  @media screen and (max-width: 1280px) {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  @media screen and (max-width: 1024px) {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+  }
   @media screen and (max-width: 960px) {
     height: 70rem;
   }
@@ -21,14 +33,49 @@ export const RatingContainer = styled.div`
     height: 95rem;
   }
 `;
+export const ArrowNext = styled.div`
+display: none;
+`;
+export const ArrowPrev = styled.div`
+display: none;
+`;
+export const Cont = styled.div`
+  width: 100%;
+  margin: 0 auto;
+  max-width: 86rem;
+  grid-gap: 30px;
+  height: 100%;
+  max-height:60rem;
+padding: 0;
+    margin: 0;
+  @media screen and (max-width: 1280px) {
+    /* max-width: 1230px; */
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: none;
+
+  }
+  @media screen and (max-width: 1024px) {
+    /* max-width: 55rem; */
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+  }
+  @media screen and (max-width: 960px) {
+  }
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+  }
+`;
+
 export const RatingH1 = styled.h1`
   font-weight: 700;
   font-size: 56px;
   line-height: 80px;
-  /* identical to box height, or 143% */
-
   text-align: center;
-
   color: #1a2944;
   @media screen and (max-width: 1280px) {
     font-weight: 700;
@@ -105,21 +152,29 @@ max-width: 41rem;
 
 export const RatingWrapper = styled.div`
   max-width: 85rem;
-  padding: 0 24px 0 22px;
+  padding: 10px 24px 0 22px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
   align-items: center;
-  grid-gap: 40px;
-  /* margin-bottom: 200px; */
+  justify-content: center;
+  height: 100%;
+  height:25rem;
+  position: relative;
   @media screen and (max-width: 1280px) {
-    max-width: 73rem;
-    grid-gap: 30px;
+    /* max-width: 73rem; */
+    height: 100%;
+  height:25rem;
+    margin: 0 ;
+padding:10px 15px 0 16px;
   }
   @media screen and (max-width: 1024px) {
-    max-width: 55rem;
-    grid-gap: 30px;
-  
+    height: 100%;
+    margin: 0 350px;
+  padding:10px 0px 10px 0px;
+  /* margin: 0 20px; */
+  background-color: red;
+  width: 160rem;
+width: 100%;
   }
   @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;
@@ -139,19 +194,35 @@ export const RatingCard = styled.div`
   /* box-shadow: 2px 4px 24px rgba(151, 151, 151, 0.12); */
   transition: all 0.2s ease-in-out;
   max-width: 450px;
-  max-height: 550px;
+  max-height: 1550px;
+  cursor: grab;
   &:hover {
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
-    cursor: pointer;
+    cursor: grab;
   }
   @media screen and (max-width: 1280px) {
-    max-width: 380px;
-    max-height: 274px;
+    max-width: 680px;
+    /* max-height: 388px; */
+    padding: 30px 24px 30px 22px;
+
+   
   }
   @media screen and (max-width: 1024px) {
-    max-width: 380px;
-    max-height: 274px;
+    max-width: 416px;
+    max-height: 388px;
+    max-height: max-content;
+    width: 500rem;
+    margin: 0 ;
+    padding: 30px 24px 30px 22px;
+
+
+    /* padding: 30px 24px 60px 22px; */
+  
+    /* margin: 0 40px; */
+/* max-height: min-content; */
+/* max-height: fit-content; */
+/* max-height: fill-available; */
   }
   @media screen and (max-width: 960px) {
     max-width: 380px;
@@ -166,6 +237,10 @@ export const RatingCard = styled.div`
 export const ImgStar = styled.img`
   /* margin-right: auto; */
   margin-bottom: 20px;
+  @media screen and (max-width: 1024px) {
+    width: 96px;
+    height: 16px;
+  }
   @media screen and (max-width: 768px) {
     margin-top: -10;
   }
@@ -175,6 +250,12 @@ export const RatingP = styled.p`
   font-size: 18px;
   line-height: 32px;
   color: #47464d;
+  @media screen and (max-width: 1024px) {
+    font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+color: #47464D;
+  }
   @media screen and (max-width: 912px) {
     font-size: 14px;
     line-height: 23px;
@@ -220,6 +301,12 @@ export const UserName = styled.div`
   font-size: 21px;
   line-height: 32px;
   color: #19191b;
+  @media screen and (max-width: 1024px) {
+    font-weight: 500;
+font-size: 21px;
+line-height: 32px;
+color: #19191B;
+  }
   @media screen and (max-width: 768px) {
     font-size: 14px;
     line-height: 23px;
@@ -237,6 +324,12 @@ export const UserInfo = styled.div`
   font-size: 14px;
   line-height: 20px;
   color: #696871;
+  @media screen and (max-width: 1024px) {
+    font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #696871;
+  }
   @media screen and (max-width: 768px) {
     font-size: 14px;
     line-height: 23px;
