@@ -294,8 +294,19 @@ color: #FFFFFF;
 display: flex;
   align-items: center;
   justify-content: center;
+  @media screen and (max-width: 1280px) {
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+}
   @media screen and (max-width: 1024px) {
+    font-weight: 400;
 font-size: 12px;
+line-height: 24px;
+color: #FFFFFF;
+margin-right: 10px;
+
 }
 @media screen and (max-width: 960px) {
  margin-left: 10px;

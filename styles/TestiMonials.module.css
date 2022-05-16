@@ -50,7 +50,7 @@
     transform: scale3d(1.0, 1.0, 1);
   }
   .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-    background: #56423D;
+    background: #d2cdcc;
     transform: translate3d(0px, -50%, 0px) scale(0.8);
   }
   .owl-carousel .owl-dots {

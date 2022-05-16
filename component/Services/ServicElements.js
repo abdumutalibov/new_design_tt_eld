@@ -550,7 +550,9 @@ export const Btns = styled.button`
   transition: all 0.2s ease-in-out;
   color: #ffffff;
   :hover {
-    background: #01bf71;
+    background: #fff;
+  border: solid 3px #706e77;
+    color: #010606;
     transition: 0.3s ease-out;
   }
   @media screen and (max-width: 1280px) {
@@ -615,7 +617,9 @@ export const Btn = styled.button`
     height: 40px;
   }
   :hover {
-    background: #01bf71;
+    background: #fff;
+  border: solid 3px #706e77;
+    color: #010606;
     transition: 0.3s ease-out;
   }
 `;
@@ -628,7 +632,7 @@ export const FooterLink = styled.a`
   max-width: 196rem;
   height: 56px;
   &:hover {
-    color: #01bf71;
+    color: #d2cdcc;
     transition: 0.3s ease-out;
   }
 
@@ -654,7 +658,7 @@ height: 56px;
 display: none;
 text-align: left;
 &:hover {
-  color: #01bf71;
+  color: #d2cdcc;
   transition: 0.3s ease-out;
 }
 
@@ -686,7 +690,7 @@ color: #FFFFFF;
   cursor: pointer;
   color: #ffffff;
   &:hover {
-    color: #01bf71;
+    color: #d2cdcc;
     transition: 0.3s ease-out;
   }
   @media screen and (max-width: 1280px) {
@@ -779,10 +783,12 @@ FooterLink.H1 = styled.div`
   line-height: 48px;
   max-width: 20rem;
 width: 100%;
+transition: 0.3s ease-out;
+
   cursor: pointer;
   color: #ffffff;
   &:hover {
-    color: #01bf71;
+    color:#d2cdcc;
     transition: 0.3s ease-out;
   }
   @media screen and (max-width: 1280px) {
@@ -810,9 +816,12 @@ FooterLink.T1 = styled.div`
   font-size: 20px;
   line-height: 48px;
   color: #cccece;
+  transition: 0.3s ease-out;
+
   cursor: pointer;
   &:hover {
-    color: #01bf71;
+    color:#ffff;
+
     transition: 0.3s ease-out;
   }
   @media screen and (max-width: 1280px)  {
@@ -839,7 +848,7 @@ font-feature-settings: 'pnum' on, 'lnum' on;
 
 color: #FFFFFF;
   &:hover {
-    color: #01bf71;
+    color: #d2cdcc;
     transition: 0.3s ease-out;
   }
   @media screen and (max-width: 1280px) {
