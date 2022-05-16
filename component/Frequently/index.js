@@ -98,7 +98,7 @@ const Frequntly = () => {
           </FrequntlyBox2>
         ))}
 
-        <FrequentlyLogin id="request">
+        <FrequentlyLogin  id="request">
           <Col3>
             <LoginText>
               <LoginTxt1>Let’s talk to you about your company</LoginTxt1>

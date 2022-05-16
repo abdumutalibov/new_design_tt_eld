@@ -26,7 +26,8 @@ height: 74px;
 export const NavbarContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  height: 80px;
+  height: 100%;
+  /* height: 80px; */
   z-index: 1;
   width: 100%;
   
@@ -34,11 +35,9 @@ export const NavbarContainer = styled.div`
   color: #de3;
   @media screen and (max-width:1280px){
     max-width: 68.5rem;  
-  background-color: red;
     
 }
 @media screen and (max-width:1024px){
-  background-color: red;
   max-width: 52.2rem;   
 
 
@@ -66,16 +65,11 @@ export const NavImg = styled.img`
   color: white;
   cursor: pointer;
   @media screen and (max-width:1280px){
-    height: 39px;
-    width: 114px;
-/* margin: 0; */
-
+    height: 50px;
   }
   @media screen and (max-width:1024px){
 height: 39px;
 width: 114px;
-  /* margin-left: 24px; */
-
 }
   @media screen and (max-width:480px){
 height: 34px;
@@ -117,7 +111,6 @@ export const NavMenu = styled.div`
   list-style: none;
   text-align: center;
   margin-right: 22px;
-  /* background:red; */
 
   @media screen and (max-width: 960px) {
     display: none;
@@ -127,8 +120,7 @@ export const NavMenu = styled.div`
   }
 `;
 export const NavItem = styled.li`
-  height: 80px;
-  
+  height: 100%;
 `;
 export const NavLinks = styled.a`
   color: #fff;
@@ -143,16 +135,18 @@ font-size: 18px;
 line-height: 24px;
 text-align: center;
 color: #FFFFFF;
+
+
   &.active {
-    border-bottom: 3px solid #01bf71;
     color: #000;
   }
-  :hover{
-    color: #01bf71;
+  &:focus {
+    border-bottom: 3px solid #01bf71;
+    transition: border-color 0.3s ease-in-out;
   }
   @media screen and (max-width:1280px){
     font-weight: 400;
-font-size: 14px;
+font-size: 15px;
 line-height: 20px;
 text-align: center;
 color: #FFFFFF;
@@ -209,10 +203,10 @@ color: #FFFFFF;
 @media screen and (max-width: 1280px) {
   display: flex;
   align-items: center;
-    width: 120px;
-    height: 36px;
+    width: 130px;
+    height: 40px;
     font-weight: 600;
-font-size: 14px;
+font-size: 15px;
 line-height: 20px;
 text-align: center;
 color: #FFFFFF;

@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const RatingContainer = styled.div`
   height: 800px;
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;

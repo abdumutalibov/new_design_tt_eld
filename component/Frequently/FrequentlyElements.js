@@ -310,6 +310,11 @@ margin-top: 128px;
     padding: 0 60px 60px 60px;
     flex-direction: column;
   }
+  @media screen and (max-width: 1024px) {
+    padding:0px 60px 60px 60px;
+    flex-direction: column;
+    
+  }
   @media screen and (max-width: 960px) {
   }
   @media screen and (max-width: 768px) {
@@ -334,6 +339,7 @@ display: flex;
 justify-content: none;
   align-items: none;
   }
+  
   @media screen and (max-width: 960px) {
     flex-direction: column;
     margin-top: 30px;
@@ -364,6 +370,17 @@ export const LoginText = styled.div`
   max-width: 66rem;
 
   }
+  @media screen and (max-width: 1024px) {
+    padding: 40px 0 0px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+  max-width: 66rem;
+
+  }
 `;
 export const LoginTxt1 = styled.div`
   font-weight: 700;
@@ -383,7 +400,6 @@ color: #FFFFFF;
 font-size: 38.4px;
 line-height: 56px;
 text-align: center;
-
 color: #FFFFFF;
   }
   @media screen and (max-width: 960px) {

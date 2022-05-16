@@ -45,13 +45,14 @@ const Rating = () => {
     lazyLoad: true,
     speed: 300,
     slidesToShow: 3,
-    // centerMode: true,
+    centerMode: true,
     centerPadding: "0",
    nextArrow: <NextArrow />,
      prevArrow: <PrevArrow />,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 5000,
+    grabCursor:true,
     // dots: true,
     beforeChange:(current, next)=> setImageIndex(next)
   };

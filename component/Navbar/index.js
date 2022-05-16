@@ -50,7 +50,7 @@ const Navbar = ({ toggle }) => {
             <NavMenu active={isTabActive}>
               <NavItem>
                 <Link href="#products">
-                  <NavLinks
+                  <NavLinks primary
                     smooth={true}
                     duration={500}
                     spy={true}

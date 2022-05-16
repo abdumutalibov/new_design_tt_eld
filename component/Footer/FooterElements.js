@@ -37,9 +37,14 @@ export const FooterWrap = styled.div`
 
   width: 100%;
   /* margin: 0 auto; */
-  
+  @media screen and (max-width: 1280px) {
+    flex-direction:column;
+
+  max-width: 71rem;
+  }
   @media screen and (max-width: 1024px) {
     flex-direction:column;
+    max-width: 55rem;
 
   }
   @media screen and (max-width: 960px) {
