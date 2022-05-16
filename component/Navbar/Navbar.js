@@ -2,7 +2,6 @@ import styled from "styled-components";
 export const Nav = styled.nav`
   background: ${({ scrollNav }) => (scrollNav ? "#37353B" : "transparent")};
   height: 104px;
-  /* margin-bottom: 63px; */
   margin-top: -240px;
   display: flex;
   justify-content: center;
@@ -27,7 +26,6 @@ export const NavbarContainer = styled.div`
   display: flex;
   justify-content: space-between;
   height: 100%;
-  /* height: 80px; */
   z-index: 1;
   width: 100%;
   
@@ -111,7 +109,9 @@ export const NavMenu = styled.div`
   list-style: none;
   text-align: center;
   margin-right: 22px;
-
+  @media screen and (max-width: 1024px) {
+margin: 0;
+  }
   @media screen and (max-width: 960px) {
     display: none;
   }
@@ -158,12 +158,10 @@ color: #FFFFFF;
   }
   @media screen and (max-width:1024px){
     font-weight: 400;
-font-size: 11px;
+font-size: 12.4px;
 line-height: 20px;
-padding: 0 1.1rem;
-
-/* identical to box height, or 143% */
-
+/* padding: 0 1.1rem; */
+padding: 0 17px 0 17px;
 text-align: center;
 
 color: #FFFFFF;
@@ -175,14 +173,13 @@ export const NavBtn = styled.nav`
   margin-right: 7px;
 
   @media screen and (max-width:1280px){
-  /* margin-right: 24px; */
-  
 margin: 0;
   }
   @media screen and (max-width:1024px){
 
-  /* margin-right: 24px; */
-margin:0;
+  padding: 0;
+  margin-left: 5px;
+
 }
   @media screen and (max-width: 960px) {
     display: none;
@@ -201,36 +198,11 @@ export const NavBtnLink = styled.a`
   transition: all 0.2s ease-in;
   text-decoration: none;
   font-weight: 600;
-font-size: 18px;
 line-height: 26px;
 text-align: center;
-color: #FFFFFF;
-@media screen and (max-width: 1280px) {
-  display: flex;
-  align-items: center;
-    width: 130px;
-    height: 40px;
-    font-weight: 600;
-font-size: 15px;
-line-height: 20px;
-text-align: center;
-color: #FFFFFF;
-  }
-  @media screen and (max-width: 1024px) {
-    display: flex;
-  align-items: center;
-    width: 105px;
-    height: 36px;
-    font-weight: 600;
-font-size: 11px;
-line-height: 20px;
-text-align: center;
-color: #FFFFFF;
-  }
-  @media screen and (max-width: 320px) {
-    font-size: 18px;
-  }
-  &:hover {
+color: #FFFFFF; 
+&:hover {
+  
     transition: all 0.2s ease-in-out;
   background: #fff;
   border: solid 2px #706e77;
@@ -240,4 +212,52 @@ font-size: 18px;
 line-height: 26px;
 text-align: center;
   }
+@media screen and (max-width: 1280px) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    width: 130px;
+    height: 40px;
+    font-weight: 600;
+font-size: 15px;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+&:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    width: 130px;
+    height: 40px;
+    font-weight: 600;
+font-size: 15px;
+line-height: 20px;
+text-align: center;
+}
+  }
+  @media screen and (max-width: 1024px) {
+    display: flex;
+  align-items: center;
+    width: 111px;
+    height: 36px;
+    font-weight: 600;
+font-size: 12px;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+&:hover {
+  display: flex;
+  align-items: center;
+    width: 111px;
+    height: 36px;
+    font-weight: 600;
+font-size: 12px;
+line-height: 20px;
+text-align: center;
+}
+  }
+  @media screen and (max-width: 320px) {
+    font-size: 18px;
+  }
+ 
 `;

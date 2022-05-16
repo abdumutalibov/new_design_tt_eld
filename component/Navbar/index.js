@@ -148,7 +148,7 @@ const Navbar = ({ toggle }) => {
               </NavItem>
             </NavMenu>
             <NavBtn>
-              <NavBtnLink href="/Signin">Get it Now</NavBtnLink>
+              <NavBtnLink >Get it Now</NavBtnLink>
             </NavBtn>
           </NavbarContainer>
         </Nav>
