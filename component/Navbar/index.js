@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import styles from "../../styles/Navbar.module.css";
+
 import {
   MobileIcon,
   Nav,
@@ -49,7 +51,9 @@ const Navbar = ({ toggle }) => {
             </MobileIcon>
             <NavMenu active={isTabActive}>
               <NavItem>
+
                 <Link href="#products">
+                  <div className={styles.listItem}>  
                   <NavLinks primary
                     smooth={true}
                     duration={500}
@@ -64,10 +68,13 @@ const Navbar = ({ toggle }) => {
                   >
                     Products
                   </NavLinks>
+               </div>
                 </Link>
               </NavItem>
               <NavItem>
                 <Link href="#features">
+                <div className={styles.listItem}>  
+
                   <NavLinks
                     onClick={() => {
                       isTabActive && setIsActive("Qabul qilgan");
@@ -76,10 +83,13 @@ const Navbar = ({ toggle }) => {
                   >
                     Features
                   </NavLinks>
+                  </div>
                 </Link>
               </NavItem>
               <NavItem>
                 <Link href="#reviews">
+                <div className={styles.listItem}>  
+
                   <NavLinks
                     onClick={() => {
                       isTabActive && setIsActive("Jonatilgan");
@@ -88,10 +98,13 @@ const Navbar = ({ toggle }) => {
                   >
                     Reviews
                   </NavLinks>
+                  </div>
                 </Link>
               </NavItem>
               <NavItem>
                 <Link href="#pricing">
+                <div className={styles.listItem}>  
+
                   <NavLinks
                     onClick={() => {
                       isTabActive && setIsActive("Yopilgan");
@@ -100,10 +113,13 @@ const Navbar = ({ toggle }) => {
                   >
                     Pricing
                   </NavLinks>
+                  </div>
                 </Link>
               </NavItem>
               <NavItem>
                 <Link href="#about">
+                <div className={styles.listItem}>  
+
                   <NavLinks
                     onClick={() => {
                       isTabActive && setIsActive("About");
@@ -112,10 +128,13 @@ const Navbar = ({ toggle }) => {
                   >
                     About
                   </NavLinks>
+                  </div>
                 </Link>
               </NavItem>
               <NavItem>
                 <Link href="#request">
+                <div className={styles.listItem}>  
+
                   <NavLinks
                     onClick={() => {
                       isTabActive && setIsActive("Demo");
@@ -124,6 +143,7 @@ const Navbar = ({ toggle }) => {
                   >
                     Request Demo
                   </NavLinks>
+                  </div>
                 </Link>
               </NavItem>
             </NavMenu>

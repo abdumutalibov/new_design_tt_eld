@@ -120,7 +120,15 @@ export const NavMenu = styled.div`
   }
 `;
 export const NavItem = styled.li`
-  height: 100%;
+  height: 92%;
+  @media screen and (max-width:1280px){
+  height: 91%;
+
+  }
+  @media screen and (max-width:1024px){
+  height: 91%;
+
+  }
 `;
 export const NavLinks = styled.a`
   color: #fff;
@@ -140,10 +148,7 @@ color: #FFFFFF;
   &.active {
     color: #000;
   }
-  &:focus {
-    border-bottom: 3px solid #01bf71;
-    transition: border-color 0.3s ease-in-out;
-  }
+ 
   @media screen and (max-width:1280px){
     font-weight: 400;
 font-size: 15px;
