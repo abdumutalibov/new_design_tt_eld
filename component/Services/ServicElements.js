@@ -680,7 +680,6 @@ FooterLinks.H1 = styled.div`
 font-weight: 600;
 font-size: 20px;
 line-height: 36px;
-font-feature-settings: 'pnum' on, 'lnum' on;
 display: none;
 
 color: #FFFFFF;
@@ -692,17 +691,23 @@ color: #FFFFFF;
   }
   @media screen and (max-width: 1280px) {
   display: block;
+  font-weight: 600;
+font-size: 23px;
+line-height: 36px;
+color: #FFFFFF;
+margin: 5px 0;
+
 }
 @media screen and (max-width: 1024px) {
   display: block;
   font-weight: 600;
+
 font-size: 20px;
 line-height: 36px;
-font-feature-settings: 'pnum' on, 'lnum' on;
 color: #FFFFFF;
 max-width: 20rem;
 width: 100%;
-  margin: 0;
+  margin: 0px 0;
   padding: 0;
 }
 @media screen and (max-width: 480px) {
@@ -722,14 +727,24 @@ font-feature-settings: 'pnum' on, 'lnum' on;
 display: none;
 color: #CCCECE;
 @media screen and (max-width: 1280px)  {
-    font-size: 17px;
+  font-weight: 400;
+  margin-top: 10px;
+font-size: 18px;
+line-height: 20px;
+text-align: center;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #CCCECE;
     display: flex;
     width: 100%;
   }
   @media screen and (max-width: 1024px)  {
-    font-size: 17px;
+    font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+text-align: center;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #CCCECE;
     display: flex;
-    /* width: 100%; */
     max-width: 300px;
     margin-right: 450px;
   }
@@ -828,7 +843,7 @@ color: #FFFFFF;
     transition: 0.3s ease-out;
   }
   @media screen and (max-width: 1280px) {
-    font-size: 16px;
+    font-size: 18px;
 width: 100%;
   }
   @media screen and (max-width: 1024px) {

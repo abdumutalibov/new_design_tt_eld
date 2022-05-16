@@ -127,11 +127,11 @@ const Services = () => {
 
                
                 </FooterLinks.T> */}
-                {/* <FooterLinks.T>
+                <FooterLinks.T>
                    ELD device sold separately.
-                </FooterLinks.T> */}
+                </FooterLinks.T>
                 <FooterLinkBtns>
-                <Btns to="/siginin">Start Now</Btns>
+                <Btns to="/siginin">Start now</Btns>
               </FooterLinkBtns>
               </FooterLinkItems.Col>
               <FooterColumn>
