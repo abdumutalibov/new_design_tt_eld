@@ -30,7 +30,7 @@ export const HeroContainer = styled.div`
     background: #2B2D31;
   }
   @media screen and (max-width:820px) {
-    height:1250px;
+    height:1200px;
     background: none;
   }
   @media screen and (max-width:768px) {
@@ -163,8 +163,19 @@ color: #FFFFFF;
 max-width: 48rem;
 
   }
+  @media screen and (max-width:960px) {
+    font-size: 16px;
+max-width: 44rem;
+line-height: 32px;
+padding: 0;
+margin: 0;
+  }
   @media screen and (max-width:820px) {
-    font-size: 12px;
+    font-size: 14px;
+max-width: 38rem;
+line-height: 30px;
+padding: 0;
+margin: 0;
   }
 @media screen and (max-width:768px) {
     font-size: 24px;
@@ -189,7 +200,11 @@ max-width: 1500px;
 margin: 71px 0 151px 0;
 }
 @media screen and (max-width: 960px){
+  margin: 20px ;
 
+}
+@media screen and (max-width: 820px){
+margin: 20px ;
 }
 @media screen and (max-width: 480px){
   display: flex;
@@ -200,15 +215,33 @@ flex-direction: column;
 export const ArrowForward = styled(MdArrowForward)`
 margin-left: 10px;
 font-size: 25px;
+@media screen and (max-width: 820px){
+font-size: 80px;
+width: 300px;
+height: 300px;
+}
 `
 export const ArrowForwards = styled(MdArrowForward)`
 margin-left: 10px;
 font-size: 65px;
+@media screen and (max-width: 820px){
+font-size: 80px;
+}
 `
 
-export const ArrowRight = styled(MdKeyboardArrowRight)`
+export const Arrow = styled.img`
 margin-left: 10px;
 font-size: 25px;
+@media screen and (max-width: 820px){
+font-size: 80px;
+}
+`
+export const ArrowWhite = styled.img`
+margin-left: 10px;
+font-size: 25px;
+@media screen and (max-width: 820px){
+font-size: 80px;
+}
 `
  export const ImgMac = styled.img`
  width: 100%;

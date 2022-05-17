@@ -12,6 +12,8 @@ import {
   ArrowRight,
   ImgMac,
   ArrowForwards,
+  Arrow,
+  ArrowWhite,
 } from "./HeroElements";
 
 
@@ -47,7 +49,7 @@ function HeroSection() {
             primary="true"
             dark='true'
           >
-            Get started <ArrowForward /> 
+             Get started {hover ? <Arrow src="Hero/arrowWhite.svg"/> : <ArrowWhite src="Hero/arrow.svg"/>}
           </Button>
           <Button
             to="signup"
@@ -56,7 +58,7 @@ function HeroSection() {
             primary="true"
             dark='true'
           >
-            Free trial <ArrowForward />  
+            Free trial {hovers ? <Arrow src="Hero/arrowWhite.svg"/> : <ArrowWhite src="Hero/arrow.svg"/>}
           </Button>
         </HeroBgWrapper>
         <ImgMac src="mac.svg"/>
