@@ -73,6 +73,8 @@ const Drives = () => {
         <PhoneIcons>
           <Icons src="Drivers/button-app.svg"/>
           <Icons src="Drivers/button-play.svg"/>
+          {/* <Icons src="Drivers/button-app.png"/>
+          <Icons src="Drivers/button-play.png"/> */}
         </PhoneIcons>
           </Column2>
 
@@ -102,6 +104,7 @@ const Drives = () => {
             </TextWrapper>
           </Column3>
         </DriversWrapper>
+        
         </div>
       </DriversContainer>
     </>

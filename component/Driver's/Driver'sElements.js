@@ -172,7 +172,7 @@ export const DriversH1 = styled.h1`
   @media screen and (max-width: 820px) {
     text-align: center;
     font-size: 32px;
-    margin-top: 14rem;
+    margin-top: 10rem;
     padding-top: 10.8rem;
   }
   @media screen and (max-width: 768px) {
@@ -388,11 +388,12 @@ export const Line = styled.p`
   }
   @media screen and (max-width: 960px) {
     font-size: 13.5px;
-/* font-weight: 100; */
+    font-weight: 600;
+
   }
   @media screen and (max-width: 820px) {
     font-size: 12px;
-    font-weight: 100;
+    font-weight: 200;
 
     margin: 0;
     padding: 0;
@@ -415,7 +416,7 @@ export const Column2 = styled.div`
   align-items: center;
   flex-direction: column;
   padding: 0 100px 0 100px;
-
+position: relative;
   @media screen and (max-width: 1280px) {
     margin: 0;
     padding: 0 32px 0 32px;
@@ -445,13 +446,14 @@ export const ImgPhone = styled.img`
 
   @media screen and (max-width: 960px) {
     width: 290px;
-    margin-bottom: 25px;
-    margin: 0 26px;
+    /* margin-bottom: 40px; */
+    margin: 0 26px 90px ;
   }
   @media screen and (max-width: 820px) {
     width: 260px;
-    margin-bottom: 25px;
-    margin: 0 26px;
+    /* margin-bottom: 25px; */
+    margin: 0 26px 130px ;
+
   }
   @media screen and (max-width: 768px) {
     /* width: 260px; */
@@ -478,8 +480,13 @@ export const PhoneIcons = styled.div`
     padding: 70px 0 0px 0;
   }
   @media screen and (max-width: 960px) {
-    flex-direction: column;
-    margin: 0;
+    position: absolute;
+    bottom: -40px;
+    padding: 0;
+  }
+  @media screen and (max-width: 820px) {
+    position: absolute;
+    bottom: 0px;
     padding: 0;
   }
   @media screen and (max-width: 768px) {
@@ -524,8 +531,12 @@ export const Icons = styled.img`
     height: 54px;
   }
   @media screen and (max-width: 960px) {
-    width: 8rem;
-    margin: 0px 0 0 0;
+    width: 9.5rem;
+    margin: 0px 14px 0 14px;
+  }
+  @media screen and (max-width: 820px) {
+    width: 9rem;
+    margin: 0px 14px 0 14px;
   }
   @media screen and (max-width: 768px) {
     display: flex;
@@ -564,6 +575,7 @@ export const Column3 = styled.div`
   @media screen and (max-width: 1024px) {
     margin-bottom: 50px;
   }
+ 
   @media screen and (max-width: 480px) {
     margin-top: 60px;
   }
@@ -656,12 +668,13 @@ export const TopLine = styled.p`
   }
   @media screen and (max-width: 960px) {
     font-size: 13.5px;
+    font-weight: 600;
 
 
   }
   @media screen and (max-width: 820px) {
     font-size: 12px;
-    font-weight: 100;
+    font-weight: 200;
 
     margin: 0;
     padding: 0;

@@ -28,7 +28,7 @@ const Layout = ({children}) => {
         <Drives/>
         <EasyTracking/>
         <Services/>
-        {/* <Rating/> */}
+        <Rating/>
         <Frequntly/>
         <Friends/>
         
