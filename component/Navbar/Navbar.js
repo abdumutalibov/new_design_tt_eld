@@ -16,6 +16,8 @@ export const Nav = styled.nav`
   }
   @media screen and (max-width: 960px) {
     transition: 0.8 all ease;
+    height: 70px;
+
   }
   @media screen and (max-width:480px){
 height: 74px;
@@ -37,7 +39,15 @@ export const NavbarContainer = styled.div`
 }
 @media screen and (max-width:1024px){
   max-width: 52.2rem;   
+}
+@media screen and (max-width:960px){
+  max-width: 49rem;   
+/* background-color:red; */
 
+}
+@media screen and (max-width:820px){
+  max-width: 42.4rem;   
+/* background-color:red; */
 
 }
 `;
@@ -57,6 +67,10 @@ export const NavLogo = styled.a`
   }
   @media screen and (max-width:1024px){
   }
+  @media screen and (max-width:960px){
+    padding: 0;
+   
+  }
 `;
 export const NavImg = styled.img`
   height: 55px;
@@ -65,9 +79,21 @@ export const NavImg = styled.img`
   @media screen and (max-width:1280px){
     height: 50px;
   }
-  @media screen and (max-width:1024px){
+@media screen and (max-width:1024px){
 height: 39px;
 width: 114px;
+}
+@media screen and (max-width:960px){
+
+width: 110px;
+margin: 0;
+padding: 0;
+}
+@media screen and (max-width:820px){
+
+width: 100px;
+margin: 0;
+padding: 0;
 }
   @media screen and (max-width:480px){
 height: 34px;
@@ -76,14 +102,15 @@ height: 34px;
 export const MobileIcon = styled.div`
   display: none;
   @media screen and (max-width: 960px) {
-    display: block;
+    /* display: block;
     position: absolute;
     top: 10px;
     right: 0;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-    color: #fff;
+    color: #fff; */
+
   }
   @media screen and (max-width: 768px) {
     display: block;
@@ -113,7 +140,7 @@ export const NavMenu = styled.div`
 margin: 0;
   }
   @media screen and (max-width: 960px) {
-    display: none;
+   margin: 0;
   }
   @media screen and (max-width: 768px) {
     display: none;
@@ -127,6 +154,10 @@ export const NavItem = styled.li`
   }
   @media screen and (max-width:1024px){
   height: 91%;
+
+  }
+  @media screen and (max-width:960px){
+  height: 92%;
 
   }
 `;
@@ -166,6 +197,26 @@ text-align: center;
 
 color: #FFFFFF;
 }
+@media screen and (max-width:960px){
+    font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+/* padding: 0 1.1rem; */
+padding: 0 14px 0 14px;
+text-align: center;
+
+color: #FFFFFF;
+}
+@media screen and (max-width:820px){
+    font-weight: 400;
+font-size: 11px;
+line-height: 20px;
+/* padding: 0 1.1rem; */
+padding: 0 13px 0 13px;
+text-align: center;
+
+color: #FFFFFF;
+}
   `;
 export const NavBtn = styled.nav`
   display: flex;
@@ -182,14 +233,14 @@ margin: 0;
 
 }
   @media screen and (max-width: 960px) {
-    display: none;
+padding: 0;
   }
   @media screen and (max-width: 768px) {
     display: none;
   }
 `;
 export const NavBtnLink = styled.a`
-  border-radius: 8px;
+  border-radius: 4px;
   border: 2px solid #FFFFFF;
   padding: 10px 22px;
   color: white;
@@ -223,6 +274,8 @@ font-size: 15px;
 line-height: 20px;
 text-align: center;
 color: #FFFFFF;
+padding: 0px 0px;
+
 &:hover {
   display: flex;
   justify-content: center;
@@ -245,6 +298,8 @@ font-size: 12px;
 line-height: 20px;
 text-align: center;
 color: #FFFFFF;
+padding: 0px 0px;
+
 &:hover {
   display: flex;
   align-items: center;
@@ -252,6 +307,55 @@ color: #FFFFFF;
     height: 36px;
     font-weight: 600;
 font-size: 12px;
+line-height: 20px;
+text-align: center;
+}
+  }
+ @media screen and (max-width: 960px) {
+    display: flex;
+  align-items: center;
+    width: 111px;
+    height: 36px;
+    font-weight: 600;
+font-size: 12px;
+line-height: 20px;
+text-align: center;
+padding: 0px 0px;
+margin: 0;
+color: #FFFFFF;
+padding: 0px 0px;
+
+&:hover {
+  display: flex;
+  align-items: center;
+    width: 111px;
+    height: 36px;
+    font-weight: 600;
+font-size: 12px;
+line-height: 20px;
+text-align: center;
+
+}
+  }
+  @media screen and (max-width: 820px) {
+    display: flex;
+  align-items: center;
+    width: 105px;
+    height: 36px;
+    font-weight: 600;
+font-size: 11px;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+padding: 0px 0px;
+margin: 0;
+&:hover {
+  display: flex;
+  align-items: center;
+  width: 105px;
+    height: 36px;
+    font-weight: 600;
+font-size: 11px;
 line-height: 20px;
 text-align: center;
 }

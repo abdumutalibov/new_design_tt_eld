@@ -25,6 +25,14 @@ export const HeroContainer = styled.div`
     height:1375px;
     background: #2B2D31;
   }
+  @media screen and (max-width:960px) {
+    height:1250px;
+    background: #2B2D31;
+  }
+  @media screen and (max-width:820px) {
+    height:1250px;
+    background: none;
+  }
   @media screen and (max-width:768px) {
     height:1200px;
     background: #2B2D31;
@@ -55,6 +63,10 @@ export const ImgBg = styled.img`
     background: none;
   }
   @media screen and (max-width:960px) {
+    
+  }
+  @media screen and (max-width:820px) {
+    height:1300px;
     
   }
   @media screen and (max-width:768px) {
@@ -105,6 +117,12 @@ line-height: 56px;
 text-align: center;
 color: #FFFFFF;
   }
+  @media screen and (max-width:960px) {
+    font-size: 36px;
+  }
+  @media screen and (max-width:820px) {
+    font-size: 31.5px;
+  }
   @media screen and (max-width:768px) {
     font-size: 40px;
   }
@@ -144,6 +162,9 @@ text-align: center;
 color: #FFFFFF;
 max-width: 48rem;
 
+  }
+  @media screen and (max-width:820px) {
+    font-size: 12px;
   }
 @media screen and (max-width:768px) {
     font-size: 24px;

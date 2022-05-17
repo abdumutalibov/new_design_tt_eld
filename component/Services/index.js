@@ -32,7 +32,7 @@ import {
 
 const Services = () => {
   return (
-    <ServicesContainer id="">
+    <ServicesContainer id="pricing">
       <ServicesH1>Products suited to your needs</ServicesH1>
       <ServicesText>
         Our company provides customer service around the clock, now you can
@@ -117,7 +117,7 @@ const Services = () => {
                   and feel comfortable
                 </FooterLink.H1>
                 <FooterLink.H1  to="/siginin" ><T>$105/mo.</T></FooterLink.H1>
-                {/* <FooterLinks.H1>
+                <FooterLinks.H1>
                 ELD is easy to operate and
                 </FooterLinks.H1>
                 <FooterLinks.H1>
@@ -126,7 +126,7 @@ const Services = () => {
 
                 <FooterLinks.T>
                    ELD device sold separately.
-                </FooterLinks.T> */}
+                </FooterLinks.T>
                 <FooterLinkBtns>
                 <Btns to="/siginin">Start now</Btns>
               </FooterLinkBtns>
@@ -137,7 +137,7 @@ const Services = () => {
                     <FooterIcon src="ProductsImgs/Vector.svg" />
                     ELD
                   </FooterLink.P>
-                  {/* <FooterLink.P to="/siginin">
+                  <FooterLink.P to="/siginin">
                     <FooterIcon src="ProductsImgs/Vector.svg" />
                     Fleet Management
                   </FooterLink.P>
@@ -148,10 +148,10 @@ const Services = () => {
                   <FooterLink.P to="/siginin">
                     <FooterIcon src="ProductsImgs/Vector.svg" />
                     Tracking History
-                  </FooterLink.P> */}
+                  </FooterLink.P>
                 </FooterLinkItems>
                 <FooterLinkItems2>
-                  {/* <FooterLink.P to="/siginin">
+                  <FooterLink.P to="/siginin">
                     <FooterIcon src="ProductsImgs/Vector.svg" />
                     Driver Alarm
                   </FooterLink.P>
@@ -162,7 +162,7 @@ const Services = () => {
                   <FooterLink.P to="/siginin">
                     <FooterIcon src="ProductsImgs/Vector.svg" />
                     IFTA Reports
-                  </FooterLink.P> */}
+                  </FooterLink.P>
                   <FooterLink.P to="/siginin" >
                     <FooterIcon src="ProductsImgs/Vector.svg" />
                     Chat
