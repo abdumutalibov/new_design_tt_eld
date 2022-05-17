@@ -753,8 +753,17 @@ color: #CCCECE;
     margin-right: 450px;
   }
 @media screen and (max-width: 960px)  {
-    font-size: 17px;
+  font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+text-align: center;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #CCCECE;
     display: flex;
+    max-width: 300px;
+    /* margin-right: 450px; */
+    background-color: red;
+    margin: 0;
   }
   @media screen and (max-width: 762px)  {
     font-size: 14px;
