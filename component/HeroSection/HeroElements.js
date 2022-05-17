@@ -122,7 +122,7 @@ color: #FFFFFF;
     font-size: 36px;
   }
   @media screen and (max-width:820px) {
-    font-size: 31.5px;
+    font-size: 32px;
   }
   @media screen and (max-width:768px) {
     font-size: 40px;

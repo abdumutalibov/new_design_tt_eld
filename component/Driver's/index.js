@@ -67,7 +67,8 @@ const Drives = () => {
           </Column1>
 
           <Column2>
-            <ImgPhone src="phone.svg" />
+            {/* <ImgPhone src="phone.svg" /> */}
+            <ImgPhone src="Drivers/ProMax.png" />
             
         <PhoneIcons>
           <Icons src="Drivers/button-app.svg"/>
