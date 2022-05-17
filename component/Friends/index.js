@@ -63,7 +63,7 @@ const Friends = () => {
             Follow Us <Arrow src="Friends/Arrow.svg"/> 
           </FollowUs>
         </FriendsCard>
-        <FriendsCard>
+        {/* <FriendsCard>
           <ImgIcon src="Friends/Icon2.svg" />
           <IconName>Facebook</IconName>
           <IconInfo>
@@ -78,7 +78,7 @@ const Friends = () => {
           >
               Follow Us <Arrow src="Friends/Arrow.svg"/>  
           </FollowUs>
-        </FriendsCard>
+        </FriendsCard> */}
         <FriendsCard>
           <ImgIcon src="Friends/Icon3.svg" />
           <IconName>Telegram</IconName>
