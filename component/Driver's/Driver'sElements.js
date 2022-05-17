@@ -393,7 +393,7 @@ export const Line = styled.p`
   }
   @media screen and (max-width: 820px) {
     font-size: 12px;
-    font-weight: 200;
+    font-weight: 400;
 
     margin: 0;
     padding: 0;
@@ -674,7 +674,7 @@ export const TopLine = styled.p`
   }
   @media screen and (max-width: 820px) {
     font-size: 12px;
-    font-weight: 200;
+    font-weight: 400;
 
     margin: 0;
     padding: 0;
