@@ -872,7 +872,13 @@ width: 100%;
 color: #FFFFFF;
   }
   @media screen and (max-width: 960px) {
-    margin: 0 20px 0 20px;
+    /* margin: 0 20px 0 20px; */
+    font-weight: 400;
+font-size: 16px;
+line-height: 42px;
+width: 100%;
+color: #FFFFFF;
+
   }
   @media screen and (max-width: 768px) {
     margin: 0 0px 0 0px;
