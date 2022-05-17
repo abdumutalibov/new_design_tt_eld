@@ -166,18 +166,16 @@ export const DriversH1 = styled.h1`
   @media screen and (max-width: 960px) {
     text-align: center;
     font-size: 36px;
-    color: red;
-    /* margin-top: 3rem; */
-    margin: 0;
+    margin-top: 3rem;
     padding-top: 6rem;
   }
   @media screen and (max-width: 820px) {
     text-align: center;
-    color: blue;
-
     font-size: 32px;
-    margin: 0rem;
-    padding-top: 10.8rem;
+    margin-top: 3rem;
+    padding-top: 6rem;
+    /* margin: 0;
+    padding: 0; */
   }
   @media screen and (max-width: 768px) {
     text-align: center;
@@ -242,10 +240,10 @@ export const DriversP = styled.p`
     line-height: 30px;
     text-align: center;
     color: #ffffff;
-
+color:red;
     max-width: 37rem;
     margin: 0 auto;
-    padding: 45px 0px;
+    padding: 20px 0px 45px 0;
   }
   @media screen and (max-width: 480px) {
     font-size: 16px;
