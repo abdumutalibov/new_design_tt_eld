@@ -26,11 +26,11 @@ export const HeroContainer = styled.div`
     background: #2B2D31;
   }
   @media screen and (max-width:960px) {
-    height:1250px;
-    background: #2B2D31;
+    height:1150px;
+    background: none;
   }
   @media screen and (max-width:820px) {
-    height:1200px;
+    height:1070px;
     background: none;
   }
   @media screen and (max-width:768px) {
@@ -63,10 +63,11 @@ export const ImgBg = styled.img`
     background: none;
   }
   @media screen and (max-width:960px) {
+    height:1150px;
     
   }
   @media screen and (max-width:820px) {
-    height:1300px;
+    height:1105px;
     
   }
   @media screen and (max-width:768px) {
@@ -229,18 +230,20 @@ font-size: 80px;
 }
 `
 
-export const Arrow = styled.img`
-margin-left: 10px;
-font-size: 25px;
-@media screen and (max-width: 820px){
-font-size: 80px;
-}
-`
 export const ArrowWhite = styled.img`
 margin-left: 10px;
 font-size: 25px;
 @media screen and (max-width: 820px){
-font-size: 80px;
+height: 14px;
+margin: 8px;
+}
+`
+export const Arrow = styled.img`
+margin-left: 10px;
+font-size: 25px;
+@media screen and (max-width: 820px){
+height: 14px;
+margin: 8px;
 }
 `
  export const ImgMac = styled.img`
@@ -252,6 +255,10 @@ padding-right:0 ;
   }
 @media screen and (max-width:960px) {
   width: 700px;
+    
+  }
+  @media screen and (max-width:820px) {
+  width: 660px;
     
   }
 @media screen and (max-width:768px) {

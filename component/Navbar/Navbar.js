@@ -46,7 +46,7 @@ export const NavbarContainer = styled.div`
 
 }
 @media screen and (max-width:820px){
-  max-width: 42.4rem;   
+  max-width: 44rem;   
 /* background-color:red; */
 
 }
@@ -241,7 +241,7 @@ padding: 0;
 `;
 export const NavBtnLink = styled.a`
   border-radius: 4px;
-  border: 2px solid #FFFFFF;
+  border: 3px solid #FFFFFF;
   padding: 10px 22px;
   color: white;
   font-size: 18px;
@@ -256,7 +256,7 @@ color: #FFFFFF;
   
     transition: all 0.2s ease-in-out;
   background: #fff;
-  border: solid 2px #706e77;
+  border: solid 3px #706e77;
     color: #010606;
   font-weight: 600;
 font-size: 18px;
@@ -349,6 +349,8 @@ text-align: center;
 color: #FFFFFF;
 padding: 0px 0px;
 margin: 0;
+border: 2px solid #FFFFFF;
+
 &:hover {
   display: flex;
   align-items: center;

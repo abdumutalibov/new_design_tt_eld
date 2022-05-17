@@ -11,6 +11,14 @@ export const HelpContainer = styled.div`
   padding:5rem 0 5px 0;
   }
   @media screen and (max-width: 960px) {
+    height: 770px;
+    margin: 0;
+    padding: 0;
+  }
+  @media screen and (max-width: 820px) {
+    height: 700px;
+    margin: 0;
+    padding: 0;
   }
   @media screen and (max-width: 768px) {
     height: 900px;
@@ -44,6 +52,14 @@ padding: 0 94px;
     grid-template-columns: 1fr 1fr;
   max-width: 52.2rem;   
   padding: 0px;
+
+}
+@media screen and (max-width:960px){
+  max-width: 49rem;   
+
+}
+@media screen and (max-width:820px){
+  max-width: 44rem;   
 
 }
 
@@ -90,6 +106,16 @@ border-radius: 8px;
     
     
 }
+@media screen and (max-width:960px){
+    /* max-width: 40rem;    */
+    
+    padding: 12px 18px;
+}
+@media screen and (max-width:820px){
+    /* max-width: 40rem;    */
+    
+    padding: 12px 18px;
+}
 `
 export const HelpIcon = styled.img`
 height: 30px;
@@ -99,6 +125,12 @@ margin-bottom: 10px;
  width: 30px;
  height: 30px;
 }
+@media screen and (max-width:820px){
+ width: 25px;
+ height: 25px;
+ margin-right: 0px;
+ padding: 0;
+}
 `
 export const HelpCon = styled.div`
 display: flex;
@@ -106,6 +138,11 @@ flex-direction:column;
 /* background-color:red; */
 margin-left: 10px;
 padding-left:10px ;
+@media screen and (max-width:820px){
+   
+    margin-left: 6px;
+
+}
 `
 export const HelpH1 =styled.h1`
 margin-bottom:20px;
@@ -126,7 +163,18 @@ text-align: center;
 color: #1A2944;
 }
 @media screen and (max-width:960px){
-
+    font-weight: 700;
+    font-size: 36px;
+line-height: 30px;
+text-align: center;
+color: #1A2944;
+}
+@media screen and (max-width:820px){
+    font-weight: 700;
+    font-size: 31.5px;
+line-height: 26px;
+text-align: center;
+color: #1A2944;
 }
 @media screen and (max-width:768px){
     /* font-size: 2rem; */
@@ -168,7 +216,22 @@ text-align: center;
 color: #8C98A4;
 max-width: 40rem;
 }
-@media screen and (max-width:960){
+@media screen and (max-width:960px){
+    font-weight: 400;
+font-size: 18px;
+line-height: 35px;
+text-align: center;
+color: #8C98A4;
+max-width: 40rem;
+}
+@media screen and (max-width:820px){
+    font-weight: 400;
+    font-size: 14px;
+line-height: 30px;
+text-align: center;
+color: #8C98A4;
+max-width: 32rem;
+margin-bottom: 43px;
 }
 @media screen and (max-width:768px){
     /* font-size: 2rem; */
@@ -188,7 +251,13 @@ line-height: 32px;
 color: #1F1911;
 }
 @media screen and (max-width:960px){
-    /* font-size:15px */
+    font-size:19px;
+    font-weight: 700;
+}
+@media screen and (max-width:820px){
+    font-size:16px;
+    font-weight: 700;
+margin-bottom: 0;
 }
 @media screen and (max-width:320px){
     font-size:15px
@@ -199,6 +268,10 @@ export const HelpP = styled.p`
 font-size: 1rem;
 /* font-weight: 700; */
 margin-bottom: 10px;
+@media screen and (max-width:820px){
+    font-size:13.5px;
+
+}
 @media screen and (max-width:768px){
     font-size:13px
 }

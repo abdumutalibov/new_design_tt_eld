@@ -34,15 +34,24 @@ color: #2D2B31;
   
 }
 @media screen and (max-width: 960px) {
-    margin-right: 0;
-    margin-right: 20px;
+  margin: 0;
+    margin:35px 18px 70px 18px;
+    max-width: 190px;
+  max-height: 54px;
+  font-size: 20px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 24px;
   }
   @media screen and (max-width: 820px) {
     margin: 0;
-    margin-right: 25px;
+    margin:25px 18px 75px 18px;
     max-width: 150px;
-  max-height: 44px;
+  max-height: 48px;
   font-size: 16px;
+  padding: 10px 20px;
   }
   @media screen and (max-width: 768px) {
     margin-right: 0;
