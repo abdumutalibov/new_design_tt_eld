@@ -25,7 +25,12 @@ export const EasyContainer = styled.div`
     margin: 0;
   }
   @media screen and (max-width: 960px) {
-    height: 60rem;
+    height: 78rem;
+    margin: 0;
+    padding: 0;
+  }
+  @media screen and (max-width: 820px) {
+    height: 65rem;
     margin: 0;
     padding: 0;
   }
@@ -41,7 +46,6 @@ export const EasyContainer = styled.div`
     height: 110rem;
   }
 `;
-
 export const EasyWrapper = styled.div`
   display: flex;
   flex-direction: column;
@@ -89,6 +93,20 @@ line-height: 56px;
 text-align: center;
 color: #1A2944;
   }
+  @media screen and (max-width: 960px) {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 60px;
+    text-align: center;
+    color: #1a2944;
+  }
+  @media screen and (max-width: 820px) {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 56px;
+    text-align: center;
+    color: #1a2944;
+  }
   @media screen and (max-width: 768px) {
     text-align: center;
     font-size: 33px;
@@ -121,6 +139,25 @@ text-align: center;
 color: #8C98A4;
 max-width: 50rem;
 
+  }
+  @media screen and (max-width: 960px) {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    text-align: center;
+    color: #8c98a4;
+    max-width: 44rem;
+    margin-bottom: 43px;
+
+  }
+  @media screen and (max-width: 820px) {
+    font-weight: 400;
+    font-size: 14.5px;
+    line-height: 30px;
+    text-align: center;
+    color: #8c98a4;
+    max-width: 40rem;
+    margin-bottom: 43px;
   }
   @media screen and (max-width: 768px) {
     font-size: 27px;
@@ -189,6 +226,7 @@ export const Column1 = styled.div`
     align-items: center;
 
   }
+
   @media screen and (max-width: 768px) {
     max-width: 40rem;
     width: 100%;
@@ -265,9 +303,19 @@ margin-left: 30px;
     text-align: left;
   max-width: 370px;
 width: 100%;
-margin-right: 30px;
+margin-right: 80px;
 max-width: 22rem;
 
+  }
+  @media screen and (max-width:820px) {
+    
+    display: flex;
+  flex-direction: column;
+    text-align: left;
+  max-width: 370px;
+width: 100%;
+margin-right: 120px;
+max-width: 22rem;
   }
   @media screen and (max-width: 768px) {
     /* padding: 0 30px; */
@@ -311,9 +359,19 @@ margin-right: 70px;
     text-align: left;
   max-width: 370px;
 width: 100%;
-margin-right: 30px;
+margin-left: 100px;
 max-width: 22rem;
 
+  }
+  @media screen and (max-width:820px) {
+    
+    display: flex;
+  flex-direction: column;
+    text-align: left;
+  max-width: 370px;
+width: 100%;
+margin-left: 140px;
+max-width: 22rem;
   }
   @media screen and (max-width: 768px) {
     /* padding: 0 30px; */
@@ -370,6 +428,18 @@ font-size: 24px;
 line-height: 36px;
 color: #1A2944;
 
+  }  
+  @media screen and (max-width: 960px) {
+    font-weight: 600;
+font-size: 22px;
+line-height: 36px;
+color: #1A2944;
+  }  
+  @media screen and (max-width: 820px) {
+    font-weight: 600;
+font-size: 19px;
+line-height: 36px;
+color: #1A2944;
   }  
   @media screen and (max-width: 768px) {
     font-size: 30px;
@@ -435,8 +505,22 @@ line-height: 32px;
 text-align: right;
 color: #8C98A4;
 max-width: 18rem;
-
-
+  }
+  @media screen and (max-width: 960px) {
+    font-weight: 400;
+font-size: 15px;
+line-height: 32px;
+color: #8C98A4;
+mix-blend-mode: normal;
+max-width: 17rem;
+  }
+  @media screen and (max-width: 820px) {
+    font-weight: 400;
+font-size: 14px;
+line-height: 32px;
+color: #8C98A4;
+mix-blend-mode: normal;
+max-width: 16rem;
 
   }
   @media screen and (max-width: 768px) {
@@ -472,6 +556,24 @@ line-height: 32px;
 color: #8C98A4;
 mix-blend-mode: normal;
 max-width: 16rem;
+
+  }
+  @media screen and (max-width: 960px) {
+    font-weight: 400;
+font-size: 15px;
+line-height: 32px;
+color: #8C98A4;
+mix-blend-mode: normal;
+max-width: 16rem;
+
+  }
+  @media screen and (max-width: 820px) {
+    font-weight: 400;
+font-size: 14px;
+line-height: 32px;
+color: #8C98A4;
+mix-blend-mode: normal;
+max-width: 15rem;
 
   }
   @media screen and (max-width: 768px) {
@@ -537,8 +639,10 @@ margin-bottom: 32px;
 margin-bottom: 32px;
   }
   @media screen and (max-width: 960px) {
-    width: 300px;
-    display:block;
+    width: 660px;
+  }
+  @media screen and (max-width: 820px) {
+    width: 610px;
   }
   @media screen and (max-width: 768px) {
     width: 460px;

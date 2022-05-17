@@ -31,7 +31,8 @@ const EasyTracking = () => {
           GPS, leveraging weather and traffic data to exceed your customers
           expectations.
         </EasyP>
-        <ImgMiniMacTop src="miniMac.svg" />
+        {/* <ImgMiniMacTop src="miniMac.svg" /> */}
+        <ImgMiniMacTop src="Easy/miniMac.png" />
 
         <EasyCard>
           <Column1>

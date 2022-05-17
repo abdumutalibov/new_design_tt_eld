@@ -240,7 +240,6 @@ export const DriversP = styled.p`
     line-height: 30px;
     text-align: center;
     color: #ffffff;
-color:blue;
     max-width: 37rem;
     margin: 0 auto;
     padding: 25px 0px 45px 0;
@@ -534,10 +533,13 @@ export const Icons = styled.img`
   }
   @media screen and (max-width: 960px) {
     width: 9.5rem;
+    height: 47px;
+
     margin: 0px 14px 0 14px;
   }
   @media screen and (max-width: 820px) {
-    width: 9rem;
+    width: 8.5rem;
+    height: 43px;
     margin: 0px 14px 0 14px;
   }
   @media screen and (max-width: 768px) {
