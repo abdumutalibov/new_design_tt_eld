@@ -166,13 +166,17 @@ export const DriversH1 = styled.h1`
   @media screen and (max-width: 960px) {
     text-align: center;
     font-size: 36px;
-    margin-top: 3rem;
+    color: red;
+    /* margin-top: 3rem; */
+    margin: 0;
     padding-top: 6rem;
   }
   @media screen and (max-width: 820px) {
     text-align: center;
+    color: blue;
+
     font-size: 32px;
-    margin-top: 10rem;
+    margin: 0rem;
     padding-top: 10.8rem;
   }
   @media screen and (max-width: 768px) {
