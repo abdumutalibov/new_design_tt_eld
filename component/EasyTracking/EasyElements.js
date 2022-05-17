@@ -25,12 +25,12 @@ export const EasyContainer = styled.div`
     margin: 0;
   }
   @media screen and (max-width: 960px) {
-    height: 78rem;
-    margin: 0;
+    height: 58rem;
+    /* margin-top: 50px; */
     padding: 0;
   }
   @media screen and (max-width: 820px) {
-    height: 65rem;
+    height: 55rem;
     margin: 0;
     padding: 0;
   }

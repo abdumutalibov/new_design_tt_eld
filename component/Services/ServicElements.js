@@ -14,7 +14,7 @@ export const ServicesContainer = styled.div`
     height: 95rem;
   }
   @media screen and (max-width: 960px) {
-    height: 135rem;
+    height: 80rem;
   }
   @media screen and (max-width: 768px) {
     height: 190rem;
@@ -46,10 +46,17 @@ export const ServicesWrapper = styled.div`
   margin-bottom: 128px;
 
   }
-  @media screen and (max-width: 1000px) {
-    grid-template-columns: 1fr 1fr;
-  }
+  @media screen and (max-width: 960px) {
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 49rem;
 
+
+  }
+  @media screen and (max-width: 820px) {
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 44rem;
+    margin-bottom: 100px;
+  }
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
     padding: 0 20px;
@@ -66,8 +73,8 @@ export const ServicesCard = styled.div`
   padding: 35px;
   border-radius: 4px;
   
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  /* box-shadow: 2px 4px 24px rgba(151, 151, 151, 0.12); */
+  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); */
+  box-shadow: 2px 4px 24px rgba(151, 151, 151, 0.12);
   transition: all 0.2s ease-in-out;
   max-width: 419px;
   max-height: 449px;
@@ -83,6 +90,8 @@ export const ServicesCard = styled.div`
   @media screen and (max-width: 960px) {
     max-width: 380px;
     max-height: 274px;
+    padding: 20px;
+
   }
   @media screen and (max-width: 480px) {
     padding: 10px;
@@ -102,6 +111,10 @@ export const ServicesIcon = styled.img`
     height: 184px;
   }
   @media screen and (max-width: 960px) {
+    width: 195px;
+    /* height: 424px; */
+  }
+  @media screen and (max-width: 820px) {
     width: 165px;
     height: 124px;
   }
@@ -123,7 +136,12 @@ export const ServicesIconShopping = styled.img`
   }
   @media screen and (max-width: 1024px) {
     height: 18px;
-
+  }
+  @media screen and (max-width: 960px) {
+height:16px;
+  }
+  @media screen and (max-width: 820px) {
+    height:14px;
 
   }
 `;
@@ -158,7 +176,20 @@ line-height: 56px;
 text-align: center;
 color: #1A2944;
 }
-
+@media screen and (max-width: 960px) {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 20px;
+    text-align: center;
+    color: #1a2944;
+  }
+  @media screen and (max-width: 820px) {
+    font-weight: 700;
+    font-size: 32px;
+    line-height:20px;
+    text-align: center;
+    color: #1a2944;
+  }
   @media screen and (max-width: 768px) {
     font-size: 30px;
     line-height: 30px;
@@ -197,6 +228,27 @@ text-align: center;
 color: #8C98A4;
 max-width: 40rem;
 }
+@media screen and (max-width: 960px) {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    text-align: center;
+    color: #8c98a4;
+    max-width: 38rem;
+    margin-bottom: 43px;
+
+  }
+  @media screen and (max-width: 820px) {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color: #8c98a4;
+    max-width: 40rem;
+    margin-bottom: 43px;
+    max-width: 33rem;
+
+  }
   @media screen and (max-width: 768px) {
     font-size: 20px;
     line-height: 30px;
@@ -234,6 +286,19 @@ font-size: 17px;
 line-height: 32px;
 color: #1A2944;
   }
+  @media screen and (max-width: 960px) {
+    font-weight: 700;
+font-size: 15.5px;
+line-height: 32px;
+color: #1A2944;
+margin: 0;
+  }
+  @media screen and (max-width: 820px) {
+    font-weight: 700;
+font-size: 14px;
+line-height: 32px;
+color: #1A2944;
+  }
   @media screen and (max-width: 480px) {
     font-size: 18px;
   }
@@ -241,7 +306,6 @@ color: #1A2944;
     font-size: 15px;
   }
 `;
-
 export const ServicesP = styled.p`
   text-align: center;
   margin-right: auto;
@@ -264,11 +328,22 @@ font-size: 15.8425px;
 line-height: 24px;
 color: #5A7184;
   }
+  @media screen and (max-width: 960px) {
+    font-weight: 400;
+font-size: 15.1px;
+line-height: 24px;
+color: #5A7184;
+  }
+  @media screen and (max-width: 820px) {
+    font-weight: 400;
+font-size: 13.5px;
+line-height: 24px;
+color: #5A7184;
+  }
   @media screen and (max-width: 280px) {
     font-size: 14px;
   }
 `;
-
 export const ServicesFooterContainer = styled.div`
  background: #2B2D31;
 width: 100%;
@@ -291,13 +366,19 @@ margin: 0;
 margin: 0;
 
   }
-  @media screen and (min-width: 820px) and (max-width:960px) {
-    /* margin: 0; */
-    padding: 10px;
+  @media screen and (max-width: 960px) {
     width: 100%;
-  max-width: 42rem;
+  max-width: 49rem;
+  padding: 0;
+margin: 0;
 
-    display: flex;
+  }
+  @media screen and (max-width: 820px) {
+    width: 100%;
+  max-width: 44rem;
+  padding: 0;
+margin: 0;
+
   }
   @media screen and (max-width: 768px) {
     width: 100%;
@@ -318,6 +399,13 @@ width: 100%;
   padding: 32px 0px 32px 44px;
     
   }
+  @media screen and (max-width: 960px) {
+  padding: 30px 40px 32px 40px;
+  }
+  @media screen and (max-width: 820px) {
+  padding: 32px 25px 32px 40px;
+    
+  }
   @media screen and (max-width: 480px) {
     flex-direction: column;
     display: flex;
@@ -326,7 +414,6 @@ width: 100%;
     margin-right: 0;
   }
 `;
-
 export const FooterLinksContainer = styled.div`
   display: flex;
   justify-content: center;
@@ -343,8 +430,9 @@ width: 100%;
     display: flex;
     margin-right: 0;
   }
-  @media screen and (max-width: 912px) {
+  @media screen and (max-width: 960px) {
     flex-direction: column;
+    display: flex;
     margin-right: 0;
   }
   @media screen and (max-width: 480px) {
@@ -369,7 +457,9 @@ width: 100%;
   max-width: 300rem;
   }
   @media screen and (max-width: 912px) {
-    flex-direction: column;
+    display: flex;
+    width: 100%;
+  max-width: 300rem;
   }
   @media screen and (max-width: 480px) {
     flex-direction: column;
@@ -397,7 +487,10 @@ export const FooterLinkItems = styled.div`
 
   }
   @media screen and (max-width: 960px) {
-    margin-right: 0;
+    margin-right: 10px;
+  }
+  @media screen and (max-width: 820px) {
+    margin-right: 10px;
   }
   @media screen and (max-width: 768px) {
     padding-left:18px;
@@ -429,7 +522,15 @@ export const FooterLinkItems2 = styled.div`
     
   }
   @media screen and (max-width: 960px) {
-    margin-right: 0;
+    /* margin-left: 170px; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* text-align: end; */
+    max-width: 130px;
+  }
+  @media screen and (max-width: 820px) {
+    margin-right: 10px;
   }
   @media screen and (max-width: 480px) {
     margin: 0;
@@ -451,12 +552,15 @@ width: 100%;
     max-width: 22rem;
 width: 100%;
   }
-  @media screen and (max-width: 912px) {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 40px;
-    margin-right: 0;
+  @media screen and (max-width: 960px) {
+    margin-left: 0 auto;
+    max-width: 20rem;
+width: 100%;
+  }
+  @media screen and (max-width: 820px) {
+    margin-left: 0 auto;
+    max-width: 18rem;
+width: 100%;
   }
   @media screen and (max-width: 768px) {
     margin: 0;
@@ -487,10 +591,12 @@ width: 100%;
 
   }
   @media screen and (max-width: 960px) {
-  display: flex;
+    display: flex;
     margin-right: 0;
     width: 100%;
     max-width: 300rem;
+    justify-content: space-between;
+    align-items: center;
   }
  
 
@@ -518,7 +624,16 @@ export const FooterLinkBtns = styled.div`
     /* padding: 10px; */
     width: 100%;
     display: flex;
-  display:none;
+align-items: flex-start;
+justify-content: start;
+    margin-right: 0 auto;
+  }
+  @media screen and (max-width: 820px) {
+    display: flex;
+align-items: flex-start;
+justify-content: start;
+    width: 100%;
+    display: flex;
 
   }
   @media screen and (max-width: 768px) {
@@ -566,6 +681,22 @@ font-size: 15px;
 line-height: 24px;
 color: #FFFFFF;
   }
+  @media screen and (max-width: 960px) {
+    width: 150px;
+  height: 44px;
+  font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+color: #FFFFFF;
+  }
+  @media screen and (max-width: 820px) {
+    width: 130px;
+  height: 44px;
+  font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+color: #FFFFFF;
+  }
 `;
 
 export const FooterLinkBtn = styled.div`
@@ -579,7 +710,6 @@ export const FooterLinkBtn = styled.div`
     margin: 0;
     /* padding: 10px; */
     width: 100%;
-    display: flex;
   }
   @media screen and (max-width: 768px) {
     margin: 0;
@@ -639,11 +769,12 @@ export const FooterLink = styled.a`
   @media screen and (max-width: 1280px) {
    display: none;
   }
-  @media screen and (max-width: 960px) 
-
-   {
+  @media screen and (max-width: 960px) {
 
   }
+  @media screen and (max-width: 820px) {
+margin-bottom: 1px;
+}
   @media screen and (max-width: 480px) {
     font-size: 2px;
   }
@@ -714,6 +845,30 @@ width: 100%;
   margin: 0px 0;
   padding: 0;
 }
+@media screen and (max-width: 960px) {
+  display: block;
+  font-weight: 600;
+
+font-size: 17px;
+line-height: 32px;
+color: #FFFFFF;
+max-width: 20rem;
+width: 100%;
+  margin: 0px 0;
+  padding: 0;
+}
+@media screen and (max-width: 820px) {
+  display: block;
+  font-weight: 600;
+
+font-size: 16px;
+line-height: 30px;
+color: #FFFFFF;
+max-width: 20rem;
+width: 100%;
+  margin: 0px 0;
+  padding: 0;
+}
 @media screen and (max-width: 480px) {
 
 font-size: 16px;
@@ -754,16 +909,25 @@ color: #CCCECE;
   }
 @media screen and (max-width: 960px)  {
   font-weight: 400;
-font-size: 15px;
-line-height: 20px;
+font-size: 13px;
+line-height: 10px;
 text-align: center;
 font-feature-settings: 'pnum' on, 'lnum' on;
 color: #CCCECE;
     display: flex;
     max-width: 300px;
-    /* margin-right: 450px; */
-    background-color: red;
-    margin: 0;
+    margin-right: 450px;
+  }
+  @media screen and (max-width: 820px)  {
+  font-weight: 400;
+font-size: 13px;
+line-height: 10px;
+text-align: center;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #CCCECE;
+    display: flex;
+    max-width: 300px;
+    margin-right: 450px;
   }
   @media screen and (max-width: 762px)  {
     font-size: 14px;
@@ -839,7 +1003,9 @@ FooterLink.T1 = styled.div`
   @media screen and (max-width: 960px)  {
     font-size: 17px;
   }
-
+  @media screen and (max-width: 820px)  {
+    font-size: 14px;
+  }
   @media screen and (max-width: 480px) {
     font-size: 16px;
   }
@@ -872,13 +1038,22 @@ width: 100%;
 color: #FFFFFF;
   }
   @media screen and (max-width: 960px) {
-    /* margin: 0 20px 0 20px; */
     font-weight: 400;
 font-size: 16px;
 line-height: 42px;
 width: 100%;
 color: #FFFFFF;
 
+  }
+  @media screen and (max-width: 820px) {
+    font-weight: 400;
+font-size: 13px;
+line-height: 37px;
+width: 100%;
+color: #FFFFFF;
+margin-bottom: 0px;
+margin: 0;
+padding: 0;
   }
   @media screen and (max-width: 768px) {
     margin: 0 0px 0 0px;
@@ -896,4 +1071,9 @@ export const FooterIcon = styled.img`
   width: 20px;
   height: 17px;
   margin-right: 12px;
+  @media screen and (max-width: 820px) {
+    width: 18px;
+  height: 17px;
+  margin-right: 12px;
+  }
 `;
