@@ -154,7 +154,7 @@ export const FriendsWrapper = styled.div`
     margin: 0;
   }
   @media screen and (max-width: 820px) {
-    max-width: 46.3rem;
+    max-width: 47.2rem;
     padding: 0;
     margin: 0;
   }
