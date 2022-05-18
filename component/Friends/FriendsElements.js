@@ -10,11 +10,11 @@ export const FriendsContainer = styled.div`
   align-items: center;
   width: 100%;
   @media screen and (max-width: 960px) {
-    height: 80rem;
+    height: 66rem;
     margin: 0;
   }
   @media screen and (max-width: 820px) {
-    height: 50rem;
+    height: 60rem;
     margin: 0;
   }
   @media screen and (max-width: 768px) {
@@ -157,7 +157,6 @@ export const FriendsWrapper = styled.div`
     max-width: 46.3rem;
     padding: 0;
     margin: 0;
-    background-color: red;
   }
 
   @media screen and (max-width: 768px) {
@@ -444,7 +443,7 @@ export const FriendsFooter = styled.div`
     padding: 0 35px;
     max-height: 220px;
     position: relative;
-    margin-top: 10px;
+    margin: 40px 0 100px 0;
 
   }
   @media screen and (max-width: 768px) {
