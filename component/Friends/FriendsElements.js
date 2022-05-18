@@ -315,7 +315,7 @@ export const IconInfo = styled.div`
 
   }
   @media screen and (max-width: 820px) {
-    font-size: 11.1px;
+    font-size: 11px;
     line-height: 23px;
     font-weight: 400;
     margin-bottom: 10px;
