@@ -19,6 +19,16 @@ export const Nav = styled.nav`
     height: 70px;
 
   }
+  @media screen and (max-width:768px) {
+    transition: 0.8 all ease;
+    height: 130px;
+
+  }
+  @media screen and (max-width:540px) {
+    transition: 0.8 all ease;
+    height: 90px;
+
+  }
   @media screen and (max-width:480px){
 height: 74px;
 }
@@ -50,6 +60,19 @@ export const NavbarContainer = styled.div`
 /* background-color:red; */
 
 }
+@media screen and (max-width:768px){
+  max-width: 44rem;   
+display: flex;
+align-items: center;
+}
+@media screen and (max-width:540px){
+  max-width: 31rem;   
+  /* background-color: #706e77; */
+display: flex;
+align-items: center;
+padding: 0;
+margin: 0;
+}
 `;
 
 export const NavLogo = styled.a`
@@ -70,6 +93,11 @@ export const NavLogo = styled.a`
   @media screen and (max-width:960px){
     padding: 0;
    
+  }
+  @media screen and (max-width:768px){
+ /* height: 80px;
+ width: 80px; */
+   margin: 0 auto;
   }
 `;
 export const NavImg = styled.img`
@@ -95,6 +123,14 @@ width: 100px;
 margin: 0;
 padding: 0;
 }
+@media screen and (max-width:768px){
+width: 180px;
+height: 110px;
+}
+@media screen and (max-width:540px){
+width: 130px;
+height: 110px;
+}
   @media screen and (max-width:480px){
 height: 34px;
 }
@@ -113,16 +149,35 @@ export const MobileIcon = styled.div`
 
   }
   @media screen and (max-width: 768px) {
-    display: block;
-    position: absolute;
-    top: 10px;
-    right: 0;
-    transform: translate(-100%, 60%);
-    font-size: 1.8rem;
+
+    display: flex;
+  align-items: center;
+    position:absolute;
+    top: 0;
+    left: 32;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    /* transform: translate(150%, 0%); */
     cursor: pointer;
     color: #fff;
-    /* transition: 0.8 all ease; */
+    font-size: 43px;
   }
+  @media screen and (max-width: 540px) {
+
+display: flex;
+align-items: center;
+position:absolute;
+top: 0;
+left: 32;
+bottom: 0;
+margin: 0;
+padding: 0;
+/* transform: translate(150%, 0%); */
+cursor: pointer;
+color: #fff;
+font-size: 30px;
+}
   @media screen and (max-width:480px){
     position: absolute;
     top: 0px;
@@ -236,11 +291,33 @@ margin: 0;
 padding: 0;
   }
   @media screen and (max-width: 768px) {
-    display: none;
+    /* display: block; */
+    /* transform: translate(-50%, 0%); */
+
+    position:absolute;
+    top: 0;
+    right: 32px;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+  }
+  @media screen and (max-width: 540px) {
+    /* display: block; */
+    /* transform: translate(-50%, 0%); */
+
+    display: flex;
+align-items: center;
+position:absolute;
+top: 0;
+right: 23px;
+bottom: 0;
+margin: 0;
+padding: 0;
   }
 `;
+
 export const NavBtnLink = styled.a`
-  border-radius: 4px;
+  border-radius: 6px;
   border: 3px solid #FFFFFF;
   padding: 10px 22px;
   color: white;
@@ -358,6 +435,60 @@ border: 2px solid #FFFFFF;
     height: 36px;
     font-weight: 600;
 font-size: 11px;
+line-height: 20px;
+text-align: center;
+}
+  }
+  @media screen and (max-width: 768px) {
+    display: flex;
+  align-items: center;
+   width: 165px;
+    height: 64px;
+    font-size: 23px;
+    font-weight: 600;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+padding: 0px 0px;
+margin: 0;
+border: 3px solid #FFFFFF;
+margin: 0;
+ padding: 0;
+&:hover {
+
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  width: 165px;
+    height: 64px;
+    font-size: 23px;
+line-height: 20px;
+text-align: center;
+}
+  }
+  @media screen and (max-width: 540px) {
+    display: flex;
+  align-items: center;
+   width: 120px;
+    height: 48px;
+    font-size: 17px;
+    font-weight: 600;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+padding: 0px 0px;
+margin: 0;
+border: 3px solid #FFFFFF;
+margin: 0;
+ padding: 0;
+&:hover {
+
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  width: 165px;
+    height: 64px;
+    font-size: 23px;
 line-height: 20px;
 text-align: center;
 }

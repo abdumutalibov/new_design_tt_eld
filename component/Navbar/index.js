@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import styles from "../../styles/Navbar.module.css";
 
 import {
+  Icon,
   MobileIcon,
   Nav,
   NavbarContainer,
@@ -35,14 +36,16 @@ const Navbar = ({ toggle }) => {
       <IconContext.Provider value={{ color: "#fff" }}>
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
+            <MobileIcon onClick={toggle}>
+              <FaBars />
+            </MobileIcon>
+
             <Link href="/" passHref>
               <NavLogo>
                 <NavImg src="Drivers/Logo.svg" alt="" />
               </NavLogo>
             </Link>
-            <MobileIcon onClick={toggle}>
-              <FaBars />
-            </MobileIcon>
+
             <NavMenu>
               <NavItem>
                 <Link href="#products">
@@ -87,6 +90,7 @@ const Navbar = ({ toggle }) => {
                 </Link>
               </NavItem>
             </NavMenu>
+
             <NavBtn>
               <NavBtnLink>Get it Now</NavBtnLink>
             </NavBtn>
