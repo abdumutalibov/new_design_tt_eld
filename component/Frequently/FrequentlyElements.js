@@ -12,7 +12,10 @@ export const FrequntlyContainer = styled.div`
     padding-top: 60px;
   }
   @media screen and (max-width: 960px) {
-    height: 165rem;
+    height: 118rem;
+  }
+  @media screen and (max-width: 820px) {
+    height: 115rem;
   }
   @media screen and (max-width: 768px) {
     height: 170rem;
@@ -46,8 +49,19 @@ line-height: 56px;
 text-align: center;
 color: #1A2944;
   }
-  @media screen and (max-width: 912px) {
-    padding: 10px;
+  @media screen and (max-width: 960px) {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 39px;
+    text-align: center;
+    color: #1a2944;
+  }
+  @media screen and (max-width: 820px) {
+    font-weight: 700;
+    font-size: 32px;
+    line-height:30px;
+    text-align: center;
+    color: #1a2944;
   }
   @media screen and (max-width: 768px) {
     font-size: 30px;
@@ -86,6 +100,27 @@ max-width: 44rem;
 margin-bottom: 56px;
 
   }
+  @media screen and (max-width: 960px) {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    text-align: center;
+    color: #8c98a4;
+    max-width: 39rem;
+    margin-bottom: 43px;
+
+  }
+  @media screen and (max-width: 820px) {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color: #8c98a4;
+    max-width: 40rem;
+    margin-bottom: 43px;
+    max-width: 34rem;
+
+  }
   @media screen and (max-width: 480px) {
     font-size: 16px;
     line-height: 28px;
@@ -107,6 +142,14 @@ export const FrequentlyWrapper = styled.div`
   @media screen and (max-width: 1024px) {
     max-width: 55rem;
  
+  }
+  @media screen and (max-width: 960px) {
+    max-width: 49rem;
+ padding: 0;
+  }
+  @media screen and (max-width: 820px) {
+    max-width: 44rem;
+ padding: 0;
   }
 `;
 
@@ -155,6 +198,7 @@ export const FrequntlyH2 = styled.h2`
   color: #1470c6;
   margin-right: auto;
 color: red;
+
   @media screen and (max-width: 480px) {
     font-size: 19px;
     line-height: 32px;
@@ -183,6 +227,17 @@ line-height: 32px;
 color: #5A7184;
  
   }
+  @media screen and (max-width: 960px) {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 29px;
+    
+  }
+  @media screen and (max-width: 820px) {
+    font-weight: 600;
+    font-size: 13.5px;
+    line-height:28px;
+  }
   @media screen and (max-width: 768px) {
     font-size: 16px;
     line-height: 32px;
@@ -200,7 +255,12 @@ color: #5A7184;
 `;
 export const FrequentlyDecrement = styled.img`
   cursor: pointer;
-  
+  margin-bottom: 5px;
+
+  @media screen and (max-width: 820px) {
+    width: 15px;
+    margin-bottom: 10px;
+  }
 `;
 export const FrequntlyBox2 = styled.div`
   background: #ffffff;
@@ -222,6 +282,11 @@ width: 100%;
     max-width: 55rem;
  
   }
+  @media screen and (max-width: 820px) {
+    padding: 16px 22px;
+ 
+  }
+ 
 `;
 export const Col2 = styled.div`
   display: flex;
@@ -251,9 +316,21 @@ font-size: 24px;
 line-height: 36px;
  
   }
+  @media screen and (max-width: 960px) {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 20px;
+    text-align: center;
+  }
+  @media screen and (max-width: 820px) {
+    font-weight: 600;
+    font-size: 20px;
+    line-height:30px;
+    text-align: center;
+  }
   @media screen and (max-width: 768px) {
     font-size: 20px;
-    line-height: 32px;
+    line-height: 16px;
     /* padding: 10px; */
     margin-right: auto;
   }
@@ -275,6 +352,7 @@ export const FrequentlyP2 = styled.p`
   max-width: 74rem;
   margin-right: 210px;
   /* padding-left: 24px; */
+
   @media screen and (max-width: 768px) {
     font-size: 16px;
     line-height: 32px;
@@ -293,7 +371,9 @@ export const FrequentlyP2 = styled.p`
 export const FrequentlyDecrement2 = styled.img`
   
   cursor: pointer;
-
+  @media screen and (max-width: 820px) {
+    width: 15px;
+  }
   @media screen and (max-width: 280px) {
     width: 10px;
   }
@@ -301,7 +381,14 @@ export const FrequentlyDecrement2 = styled.img`
 
 
 
+export const MainLog = styled.div`
+ @media screen and (max-width: 960px) {
+    padding:1px 0px 0px 0px;
 
+  }
+  @media screen and (max-width: 820px) {
+  }
+`
 export const FrequentlyLogin = styled.div`
   background-color: #2b2d31;
   padding: 30px 70px;
@@ -316,6 +403,10 @@ margin-top: 128px;
     
   }
   @media screen and (max-width: 960px) {
+    padding:0px 50px 40px 50px;
+
+  }
+  @media screen and (max-width: 820px) {
   }
   @media screen and (max-width: 768px) {
     padding: 0 0 20px 0;
@@ -341,8 +432,11 @@ justify-content: none;
   }
   
   @media screen and (max-width: 960px) {
-    flex-direction: column;
-    margin-top: 30px;
+    margin: 0;
+display: flex;
+
+justify-content: none;
+  align-items: none;
   }
   @media screen and (max-width: 768px) {
     flex-direction: column;
@@ -403,10 +497,20 @@ text-align: center;
 color: #FFFFFF;
   }
   @media screen and (max-width: 960px) {
-    font-size: 25px;
-    line-height: 32px;
-    margin: 10px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 39px;
     text-align: center;
+    color: #FFFFFF;
+margin: 0;
+  }
+  @media screen and (max-width: 820px) {
+    font-weight: 700;
+    font-size: 32px;
+    line-height:30px;
+    text-align: center;
+    color: #FFFFFF;
+margin:0;
   }
   @media screen and (max-width: 768px) {
     font-size: 25px;
@@ -445,10 +549,27 @@ max-width: 42rem;
 
   }
   @media screen and (max-width: 960px) {
-    font-size: 19px;
-    line-height: 32px;
-    margin: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
     text-align: center;
+    color: #8c98a4;
+    max-width: 39rem;
+    margin:0;
+    margin-top: 22px;
+  }
+  @media screen and (max-width: 820px) {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color: #8c98a4;
+    max-width: 40rem;
+    margin: 0px;
+    margin-top: 22px;
+
+    max-width: 32rem;
+
   }
   @media screen and (max-width: 768px) {
     font-size: 19px;
@@ -540,11 +661,26 @@ color: #FAFAFB;
     padding: 0;
   }
   @media screen and (max-width: 960px) {
-    font-size: 25px;
-    line-height: 32px;
-    margin: 10px;
-    text-align: center;
-    flex-direction: column;
+    font-weight: 600;
+font-size: 18px;
+line-height: 40px;
+color: #FAFAFB;
+    display: flex;
+    align-items: center;
+    max-width:45rem ;
+    margin: 0px;
+    padding: 0px;
+
+  }
+  @media screen and (max-width: 820px) {
+    font-weight: 600;
+font-size: 16px;
+line-height: 40px;
+color: #FAFAFB;
+    display: flex;
+    max-width:45rem ;
+    margin: 0px 0 0 0;
+    padding: 0;
 
   }
   @media screen and (max-width: 768px) {
@@ -568,7 +704,6 @@ align-items:center ;
 font-weight: 400;
 font-size: 16px;
 line-height: 24px;
-font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
 color: #FFFFFF;
 @media screen and (max-width: 1280px)  {
   font-weight: 400;
@@ -583,9 +718,16 @@ line-height: 24px;
 color: #FFFFFF;
   }
   @media screen and (max-width: 960px) {
-    font-size: 25px;
+    font-size: 17px;
     line-height: 32px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
+    text-align: center;
+  }
+
+  @media screen and (max-width: 820px) {
+    font-size: 14px;
+    line-height: 32px;
+    /* margin-top: 30px; */
     text-align: center;
   }
   @media screen and (max-width: 768px) {
@@ -614,6 +756,10 @@ margin: 0 8px 0 20px;
 @media screen and (max-width: 960px) {
    width: 40px;
   }
+  @media screen and (max-width: 820px) {
+   width: 25px;
+   margin: 0 8px 0 10px;
+  }
 @media screen and (max-width: 768px) {
   width: 35px;
 
@@ -630,7 +776,12 @@ margin: 0 8px 0 20px;
 export const IconsText2 = styled.img`
 margin: 0 0px 0 20px;
 @media screen and (max-width: 960px) {
-   width: 40px;
+  width: 30px;
+   margin: 0 8px 0 40px;
+  }
+  @media screen and (max-width: 820px) {
+   width: 25px;
+   margin: 0 8px 0 40px;
   }
 @media screen and (max-width: 768px) {
   width: 35px;
@@ -672,7 +823,7 @@ width: 100%;
   @media screen and (max-width: 960px) {
     padding: 0;
     font-size: 13px;
-    margin: 60px 0 0 0;
+    margin: 60px 0 20px 0;
   }
   @media screen and (max-width: 768px) {
     padding: 0;
@@ -771,8 +922,17 @@ color: #5A7184;
   }
   @media screen and (max-width: 960px) {
     padding: 1px 1px;
-    font-size: 22px;
+    font-size: 15px;
     margin-bottom:10px;
+  margin-bottom: 5px;
+
+  }
+  @media screen and (max-width: 820px) {
+    padding: 1px 1px;
+    font-size: 14px;
+    margin-bottom:10px;
+  margin-bottom: 5px;
+
   }
   @media screen and (max-width: 768px) {
     padding: 1px 1px;
@@ -814,8 +974,13 @@ margin-bottom: 25px;
   }
   @media screen and (max-width: 960px) {
     max-width: 1300rem;
-    padding: 25px 15px;
-    font-size: 18px;
+    padding: 16px 15px;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  @media screen and (max-width: 820px) {
+    padding: 13px 15px;
+    font-size: 14px;
   }
   @media screen and (max-width: 768px) {
     padding: 20px 15px;
@@ -857,9 +1022,9 @@ color: #FFFFFF;
 margin-top: 18px;
   }
   @media screen and (max-width: 960px) {
-    font-size: 22px;
+    font-size: 16px;
 
-    padding: 25px 15px;
+    padding: 15px 15px;
   }
   @media screen and (max-width: 768px) {
     font-size: 18px;
@@ -909,7 +1074,7 @@ export const FormCol = styled.div`
     margin: 0px;
     max-width: 640rem;
     width: 100%;
-
+margin-left: 12px;
   }
   @media screen and (max-width: 768px) {
     margin: 0px;
@@ -936,6 +1101,7 @@ export const FormCol1 = styled.div`
     width: 100%;
     margin-right: 12px;
   }
+  
   @media screen and (max-width: 768px) {
     margin: 0px;
   }
@@ -976,7 +1142,7 @@ export const FormCol2 = styled.div`
     margin: 0px;
     max-width: 640rem;
     width: 100%;
-
+margin-left: 12px;
   }
   @media screen and (max-width: 768px) {
     margin: 0px;

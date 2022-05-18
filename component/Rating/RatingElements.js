@@ -23,6 +23,9 @@ export const RatingContainer = styled.div`
   @media screen and (max-width: 960px) {
     height: 35rem;
   }
+  @media screen and (max-width: 820px) {
+    height: 30rem;
+  }
   @media screen and (max-width: 768px) {
     height: 90rem;
   }
@@ -94,8 +97,19 @@ text-align: center;
 
 color: #1A2944;
   }
-  @media screen and (max-width: 912px) {
-    padding: 10px;
+  @media screen and (max-width: 960px) {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 20px;
+    text-align: center;
+    color: #1a2944;
+  }
+  @media screen and (max-width: 820px) {
+    font-weight: 700;
+    font-size: 32px;
+    line-height:20px;
+    text-align: center;
+    color: #1a2944;
   }
   @media screen and (max-width: 768px) {
     font-size: 30px;
@@ -133,8 +147,26 @@ color: #8C98A4;
 max-width: 41rem;
 
   }
-  @media screen and (max-width: 912px) {
-    padding: 10px;
+  @media screen and (max-width: 960px) {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    text-align: center;
+    color: #8c98a4;
+    max-width: 38rem;
+    margin-bottom: 43px;
+
+  }
+  @media screen and (max-width: 820px) {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color: #8c98a4;
+    max-width: 40rem;
+    margin-bottom: 43px;
+    max-width: 33rem;
+
   }
   @media screen and (max-width: 768px) {
     font-size: 16px;

@@ -30,7 +30,7 @@ function Review() {
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
 
-    slidesToScroll: 1,
+    slidesToScroll: 4,
     autoplay: true,
     autoplaySpeed: 5000,
     // dots: true,
@@ -102,7 +102,7 @@ export const userRows = [
     info: "From Amazon.com",
     imgStar:"Rating/star.svg",
     id: 3,
-    username: "Jon Snow",
+    username: "Trashae Hubbard",
     avatar:"Rating/men3.svg",
     title:
       "  We are a power only company with 227 owner operators who started  with another ELD solution and had nothing but problems out of it. When we realized that we as a company could not keep this up we reached out to TT ELD",

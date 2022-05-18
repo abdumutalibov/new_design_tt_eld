@@ -58,8 +58,9 @@ height: 100%;
     max-height: max-content;
 height: 100%;
   }
-  @media screen and (max-width: 1000px) {
-    grid-template-columns: 1fr 1fr;
+  @media screen and (max-width: 960px) {
+    max-width: 115rem;
+    width: 100%;
   }
 
   @media screen and (max-width: 768px) {
@@ -73,8 +74,8 @@ background: #fafafa;
   border-radius: 8px;
   padding: 30px 34px;
   
-  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); */
-  box-shadow: 2px 4px 24px rgba(151, 151, 151, 0.12);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 2px 4px 24px rgba(151, 151, 151, 0.12); */
   transition: all 0.2s ease-in-out;
   max-width: 450px;
   max-height: 550px;
@@ -99,7 +100,16 @@ cursor: grab;
   }
   @media screen and (max-width: 960px) {
     max-width: 380px;
-    max-height: 274px;
+    max-height: 374px;
+margin: 0 16.6px 0 16px;
+padding: 30px 28px 20px 28px;
+
+  }
+  @media screen and (max-width: 820px) {
+    max-width: 380px;
+    max-height: 374px;
+    margin: 0 14.6px;
+padding: 30px 20px 20px 20px;
   }
   @media screen and (max-width: 480px) {
     padding: 15px;
@@ -131,9 +141,13 @@ line-height: 32px;
 font-feature-settings: 'pnum' on, 'lnum' on;
 color: #47464D;
   }
-  @media screen and (max-width: 912px) {
+  @media screen and (max-width: 960px) {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  @media screen and (max-width: 820px) {
     font-size: 14px;
-    line-height: 23px;
+    line-height: 27px;
   }
   @media screen and (max-width: 768px) {
     font-size: 14px;
@@ -157,7 +171,11 @@ export const User = styled.div`
   align-items: flex-start;
   padding: 38px 0 0px 0;
   @media screen and (max-width: 960px) {
-    padding: 12px 0 20px 0;
+    padding: 30px 0 0px 0;
+    margin: 0;
+  }
+  @media screen and (max-width: 820px) {
+    padding: 20px 0 0px 0;
   }
   @media screen and (max-width: 480px) {
     padding: 12px 0 20px 0;
@@ -188,6 +206,18 @@ font-size: 21px;
 line-height: 32px;
 color: #19191B;
   }
+  @media screen and (max-width: 960px) {
+    font-weight: 700;
+font-size: 19px;
+line-height: 32px;
+color: #19191B;
+  }
+  @media screen and (max-width: 820px) {
+    font-weight: 700;
+font-size: 17px;
+line-height: 32px;
+color: #19191B;
+  }
   @media screen and (max-width: 768px) {
     font-size: 14px;
     line-height: 23px;
@@ -205,6 +235,14 @@ export const UserInfo = styled.div`
   font-size: 14px;
   line-height: 20px;
   color: #696871;
+  @media screen and (max-width: 960px) {
+    font-size: 12px;
+    line-height: 23px;
+  }
+  @media screen and (max-width: 820px) {
+    font-size: 11px;
+    line-height: 23px;
+  }
   @media screen and (max-width: 768px) {
     font-size: 14px;
     line-height: 23px;

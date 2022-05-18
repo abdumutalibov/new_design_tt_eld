@@ -44,6 +44,7 @@ import {
   LoginTxt2,
   LoginTxt3,
   LoginTxt4,
+  MainLog,
   Show,
   Title,
   TitleH2,
@@ -97,9 +98,9 @@ const Frequntly = () => {
             </FrequentlyP>
           </FrequntlyBox2>
         ))}
-
-        <FrequentlyLogin  id="request">
-          <Col3>
+<MainLog id="request">
+        <FrequentlyLogin>
+          <Col3  >
             <LoginText>
               <LoginTxt1>Let’s talk to you about your company</LoginTxt1>
               <LoginTxt2>
@@ -143,7 +144,7 @@ const Frequntly = () => {
                     <FormInput
                       name="company"
                       type="text"
-                      placeholder="Company Name"
+                      placeholder="your company name"
                       required
                     />
                     <DisplayInput>
@@ -204,6 +205,7 @@ const Frequntly = () => {
             </LoginTextButton>
           </Col3>
         </FrequentlyLogin>
+        </MainLog>
       </FrequentlyWrapper>
     </FrequntlyContainer>
   );

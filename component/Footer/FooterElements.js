@@ -17,8 +17,13 @@ export const FooterContainer = styled.div`
 
   }
   @media screen and (max-width: 960px) {
-   height:29rem;
-
+    font-size: 2px;
+    height: 90px;
+    margin: 0;
+    padding: 0;
+  }
+  @media screen and (max-width: 820px) {
+    height: 75px;
   }
   @media screen and (max-width: 480px) {
    height:26rem;
@@ -48,9 +53,11 @@ export const FooterWrap = styled.div`
 
   }
   @media screen and (max-width: 960px) {
-    /* display: flex; */
-  
-height:28rem;
+    flex-direction:column;
+    max-width: 49rem;
+  }
+  @media screen and (max-width: 820px) {
+    max-width: 44rem;
   }
   @media screen and (max-width: 768px) {
     display: flex;
@@ -72,7 +79,7 @@ height:25rem;
 
 
 export const SocialMedia = styled.section`
-max-width: 90rem;
+/* max-width: 90rem; */
 width: 100%;
 
  
@@ -81,10 +88,8 @@ width: 100%;
 
   }
   @media screen and (max-width: 960px) {
-    /* display: flex;
-    justify-content: space-between;
-    flex-direction:column; */
-  /* align-items: center; */
+    flex-direction:column;
+
   }
   @media screen and (max-width: 768px) {
    
@@ -110,11 +115,11 @@ max-width: 90rem;
 
   }
   @media screen and (max-width: 960px) {
-  flex-direction:column;
+  /* flex-direction:column;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left:30px ;
+  padding-left:30px ; */
   }
   @media screen and (max-width: 768px) {
   flex-direction:column;
@@ -150,8 +155,15 @@ margin-right: 30px;
 @media screen and (max-width: 1024px) {
 width: 100px;
   }
-@media screen and (max-width: 960px) {
-width: 200px;
+  @media screen and (max-width: 960px) {
+height: 30px;
+margin: 0;
+padding: 0;
+  }
+@media screen and (max-width: 820px) {
+height: 25px;
+margin: 0;
+padding: 0;
   }
 @media screen and (max-width: 768px) {
 width: 200px;
@@ -177,7 +189,7 @@ padding-left:20px ;
 padding-right: 20px;
 }
 @media screen and (max-width: 960px) {
-padding:0 0 20px 0;
+padding:0 0 0px 0;
 }
 `
 export const WebsiteRights = styled.div`
@@ -194,10 +206,10 @@ display: flex;
 
   }
   @media screen and (max-width: 960px) {
-  flex-direction:column;
+  /* flex-direction:column;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   }
   @media screen and (max-width: 768px) {
   flex-direction:column;
@@ -227,11 +239,15 @@ padding: 0;
 margin: 0;
 }
 @media screen and (max-width: 960px) {
+margin: 0;
+padding: 0;
+max-width: 7.5rem;
 
-  margin-right: auto;
-  padding: 20px 0 0 0;
-max-width: 35rem;
-
+  }
+  @media screen and (max-width: 820px) {
+margin: 0;
+padding: 0;
+max-width: 6.7rem;
 
   }
 @media screen and (max-width: 768px) {
@@ -268,8 +284,12 @@ display: flex;
     width: 24px;
   }
 @media screen and (max-width: 960px) {
-width: 40px;
-height: 40px;
+width: 20px;
+height: 20px;
+  }
+  @media screen and (max-width: 820px) {
+width: 17px;
+height: 17px;
   }
 @media screen and (max-width: 768px) {
 width: 40px;
@@ -309,8 +329,18 @@ margin-right: 10px;
 
 }
 @media screen and (max-width: 960px) {
- margin-left: 10px;
- font-size: 20px;
+  font-weight: 400;
+font-size: 12px;
+line-height: 24px;
+color: #FFFFFF;
+margin-right: 10px;
+ }
+ @media screen and (max-width: 820px) {
+  font-weight: 400;
+font-size: 10px;
+line-height: 24px;
+color: #FFFFFF;
+margin-right: 10px;
  }
 @media screen and (max-width: 768px) {
  margin-left: 10px;
@@ -339,9 +369,17 @@ display: flex;
 @media screen and (max-width: 960px) {
 display: flex;
 align-items: center;
-font-size:40px;
+font-size:1px;
 margin-right:auto;
-padding: 20px 0 20px 0;
+padding: 0px 0 0px 0;
+ }
+ @media screen and (max-width: 820px) {
+display: flex;
+align-items: center;
+font-size:1px;
+margin-right:auto;
+padding: 0px 0 0px 0;
+
  }
 @media screen and (max-width: 768px) {
 display: flex;
@@ -356,9 +394,7 @@ font-size:40px;
 export const SocialIconLink = styled.a`
 color: #fff;
 font-size: 26px;
-/* margin-right:auto; */
 display: flex;
-/* margin-bottom: 40px; */
 display: flex;
   align-items: center;
   justify-content: center;
@@ -371,9 +407,16 @@ display: flex;
 @media screen and (max-width: 960px) {
   display: flex;
 align-items: center;
-font-size:40px;
-margin-right:auto;
-
+font-size:26px;
+/* margin-right:auto; */
+margin: 0 auto;
+ }
+ @media screen and (max-width: 820px) {
+  display: flex;
+align-items: center;
+font-size:20px;
+/* margin-right:auto; */
+margin: 0 auto;
  }
 @media screen and (max-width: 768px) {
 display: flex;
