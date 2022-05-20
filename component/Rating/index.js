@@ -21,6 +21,7 @@ import {
 } from "./RatingElements";
 import Review from "../Review/review";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+import Review1280 from "../Review1280/review";
 
 const Rating = () => {
 
@@ -96,8 +97,9 @@ const Rating = () => {
         ))}
       </Slider> 
          </Cont>
-     
+     <Review1280/>
       <Review/>
+      
     </RatingContainer>
   );
 };

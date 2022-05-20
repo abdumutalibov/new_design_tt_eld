@@ -9,11 +9,11 @@ export const EasyContainer = styled.div`
   justify-content: center;
   align-items: center;
   @media screen and (max-width: 1280px) {
-    height: 90rem;
+    height: 70rem;
     display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0;
   }
   @media screen and (max-width: 1024px) {
@@ -84,11 +84,12 @@ export const EasyH1 = styled.h1`
   color: #1a2944;
   @media screen and (max-width: 1280px) {
     font-weight: 700;
-    font-size: 32px;
-    line-height: 56px;
+font-size: 40px;
+line-height: 56px;
+margin-bottom: 10px;
     text-align: center;
     color: #1a2944;
-
+margin-top: 100px;
   }
   @media screen and (max-width: 1024px) {
     font-weight: 700;
@@ -133,8 +134,11 @@ export const EasyP = styled.p`
   margin-bottom: 70px;
   @media screen and (max-width: 1280px) {
     text-align: center;
-    font-size: 22px;
-    max-width: 60rem;
+    font-weight: 400;
+font-size: 18px;
+line-height: 36px;
+max-width: 50rem;
+
   }
   @media screen and (max-width: 1024px) {
     font-weight: 400;
@@ -298,8 +302,7 @@ export const TextCard1 = styled.div`
   @media screen and (max-width: 1280px) {
     max-width: 22rem;
     max-height: 290px;
-
-margin-left: 30px;
+margin-left: 130px;
   }
   @media screen and (max-width:960px) {
     
@@ -355,7 +358,7 @@ export const TextCard2 = styled.div`
     max-width: 22rem;
     max-height: 290px;
 
-margin-right: 70px;
+margin-right: 140px;
   }
   @media screen and (max-width:960px) {
     
@@ -399,7 +402,6 @@ margin-left: 50px;
 margin-left: 60px;
   }
 `;
-
 export const ImgWrap = styled.img`
   width: 26px;
   height: 26px;
@@ -423,7 +425,9 @@ export const Heading1 = styled.h1`
   text-align: right;
   color: #1a2944;
   @media screen and (max-width: 1280px) {
-    font-size: 24px;
+    font-weight: 600;
+font-size: 24px;
+line-height: 36px;
     max-width: 40rem;
   width: 100%;
   }
@@ -461,9 +465,9 @@ color: #1A2944;
   }
 `;
 export const Heading2 = styled.h1`
-  font-weight: 600;
-  font-size: 28px;
-  line-height: 40px;
+ font-weight: 600;
+font-size: 24px;
+line-height: 36px;
   color: #1a2944;
   @media screen and (max-width: 1280px) {
     font-size: 24px;
@@ -499,9 +503,11 @@ export const TextP = styled.p`
   color: #8c98a4;
   width: 100%;
   @media screen and (max-width: 1280px) {
-    font-size: 20px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 32px;
     width: 100%;
-    max-width: 150rem;
+    max-width: 18rem;
   }
   @media screen and (max-width: 1024px) {
     font-weight: 400;
@@ -550,9 +556,12 @@ export const TextP2 = styled.p`
   color: #8c98a4;
   width: 100%;
   @media screen and (max-width: 1280px) {
-    font-size: 20px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 32px;
     width: 100%;
-    max-width: 150rem;
+    max-width: 18rem;
+
   }
   @media screen and (max-width: 1024px) {
     font-weight: 400;
@@ -634,7 +643,7 @@ export const ImgMiniMacTop = styled.img`
   @media screen and (max-width: 1280px) {
     /* display: none; */
     display: block;
-    width: 900px;
+    width: 760px;
 margin-bottom: 32px;
   }
   @media screen and (max-width: 1024px) {

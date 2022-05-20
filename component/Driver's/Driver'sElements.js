@@ -178,16 +178,20 @@ export const DriversH1 = styled.h1`
 font-size: 40px;
 line-height: 56px;
 margin-top: 0rem;
-    margin-top: 8rem;
-    padding-top: 8rem;
+    /* margin-top: 8rem;
+    padding-top: 8rem; */
+    /* margin-top: 8rem; */
+    padding-top: 15rem;
   }
   @media screen and (max-width: 1180px) {
     font-weight: 700;
 font-size: 40px;
 line-height: 56px;
 margin-top: 0rem;
-    margin-top: 9rem;
-    padding-top: 6rem;
+    /* margin-top: 9rem;
+    padding-top: 6rem; */
+    padding-top: 15rem;
+
   }
   @media screen and (max-width: 1024px) {
     font-weight: 700;

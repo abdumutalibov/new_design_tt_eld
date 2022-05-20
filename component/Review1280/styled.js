@@ -12,13 +12,12 @@ display:none;
     display: block;
     margin: 0px;
     padding: 0px;
-    display: none;
   }
   @media screen and (max-width: 1024px) {
     width: 100%;
     margin: 0px;
     padding: 0;
-    display: block;
+    display: none;
   }
   @media screen and (max-width: 960px) {
   }
@@ -45,11 +44,9 @@ export const RatingWrappers = styled.div`
   align-items: center;
   
   @media screen and (max-width: 1280px) {
-    max-width: 155rem;
+    max-width: 55rem;
     /* margin: 0; */
-    /* padding: 10px 0px 10px 0px; */
-    padding-top:10px ;
-    padding-bottom: 10px;
+    padding: 10px 10px 10px 10px;
     max-height: max-content;
 height: 100%;
   }
@@ -87,11 +84,13 @@ background: #fafafa;
     cursor: pointer;
   }
   @media screen and (max-width: 1280px) {
-    max-width: 450px;
-  max-height: 550px;
+    max-width: 420px;
+    max-height: 274px;
     max-height: max-content;
 height: 100%;
 cursor: grab;
+padding: 29px 30px;
+margin: 0 10px 0 10px;
   }
   @media screen and (max-width: 1024px) {
     max-width: 420px;
@@ -132,15 +131,14 @@ export const RatingP = styled.p`
   color: #47464d;
   @media screen and (max-width: 1280px) {
     font-weight: 400;
-  font-size: 18px;
-  line-height: 32px;
-  color: #47464d;  
+font-size: 18px;
+line-height: 32px;
+color: #47464D;
   }
   @media screen and (max-width: 1024px) {
     font-weight: 400;
 font-size: 18px;
 line-height: 32px;
-font-feature-settings: 'pnum' on, 'lnum' on;
 color: #47464D;
   }
   @media screen and (max-width: 960px) {
@@ -197,10 +195,10 @@ export const UserName = styled.div`
   line-height: 32px;
   color: #19191b;
   @media screen and (max-width: 1280px) {
-    font-weight: 600;
-  font-size: 21px;
-  line-height: 32px;
-  color: #19191b;
+    font-weight: 500;
+font-size: 21px;
+line-height: 32px;
+color: #19191B;
   }
   @media screen and (max-width: 1024px) {
     font-weight: 500;
@@ -233,9 +231,9 @@ color: #19191B;
   }
 `;
 export const UserInfo = styled.div`
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
+ font-weight: 400;
+font-size: 14px;
+line-height: 20px;
   color: #696871;
   @media screen and (max-width: 960px) {
     font-size: 12px;

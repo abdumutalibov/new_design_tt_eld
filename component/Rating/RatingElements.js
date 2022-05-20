@@ -83,7 +83,7 @@ export const RatingH1 = styled.h1`
   color: #1a2944;
   @media screen and (max-width: 1280px) {
     font-weight: 700;
-font-size: 50px;
+font-size: 40px;
 line-height: 56px;
 text-align: center;
 
@@ -131,11 +131,11 @@ export const RatingText = styled.p`
   margin: 20px 0 50px 0;
   @media screen and (max-width: 1280px) {
     font-weight: 400;
-font-size: 22px;
+font-size: 18px;
 line-height: 36px;
 text-align: center;
 color: #8C98A4;
-max-width: 48rem;
+max-width: 43rem;
 
   }
   @media screen and (max-width: 1024px) {

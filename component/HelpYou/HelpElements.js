@@ -44,10 +44,11 @@ export const HelpWrapper = styled.div`
   grid-gap: 26px;
   padding: 0 24px;
   @media screen and (max-width: 1280px) {
-    max-width: 66rem;
+    max-width: 55rem;
     margin: 0 auto;
     grid-template-columns: 1fr 1fr;
-    padding: 0 94px;
+    /* padding: 0 94px; */
+    padding: 0;
   }
   @media screen and (max-width: 1024px) {
     grid-template-columns: 1fr 1fr;

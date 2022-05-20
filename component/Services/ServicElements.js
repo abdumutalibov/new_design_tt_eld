@@ -38,6 +38,9 @@ export const ServicesWrapper = styled.div`
     max-width: 1100px;
     width: 100%;
     margin-bottom: 150px;
+    max-width: 55rem;
+  grid-gap: 20px;
+
   }
   @media screen and (max-width: 1024px) {
     max-width: 835px;
@@ -82,6 +85,10 @@ export const ServicesCard = styled.div`
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
+  }
+  @media screen and (max-width: 1280px) {
+    padding: 25px;
+
   }
   @media screen and (max-width: 1024px) {
     padding: 25px;
@@ -130,7 +137,7 @@ export const ServicesIcon = styled.img`
 export const ServicesIconShopping = styled.img`
   height: 23px;
   @media screen and (max-width: 1280px) {
-    height: 20px;
+    height: 16px;
 
 
   }
@@ -164,7 +171,7 @@ export const ServicesH1 = styled.h1`
   color: #1a2944;
   @media screen and (max-width: 1280px) {
     font-weight: 700;
-font-size: 50px;
+font-size: 40px;
 line-height: 56px;
 text-align: center;
 color: #1A2944;
@@ -212,11 +219,11 @@ export const ServicesText = styled.p`
   margin-bottom: 70px;
   @media screen and (max-width: 1280px) {
     font-weight: 400;
-font-size: 22px;
+font-size: 18px;
 line-height: 36px;
 text-align: center;
 color: #8C98A4;
-max-width: 50rem;
+max-width: 41rem;
 margin-top: 20px;
 
   }
@@ -275,8 +282,7 @@ line-height: 49px;
 color: #1A2944;
   @media screen and (max-width: 1280px) {
     font-weight: 600;
-    font-size: 22px;
-
+font-size: 17.1628px;
 line-height: 32px;
 color: #1A2944;
   }
@@ -318,8 +324,8 @@ font-size: 24px;
 color: #5A7184;
 @media screen and (max-width: 1280px) {
   font-weight: 400;
-font-size: 24px;
-line-height: 36px;
+font-size: 15.8425px;
+line-height: 24px;
 color: #5A7184;
   }
   @media screen and (max-width: 1024px) {
@@ -355,7 +361,7 @@ border-radius: 4px;
   align-items: center; */
   @media screen and (max-width: 1280px) {
     width: 100%;
-  max-width: 1099px;
+  max-width: 55rem;
   padding: 0;
 margin: 0;
   }
@@ -395,6 +401,10 @@ export const FooterWrap = styled.div`
   max-width: 85rem;
 width: 100%;
   margin: 0 auto;
+  @media screen and (max-width: 1280px) {
+  padding: 32px 0px 32px 44px;
+    
+  }
   @media screen and (max-width: 1024px) {
   padding: 32px 0px 32px 44px;
     
@@ -477,7 +487,6 @@ export const FooterLinkItems = styled.div`
   margin-right: 30px;
   @media screen and (max-width: 1280px) {
     width: 100%;
-
   }
   @media screen and (max-width: 1024px) {
     width: 100%;
@@ -543,8 +552,10 @@ export const FooterLinkItems2 = styled.div`
 `;
 FooterLinkItems.Col = styled.div`
 width: 100%;
+max-width: 26rem;
+
 @media screen and (max-width: 1280px) {
-    max-width: 28rem;
+    max-width: 24rem;
 width: 100%;
   }
   @media screen and (max-width: 1024px) {
@@ -672,6 +683,12 @@ export const Btns = styled.button`
   }
   @media screen and (max-width: 1280px) {
     display:block;
+    width: 169px;
+  height: 44px;
+  font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+color: #FFFFFF;
   }
   @media screen and (max-width: 1024px) {
     width: 169px;
@@ -827,7 +844,7 @@ color: #FFFFFF;
   @media screen and (max-width: 1280px) {
   display: block;
   font-weight: 600;
-font-size: 23px;
+font-size: 20px;
 line-height: 36px;
 color: #FFFFFF;
 margin: 5px 0;
@@ -1027,7 +1044,9 @@ color: #FFFFFF;
     transition: 0.3s ease-out;
   }
   @media screen and (max-width: 1280px) {
-    font-size: 18px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 42px;
 width: 100%;
   }
   @media screen and (max-width: 1024px) {

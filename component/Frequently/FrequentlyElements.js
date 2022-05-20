@@ -137,7 +137,8 @@ export const FrequentlyWrapper = styled.div`
   padding: 0 24px 0 22px;
 
   @media screen and (max-width: 1280px) {
-    max-width: 1140px;
+    max-width: 55rem;
+
   }
   @media screen and (max-width: 1024px) {
     max-width: 55rem;
