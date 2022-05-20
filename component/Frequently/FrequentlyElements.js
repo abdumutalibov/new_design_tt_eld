@@ -383,9 +383,11 @@ export const FrequentlyDecrement2 = styled.img`
 
 
 export const MainLog = styled.div`
+ @media screen and (max-width: 1280px) {
+    padding:1px 0px 0px 0px;
+  }
  @media screen and (max-width: 960px) {
     padding:1px 0px 0px 0px;
-
   }
   @media screen and (max-width: 820px) {
   }

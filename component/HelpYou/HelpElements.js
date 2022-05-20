@@ -8,9 +8,9 @@ export const HelpContainer = styled.div`
   justify-content: center;
   align-items: center;
   @media screen and (max-width: 1280px) {
-    height: 610px;
+    /* height: 540px; */
     margin: 0;
-    padding: 0;
+    padding-top: 75px;
   }
   @media screen and (max-width: 960px) {
     height: 770px;

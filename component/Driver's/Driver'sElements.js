@@ -188,20 +188,18 @@ margin-top: 0rem;
 font-size: 40px;
 line-height: 56px;
 margin-top: 0rem;
-    /* margin-top: 9rem;
-    padding-top: 6rem; */
     padding-top: 15rem;
 
   }
   @media screen and (max-width: 1024px) {
     font-weight: 700;
-    font-size: 40px;
-    line-height: 76px;
-    text-align: center;
-    color: #ffffff;
-    margin-top: 19.8rem;
-    padding: 0;
-    margin-bottom: -40px;
+font-size: 40px;
+line-height: 0px;
+margin-top: 0rem;
+    padding-top: 20rem;
+    padding-left:0 ;
+    padding-bottom:0 ;
+margin: 0;
   }
   @media screen and (max-width: 960px) {
     text-align: center;
@@ -254,7 +252,7 @@ line-height: 36px;
     
     max-width: 46rem;
     margin: 0 auto;
-    padding: 18px 0px 100px 0;
+    padding: 7px 0px 100px 0;
   }
   @media screen and (max-width: 1024px) {
     font-weight: 600;
