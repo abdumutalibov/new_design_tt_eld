@@ -210,8 +210,8 @@ margin: 0;
   @media screen and (max-width: 820px) {
     text-align: center;
     font-size: 32px;
-    margin-top: 5rem;
-    padding-top: 6rem;
+    margin-top: 0rem;
+    padding-top: 15rem;
     /* margin: 0;
     padding: 0; */
   }
