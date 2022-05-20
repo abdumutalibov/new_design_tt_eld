@@ -37,7 +37,7 @@ export const FrequntlyH1 = styled.h1`
   margin-bottom: 16px;
   @media screen and (max-width: 1280px) {
     font-weight: 700;
-font-size: 50px;
+font-size: 40px;
 line-height: 56px;
 text-align: center;
 color: #1A2944;
@@ -83,11 +83,11 @@ export const FrequntlyText = styled.p`
   margin-bottom: 60px;
   @media screen and (max-width: 1280px) {
     font-weight: 400;
-font-size: 22px;
+font-size: 18px;
 line-height: 36px;
 text-align: center;
 color: #8C98A4;
-max-width: 54rem;
+max-width: 44rem;
 
   }
   @media screen and (max-width: 1024px) {
@@ -805,6 +805,9 @@ border: none;
     display: none;
   }
 `;
+
+
+
 
 export const LoginContainer = styled.div`
   /* margin-left: 120px; */

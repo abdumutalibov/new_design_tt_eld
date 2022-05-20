@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import {MdArrowForward,MdKeyboardArrowRight} from 'react-icons/md'
-
+import {FaArrowRight} from 'react-icons/fa'
 export const HeroContainer = styled.div`
   display: flex;
   justify-content: center;
@@ -213,20 +213,30 @@ flex-direction: column;
     
 }
 `
-export const ArrowForward = styled(MdArrowForward)`
+export const ArrowForward = styled(FaArrowRight)`
 margin-left: 10px;
-font-size: 25px;
+font-size: 22px;
+@media screen and (max-width: 1280px){
+font-size: 20px;
+
+}
 @media screen and (max-width: 820px){
 font-size: 80px;
 width: 300px;
 height: 300px;
 }
 `
-export const ArrowForwards = styled(MdArrowForward)`
+export const ArrowForwards = styled(FaArrowRight)`
 margin-left: 10px;
-font-size: 65px;
+font-size: 22px;
+@media screen and (max-width: 1280px){
+font-size: 20px;
+
+}
 @media screen and (max-width: 820px){
 font-size: 80px;
+width: 300px;
+height: 300px;
 }
 `
 

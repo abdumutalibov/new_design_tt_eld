@@ -49,16 +49,16 @@ function HeroSection() {
             primary="true"
             dark='true'
           >
-             Get started {hover ? <Arrow src="Hero/arrowWhite.svg"/> : <ArrowWhite src="Hero/arrow.svg"/>}
+             Get started {hover ? <ArrowForward/> : <ArrowForwards/>}
           </Button>
           <Button
-            to="signup"
-            onMouseEnter={onHovers}
-            onMouseLeave={onHovers}
-            primary="true"
-            dark='true'
+           to="signup"
+           onMouseEnter={onHover}
+           onMouseLeave={onHover}
+           primary="true"
+           dark='true'
           >
-            Free trial {hovers ? <Arrow src="Hero/arrowWhite.svg"/> : <ArrowWhite src="Hero/arrow.svg"/>}
+            Free trial {hovers ? <ArrowForward/> : <ArrowForwards/>}
           </Button>
         </HeroBgWrapper>
         {/* <ImgMac src="mac.svg"/> */}
