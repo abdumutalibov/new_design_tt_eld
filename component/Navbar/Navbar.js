@@ -219,6 +219,9 @@ export const NavMenu = styled.div`
   list-style: none;
   text-align: center;
   margin-right: 22px;
+  @media screen and (max-width: 1280px) {
+    margin-right: 15px;
+  }
   @media screen and (max-width: 1024px) {
 margin: 0;
   }
@@ -268,7 +271,8 @@ color: #FFFFFF;
 font-size: 14px;
 line-height: 20px;
 /* padding: 0 1.1rem; */
-padding: 0 5px 0 25px;
+padding: 0 14px 0 14px;
+margin: 0;
 text-align: center;
 color: #FFFFFF;
   }
@@ -403,7 +407,7 @@ text-align: center;
   width: 111px;
     height: 36px;
     font-weight: 600;
-font-size: 14px;
+font-size: 12px;
 line-height: 20px;
 text-align: center;
 color: #FFFFFF;
@@ -414,9 +418,9 @@ padding: 0px 0px;
   justify-content: center;
   align-items: center;
   width: 111px;
-  font-weight: 600;
-font-size: 14px;
-line-height: 20px;
+    height: 36px;
+    font-weight: 600;
+font-size: 12px;
 line-height: 20px;
 text-align: center;
 }
