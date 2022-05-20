@@ -92,6 +92,7 @@ font-size: 40px;
 line-height: 56px;
 text-align: center;
 color: #1A2944;
+color:red;
   }
   @media screen and (max-width: 960px) {
     font-weight: 700;
@@ -106,6 +107,7 @@ color: #1A2944;
     line-height: 56px;
     text-align: center;
     color: #1a2944;
+    color: blue;
   }
   @media screen and (max-width: 768px) {
     text-align: center;
