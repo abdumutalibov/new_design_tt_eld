@@ -131,7 +131,7 @@ export const RatingP = styled.p`
   color: #47464d;
   @media screen and (max-width: 1280px) {
     font-weight: 400;
-font-size: 17.1px;
+font-size: 16.5px;
 line-height: 32px;
 color: #47464D;
   }
