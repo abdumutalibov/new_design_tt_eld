@@ -625,11 +625,13 @@ export const FooterCardImg = styled.img`
 export const FooterCardImg2 = styled.img`
   /* margin-left: 90px; */
   margin-bottom: -33px;
+  display: none;
   @media screen and (max-width: 1280px) {
     /* width: 233px; */
     margin: 47px 0px 0 0px;
     position: absolute;
     margin-left: 390px;
+    display: block;
   }
   @media screen and (max-width: 1024px) {
     width: 203px;

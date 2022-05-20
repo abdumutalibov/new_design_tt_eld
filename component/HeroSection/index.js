@@ -9,7 +9,6 @@ import {
   HeroP,
   HeroBgWrapper,
   ArrowForward,
-  ArrowRight,
   ImgMac,
   ArrowForwards,
   Arrow,
