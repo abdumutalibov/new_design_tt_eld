@@ -30,11 +30,16 @@ color: #2D2B31;
   }
 @media screen and (max-width:1280px) {
   margin: 0;
-    margin:25px 18px 75px 18px;
-    max-width: 150px;
-  max-height: 48px;
-  font-size: 16px;
-  padding: 10px 20px;
+    margin:35px 18px 70px 18px;
+    width: 215px;
+  max-height: 67px;
+  font-weight: 600;
+font-size: 22px;
+  border-radius: 4px;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  padding: 10px 24px;
   
 }
 @media screen and (max-width: 960px) {
