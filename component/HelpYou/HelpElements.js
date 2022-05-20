@@ -44,7 +44,7 @@ export const HelpWrapper = styled.div`
   grid-gap: 26px;
   padding: 0 24px;
   @media screen and (max-width: 1280px) {
-    max-width: 55rem;
+    max-width: 66rem;
     margin: 0 auto;
     grid-template-columns: 1fr 1fr;
     padding: 0 94px;
@@ -140,8 +140,8 @@ export const HelpH1 = styled.h1`
   font-size: 56px;
   @media screen and (max-width: 1280px) {
     font-weight: 700;
-    font-size: 32px;
-    line-height: 26px;
+font-size: 40px;
+line-height: 56px;
     text-align: center;
     color: #1a2944;
   }
@@ -191,12 +191,12 @@ export const HelpTitle = styled.p`
   margin-bottom: 60px;
   @media screen and (max-width: 1280px) {
     font-weight: 400;
-    font-size: 14px;
-    line-height: 30px;
+font-size: 18px;
+line-height: 36px;
     text-align: center;
     color: #8c98a4;
-    max-width: 32rem;
-    margin-bottom: 43px;
+    max-width: 40rem;
+    /* margin-bottom: 43px; */
     /* max-width: 40rem; */
   }
   @media screen and (max-width: 1024px) {
@@ -236,8 +236,9 @@ export const HelpH2 = styled.h2`
   line-height: 32px;
   color: #1f1911;
   @media screen and (max-width: 1280px) {
-    font-size: 16px;
-    font-weight: 700;
+    font-weight: 600;
+font-size: 20px;
+line-height: 32px;
     margin-bottom: 0;
   }
   @media screen and (max-width: 960px) {
@@ -255,8 +256,16 @@ export const HelpH2 = styled.h2`
 `;
 
 export const HelpP = styled.p`
-     font-size: 13.5px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #47464D;
   margin-bottom: 10px;
+  @media screen and (max-width: 1280px) {
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+  }
   @media screen and (max-width: 820px) {
     font-size: 13.5px;
   }
