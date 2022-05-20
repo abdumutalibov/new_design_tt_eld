@@ -85,6 +85,8 @@ export const EasyH1 = styled.h1`
   @media screen and (max-width: 1280px) {
     text-align: center;
     font-size: 49px;
+color:yellow;
+
   }
   @media screen and (max-width: 1024px) {
     font-weight: 700;
