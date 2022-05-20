@@ -8,13 +8,12 @@ export const DriversContainer = styled.div`
   position: relative;
   width: 100%;
   @media screen and (max-width: 1280px) {
-    background: url("Drivers/Base (3).png");
+    background: url("Drivers/Base1024.svg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-size: 100%;
     background-position: center;
-    object-fit: contain;
-    height: 73.7rem;
-    margin-bottom: 70px;
+    object-fit: cover;
   }
   @media screen and (max-width: 1024px) {
     background: url("Drivers/Base1024.svg");
@@ -155,13 +154,10 @@ export const DriversH1 = styled.h1`
   color: #ffffff;
   z-index: 1;
   @media screen and (max-width: 1280px) {
-    font-weight: 700;
-    font-size: 49px;
-    line-height: 56px;
     text-align: center;
-    color: #ffffff;
-    margin-top: 10.8rem;
-    padding-top: 80px;
+    font-size: 32px;
+    margin-top: 5rem;
+    padding-top: 6rem;
   }
   @media screen and (max-width: 1024px) {
     font-weight: 700;
@@ -217,13 +213,14 @@ export const DriversP = styled.p`
   margin-bottom: 95px;
   margin-top: 16px;
   @media screen and (max-width: 1280px) {
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 46px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
     text-align: center;
     color: #ffffff;
-    max-width: 60rem;
-    opacity: 0.8;
+    max-width: 37rem;
+    margin: 0 auto;
+    padding: 25px 0px 45px 0;
   }
   @media screen and (max-width: 1024px) {
     font-weight: 600;
@@ -280,8 +277,8 @@ export const TextWrapper1 = styled.div`
   flex-direction: column;
   align-items: flex-end;
   @media screen and (max-width: 1280px) {
-    max-width: 300px;
-    max-height: 205px;
+    margin-bottom: 50px;
+    max-width: 230px;
   }
   @media screen and (max-width: 1024px) {
     margin-bottom: 58px;
@@ -333,12 +330,9 @@ export const Heading1 = styled.h1`
   text-align: right;
   color: #fafafb;
   @media screen and (max-width: 1280px) {
-    font-weight: 600;
-    font-size: 26px;
-    line-height: 36px;
-    text-align: right;
-    color: #fafafb;
-    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: left;
+    line-height: 15px;
   }
   @media screen and (max-width: 1024px) {
     font-weight: 600;
@@ -379,14 +373,12 @@ export const Line = styled.p`
   color: #a9a6ac;
 
   @media screen and (max-width: 1280px) {
-    font-weight: 200;
-    line-height: 27px;
-    font-size: 17px;
-    color: #fafafb;
-    mix-blend-mode: normal;
-    opacity: 0.6;
-    text-align: right;
-    max-width: 18rem;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+
+    margin: 0;
+    padding: 0;
   }
   @media screen and (max-width: 1024px) {
     font-weight: 400;
@@ -430,7 +422,7 @@ export const Column2 = styled.div`
 position: relative;
   @media screen and (max-width: 1280px) {
     margin: 0;
-    padding: 0 32px 0 32px;
+    padding: 0;
   }
   @media screen and (max-width: 960px) {
     padding: 0;
@@ -446,10 +438,9 @@ export const ImgPhone = styled.img`
   width: 100%;
   /* padding: 0 56px 0 56px; */
   @media screen and (max-width: 1280px) {
-    width: 420px;
-    /* padding: 0 40px 0 40px; */
-    margin: 0;
-    padding: 0;
+    width: 260px;
+    /* margin-bottom: 25px; */
+    margin: 0 26px 130px ;
   }
   @media screen and (max-width: 1024px) {
     width: 360px;
@@ -483,7 +474,8 @@ export const PhoneIcons = styled.div`
   padding: 56px 0 106px 0;
 
   @media screen and (max-width: 1280px) {
-    margin-top: 70px;
+    position: absolute;
+    bottom: 0px;
     padding: 0;
   }
   @media screen and (max-width: 1024px) {
@@ -530,10 +522,9 @@ export const PhoneIcons = styled.div`
 export const Icons = styled.img`
   margin: 0 20px 0px 20px;
   @media screen and (max-width: 1280px) {
-    /* width: 174px;
-  height: 74px; */
-    width: 13rem;
-    /* margin-right: 20px; */
+    width: 8.5rem;
+    height: 43px;
+    margin: 0px 14px 0 14px;
   }
   @media screen and (max-width: 1024px) {
     margin: 0 10px 0px 10px;
@@ -603,8 +594,8 @@ export const TextWrapper = styled.div`
   flex-direction: column;
 
   @media screen and (max-width: 1280px) {
-    max-width: 300px;
-    max-height: 205px;
+    margin-bottom: 50px;
+    max-width: 230px;
   }
   @media screen and (max-width: 1024px) {
     margin-bottom: 58px;
@@ -630,11 +621,9 @@ export const Heading = styled.h1`
   line-height: 48px;
   color: #fafafb;
   @media screen and (max-width: 1280px) {
-    font-weight: 600;
-    font-size: 26px;
-    line-height: 36px;
-    color: #fafafb;
-    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: left;
+    line-height: 15px;
   }
   @media screen and (max-width: 1024px) {
     font-size: 24px;
@@ -665,12 +654,12 @@ export const TopLine = styled.p`
   color: #a9a6ac;
   max-width: 23rem;
   @media screen and (max-width: 1280px) {
-    font-weight: 200;
-    line-height: 27px;
-    font-size: 17px;
-    color: #fafafb;
-    mix-blend-mode: normal;
-    opacity: 0.6;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+
+    margin: 0;
+    padding: 0;
   }
   @media screen and (max-width: 1024px) {
     font-weight: 400;
