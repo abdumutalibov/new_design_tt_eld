@@ -8,16 +8,32 @@ export const DriversContainer = styled.div`
   position: relative;
   width: 100%;
   @media screen and (max-width: 1280px) {
-    background: url("Drivers/Base1280.png");
-
+    background: url("Drivers/Base1180.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100%;
     background-position: center;
     object-fit: cover;
-    height: 80rem;
-    margin: 0px;
-
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    /* background-color: red; */
+    height: 86.4rem;
+  }
+  @media screen and (max-width: 1180px) {
+    background: url("Drivers/Base1180.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    background-position: center;
+    object-fit: cover;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    /* background-color: red; */
+    height: 86.4rem;
   }
   @media screen and (max-width: 1024px) {
     background: url("Drivers/Base1024.svg");
@@ -162,13 +178,21 @@ export const DriversH1 = styled.h1`
 font-size: 40px;
 line-height: 56px;
 margin-top: 0rem;
-    /* margin-top: 5rem;
-    padding-top: 6rem; */
+    margin-top: 8rem;
+    padding-top: 8rem;
+  }
+  @media screen and (max-width: 1180px) {
+    font-weight: 700;
+font-size: 40px;
+line-height: 56px;
+margin-top: 0rem;
+    margin-top: 9rem;
+    padding-top: 6rem;
   }
   @media screen and (max-width: 1024px) {
     font-weight: 700;
     font-size: 40px;
-    line-height: 56px;
+    line-height: 76px;
     text-align: center;
     color: #ffffff;
     margin-top: 19.8rem;
@@ -235,6 +259,7 @@ line-height: 36px;
     text-align: center;
     color: #ffffff;
     max-width: 50rem;
+    margin-top: 40px;
   }
   @media screen and (max-width: 960px) {
     font-weight: 600;
@@ -445,7 +470,7 @@ export const ImgPhone = styled.img`
   /* padding: 0 56px 0 56px; */
   @media screen and (max-width: 1280px) {
     width:317.27px;
-    height:657.12px;
+    /* height:657.12px; */
     /* margin-bottom: 25px; */
     margin: 0 26px 130px ;
   }
@@ -462,7 +487,6 @@ export const ImgPhone = styled.img`
     width: 260px;
     /* margin-bottom: 25px; */
     margin: 0 26px 130px ;
-
   }
   @media screen and (max-width: 768px) {
     /* width: 260px; */

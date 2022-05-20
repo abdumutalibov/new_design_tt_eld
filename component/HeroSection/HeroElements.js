@@ -252,7 +252,6 @@ margin: 0 0 10px 0;
 padding-right:0 ;
 @media screen and (max-width:1280px) {
   width:809.31px;
-height:475.63px;
   }
 @media screen and (max-width:960px) {
   width: 700px;
