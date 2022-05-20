@@ -29,8 +29,12 @@ color: #2D2B31;
     color: ${({ dark }) => (dark ? "#fff" : "#fff")};
   }
 @media screen and (max-width:1280px) {
-  max-width: 220px;
-  max-height: 64px;
+  margin: 0;
+    margin:25px 18px 75px 18px;
+    max-width: 150px;
+  max-height: 48px;
+  font-size: 16px;
+  padding: 10px 20px;
   
 }
 @media screen and (max-width: 960px) {

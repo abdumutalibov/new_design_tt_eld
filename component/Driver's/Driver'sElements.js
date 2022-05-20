@@ -8,12 +8,13 @@ export const DriversContainer = styled.div`
   position: relative;
   width: 100%;
   @media screen and (max-width: 1280px) {
-    background: url("Drivers/Base1024.svg");
+    background: url("Drivers/Base (3).png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: 100%;
     background-position: center;
-    object-fit: cover;
+    object-fit: contain;
+    height: 73.7rem;
+    margin-bottom: 70px;
   }
   @media screen and (max-width: 1024px) {
     background: url("Drivers/Base1024.svg");

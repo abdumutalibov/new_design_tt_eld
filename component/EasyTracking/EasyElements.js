@@ -83,9 +83,11 @@ export const EasyH1 = styled.h1`
   text-align: center;
   color: #1a2944;
   @media screen and (max-width: 1280px) {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 56px;
     text-align: center;
-    font-size: 49px;
-color:yellow;
+    color: #1a2944;
 
   }
   @media screen and (max-width: 1024px) {
@@ -109,7 +111,6 @@ color:red;
     line-height: 56px;
     text-align: center;
     color: #1a2944;
-    color: blue;
   }
   @media screen and (max-width: 768px) {
     text-align: center;

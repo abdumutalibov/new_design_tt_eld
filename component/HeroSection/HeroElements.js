@@ -22,8 +22,8 @@ export const HeroContainer = styled.div`
       
   } */
   @media screen and (max-width:1280px) {
-    height:1375px;
-    background: #2B2D31;
+    height:1070px;
+    background: none;
   }
   @media screen and (max-width:960px) {
     height:1150px;
@@ -59,8 +59,7 @@ export const ImgBg = styled.img`
   -o-object-fit: cover;
   object-fit: cover;
   @media screen and (max-width:1280px) {
-    height:1460px;
-    background: none;
+    height:1105px;
   }
   @media screen and (max-width:960px) {
     height:1150px;
@@ -105,11 +104,7 @@ text-align: center;
 color: #FFFFFF;
   /* max-width:120rem; */
   @media screen and (max-width:1280px) {
-    font-weight: 700;
-font-size: 50px;
-line-height: 56px;
-text-align: center;
-color: #FFFFFF;
+    font-size: 32px;
   }
   @media screen and (max-width:1024px) {
     font-weight: 700;
@@ -146,13 +141,11 @@ font-weight: 400;
 font-size: 24px;
 line-height: 48px;
 @media screen and (max-width:1280px) {
-  font-weight: 400;
-font-size: 22px;
-line-height: 48px;
-text-align: center;
-color: #FFFFFF;
-max-width: 60rem;
-/* background-color: red; */
+  font-size: 14px;
+max-width: 38rem;
+line-height: 30px;
+padding: 0;
+margin: 0;
 
   }
   @media screen and (max-width:1024px) {
@@ -198,7 +191,7 @@ flex-direction: row;
 align-items: center;
 max-width: 1500px;
 @media screen and (max-width: 1280px){
-margin: 71px 0 151px 0;
+  margin: 20px ;
 }
 @media screen and (max-width: 960px){
   margin: 20px ;
@@ -251,7 +244,7 @@ margin: 8px;
 margin: 0 0 10px 0;
 padding-right:0 ;
 @media screen and (max-width:1280px) {
-    width: 850px;
+  width: 660px;
   }
 @media screen and (max-width:960px) {
   width: 700px;

@@ -8,7 +8,9 @@ export const HelpContainer = styled.div`
   justify-content: center;
   align-items: center;
   @media screen and (max-width: 1280px) {
-    padding: 5rem 0 5px 0;
+    height: 610px;
+    margin: 0;
+    padding: 0;
   }
   @media screen and (max-width: 960px) {
     height: 770px;
@@ -42,7 +44,7 @@ export const HelpWrapper = styled.div`
   grid-gap: 26px;
   padding: 0 24px;
   @media screen and (max-width: 1280px) {
-    max-width: 80rem;
+    max-width: 53rem;
     margin: 0 auto;
     grid-template-columns: 1fr 1fr;
     padding: 0 94px;
@@ -94,6 +96,7 @@ export const HelpCard = styled.div`
   }
   @media screen and (max-width: 1280px) {
     max-width: 40rem;
+    padding: 10px 18px;
   }
   @media screen and (max-width: 1024px) {
   }
@@ -109,8 +112,10 @@ export const HelpIcon = styled.img`
   width: 30px;
   margin-bottom: 10px;
   @media screen and (max-width: 1280px) {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
+    margin-right: 0px;
+    padding: 0;
   }
   @media screen and (max-width: 820px) {
     width: 25px;
@@ -135,8 +140,8 @@ export const HelpH1 = styled.h1`
   font-size: 56px;
   @media screen and (max-width: 1280px) {
     font-weight: 700;
-    font-size: 50px;
-    line-height: 56px;
+    font-size: 32px;
+    line-height: 26px;
     text-align: center;
     color: #1a2944;
   }
@@ -186,10 +191,12 @@ export const HelpTitle = styled.p`
   margin-bottom: 60px;
   @media screen and (max-width: 1280px) {
     font-weight: 400;
-    font-size: 22px;
-    line-height: 46px;
+    font-size: 14px;
+    line-height: 30px;
     text-align: center;
     color: #8c98a4;
+    max-width: 32rem;
+    margin-bottom: 43px;
     /* max-width: 40rem; */
   }
   @media screen and (max-width: 1024px) {
@@ -229,10 +236,9 @@ export const HelpH2 = styled.h2`
   line-height: 32px;
   color: #1f1911;
   @media screen and (max-width: 1280px) {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 32px;
-    color: #1f1911;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0;
   }
   @media screen and (max-width: 960px) {
     font-size: 19px;
@@ -249,8 +255,7 @@ export const HelpH2 = styled.h2`
 `;
 
 export const HelpP = styled.p`
-  font-size: 1rem;
-  /* font-weight: 700; */
+     font-size: 13.5px;
   margin-bottom: 10px;
   @media screen and (max-width: 820px) {
     font-size: 13.5px;
