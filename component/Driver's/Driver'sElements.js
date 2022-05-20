@@ -8,12 +8,16 @@ export const DriversContainer = styled.div`
   position: relative;
   width: 100%;
   @media screen and (max-width: 1280px) {
-    background: url("Drivers/Base1024.svg");
+    background: url("Drivers/Base1280.png");
+
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100%;
     background-position: center;
     object-fit: cover;
+    height: 80rem;
+    margin: 0px;
+
   }
   @media screen and (max-width: 1024px) {
     background: url("Drivers/Base1024.svg");
@@ -124,10 +128,10 @@ export const DriversWrapper = styled.div`
   padding: 0 20px 0 24px;
   max-width: 90rem;
   @media screen and (max-width: 1280px) {
-    display: flex;
+   display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10rem;
+    margin-bottom: 50rem;
   }
   @media screen and (max-width: 960px) {
   }
@@ -154,10 +158,12 @@ export const DriversH1 = styled.h1`
   color: #ffffff;
   z-index: 1;
   @media screen and (max-width: 1280px) {
-    text-align: center;
-    font-size: 32px;
-    margin-top: 5rem;
-    padding-top: 6rem;
+    font-weight: 700;
+font-size: 40px;
+line-height: 56px;
+margin-top: 0rem;
+    /* margin-top: 5rem;
+    padding-top: 6rem; */
   }
   @media screen and (max-width: 1024px) {
     font-weight: 700;
@@ -214,13 +220,13 @@ export const DriversP = styled.p`
   margin-top: 16px;
   @media screen and (max-width: 1280px) {
     font-weight: 600;
-    font-size: 14px;
-    line-height: 30px;
+font-size: 18px;
+line-height: 36px;
     text-align: center;
-    color: #ffffff;
-    max-width: 37rem;
+    
+    max-width: 46rem;
     margin: 0 auto;
-    padding: 25px 0px 45px 0;
+    padding: 18px 0px 100px 0;
   }
   @media screen and (max-width: 1024px) {
     font-weight: 600;
@@ -330,9 +336,9 @@ export const Heading1 = styled.h1`
   text-align: right;
   color: #fafafb;
   @media screen and (max-width: 1280px) {
-    font-size: 18px;
-    text-align: left;
-    line-height: 15px;
+    font-weight: 600;
+font-size: 22px;
+line-height: 36px;
   }
   @media screen and (max-width: 1024px) {
     font-weight: 600;
@@ -373,9 +379,9 @@ export const Line = styled.p`
   color: #a9a6ac;
 
   @media screen and (max-width: 1280px) {
-    font-size: 12px;
     font-weight: 400;
-    line-height: 24px;
+font-size: 14px;
+line-height: 24px;
 
     margin: 0;
     padding: 0;
@@ -438,7 +444,8 @@ export const ImgPhone = styled.img`
   width: 100%;
   /* padding: 0 56px 0 56px; */
   @media screen and (max-width: 1280px) {
-    width: 260px;
+    width:317.27px;
+    height:657.12px;
     /* margin-bottom: 25px; */
     margin: 0 26px 130px ;
   }
@@ -621,9 +628,9 @@ export const Heading = styled.h1`
   line-height: 48px;
   color: #fafafb;
   @media screen and (max-width: 1280px) {
-    font-size: 18px;
-    text-align: left;
-    line-height: 15px;
+    font-weight: 600;
+font-size: 22px;
+line-height: 36px;
   }
   @media screen and (max-width: 1024px) {
     font-size: 24px;
@@ -654,9 +661,9 @@ export const TopLine = styled.p`
   color: #a9a6ac;
   max-width: 23rem;
   @media screen and (max-width: 1280px) {
-    font-size: 12px;
     font-weight: 400;
-    line-height: 24px;
+font-size: 14px;
+line-height: 24px;
 
     margin: 0;
     padding: 0;
