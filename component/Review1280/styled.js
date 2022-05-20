@@ -90,7 +90,7 @@ background: #fafafa;
 height: 100%;
 cursor: grab;
 padding: 29px 30px;
-margin: 0 10px 0 10px;
+/* margin: 0 10px 0 10px; */
   }
   @media screen and (max-width: 1024px) {
     max-width: 420px;

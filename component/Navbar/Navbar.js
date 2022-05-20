@@ -47,8 +47,7 @@ export const NavbarContainer = styled.div`
   max-width: 83rem;
   color: #de3;
   @media screen and (max-width:1280px){
-    max-width: 68.5rem;  
-    
+    max-width: 55rem;  
 }
 @media screen and (max-width:1024px){
   max-width: 52.2rem;   
@@ -107,6 +106,7 @@ export const NavLogo = styled.a`
     padding: 0;
   }
   @media screen and (max-width:1024px){
+
   }
   @media screen and (max-width:960px){
     padding: 0;
@@ -123,7 +123,8 @@ export const NavImg = styled.img`
   color: white;
   cursor: pointer;
   @media screen and (max-width:1280px){
-    height: 50px;
+   height: 39px;
+width: 114px;
   }
 @media screen and (max-width:1024px){
 height: 39px;
@@ -264,8 +265,10 @@ color: #FFFFFF;
  
   @media screen and (max-width:1280px){
     font-weight: 400;
-font-size: 15px;
+font-size: 14px;
 line-height: 20px;
+/* padding: 0 1.1rem; */
+padding: 0 5px 0 25px;
 text-align: center;
 color: #FFFFFF;
   }
@@ -397,10 +400,10 @@ text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-    width: 130px;
-    height: 40px;
+  width: 111px;
+    height: 36px;
     font-weight: 600;
-font-size: 15px;
+font-size: 14px;
 line-height: 20px;
 text-align: center;
 color: #FFFFFF;
@@ -410,10 +413,10 @@ padding: 0px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
-    width: 130px;
-    height: 40px;
-    font-weight: 600;
-font-size: 15px;
+  width: 111px;
+  font-weight: 600;
+font-size: 14px;
+line-height: 20px;
 line-height: 20px;
 text-align: center;
 }

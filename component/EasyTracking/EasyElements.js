@@ -97,7 +97,6 @@ font-size: 40px;
 line-height: 56px;
 text-align: center;
 color: #1A2944;
-color:red;
   }
   @media screen and (max-width: 960px) {
     font-weight: 700;
@@ -264,7 +263,7 @@ export const Column2 = styled.div`
 
   @media screen and (max-width: 1280px) {
     /* max-width: 100rem; */
-    width: 90%;
+    width: 90%; 
 
     display: flex;
     justify-content: center;
@@ -303,6 +302,11 @@ export const TextCard1 = styled.div`
     max-width: 22rem;
     max-height: 290px;
 margin-left: 130px;
+  }
+  @media screen and (max-width: 1024px) {
+    max-width: 22rem;
+    max-height: 290px;
+margin-left: 70px;
   }
   @media screen and (max-width:960px) {
     
@@ -359,6 +363,12 @@ export const TextCard2 = styled.div`
     max-height: 290px;
 
 margin-right: 140px;
+  }
+  @media screen and (max-width: 1024px) {
+    max-width: 22rem;
+    max-height: 290px;
+
+margin-right: 100px;
   }
   @media screen and (max-width:960px) {
     

@@ -40,8 +40,8 @@ export const FriendsH1 = styled.h1`
   margin-bottom: 16px;
   @media screen and (max-width: 1280px) {
     font-weight: 700;
-    font-size: 50px;
-    line-height: 56px;
+font-size: 40px;
+line-height: 56px;
     text-align: center;
     color: #1a2944;
   }
@@ -86,8 +86,8 @@ export const FriendsText = styled.p`
   margin-bottom: 40px;
   @media screen and (max-width: 1280px) {
     font-weight: 400;
-    font-size: 22px;
-    line-height: 36px;
+font-size: 18px;
+line-height: 36px;
     text-align: center;
     color: #8c98a4;
     max-width: 48rem;
@@ -214,8 +214,8 @@ export const ImgIcon = styled.img`
   margin-bottom: 40px;
   @media screen and (max-width: 1280px) {
     /* margin-top: -10; */
-    width: 105px;
-    height: 105px;
+    width: 78px;
+    height: 78px;
   }
   @media screen and (max-width: 1024px) {
     /* margin-top: -10; */
@@ -248,8 +248,8 @@ export const IconName = styled.div`
   color: #3b485e;
   @media screen and (max-width: 1280px) {
     font-weight: 700;
-    font-size: 26px;
-    line-height: 36px;
+font-size: 24px;
+line-height: 36px;
     text-align: center;
     color: #3b485e;
   }
@@ -295,10 +295,11 @@ export const IconInfo = styled.div`
   width: 100%;
   @media screen and (max-width: 1280px) {
     font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
+font-size: 14px;
+line-height: 28px;
     text-align: center;
     color: #8c98a4;
+    max-width:14rem ;
   }
   @media screen and (max-width: 1024px) {
     font-weight: 400;
@@ -349,8 +350,8 @@ export const FollowUs = styled.a`
   @media screen and (max-width: 1280px) {
     /* margin-top: -10; */
     font-weight: 700;
-    font-size: 21.9894px;
-    line-height: 30px;
+font-size: 21.9894px;
+line-height: 30px;
     /* identical to box height */
 
     text-align: center;
@@ -409,12 +410,12 @@ export const FriendsFooter = styled.div`
   /* margin-bottom: 200px; */
   @media screen and (max-width: 1280px) {
     margin: 0;
-    position: relative;
-    max-width: 193rem;
+    max-width: 55rem;
+    width: 100%;
     margin: 0;
     padding: 0 35px;
     max-height: 275px;
-    max-width: 68.2rem;
+    position: relative;
   }
   @media screen and (max-width: 1024px) {
     margin: 0;
@@ -473,17 +474,12 @@ export const FooterCard = styled.div`
   max-height: 550rem;
   margin-right: 120px;
   @media screen and (max-width: 1280px) {
-    margin: 0;
+    margin: 0 0 0px 0;
     display: flex;
     font-size: 10px;
-    padding: 0px;
-    max-width: 260rem;
+    padding: 0px 0px 0 0px;
     width: 100%;
-    max-width: 28rem;
-    margin-right: 70px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: start;
+    max-width: 22rem;
   }
   @media screen and (max-width: 1024px) {
     margin: 0 0 0px 0;
@@ -533,12 +529,10 @@ export const FooterTxt = styled.div`
   margin-bottom: 12px;
   @media screen and (max-width: 1280px) {
     font-weight: 600;
-    font-size: 23px;
-    line-height: 36px;
+font-size: 20px;
+line-height: 36px;
     color: #333333;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+   
     /* margin: 31px 0px; */
     margin: 0;
     padding: 0;
@@ -588,6 +582,7 @@ export const FooterCardImg = styled.img`
   @media screen and (max-width: 1280px) {
     width: 233px;
     margin: 50px 0px 0 0px;
+    display: none;
   }
   @media screen and (max-width: 1024px) {
     width: 203px;
@@ -627,6 +622,57 @@ export const FooterCardImg = styled.img`
     width: 15rem;
   }
 `;
+export const FooterCardImg2 = styled.img`
+  /* margin-left: 90px; */
+  margin-bottom: -33px;
+  @media screen and (max-width: 1280px) {
+    /* width: 233px; */
+    margin: 47px 0px 0 0px;
+    position: absolute;
+    margin-left: 390px;
+  }
+  @media screen and (max-width: 1024px) {
+    width: 203px;
+    margin-top: 51px;
+    padding: 0;
+    position: absolute;
+    margin-left: 370px;
+  }
+  @media screen and (max-width: 960px) {
+    width: 203px;
+    margin-top: 80px;
+    margin-left: 350px;
+    padding: 0;
+    position: absolute;
+    margin-top: 51px;
+
+  }
+  @media screen and (max-width: 820px) {
+    width: 173px;
+    margin-top: 50px;
+    margin-left: 300px;
+    padding: 0;
+    position: absolute;
+    margin-top: 30px;
+
+  }
+  @media screen and (max-width: 768px) {
+    width: 370px;
+    margin: 0 0 60px 0;
+    position: static;
+  }
+
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+    width: 260px;
+
+    padding: 0 20px;
+  }
+  @media screen and (max-width: 280px) {
+    margin: 60px 0;
+    width: 15rem;
+  }
+`;
 export const FooterCard2 = styled.div`
   font-weight: 400;
   font-size: 20px;
@@ -636,9 +682,11 @@ export const FooterCard2 = styled.div`
   margin-left: 100px;
   @media screen and (max-width: 1280px) {
     font-weight: 400;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 32px;
     color: #666666;
+    margin-left: 280px;
+    padding: 0;
   }
   @media screen and (max-width: 1024px) {
     font-weight: 400;

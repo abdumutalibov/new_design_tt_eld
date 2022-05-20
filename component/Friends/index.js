@@ -8,6 +8,7 @@ import {
   FooterCard,
   FooterCard2,
   FooterCardImg,
+  FooterCardImg2,
   FooterImg,
   FooterImgRight,
   FooterTxt,
@@ -122,6 +123,8 @@ const Friends = () => {
           </FooterImgRight>
         </FooterCard>
         <FooterCardImg src="Friends/Phone.svg" />
+        <FooterCardImg2 src="Friends/yellowPhone.png" />
+
         <FooterCard2>Point your camera to the QR code to download</FooterCard2>
       </FriendsFooter>
     </FriendsContainer>

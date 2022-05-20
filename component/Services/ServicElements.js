@@ -40,7 +40,6 @@ export const ServicesWrapper = styled.div`
     margin-bottom: 150px;
     max-width: 55rem;
   grid-gap: 20px;
-
   }
   @media screen and (max-width: 1024px) {
     max-width: 835px;
@@ -110,7 +109,7 @@ export const ServicesIcon = styled.img`
   margin-bottom: 10px;
   @media screen and (max-width: 1280px) {
    
-    width: 234px;
+    width: 230px;
     height: 180px;
   }
   @media screen and (max-width: 1024px) {

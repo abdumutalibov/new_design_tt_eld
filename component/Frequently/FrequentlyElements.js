@@ -138,7 +138,7 @@ export const FrequentlyWrapper = styled.div`
 
   @media screen and (max-width: 1280px) {
     max-width: 55rem;
-
+padding: 0;
   }
   @media screen and (max-width: 1024px) {
     max-width: 55rem;
@@ -395,7 +395,7 @@ export const FrequentlyLogin = styled.div`
   padding: 30px 70px;
 margin-top: 128px;
   @media screen and (max-width: 1280px) {
-    padding: 0 60px 60px 60px;
+    padding:50px 50px 60px 50px;
     flex-direction: column;
   }
   @media screen and (max-width: 1024px) {
@@ -455,14 +455,14 @@ export const LoginText = styled.div`
   max-width: 34rem;
   margin-right: auto;
   @media screen and (max-width: 1280px) {
-    padding: 60px 0 0px 0;
+    padding: 0px 0 0px 0;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin: 0;
     width: 100%;
-  max-width: 66rem;
+    max-width: 66rem;
+    margin: 0;
 
   }
   @media screen and (max-width: 1024px) {
@@ -485,10 +485,13 @@ export const LoginTxt1 = styled.div`
   margin-bottom: 12px;
   @media screen and (max-width: 1280px)  {
     font-weight: 700;
-font-size: 50px;
+font-size: 38.4px;
 line-height: 56px;
 text-align: center;
+text-align: center;
 color: #FFFFFF;
+padding: 0;
+margin: 0;
   }
   @media screen and (max-width: 1024px)  {
     font-weight: 700;
@@ -534,11 +537,12 @@ export const LoginTxt2 = styled.div`
   color: #a7a8aa;
   @media screen and (max-width: 1280px) {
     font-weight: 400;
-font-size: 22px;
+font-size: 18px;
 line-height: 36px;
 text-align: center;
 color: #A7A8AA;
-    max-width: 50rem;
+    max-width: 42rem;
+    margin: 0;
   }
   @media screen and (max-width: 1024px) {
     font-weight: 400;

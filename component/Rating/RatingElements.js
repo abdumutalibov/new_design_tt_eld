@@ -239,7 +239,6 @@ export const RatingCard = styled.div`
     /* max-height: 388px; */
     padding: 30px 24px 30px 22px;
 
-   
   }
   @media screen and (max-width: 1024px) {
     max-width: 416px;

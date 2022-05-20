@@ -8,7 +8,7 @@ export const FooterContainer = styled.div`
   align-items: center;
   justify-content: center;
   @media screen and (max-width: 1280px) {
-    font-size: 24px;
+    /* font-size: 24px; */
     
   }
   @media screen and (max-width: 1024px) {
@@ -44,8 +44,9 @@ export const FooterWrap = styled.div`
   /* margin: 0 auto; */
   @media screen and (max-width: 1280px) {
     flex-direction:column;
-
-  max-width: 71rem;
+margin: 0;
+padding: 0;
+    max-width: 55rem;
   }
   @media screen and (max-width: 1024px) {
     flex-direction:column;
@@ -152,6 +153,9 @@ display: flex;
 align-items: center;
 font-weight: bold;
 margin-right: 30px;
+@media screen and (max-width: 1280px) {
+width: 100px;
+  }
 @media screen and (max-width: 1024px) {
 width: 100px;
   }
@@ -183,7 +187,7 @@ justify-content: center;
   margin-right:auto;
 /* padding: 00px 0 40px 0; */
 @media screen and (max-width: 1280px) {
-padding-left:20px ;
+/* padding-left:20px ; */
 }
 @media screen and (max-width: 1024px) {
 padding-right: 20px;
@@ -234,6 +238,11 @@ display: flex;
   align-items: flex-end;
   justify-content: flex-end;
   margin-left: 20px;
+  @media screen and (max-width: 1280px) {
+padding: 0;
+margin: 0;
+width: 120px;
+}
 @media screen and (max-width: 1024px) {
 padding: 0;
 margin: 0;
@@ -280,6 +289,9 @@ margin-right:5px;
 display: flex;
   align-items: center;
   justify-content: center;
+  @media screen and (max-width: 1280px) {
+    width: 20px;
+  }
   @media screen and (max-width: 1024px) {
     width: 24px;
   }
@@ -316,7 +328,7 @@ display: flex;
   justify-content: center;
   @media screen and (max-width: 1280px) {
     font-weight: 400;
-font-size: 16px;
+font-size: 13px;
 line-height: 24px;
 color: #FFFFFF;
 }
@@ -366,6 +378,9 @@ margin-right:auto;
 display: flex;
   align-items: center;
   justify-content: center;
+@media screen and (max-width: 1280px) {
+
+}
 @media screen and (max-width: 960px) {
 display: flex;
 align-items: center;
@@ -399,6 +414,11 @@ display: flex;
   align-items: center;
   justify-content: center;
   margin-right: 25px;
+  @media screen and (max-width: 1280px) {
+    font-size: 24px;
+    margin-left:20px;
+    margin-right: 0px;
+  }
   @media screen and (max-width: 1024px) {
     font-size: 20px;
     margin-left:0px;

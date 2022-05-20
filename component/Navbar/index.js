@@ -14,9 +14,7 @@ import {
   NavLogo,
   NavMenu,
 } from "./Navbar";
-import { FaBars } from "react-icons/fa";
-import { AiOutlineMenu } from "react-icons/ai";
-import { GrMenu } from "react-icons/gr";
+
 import { CgMenu } from "react-icons/cg";
 import { IconContext } from "react-icons/lib";
 import Link from "next/link";
