@@ -26,10 +26,11 @@ export const FooterContainer = styled.div`
     height: 75px;
   }
   @media screen and (max-width: 480px) {
-   max-height:173px;
 height: 100%;
 margin: 0;
-padding: 0;
+padding:20px 0;
+background-color: #19191B;
+display:none;
   }
   @media screen and (max-width: 280px) {
     font-size: 16px;
@@ -69,8 +70,10 @@ height:28rem;
   }
   @media screen and (max-width: 480px) {
     display: flex;
-  
-height:25rem;
+  height: 0px;
+  background-color: #19191B;
+  height: 100%;
+
   }
   @media screen and (max-width: 280px) {
     display: flex;
@@ -78,13 +81,10 @@ height:25rem;
 
   }
 `;
-
-
-
 export const SocialMedia = styled.section`
 /* max-width: 90rem; */
 width: 100%;
-
+height: 100%;
  
 @media screen and (max-width: 1024px) {
     flex-direction:column;
@@ -99,6 +99,7 @@ width: 100%;
   }
   @media screen and (max-width: 480px) {
     display: flex;
+    height: 100%;
 
   }
   @media screen and (max-width: 280px) {
@@ -133,6 +134,8 @@ max-width: 90rem;
   @media screen and (max-width: 480px) {
     display: flex;
   flex-direction:column;
+height: 100%;
+
   }
   @media screen and (max-width: 280px) {
     flex-direction:column;
@@ -177,7 +180,7 @@ width: 200px;
   @media screen and (max-width: 480px) {
 width: 170px;
  
- 
+ display: none;
  }
 `
 export const Logo = styled.div`
@@ -270,11 +273,15 @@ display: flex;
 justify-content: flex-start;
   }
 @media screen and (max-width: 480px) {
- margin-right: auto;
-  padding: 20px 0 0 0;
-max-width: 20rem;
-display: flex;
-justify-content: flex-start;
+  /* padding: 20px 0 0 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+width: 350px;
+margin: 0;
+padding: 0;
+margin: 0 auto;
+background-color: red;
   }
   @media screen and (max-width: 280px) {
     margin-right: auto;
@@ -407,7 +414,6 @@ font-size:40px;
 font-size:40px;
  }
 `
-
 export const SocialIconLink = styled.a`
 color: #fff;
 font-size: 26px;

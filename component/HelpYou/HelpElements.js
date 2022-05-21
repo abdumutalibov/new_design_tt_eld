@@ -192,6 +192,13 @@ line-height: 6px;
     padding: 0 10px;
     text-align: center;
   }
+  @media screen and (max-width: 320px) {
+    font-weight: 700;
+font-size: 20px;
+line-height: 6px;
+    padding: 0 10px;
+    text-align: center;
+  }
 `;
 export const HelpSpan = styled.span`
   color: #faad13;

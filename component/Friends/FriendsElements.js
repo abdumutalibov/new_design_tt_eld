@@ -834,8 +834,7 @@ export const FooterImgRight = styled.div`
     display: flex;
   }
   @media screen and (max-width: 1024px) {
-    /* margin-right: auto; */
-    margin: 0px;
+    margin-right: auto;
     padding: 0;
     display: flex;
   }
@@ -854,6 +853,12 @@ margin-top: 20px;
   }
 
   @media screen and (max-width: 480px) {
+    margin-right: 0;
+    display: flex;
+    margin: 0 auto;
+    /* font-size: 10px; */
+  }
+  @media screen and (max-width: 320px) {
     margin-right: 0;
     display: flex;
     margin: 0 auto;
@@ -886,6 +891,12 @@ export const FooterImg = styled.img`
     display: flex;
     font-size: 10px;
     width: 9rem;
+  }
+  @media screen and (max-width: 320px) {
+    margin: 0px 10px 0px 10px;
+    display: flex;
+    font-size: 10px;
+    width: 8rem;
   }
   @media screen and (max-width: 280px) {
     margin: 0;

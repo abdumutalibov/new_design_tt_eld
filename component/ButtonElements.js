@@ -67,7 +67,7 @@ font-size: 22px;
     margin-right: 20px;
   }
   @media screen and (max-width: 480px) {
-    max-width: 140px;
+    max-width: 130px;
   max-height: 42px;
   font-weight: 600;
 font-size: 13.0357px;
@@ -75,7 +75,6 @@ line-height: 21px;
 margin:40px 13px 75px 13px;
 padding: 0;
 border: solid 1px white;
-
     padding: ${({ big }) => (big ? "14px 48px" : "10px 20px")};
     font-size: ${({ fontBig }) => (fontBig ? "20px" : "12px")};
     &:hover {

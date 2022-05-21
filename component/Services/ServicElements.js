@@ -23,6 +23,9 @@ export const ServicesContainer = styled.div`
   @media screen and (max-width: 480px) {
     height: 100rem;
   }
+  @media screen and (max-width: 280px) {
+    height: 120rem;
+  }
 `;
 
 export const ServicesWrapper = styled.div`
@@ -72,6 +75,10 @@ export const ServicesWrapper = styled.div`
     grid-template-columns: 1fr 1fr;
     padding: 0 5px;
   }
+  @media screen and (max-width: 280px) {
+    grid-template-columns: 1fr ;
+    padding: 0 5px;
+  }
 `;
 
 export const ServicesCard = styled.div`
@@ -109,6 +116,9 @@ export const ServicesCard = styled.div`
 
   }
   @media screen and (max-width: 480px) {
+    padding: 10px;
+  }
+  @media screen and (max-width: 280px) {
     padding: 10px;
   }
 `;

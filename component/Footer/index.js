@@ -38,7 +38,7 @@ const Footer = () => {
               </SocialIconName>
             </SocialIconLinks>
 
-            <SocialIcons>
+             <SocialIcons>
               <SocialIconLink href="/" target="_blank" aria-label="YouTube">
                 <FaTelegramPlane />
               </SocialIconLink>
@@ -50,7 +50,7 @@ const Footer = () => {
               <SocialIconLink href="/" target="_blank" aria-label="Linkedin">
                 <FaInstagram />
               </SocialIconLink>
-            </SocialIcons>
+            </SocialIcons> 
           </SocialMediaWrap>
         </SocialMedia>
       </FooterWrap>

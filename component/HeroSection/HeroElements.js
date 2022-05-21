@@ -58,6 +58,7 @@ export const ImgBg = styled.img`
   height: 1500px;
   -o-object-fit: cover;
   object-fit: cover;
+  display: ${({mobile})=> (mobile ? 'none':'block')};
   @media screen and (max-width:1280px) {
     height:1380px;
   }
@@ -74,8 +75,10 @@ export const ImgBg = styled.img`
     /* display: none; */
   }
   @media screen and (max-width:480px) {
-    height:895px;
+    height:870px;
     background:none; 
+  display: ${({mobile})=> (mobile ? 'block':'none')};
+
   }
   @media screen and (max-width:380px) {
     height:895px;
@@ -91,6 +94,9 @@ export const HeroContent = styled.div`
   flex-direction: column;
   align-items: center;
   /* background-color:red; */
+  @media screen and (max-width:480px) {
+  padding: 0;
+}
 @media screen and (max-width:320px) {
   padding: 0;
 }
@@ -127,6 +133,11 @@ color: #FFFFFF;
   }
   @media screen and (max-width:768px) {
     font-size: 40px;
+    background-color: red;
+  }
+  @media screen and (max-width:540px) {
+    font-size: 40px;
+    background-color: blue;
   }
 
   @media screen and (max-width:480px) {

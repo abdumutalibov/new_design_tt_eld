@@ -28,8 +28,10 @@ function HeroSection() {
   return (
     <HeroContainer id="products">
       <HeroBg>
-        <ImgBg src="Background.svg" />
+        {/* <ImgBg src="Hero/Background (3).png" /> */}
+        <ImgBg mobile src="Hero/BGmobile.png" />
         {/* <ImgBg src="Drivers/Background375.svg" /> */}
+        <ImgBg src="Background.svg" />
       </HeroBg>
       <div className="">
 

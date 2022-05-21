@@ -68,7 +68,7 @@ export const DriversContainer = styled.div`
     padding: 0;
   }
   @media screen and (max-width: 480px) {
-    height: 150rem;
+    height: 125rem;
     background: #2b2d31;
   }
   @media screen and (max-width: 280px) {
@@ -143,6 +143,7 @@ export const DriversWrapper = styled.div`
   width: 100%;
   padding: 0 20px 0 24px;
   max-width: 90rem;
+  position: relative;
   @media screen and (max-width: 1280px) {
    display: flex;
     justify-content: center;
@@ -223,10 +224,13 @@ margin: 0;
     padding: 0;
   }
   @media screen and (max-width: 480px) {
-    text-align: center;
-    font-size: 26px;
-    margin-top: 4rem;
-    padding: 6px;
+    font-weight: 700;
+font-size: 24px;
+line-height: 24px;
+text-align: center;
+    margin-top: 0rem;
+    padding-top: 6rem;
+    margin: 0;
   }
 `;
 export const DriversP = styled.p`
@@ -285,9 +289,12 @@ line-height: 36px;
     padding: 25px 0px 45px 0;
   }
   @media screen and (max-width: 480px) {
-    font-size: 16px;
-    padding: 0 10px;
-    text-align: center;
+    font-weight: 600;
+font-size: 12px;
+line-height: 22px;
+margin: 0;
+padding: 5px 0 42px 0;
+max-width:20rem ;
   }
 `;
 export const Column1 = styled.div`
@@ -299,6 +306,15 @@ export const Column1 = styled.div`
   margin-bottom: 150px;
   @media screen and (max-width: 1280px) {
     margin-bottom: 50px;
+  }
+  @media screen and (max-width: 480px) {
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
   }
 `;
 export const TextWrapper1 = styled.div`
@@ -332,14 +348,18 @@ export const TextWrapper1 = styled.div`
     text-align: start;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
   @media screen and (max-width: 480px) {
-    padding: 0 30px;
-    text-align: start;
+    padding: 0 0px;
     display: flex;
+    justify-content: center;
+    text-align: center;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    max-width: 20rem;
+    /* padding: 0;
+margin: 0px; */
   }
 `;
 export const ImgWrap = styled.img`
@@ -390,8 +410,12 @@ line-height: 36px;
 
   }
   @media screen and (max-width: 480px) {
-    font-size: 20px;
-    text-align: left;
+    font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+padding: 0;
+margin: 0 auto;
+
   }
   @media screen and (max-width: 280px) {
     font-size: 16px;
@@ -439,8 +463,12 @@ line-height: 24px;
     text-align: left;
   }
   @media screen and (max-width: 480px) {
-    font-size: 16px;
-    text-align: left;
+    text-align: center;
+    font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+padding: 0;
+margin: 0;
   }
   @media screen and (max-width: 280px) {
     font-size: 13px;
@@ -465,6 +493,7 @@ position: relative;
   }
   @media screen and (max-width: 480px) {
     padding: 0;
+margin: 0;
   }
 `;
 export const ImgPhone = styled.img`
@@ -493,11 +522,48 @@ export const ImgPhone = styled.img`
   @media screen and (max-width: 768px) {
     /* width: 260px; */
     margin: 0px;
-    display: flex;
+    display: none;
   }
   @media screen and (max-width: 480px) {
     width: 260px;
     margin-bottom: 40px;
+    display: none;
+  }
+`;
+export const ImgPhoneTop = styled.img`
+  width: 100%;
+  display: none;
+  /* padding: 0 56px 0 56px; */
+  @media screen and (max-width: 1280px) {
+    width:317.27px;
+    /* height:657.12px; */
+    /* margin-bottom: 25px; */
+    margin: 0 26px 130px ;
+  }
+  @media screen and (max-width: 1024px) {
+    width: 360px;
+  }
+
+  @media screen and (max-width: 960px) {
+    width: 290px;
+    /* margin-bottom: 40px; */
+    margin: 0 26px 90px ;
+  }
+  @media screen and (max-width: 820px) {
+    width: 260px;
+    /* margin-bottom: 25px; */
+    margin: 0 26px 130px ;
+  }
+  @media screen and (max-width: 768px) {
+    /* width: 260px; */
+    margin: 0px;
+    display: flex;
+    
+  }
+  @media screen and (max-width: 480px) {
+    width: 260px;
+    margin-bottom: 54px;
+    display: block;
   }
 `;
 export const PhoneIcons = styled.div`
@@ -536,12 +602,67 @@ export const PhoneIcons = styled.div`
     padding: 0px;
   }
   @media screen and (max-width: 480px) {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    width: 8rem;
+    padding: 0px;
+  }
+  @media screen and (max-width: 280px) {
+    display: none;
+
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    width: 7rem;
+    padding: 0px;
+  }
+`;
+export const PhoneIconsTop = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 56px 0 106px 0;
+display: none;
+  @media screen and (max-width: 1280px) {
+    position: absolute;
+    bottom: 0px;
+    padding: 0;
+  }
+  @media screen and (max-width: 1024px) {
+    margin-top: 0;
+    padding: 70px 0 0px 0;
+  }
+  @media screen and (max-width: 960px) {
+    position: absolute;
+    bottom: -40px;
+    padding: 0;
+  }
+  @media screen and (max-width: 820px) {
+    position: absolute;
+    bottom: 0px;
+    padding: 0;
+  }
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    width: 8rem;
+    padding: 0px;
+  }
+  @media screen and (max-width: 480px) {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 10px;
     width: 8rem;
     padding: 0px;
+    top: 1630px;
+    position: absolute;
   }
   @media screen and (max-width: 280px) {
     display: flex;
@@ -615,7 +736,12 @@ export const Column3 = styled.div`
   }
  
   @media screen and (max-width: 480px) {
-    margin-top: 60px;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+margin: 0;
   }
 `;
 
@@ -645,7 +771,15 @@ export const TextWrapper = styled.div`
   }
 
   @media screen and (max-width: 480px) {
-    padding: 0 30px;
+    /* padding: 0;
+margin-top: 0px; */
+    
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 20rem;
+
   }
 `;
 
@@ -674,7 +808,12 @@ line-height: 36px;
 
   }
   @media screen and (max-width: 480px) {
-    font-size: 20px;
+    font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+padding: 0;
+margin: 0;
   }
   @media screen and (max-width: 280px) {
     font-size: 16px;
@@ -720,7 +859,10 @@ line-height: 24px;
     font-size: 16px;
   }
   @media screen and (max-width: 480px) {
-    font-size: 16px;
+    font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+text-align: center;
   }
   @media screen and (max-width: 280px) {
     font-size: 13px;

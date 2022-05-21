@@ -22,7 +22,7 @@ export const FrequntlyContainer = styled.div`
   }
 
   @media screen and (max-width: 480px) {
-    height: 110rem;
+    height: 125rem;
   }
   @media screen and (max-width: 280px) {
     height: 180rem;
@@ -393,6 +393,8 @@ export const FrequentlyDecrement2 = styled.img`
   }
   @media screen and (max-width: 480px) {
     width: 10px;
+    margin-bottom: 3px;
+
   }
   @media screen and (max-width: 280px) {
     width: 10px;
@@ -408,6 +410,8 @@ export const FrequentlyDecrement = styled.img`
   }
   @media screen and (max-width: 480px) {
     width: 10px;
+    margin-top: 20px;
+
   }
 `;
 
@@ -627,7 +631,8 @@ max-width: 42rem;
 font-size: 12px;
 line-height: 22px;
     text-align: center;
-    margin-bottom: 3                                                                                                                                                                                                                                      0px;
+    padding-bottom: 30px;      
+                                                                                                                                                                                                                                  0px;
   }
 `;
 export const LoginTxt3 = styled.div`
@@ -891,6 +896,7 @@ width: 100%;
     padding: 0;
     margin: 60px 0 0 0; */
     max-width: 21.3rem;  
+    border-radius: 4px;
   
  padding: 0;
  margin: 0 auto;
@@ -909,8 +915,10 @@ export const FormWrap = styled.div`
   max-width: 65rem;
 width: 100%;
   }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 480px) {
     height: 80%;
+    border-radius: 14px;
+
   }
 `;
 
@@ -922,7 +930,8 @@ export const FormContent = styled.div`
     margin: 0;
   }
   @media screen and (max-width: 480px) {
-    padding: 0px;
+    border-radius: 14px;
+
   }
 `;
 
@@ -951,8 +960,9 @@ export const Form = styled.form`
     margin: 0;
   }
   @media screen and (max-width: 480px) {
-    padding: 10px;
+    padding: 25px 10px;
     margin: 0;
+
   }
 `;
 export const FormH1 = styled.h1`
@@ -1004,7 +1014,7 @@ color: #5A7184;
     font-weight: 400;
 font-size: 11px;
 line-height: 16px;
-    margin-bottom: 1px;
+    margin: 0px 0 2px 4px;
   }
 `;
 
@@ -1053,6 +1063,8 @@ margin-bottom: 25px;
     font-weight: 600;
 font-size: 12px;
 line-height: 16px;
+margin-left:5px;
+margin-right:5px;
   }
   @media screen and (max-width: 280px) {
     padding: 10px 5px;

@@ -12,6 +12,7 @@ import Rating from './Rating'
 import Frequntly from './Frequently'
 import Friends from './Friends'
 import MultipleRows from './Review/review'
+import Footer2 from './Footer2'
 const Layout = ({children}) => {
 
   const [isOpen,setOpen] =useState(false)
@@ -36,6 +37,7 @@ const Layout = ({children}) => {
         <InfoSection {...homeObjTwo}/>
         <InfoSection {...homeObjThree}/> */}
         <Footer/>
+         <Footer2/>
         {children}
         </div>
   )
