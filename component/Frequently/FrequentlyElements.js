@@ -22,7 +22,7 @@ export const FrequntlyContainer = styled.div`
   }
 
   @media screen and (max-width: 480px) {
-    height: 150rem;
+    height: 110rem;
   }
   @media screen and (max-width: 280px) {
     height: 180rem;
@@ -69,8 +69,9 @@ color: #1A2944;
     margin-bottom: 20px;
   }
   @media screen and (max-width: 480px) {
-    font-size: 26px;
-    line-height: 40px;
+    font-weight: 700;
+font-size: 24px;
+line-height: 36px;
   }
 `;
 export const FrequntlyText = styled.p`
@@ -122,9 +123,10 @@ margin-bottom: 56px;
 
   }
   @media screen and (max-width: 480px) {
-    font-size: 16px;
-    line-height: 28px;
-    padding: 10px;
+    font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+    max-width: 19rem;
   }
   @media screen and (max-width: 280px) {
     font-size: 14px;
@@ -152,9 +154,20 @@ padding: 0;
     max-width: 44rem;
  padding: 0;
   }
+  @media screen and (max-width: 480px) {
+    /* max-width: 21.3rem;   */
+ padding: 0;
+ margin: 0;
+  }
 `;
-
-
+export const MaxWidth = styled.div`
+      @media screen and (max-width: 480px) {
+    max-width: 21.3rem;  
+  
+ padding: 0;
+ margin: 0 auto;
+  }
+`
 
 
 export const FrequntlyBox1 = styled.div`
@@ -201,9 +214,9 @@ export const FrequntlyH2 = styled.h2`
 color: red;
 
   @media screen and (max-width: 480px) {
-    font-size: 19px;
-    line-height: 32px;
-    margin-right: auto;
+    font-weight: 600;
+font-size: 16px;
+line-height: 24px;
   }
 `;
 export const FrequentlyP = styled.p`
@@ -240,29 +253,21 @@ color: #5A7184;
     line-height:28px;
   }
   @media screen and (max-width: 768px) {
-    font-size: 16px;
-    line-height: 32px;
-    padding: 10px;
+    font-weight: 600;
+font-size: 16px;
+line-height: 24px;
   }
   @media screen and (max-width: 480px) {
-    font-size: 16px;
-    line-height: 32px;
-    padding: 10px;
+    font-weight: 400;
+font-size: 12px;
+line-height: 22px;
     margin-right: 0;
   }
   @media screen and (max-width: 280px) {
     font-size: 14px;
   }
 `;
-export const FrequentlyDecrement = styled.img`
-  cursor: pointer;
-  margin-bottom: 5px;
 
-  @media screen and (max-width: 820px) {
-    width: 15px;
-    margin-bottom: 10px;
-  }
-`;
 export const FrequntlyBox2 = styled.div`
   background: #ffffff;
   /* border: 1.5px solid #e5eaf4; */
@@ -285,6 +290,10 @@ width: 100%;
   }
   @media screen and (max-width: 820px) {
     padding: 16px 22px;
+ 
+  }
+  @media screen and (max-width: 480px) {
+    padding: 10px 10px 10px 10px;
  
   }
  
@@ -336,9 +345,14 @@ line-height: 36px;
     margin-right: auto;
   }
   @media screen and (max-width: 480px) {
-    font-size: 16px;
-    line-height: 32px;
-    margin-right: auto;
+    font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+margin: 0;
+padding: 0;
+    margin-right: auto; 
+    /* margin-top: 10px; */
+   
   }
   @media screen and (max-width: 280px) {
     font-size: 9px;
@@ -363,7 +377,9 @@ export const FrequentlyP2 = styled.p`
     font-size: 16px;
     line-height: 32px;
     padding: 10px;
-    margin-right: 0;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    
   }
   @media screen and (max-width: 280px) {
     font-size: 14px;
@@ -375,14 +391,30 @@ export const FrequentlyDecrement2 = styled.img`
   @media screen and (max-width: 820px) {
     width: 15px;
   }
+  @media screen and (max-width: 480px) {
+    width: 10px;
+  }
   @media screen and (max-width: 280px) {
+    width: 10px;
+  }
+`;
+export const FrequentlyDecrement = styled.img`
+  cursor: pointer;
+  margin-bottom: 5px;
+
+  @media screen and (max-width: 820px) {
+    width: 15px;
+    margin-bottom: 10px;
+  }
+  @media screen and (max-width: 480px) {
     width: 10px;
   }
 `;
 
 
-
 export const MainLog = styled.div`
+    padding:1px 0px 0px 0px;
+
  @media screen and (max-width: 1280px) {
     padding:1px 0px 0px 0px;
   }
@@ -415,7 +447,12 @@ margin-top: 128px;
     padding: 0 0 20px 0;
   }
   @media screen and (max-width: 480px) {
-    padding: 0 0 20px 0px;
+    padding: 0 0 0px 0px;
+    background-color: #2b2d31;
+padding: 0;
+margin: 0;
+    width: 100%;
+    max-width: 300rem;
   }
 `;
 
@@ -450,6 +487,7 @@ justify-content: none;
     line-height: 32px;
     /* margin: 10px; */
     margin-top: 60px;
+
   }
 `;
 
@@ -525,10 +563,10 @@ margin:0;
     text-align: center;
   }
   @media screen and (max-width: 480px) {
-    font-size: 24px;
-    line-height: 32px;
-    margin: 10px;
-    text-align: center;
+    font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+
   }
 `;
 export const LoginTxt2 = styled.div`
@@ -585,10 +623,11 @@ max-width: 42rem;
     text-align: center;
   }
   @media screen and (max-width: 480px) {
-    font-size: 15px;
-    line-height: 32px;
-    margin: 10px;
+    font-weight: 400;
+font-size: 12px;
+line-height: 22px;
     text-align: center;
+    margin-bottom: 3                                                                                                                                                                                                                                      0px;
   }
 `;
 export const LoginTxt3 = styled.div`
@@ -702,7 +741,11 @@ color: #FAFAFB;
     margin: 0px;
     text-align: center;
     flex-direction: column;
+    margin-top: ${({primary})=>(primary ? "30px":"10px")};
   }
+`
+export const Cl = styled.div`
+display: flex;
 `
 export const IconsButtonSpan = styled.span`
 display: flex;
@@ -746,8 +789,11 @@ color: #FFFFFF;
   @media screen and (max-width: 480px) {
     font-size: 10px;
     line-height: 32px;
-    margin: 10px;
+    margin-bottom: 30px;
     text-align: center;
+    font-weight: 400;
+font-size: 15px;
+line-height: 24px;
   }
 `
 export const IconsText = styled.img`
@@ -841,9 +887,13 @@ width: 100%;
     margin: 60px 0 0 0;
   }
   @media screen and (max-width: 480px) {
-    margin-top: 60px;
+    /* margin-top: 60px;
     padding: 0;
-    margin: 60px 0 0 0;
+    margin: 60px 0 0 0; */
+    max-width: 21.3rem;  
+  
+ padding: 0;
+ margin: 0 auto;
   }
 `;
 export const FormWrap = styled.div`
@@ -951,7 +1001,9 @@ color: #5A7184;
   }
   @media screen and (max-width: 480px) {
     padding: 1px 1px;
-    font-size: 13px;
+    font-weight: 400;
+font-size: 11px;
+line-height: 16px;
     margin-bottom: 1px;
   }
 `;
@@ -998,7 +1050,9 @@ margin-bottom: 25px;
   }
   @media screen and (max-width: 480px) {
     padding: 10px 10px;
-    font-size: 12px;
+    font-weight: 600;
+font-size: 12px;
+line-height: 16px;
   }
   @media screen and (max-width: 280px) {
     padding: 10px 5px;

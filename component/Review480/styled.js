@@ -12,13 +12,15 @@ display:none;
     display: block;
     margin: 0px;
     padding: 0px;
-    display: none;
+display: none;
+
   }
   @media screen and (max-width: 1024px) {
     width: 100%;
     margin: 0px;
     padding: 0;
-    display: block;
+display:none;
+
   }
   @media screen and (max-width: 960px) {
   }
@@ -28,8 +30,10 @@ display:none;
     padding: 0 20px;
   }
   @media screen and (max-width: 480px) {
-    display: none;
-
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
 `;
 
@@ -47,13 +51,12 @@ export const RatingWrappers = styled.div`
   margin: 0 auto;
   display: grid;
   align-items: center;
+  width: 100%;
   
   @media screen and (max-width: 1280px) {
-    max-width: 155rem;
+    max-width: 55rem;
     /* margin: 0; */
-    /* padding: 10px 0px 10px 0px; */
-    padding-top:10px ;
-    padding-bottom: 10px;
+    padding: 10px 10px 10px 10px;
     max-height: max-content;
 height: 100%;
   }
@@ -66,12 +69,15 @@ height: 100%;
   }
   @media screen and (max-width: 960px) {
     max-width: 115rem;
-    width: 100%;
   }
 
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
     padding: 0 20px;
+  }
+  @media screen and (max-width: 480px) {
+    padding: 0;
+    margin: 0;
   }
 `;
 
@@ -91,11 +97,13 @@ background: #fafafa;
     cursor: pointer;
   }
   @media screen and (max-width: 1280px) {
-    max-width: 450px;
-  max-height: 550px;
+    max-width: 420px;
+    max-height: 274px;
     max-height: max-content;
 height: 100%;
 cursor: grab;
+padding: 29px 30px;
+/* margin: 0 10px 0 10px; */
   }
   @media screen and (max-width: 1024px) {
     max-width: 420px;
@@ -118,8 +126,10 @@ padding: 30px 28px 20px 28px;
 padding: 30px 20px 20px 20px;
   }
   @media screen and (max-width: 480px) {
-    padding: 15px;
+    padding: 30px 10px 10px 10px;
+    max-height: 274px;
     margin-top: 40px;
+  
   }
 `;
 export const ImgStars = styled.img`
@@ -127,6 +137,9 @@ export const ImgStars = styled.img`
   margin-bottom: 20px;
   @media screen and (max-width: 768px) {
     margin-top: -10;
+  }
+  @media screen and (max-width: 480px) {
+    margin-top: 10px;
   }
 `;
 export const RatingP = styled.p`
@@ -136,15 +149,14 @@ export const RatingP = styled.p`
   color: #47464d;
   @media screen and (max-width: 1280px) {
     font-weight: 400;
-  font-size: 18px;
-  line-height: 32px;
-  color: #47464d;  
+font-size: 16.5px;
+line-height: 32px;
+color: #47464D;
   }
   @media screen and (max-width: 1024px) {
     font-weight: 400;
 font-size: 18px;
 line-height: 32px;
-font-feature-settings: 'pnum' on, 'lnum' on;
 color: #47464D;
   }
   @media screen and (max-width: 960px) {
@@ -160,8 +172,10 @@ color: #47464D;
     line-height: 23px;
   }
   @media screen and (max-width: 480px) {
-    font-size: 14px;
-    line-height: 25px;
+    font-weight: 400;
+font-size: 11.9937px;
+line-height: 21px;
+
   }
   @media screen and (max-width: 320px) {
     font-size: 12px;
@@ -184,7 +198,7 @@ export const User = styled.div`
     padding: 20px 0 0px 0;
   }
   @media screen and (max-width: 480px) {
-    padding: 12px 0 20px 0;
+    padding: 40px 0 20px 0;
   }
 `;
 export const Col = styled.div`
@@ -194,6 +208,10 @@ export const UserImg = styled.img`
   margin-right: 12px;
   width: 48px;
   height: 48px;
+  @media screen and (max-width: 480px) {
+   width: 31px;
+   height: 31px;
+  }
 `;
 export const UserName = styled.div`
   font-weight: 600;
@@ -201,10 +219,10 @@ export const UserName = styled.div`
   line-height: 32px;
   color: #19191b;
   @media screen and (max-width: 1280px) {
-    font-weight: 600;
-  font-size: 21px;
-  line-height: 32px;
-  color: #19191b;
+    font-weight: 500;
+font-size: 21px;
+line-height: 32px;
+color: #19191B;
   }
   @media screen and (max-width: 1024px) {
     font-weight: 500;
@@ -229,17 +247,18 @@ color: #19191B;
     line-height: 23px;
   }
   @media screen and (max-width: 480px) {
-    font-size: 14px;
-    line-height: 25px;
+    font-weight: 700;
+font-size: 13.9926px;
+line-height: 21px;
   }
   @media screen and (max-width: 280px) {
     font-size: 14px;
   }
 `;
 export const UserInfo = styled.div`
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
+ font-weight: 400;
+font-size: 14px;
+line-height: 20px;
   color: #696871;
   @media screen and (max-width: 960px) {
     font-size: 12px;
@@ -254,8 +273,9 @@ export const UserInfo = styled.div`
     line-height: 23px;
   }
   @media screen and (max-width: 480px) {
-    font-size: 12px;
-    /* line-height: 25px; */
+    font-weight: 400;
+font-size: 9.3284px;
+line-height: 13px;
   }
   @media screen and (max-width: 280px) {
     font-size: 11px;

@@ -29,6 +29,7 @@ function HeroSection() {
     <HeroContainer id="products">
       <HeroBg>
         <ImgBg src="Background.svg" />
+        {/* <ImgBg src="Drivers/Background375.svg" /> */}
       </HeroBg>
       <div className="">
 
@@ -48,7 +49,7 @@ function HeroSection() {
             primary="true"
             dark='true'
           >
-             Get started {hover ? <ArrowForward/> : <ArrowForwards/>}
+             Get started {hovers ? <ArrowForward/> : <ArrowForwards/>}
           </Button>
           <Button
            to="signup"
@@ -61,6 +62,7 @@ function HeroSection() {
           </Button>
         </HeroBgWrapper>
         {/* <ImgMac src="mac.svg"/> */}
+        {/* <ImgMac src="Hero/mac375.png"/> */}
         <ImgMac src="Hero/mac.png"/>
 
       </HeroContent>

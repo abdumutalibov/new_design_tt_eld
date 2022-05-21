@@ -31,7 +31,7 @@ export const RatingContainer = styled.div`
   }
 
   @media screen and (max-width: 480px) {
-    height: 85rem;
+    height: 40rem;
   }
   @media screen and (max-width: 280px) {
     height: 95rem;

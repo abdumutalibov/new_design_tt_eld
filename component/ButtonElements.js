@@ -67,11 +67,43 @@ font-size: 22px;
     margin-right: 20px;
   }
   @media screen and (max-width: 480px) {
-    margin-right: 0;
+    max-width: 140px;
+  max-height: 42px;
+  font-weight: 600;
+font-size: 13.0357px;
+line-height: 21px;
+margin:40px 13px 75px 13px;
+padding: 0;
+border: solid 1px white;
+
     padding: ${({ big }) => (big ? "14px 48px" : "10px 20px")};
     font-size: ${({ fontBig }) => (fontBig ? "20px" : "12px")};
+    &:hover {
+    transition: all 0.2s ease-in-out;
+    background: ${({ primary }) => (primary ? "#414143" : "#01BF71")};
+    color: ${({ dark }) => (dark ? "#fff" : "#fff")};
+  }
+  }
+ @media screen and (max-width: 320px) {
+    max-width: 130px;
+  max-height: 40px;
+  font-weight: 600;
+font-size: 12px;
+line-height: 21px;
+margin:40px 5px 75px 5px;
+padding: 0;
+border: solid 1px white;
+
+    padding: ${({ big }) => (big ? "14px 48px" : "10px 20px")};
+    font-size: ${({ fontBig }) => (fontBig ? "20px" : "12px")};
+    &:hover {
+    transition: all 0.2s ease-in-out;
+    background: ${({ primary }) => (primary ? "#414143" : "#01BF71")};
+    color: ${({ dark }) => (dark ? "#fff" : "#fff")};
+  }
   }
 `;
+
 export const Button2 = styled.a`
   border-radius: 6px;
   background: ${({ primary }) => (primary ? "#FFFFFF" : "#010606")};

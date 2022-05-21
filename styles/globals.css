@@ -122,6 +122,7 @@ transition: all 1.2s ease-in-out;
   /* transform: scale(1.0); 
   transition: transform 300ms; */
    opacity: 0.5;
+
 }
 
 .activeSlides{

@@ -2,7 +2,8 @@ import { useState } from "react";
 import Slider from "react-slick";
 import { ArrowNext, ArrowPrev, Col, Container, ImgStars, RatingCards, RatingP, RatingWrappers, User, UserImg, UserInfo, UserName } from "./styled";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
-function Review1280() {
+import styles from '../../styles/Drivers.module.css' 
+function Review480() {
 
   const NextArrow = ({ onClick }) => {
     return (
@@ -24,7 +25,8 @@ function Review1280() {
     infinite: true,
     lazyLoad: true,
     speed: 300,
-    slidesToShow: 3,
+    slidesToShow: 1,
+
     centerMode: true,
     centerPadding: "0",
     nextArrow: <NextArrow />,
@@ -40,7 +42,7 @@ function Review1280() {
     <>
     
     <Container>
-      <Slider {...settings}>
+      <Slider {...settings} className={styles.slider}>
         {userRows.map((item ,id ) => (
           <RatingWrappers>
 
@@ -74,7 +76,7 @@ function Review1280() {
   );
 }
 
-export default Review1280;
+export default Review480;
 
 
 export const userRows = [

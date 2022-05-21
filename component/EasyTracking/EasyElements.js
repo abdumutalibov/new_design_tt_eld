@@ -40,7 +40,7 @@ export const EasyContainer = styled.div`
     padding: 0;
   }
   @media screen and (max-width: 480px) {
-    height: 110rem;
+    height: 75rem;
   }
   @media screen and (max-width: 280px) {
     height: 110rem;
@@ -71,9 +71,11 @@ export const EasyWrapper = styled.div`
   }
   @media screen and (max-width: 480px) {
     font-size: 2rem;
-    padding: 0 10px;
+    padding: 0 0px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+  align-items: center;
   }
 `;
 export const EasyH1 = styled.h1`
@@ -118,8 +120,9 @@ color: #1A2944;
   }
   @media screen and (max-width: 480px) {
     text-align: center;
-    font-size: 22px;
-  line-height: 40px;
+    font-weight: 700;
+font-size: 24px;
+line-height: 36px;
 
   }
 `;
@@ -175,10 +178,12 @@ max-width: 50rem;
 /* margin-bottom:300px; */
   }
   @media screen and (max-width: 480px) {
-    font-size: 20px;
     padding: 0 10px;
     text-align: center;
-  line-height: 38px;
+    font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+max-width: 22rem;
 /* margin-bottom:300px; */
   }
 `;
@@ -218,6 +223,8 @@ export const EasyCard = styled.div`
     /* padding: 0 10px; */
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 `;
 export const Column1 = styled.div`
@@ -253,7 +260,10 @@ export const Column1 = styled.div`
     /* padding: 0 30px; */
     max-width: 140rem;
     width: 100%;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 `;
 export const Column2 = styled.div`
@@ -288,7 +298,9 @@ export const Column2 = styled.div`
     /* padding: 0 30px; */
     max-width: 140rem;
     width: 100%;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 `;
 export const TextCard1 = styled.div`
@@ -340,14 +352,15 @@ width: 100%;
 margin-left: 50px;
   }
   @media screen and (max-width: 480px) {
-    padding: 0 30px;
-       display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-    text-align: left;
-    max-width: 170rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 16rem;
     width: 100%;
-margin-left: 60px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+/* margin-left: 60px; */
   }
 `;
 export const TextCard2 = styled.div`
@@ -402,14 +415,17 @@ width: 100%;
 margin-left: 50px;
   }
   @media screen and (max-width: 480px) {
-    padding: 0 30px;
+    
        display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
     text-align: left;
     max-width: 170rem;
     width: 100%;
-margin-left: 60px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+max-width: 20rem;
+/* margin-left: 60px; */
   }
 `;
 export const ImgWrap = styled.img`
@@ -419,6 +435,7 @@ export const ImgWrap = styled.img`
   @media screen and (max-width: 1280px) {
    margin-bottom: 14px;
   }
+
 `;
 export const ImgWraps = styled.img`
   width: 26px;
@@ -467,8 +484,10 @@ color: #1A2944;
 
   }
   @media screen and (max-width: 480px) {
-    font-size: 20px;
-    text-align: left;
+    font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+    text-align: center;
   }
   @media screen and (max-width: 280px) {
     font-size: 16px;
@@ -505,8 +524,10 @@ color: #1A2944;
 
   }
   @media screen and (max-width: 480px) {
-    font-size: 20px;
-    text-align: left;
+    font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+    text-align: center;
   }
   @media screen and (max-width: 280px) {
     font-size: 16px;
@@ -558,8 +579,10 @@ max-width: 30rem;
 width: 100%;
   }
   @media screen and (max-width: 480px) {
-    font-size: 16px;
-  text-align: left;
+    font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+  text-align: center;
 
   }
   @media screen and (max-width: 280px) {
@@ -614,8 +637,10 @@ max-width: 30rem;
 width: 100%;
   }
   @media screen and (max-width: 480px) {
-    font-size: 16px;
-  text-align: left;
+    font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+  text-align: center;
 
   }
   @media screen and (max-width: 280px) {
@@ -682,18 +707,17 @@ margin-bottom: 32px;
 
   }
   @media screen and (max-width: 480px) {
-    width: 360px;
+    width: 350px;
     padding-top: 30px;
     /* margin-top: 30px; */
     display:block;
-
+padding: 0;
   }
   @media screen and (max-width: 320px) {
     width: 320px;
     padding-top: 30px;
     /* margin-top: 30px; */
     display:block;
-
   }
   @media screen and (max-width: 280px) {
     width: 280px;

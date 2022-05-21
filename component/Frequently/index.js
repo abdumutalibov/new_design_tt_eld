@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import {
   Accordion,
+  Cl,
   Col,
   Col2,
   Col3,
@@ -40,11 +41,13 @@ import {
   LoginHr,
   LoginText,
   LoginTextButton,
+  LoginTextButtons,
   LoginTxt1,
   LoginTxt2,
   LoginTxt3,
   LoginTxt4,
   MainLog,
+  MaxWidth,
   Show,
   Title,
   TitleH2,
@@ -72,6 +75,8 @@ const Frequntly = () => {
       </FrequntlyText>
       <FrequentlyWrapper>
   
+<MaxWidth>
+
 
         {data.map((item, i) => (
           <FrequntlyBox2 className={selected === i ? "border" : "border1"}>
@@ -98,9 +103,11 @@ const Frequntly = () => {
             </FrequentlyP>
           </FrequntlyBox2>
         ))}
+        </MaxWidth>
 <MainLog id="request">
         <FrequentlyLogin>
           <Col3  >
+
             <LoginText>
               <LoginTxt1>Let’s talk to you about your company</LoginTxt1>
               <LoginTxt2>
@@ -191,9 +198,12 @@ const Frequntly = () => {
               </FormWrap>
             </LoginContainer>
 
-            <LoginTextButton>Any problem about your booking?</LoginTextButton>
+            <LoginTextButton primary >Any problem about your booking?</LoginTextButton>
             <LoginTextButton>
+
+
               You can contact us on :
+<Cl>
               <IconsButtonSpan>
                 <IconsText src="FooterIcons/email-icon.svg" />
                 Info@tteld.com
@@ -202,7 +212,10 @@ const Frequntly = () => {
                 <IconsText2 src="FooterIcons/phone-icon.svg" />
                 +1 (833) 888 83 53
               </IconsButtonSpan>
+</Cl>
             </LoginTextButton>
+
+            
           </Col3>
         </FrequentlyLogin>
         </MainLog>

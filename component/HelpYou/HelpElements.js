@@ -29,11 +29,10 @@ export const HelpContainer = styled.div`
   }
 
   @media screen and (max-width: 480px) {
-    height: 1400px;
+    height: 900px;
     padding: 0;
   }
 `;
-
 export const HelpWrapper = styled.div`
   max-width: 86rem;
   width: 100%;
@@ -68,12 +67,16 @@ export const HelpWrapper = styled.div`
   }
   @media screen and (max-width: 480px) {
     grid-template-columns: 1fr;
+    padding: 0;
+    margin: 0;
+  max-width: 21.3rem;   
+  grid-gap: 20px;
+
   }
   @media screen and (max-width: 320px) {
     font-size: 15px;
   }
 `;
-
 export const HelpCard = styled.div`
   background: #fff;
   display: flex;
@@ -107,6 +110,10 @@ export const HelpCard = styled.div`
   @media screen and (max-width: 820px) {
     padding: 10px 18px;
   }
+  @media screen and (max-width: 480px) {
+    padding: 10px 18px;
+    margin: 0;
+  }
 `;
 export const HelpIcon = styled.img`
   height: 30px;
@@ -121,6 +128,12 @@ export const HelpIcon = styled.img`
   @media screen and (max-width: 820px) {
     width: 25px;
     height: 25px;
+    margin-right: 0px;
+    padding: 0;
+  }
+  @media screen and (max-width: 480px) {
+    width: 30px;
+    height: 30px;
     margin-right: 0px;
     padding: 0;
   }
@@ -173,7 +186,9 @@ line-height: 56px;
     padding: 0 24px;
   }
   @media screen and (max-width: 480px) {
-    font-size: 2rem;
+    font-weight: 700;
+font-size: 24px;
+line-height: 6px;
     padding: 0 10px;
     text-align: center;
   }
@@ -230,6 +245,12 @@ line-height: 36px;
     text-align: center;
     padding: 0 24px;
   }
+  @media screen and (max-width: 480px) {
+    font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+margin-bottom: 34px;
+  }
 `;
 export const HelpH2 = styled.h2`
   font-weight: 600;
@@ -250,6 +271,11 @@ line-height: 32px;
     font-size: 16px;
     font-weight: 700;
     margin-bottom: 0;
+  }
+  @media screen and (max-width: 480px) {
+    font-weight: 700;
+font-size: 16px;
+line-height: 24px;
   }
   @media screen and (max-width: 320px) {
     font-size: 15px;
@@ -272,6 +298,11 @@ line-height: 24px;
   }
   @media screen and (max-width: 768px) {
     font-size: 13px;
+  }
+  @media screen and (max-width: 480px) {
+    font-weight: 400;
+font-size: 12px;
+line-height: 22px;
   }
   @media screen and (max-width: 320px) {
     font-size: 13px;

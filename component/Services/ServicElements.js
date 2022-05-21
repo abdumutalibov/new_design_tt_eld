@@ -21,7 +21,7 @@ export const ServicesContainer = styled.div`
   }
 
   @media screen and (max-width: 480px) {
-    height: 190rem;
+    height: 100rem;
   }
 `;
 
@@ -60,8 +60,17 @@ export const ServicesWrapper = styled.div`
     margin-bottom: 100px;
   }
   @media screen and (max-width: 768px) {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     padding: 0 20px;
+  }
+  @media screen and (max-width: 480px) {
+    grid-template-columns: 1fr 1fr;
+    padding: 0 20px;
+    margin-bottom: 120px;
+  }
+  @media screen and (max-width: 320px) {
+    grid-template-columns: 1fr 1fr;
+    padding: 0 5px;
   }
 `;
 
@@ -125,12 +134,12 @@ export const ServicesIcon = styled.img`
     height: 124px;
   }
   @media screen and (max-width: 480px) {
-    width: 265px;
-    height: 154px;
+    width: 140px;
+    height: 108px;
   }
-  @media screen and (max-width: 480px) {
-    width: 215px;
-    height: 134px;
+  @media screen and (max-width: 320px) {
+    width: 120px;
+    /* height: 108px; */
   }
 `;
 export const ServicesIconShopping = styled.img`
@@ -148,6 +157,10 @@ height:16px;
   }
   @media screen and (max-width: 820px) {
     height:14px;
+
+  }
+  @media screen and (max-width: 480px) {
+    height:10px;
 
   }
 `;
@@ -202,8 +215,12 @@ color: #1A2944;
     margin-bottom: 20px;
   }
   @media screen and (max-width: 480px) {
-    font-size: 22px;
-    line-height: 40px;
+    font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+margin: 0;
+padding: 0;
+max-width: 20rem;
   }
 `;
 export const ServicesText = styled.p`
@@ -261,9 +278,12 @@ max-width: 40rem;
     padding: 0 15px;
   }
   @media screen and (max-width: 480px) {
-    font-size: 19px;
-    line-height: 30px;
+    font-weight: 400;
+font-size: 12px;
+line-height: 22px;
     padding: 0 10px;
+max-width: 20rem;
+
   }
 `;
 export const ServicesH2 = styled.h2`
@@ -305,7 +325,9 @@ line-height: 32px;
 color: #1A2944;
   }
   @media screen and (max-width: 480px) {
-    font-size: 18px;
+    font-weight: 600;
+font-size: 11px;
+line-height: 19px;
   }
   @media screen and (max-width: 280px) {
     font-size: 15px;
@@ -345,10 +367,20 @@ font-size: 13.5px;
 line-height: 24px;
 color: #5A7184;
   }
+  @media screen and (max-width: 480px) {
+    font-weight: 400;
+font-size: 9.48063px;
+line-height: 14px;
+  }
   @media screen and (max-width: 280px) {
     font-size: 14px;
   }
 `;
+
+
+
+
+
 export const ServicesFooterContainer = styled.div`
  background: #2B2D31;
 width: 100%;
@@ -391,6 +423,12 @@ margin: 0;
   padding: 0 10px;
 
   }
+  @media screen and (max-width: 480px) {
+    width: 100%;
+    max-width: 21.3rem;   
+    padding: 0;
+margin: 0;
+  }
 `;
 export const FooterWrap = styled.div`
   padding: 30px 74px;
@@ -421,6 +459,8 @@ width: 100%;
     justify-content: center;
     align-items: center;
     margin-right: 0;
+  padding: 26px 10px 26px 10px;
+  
   }
 `;
 export const FooterLinksContainer = styled.div`
@@ -447,6 +487,8 @@ width: 100%;
   @media screen and (max-width: 480px) {
     flex-direction: column;
     margin-right: 0;
+    padding: 0;
+margin: 0;
   }
 `;
 export const FooterMainColumn = styled.div`
@@ -472,6 +514,8 @@ width: 100%;
   }
   @media screen and (max-width: 480px) {
     flex-direction: column;
+    padding: 0;
+margin: 0;
   }
 `;
 export const FooterLinkItems = styled.div`
@@ -541,8 +585,8 @@ export const FooterLinkItems2 = styled.div`
     margin-right: 10px;
   }
   @media screen and (max-width: 480px) {
-    margin: 0;
-    padding: 10px;
+    padding: 0;
+margin: 0;
     width: 100%;
   }
   @media screen and (min-width: 540px) and (max-width: 960px) {
@@ -569,7 +613,8 @@ width: 100%;
   }
   @media screen and (max-width: 820px) {
     margin-left: 0 auto;
-    max-width: 18rem;
+    padding: 0;
+margin: 0;
 width: 100%;
   }
   @media screen and (max-width: 768px) {
@@ -608,16 +653,14 @@ width: 100%;
     justify-content: space-between;
     align-items: center;
   }
- 
-
+  @media screen and (max-width: 480px) {
+ margin-top: 30px;
+  }
   @media screen and (min-width: 540px) and (max-width: 960px) {
     display: flex;
     margin-right: 0;
   }
-  @media screen and (max-width: 480px) {
-    flex-direction: column;
-    margin-right: 0;
-  }
+ 
 `;
 
 export const FooterLinkBtns = styled.div`
@@ -714,7 +757,6 @@ line-height: 24px;
 color: #FFFFFF;
   }
 `;
-
 export const FooterLinkBtn = styled.div`
   display: flex;
   justify-content: center;
@@ -733,9 +775,11 @@ export const FooterLinkBtn = styled.div`
     width: 100%;
   }
   @media screen and (max-width: 480px) {
-    margin: 0;
-    padding: 10px;
     width: 100%;
+    display: block;
+    display: flex;
+  justify-content: center;
+  align-items: center;
   }
   @media screen and (max-width: 280px) {
     margin: 0;
@@ -757,6 +801,16 @@ export const Btn = styled.button`
   line-height: 32px;
   transition: all 0.2s ease-in-out;
   color: #ffffff;
+  @media screen and (max-width: 480px) {
+    padding: 0px;
+    /* width: 50%; */
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 148px;
+    font-size: 15px;
+  height: 44px;
+  }
   @media screen and (max-width: 280px) {
     font-size: 13px;
     width:160px;
@@ -821,10 +875,11 @@ text-align: left;
 
 }
 @media screen and (max-width: 480px) {
-  font-size: 2px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: red;
+  width: 100%;
 }
 `;
 FooterLinks.H1 = styled.div`
@@ -886,11 +941,17 @@ width: 100%;
   padding: 0;
 }
 @media screen and (max-width: 480px) {
-
-font-size: 16px;
+  display: none;
+font-weight: 600;
+font-size: 20px;
+line-height: 36px;
+margin: 0;
+padding: 0;
 }
 @media screen and (max-width: 280px) {
-font-size: 12px;
+  font-weight: 600;
+font-size: 20px;
+line-height: 36px;
 }
 `
 FooterLinks.T=styled.div`
@@ -993,6 +1054,24 @@ transition: 0.3s ease-out;
     font-size: 18px;
   }
 `;
+export const Text2 = styled.div`
+  cursor: pointer;
+  color: #ffffff;
+@media screen and (max-width: 480px) {
+font-weight: 600;
+font-size: 20px;
+line-height: 36px;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+@media screen and (max-width: 280px) {
+  font-weight: 600;
+font-size: 20px;
+line-height: 36px;
+}
+` 
+
 export const T = styled.div`
   color: #ffbb00;
 `;
@@ -1078,7 +1157,9 @@ padding: 0;
     padding: 0;
   }
   @media screen and (max-width: 480px) {
-    font-size: 16px;
+    font-weight: 400;
+font-size: 14px;
+line-height: 36px;
   }
   @media screen and (max-width: 280px) {
     flex-direction: column;
@@ -1093,5 +1174,8 @@ export const FooterIcon = styled.img`
     width: 18px;
   height: 17px;
   margin-right: 12px;
+  }
+  @media screen and (max-width: 480px) {
+    width: 15px;
   }
 `;

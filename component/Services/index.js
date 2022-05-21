@@ -28,6 +28,7 @@ import {
   ServicesWrapper,
   Span,
   T,
+  Text2,
 } from "./ServicElements";
 
 const Services = () => {
@@ -89,7 +90,7 @@ const Services = () => {
             </ServicesTextRightItem>
           </ServicesTextRight>
         </ServicesCard>
-        <ServicesCard id='reviews'>
+        <ServicesCard id="reviews">
           <ServicesIcon src="ProductsImgs/img6.svg" />
           <ServicesTextRight>
             <ServicesH2>Instructions and sticker</ServicesH2>
@@ -100,77 +101,77 @@ const Services = () => {
           </ServicesTextRight>
         </ServicesCard>
       </ServicesWrapper>
-      <ServicesFooterContainer >
+      <ServicesFooterContainer>
         <FooterWrap>
           <FooterLinksContainer>
             <FooterLinksWrapper>
               <FooterMainColumn>
+                <FooterLinkItems.Col>
+                  <FooterLink.T1 to="/siginin">
+                    ELD device sold separately.
+                  </FooterLink.T1>
+                  <FooterLink.H1 to="/siginin">
+                    ELD is easy to operate.
+                  </FooterLink.H1>
+                  <FooterLink.H1 to="/siginin">
+                    and feel comfortable
+                  </FooterLink.H1>
+                  <FooterLink.H1 to="/siginin">
+                    <T>$105/mo.</T>
+                  </FooterLink.H1>
 
-              <FooterLinkItems.Col >
-                <FooterLink.T1 to="/siginin">
-                  ELD device sold separately.
-                </FooterLink.T1>
-                <FooterLink.H1 to="/siginin">
-                  ELD is easy to operate.
-                </FooterLink.H1>
-                <FooterLink.H1 to="/siginin">
-                  and feel comfortable
-                </FooterLink.H1>
-                <FooterLink.H1  to="/siginin" ><T>$105/mo.</T></FooterLink.H1>
-                <FooterLinks.H1>
-                ELD is easy to operate and
-                </FooterLinks.H1>
-                <FooterLinks.H1>
-                feel comfortable <Span>$105/mo.</Span> 
-                </FooterLinks.H1>
+                  <FooterLinks.H1>ELD is easy to operate and</FooterLinks.H1>
+                  <FooterLinks.H1>
+                    feel comfortable <Span>$105/mo.</Span>
+                  </FooterLinks.H1>
+                  <Text2>ELD is easy to operate and feel</Text2>
+                  <Text2>comfortable <Span>$105/mo.</Span></Text2>
 
-                <FooterLinks.T>
-                   ELD device sold separately.
-                </FooterLinks.T>
-                <FooterLinkBtns>
-                <Btns to="/siginin">Start now</Btns>
-              </FooterLinkBtns>
-              </FooterLinkItems.Col>
-              <FooterColumn>
-                <FooterLinkItems>
-                  <FooterLink.P to="/siginin">
-                    <FooterIcon src="ProductsImgs/Vector.svg" />
-                    ELD
-                  </FooterLink.P>
-                  <FooterLink.P to="/siginin">
-                    <FooterIcon src="ProductsImgs/Vector.svg" />
-                    Fleet Management
-                  </FooterLink.P>
-                  <FooterLink.P to="/siginin">
-                    <FooterIcon src="ProductsImgs/Vector.svg" />
-                    Log Annotiation
-                  </FooterLink.P>
-                  <FooterLink.P to="/siginin">
-                    <FooterIcon src="ProductsImgs/Vector.svg" />
-                    Tracking History
-                  </FooterLink.P>
-                </FooterLinkItems>
-                <FooterLinkItems2>
-                  <FooterLink.P to="/siginin">
-                    <FooterIcon src="ProductsImgs/Vector.svg" />
-                    Driver Alarm
-                  </FooterLink.P>
-                  <FooterLink.P to="/siginin">
-                    <FooterIcon src="ProductsImgs/Vector.svg" />
-                    GPS Tracking
-                  </FooterLink.P>
-                  <FooterLink.P to="/siginin">
-                    <FooterIcon src="ProductsImgs/Vector.svg" />
-                    IFTA Reports
-                  </FooterLink.P>
-                  <FooterLink.P to="/siginin" >
-                    <FooterIcon src="ProductsImgs/Vector.svg" />
-                    Chat
-                  </FooterLink.P >
-                </FooterLinkItems2 >
-              </FooterColumn>
+                  <FooterLinks.T>ELD device sold separately.</FooterLinks.T>
+
+                  <FooterLinkBtns>
+                    <Btns to="/siginin">Start now</Btns>
+                  </FooterLinkBtns>
+                </FooterLinkItems.Col>
+                <FooterColumn>
+                  <FooterLinkItems>
+                    <FooterLink.P to="/siginin">
+                      <FooterIcon src="ProductsImgs/Vector.svg" />
+                      ELD
+                    </FooterLink.P>
+                    <FooterLink.P to="/siginin">
+                      <FooterIcon src="ProductsImgs/Vector.svg" />
+                      Fleet Management
+                    </FooterLink.P>
+                    <FooterLink.P to="/siginin">
+                      <FooterIcon src="ProductsImgs/Vector.svg" />
+                      Log Annotiation
+                    </FooterLink.P>
+                    <FooterLink.P to="/siginin">
+                      <FooterIcon src="ProductsImgs/Vector.svg" />
+                      Tracking History
+                    </FooterLink.P>
+                  </FooterLinkItems>
+                  <FooterLinkItems2>
+                    <FooterLink.P to="/siginin">
+                      <FooterIcon src="ProductsImgs/Vector.svg" />
+                      Driver Alarm
+                    </FooterLink.P>
+                    <FooterLink.P to="/siginin">
+                      <FooterIcon src="ProductsImgs/Vector.svg" />
+                      GPS Tracking
+                    </FooterLink.P>
+                    <FooterLink.P to="/siginin">
+                      <FooterIcon src="ProductsImgs/Vector.svg" />
+                      IFTA Reports
+                    </FooterLink.P>
+                    <FooterLink.P to="/siginin">
+                      <FooterIcon src="ProductsImgs/Vector.svg" />
+                      Chat
+                    </FooterLink.P>
+                  </FooterLinkItems2>
+                </FooterColumn>
               </FooterMainColumn>
-
 
               <FooterLinkBtn>
                 <Btn to="/siginin">Start now</Btn>
