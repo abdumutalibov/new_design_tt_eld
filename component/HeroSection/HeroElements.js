@@ -34,8 +34,9 @@ export const HeroContainer = styled.div`
     background: none;
   }
   @media screen and (max-width:768px) {
-    height:1200px;
-    background: #2B2D31;
+    height:900px;
+    background: none;
+
   }
   @media screen and (max-width:480px) {
     height:840px;
@@ -71,7 +72,8 @@ export const ImgBg = styled.img`
     
   }
   @media screen and (max-width:768px) {
-    /* height:1000px; */
+    height:945px;
+    background: none;
     /* display: none; */
   }
   @media screen and (max-width:480px) {
@@ -132,7 +134,8 @@ color: #FFFFFF;
     font-size: 32px;
   }
   @media screen and (max-width:768px) {
-    font-size: 40px;
+    font-size: 28px;
+
   }
 
 
@@ -188,7 +191,9 @@ padding: 0;
 margin: 0;
   }
 @media screen and (max-width:768px) {
-    font-size: 24px;
+    font-size: 12px;
+max-width: 33rem;
+/* background-color: red; */
   }
 
   @media screen and (max-width:480px) {
@@ -239,7 +244,7 @@ width: 300px;
 height: 300px;
 }
 @media screen and (max-width: 768px){
-font-size: 80px;
+font-size: 0px;
 width: 300px;
 height: 300px;
 }
@@ -258,6 +263,10 @@ font-size: 20px;
 }
 @media screen and (max-width: 820px){
 font-size: 20px;
+
+}
+@media screen and (max-width: 820px){
+font-size: 12px;
 
 }
 @media screen and (max-width: 480px){

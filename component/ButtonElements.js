@@ -63,8 +63,13 @@ font-size: 22px;
   padding: 10px 20px;
   }
   @media screen and (max-width: 768px) {
-    margin-right: 0;
-    margin-right: 20px;
+    margin-right: 0px;
+    margin: 20px 10px 60px 10px ;
+    max-width: 145px;
+  max-height: 42px;
+font-size: 13.5px;
+border: 2px solid white;
+
   }
   @media screen and (max-width: 480px) {
     max-width: 130px;
@@ -138,6 +143,7 @@ color: #2D2B31;
 }
   @media screen and (max-width: 768px) {
     margin-right: 0;
+    margin: 0;
     /* margin-top:20px; */
   }
   @media screen and (max-width: 480px) {
