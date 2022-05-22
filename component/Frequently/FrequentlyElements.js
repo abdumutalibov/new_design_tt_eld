@@ -269,11 +269,12 @@ color: #5A7184;
     font-weight: 600;
     font-size: 13.5px;
     line-height:28px;
+    margin-top: 5px;
   }
   @media screen and (max-width: 768px) {
     font-weight: 600;
 font-size: 12px;
-line-height: 24px;
+line-height: 22px;
   }
   @media screen and (max-width: 480px) {
     font-weight: 400;
@@ -311,7 +312,7 @@ width: 100%;
  
   }
   @media screen and (max-width: 768px) {
-    padding: 18px 15px 15px 15px;
+    padding: 23px 15px 15px 15px;
  
   }
   @media screen and (max-width: 480px) {
