@@ -65,8 +65,8 @@ color: #1A2944;
     color: #1a2944;
   }
   @media screen and (max-width: 768px) {
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 26px;
+    line-height: 20px;
     margin-bottom: 20px;
   }
   @media screen and (max-width: 480px) {
@@ -123,6 +123,12 @@ margin-bottom: 56px;
     max-width: 34rem;
 
   }
+  @media screen and (max-width: 768px) {
+    font-weight: 400;
+font-size: 14px;
+line-height: 30px;
+    max-width: 34rem;
+  }
   @media screen and (max-width: 480px) {
     font-weight: 400;
 font-size: 12px;
@@ -154,6 +160,11 @@ padding: 0;
   @media screen and (max-width: 820px) {
     max-width: 44rem;
  padding: 0;
+  }
+  @media screen and (max-width: 768px) {
+    max-width: 42rem;
+ padding: 0;
+ margin: 0 19px;
   }
   @media screen and (max-width: 480px) {
     /* max-width: 21.3rem;   */
@@ -199,6 +210,12 @@ export const Col = styled.div`
   @media screen and (max-width: 1024px) {
     max-width: 55rem;
  
+  }
+  @media screen and (max-width: 768px) {
+  
+    line-height: 0px;
+    margin-top: 0px;
+    padding: 0;
   }
   @media screen and (max-width: 480px) {
     font-size: 19px;
@@ -255,7 +272,7 @@ color: #5A7184;
   }
   @media screen and (max-width: 768px) {
     font-weight: 600;
-font-size: 16px;
+font-size: 12px;
 line-height: 24px;
   }
   @media screen and (max-width: 480px) {
@@ -293,6 +310,10 @@ width: 100%;
     padding: 16px 22px;
  
   }
+  @media screen and (max-width: 768px) {
+    padding: 18px 15px 15px 15px;
+ 
+  }
   @media screen and (max-width: 480px) {
     padding: 10px 10px 10px 10px;
  
@@ -309,6 +330,9 @@ export const Col2 = styled.div`
   }
   
 `;
+
+
+
 export const FrequntlyT2 = styled.h2`
   font-weight: 600;
   font-size: 28px;
@@ -340,7 +364,7 @@ line-height: 36px;
     text-align: center;
   }
   @media screen and (max-width: 768px) {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 16px;
     /* padding: 10px; */
     margin-right: auto;
@@ -392,6 +416,11 @@ export const FrequentlyDecrement2 = styled.img`
   @media screen and (max-width: 820px) {
     width: 15px;
   }
+  @media screen and (max-width: 768px) {
+    width: 15px;
+    margin-bottom: 3px;
+
+  }
   @media screen and (max-width: 480px) {
     width: 10px;
     margin-bottom: 3px;
@@ -408,6 +437,11 @@ export const FrequentlyDecrement = styled.img`
   @media screen and (max-width: 820px) {
     width: 15px;
     margin-bottom: 10px;
+  }
+  @media screen and (max-width: 768px) {
+    width: 15px;
+    margin-bottom: 3px;
+
   }
   @media screen and (max-width: 480px) {
     width: 10px;
