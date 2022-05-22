@@ -61,8 +61,8 @@ export const NavbarContainer = styled.div`
 
 }
 @media screen and (max-width:768px){
-  max-width: 34rem;   
-  /* background-color: #706e77; */
+  max-width: 35rem;   
+  background-color: #706e77;
 display: flex;
 align-items: center;
 padding: 0;
