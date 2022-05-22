@@ -165,7 +165,7 @@ color: #47464D;
     line-height: 27px;
   }
   @media screen and (max-width: 768px) {
-    font-size: 11.5px;
+    font-size: 11px;
     line-height: 23px;
     
   }
