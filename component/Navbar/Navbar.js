@@ -108,7 +108,7 @@ export const NavLogo = styled.a`
   @media screen and (max-width:768px){
 display: flex;
 align-items: center;
-  margin-left: 210px ;
+  margin-left: 225px ;
   }
   @media screen and (max-width:480px){
 display: flex;
@@ -172,14 +172,14 @@ export const MobileIcon = styled.div`
   align-items: center;
     position:absolute;
     top: 0;
-    left: 30;
+    left: 1;
     bottom: 0;
     margin: 0;
     padding: 0;
     /* transform: translate(150%, 0%); */
     cursor: pointer;
     color: #fff;
-    font-size: 43px;
+    font-size: 33px;
     
   }
   @media screen and (max-width: 540px) {
@@ -523,9 +523,9 @@ text-align: center;
     display: flex;
     justify-content: center;
   align-items: center;
-   width: 120px;
-    height: 48px;
-    font-size: 17px;
+   width: 105px;
+    height: 40px;
+    font-size: 15px;
     font-weight: 600;
 line-height: 20px;
 text-align: center;
@@ -540,9 +540,11 @@ margin: 0;
   display: flex;
   align-items: center;
   font-weight: 600;
-  width: 165px;
-    height: 64px;
-    font-size: 23px;
+  width: 120px;
+    height: 48px;
+    font-size: 17px;
+border: 3px solid #706e77;
+
 line-height: 20px;
 text-align: center;
 }
