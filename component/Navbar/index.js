@@ -43,7 +43,9 @@ const Navbar = ({ toggle }) => {
             </MobileIcon>
 
             <Link href="/" passHref>
+              
               <NavLogo>
+                
                 <NavImg src="Drivers/Logo.svg" alt="" />
               </NavLogo>
             </Link>

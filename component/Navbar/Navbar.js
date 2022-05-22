@@ -63,21 +63,14 @@ export const NavbarContainer = styled.div`
 
 }
 @media screen and (max-width:768px){
-  max-width: 35rem;   
+  max-width: 43rem;   
   /* background-color: #706e77; */
 display: flex;
 align-items: center;
-padding: 0;
-margin: 0;
+padding: 0 12px;
+margin: 0 9px;
 }
-@media screen and (max-width:540px){
-  max-width: 32rem;   
-  /* background-color: #706e77; */
-display: flex;
-align-items: center;
-padding: 0;
-margin: 0;
-}
+
 
 @media screen and (max-width:480px){
   max-width: 21.3rem;   
@@ -85,6 +78,7 @@ display: flex;
 align-items: center;
 padding: 0;
 margin: 0;
+
 }
 @media screen and (max-width:320px){
   max-width: 18.2rem;   
@@ -118,13 +112,16 @@ export const NavLogo = styled.a`
   @media screen and (max-width:768px){
 display: flex;
 align-items: center;
-  margin-left: 210px ;
-  }
-  @media screen and (max-width:480px){
-display: flex;
-align-items: center;
-  /* margin-left: 180px ; */
-  margin: 0 auto;
+  /* margin-left: 210px ; */
+  margin:  0 auto;
+
+
+}
+@media screen and (max-width:480px){
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
   }
 `;
 export const NavImg = styled.img`
@@ -154,10 +151,13 @@ padding: 0;
 @media screen and (max-width:768px){
   width: 130px;
 height: 110px;
+position: absolute;
+
 }
 
   @media screen and (max-width:480px){
 height: 30px;
+
 }
 @media screen and (max-width:320px){
 height: 27px;
@@ -502,33 +502,7 @@ line-height: 20px;
 text-align: center;
 }
   }
-  /* @media screen and (max-width: 768px) {
-    display: flex;
-  align-items: center;
-   width: 165px;
-    height: 64px;
-    font-size: 23px;
-    font-weight: 600;
-line-height: 20px;
-text-align: center;
-color: #FFFFFF;
-padding: 0px 0px;
-margin: 0;
-border: 3px solid #FFFFFF;
-margin: 0;
- padding: 0;
-&:hover {
-
-  display: flex;
-  align-items: center;
-  font-weight: 600;
-  width: 165px;
-    height: 64px;
-    font-size: 23px;
-line-height: 20px;
-text-align: center;
-}
-  } */
+ 
   @media screen and (max-width: 768px) {
     display: flex;
     justify-content: center;
@@ -549,10 +523,11 @@ margin: 0;
 
   display: flex;
   align-items: center;
-  font-weight: 600;
-  width: 120px;
-    height: 48px;
-    font-size: 17px;
+  width: 105px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+line-height: 20px;
 border: 3px solid #706e77;
 
 line-height: 20px;

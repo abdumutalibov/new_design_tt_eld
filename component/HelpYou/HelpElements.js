@@ -23,9 +23,11 @@ export const HelpContainer = styled.div`
     padding: 0;
   }
   @media screen and (max-width: 768px) {
-    height: 900px;
+    height: 600px;
     margin: 0;
     padding: 0;
+  padding: 5rem 0 5px 0;
+
   }
 
   @media screen and (max-width: 480px) {
@@ -110,6 +112,9 @@ export const HelpCard = styled.div`
   @media screen and (max-width: 820px) {
     padding: 10px 18px;
   }
+  @media screen and (max-width: 768px) {
+    padding: 6px 17px;
+  }
   @media screen and (max-width: 480px) {
     padding: 10px 18px;
     margin: 0;
@@ -183,6 +188,7 @@ line-height: 56px;
   @media screen and (max-width: 768px) {
     /* font-size: 2rem; */
     text-align: center;
+    font-size: 26px;
     padding: 0 24px;
   }
   @media screen and (max-width: 480px) {
@@ -248,9 +254,11 @@ line-height: 36px;
     margin-bottom: 43px;
   }
   @media screen and (max-width: 768px) {
-    /* font-size: 2rem; */
-    text-align: center;
-    padding: 0 24px;
+    font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+margin-bottom: 34px;
+max-width: 28rem;
   }
   @media screen and (max-width: 480px) {
     font-weight: 400;
@@ -304,7 +312,7 @@ line-height: 24px;
     font-size: 13.5px;
   }
   @media screen and (max-width: 768px) {
-    font-size: 13px;
+    font-size: 11px;
   }
   @media screen and (max-width: 480px) {
     font-weight: 400;

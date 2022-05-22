@@ -62,10 +62,17 @@ export const DriversContainer = styled.div`
     margin-bottom: 70px;
   }
   @media screen and (max-width: 768px) {
-    height: 170rem;
-    background: #2b2d31;
-    margin: 0;
-    padding: 0;
+    /* background: url("Drivers/Base (5).png"); */
+    /* background: url("Drivers/Base1180.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    background: none;
+    height: 75rem;
+    margin-bottom: 70px;
   }
   @media screen and (max-width: 480px) {
     height: 125rem;
@@ -121,7 +128,7 @@ export const ImgBg = styled.img`
     padding: 0;
   }
   @media screen and (max-width: 768px) {
-    background: none;
+    /* background: none; */
     border-radius: 0;
     display: none;
     background-color: #2b2d31;
@@ -156,7 +163,6 @@ export const DriversWrapper = styled.div`
     font-size: 2rem;
     padding: 0 10px;
     display: flex;
-    flex-direction: column;
   }
   @media screen and (max-width: 480px) {
     font-size: 2rem;
@@ -218,10 +224,12 @@ margin: 0;
   }
   @media screen and (max-width: 768px) {
     text-align: center;
-    font-size: 33px;
+    font-size: 26px;
     margin-top: 0rem;
+    /* margin-top: 3rem;
+    padding-top: 16rem; */
     margin: 0;
-    padding: 0;
+    padding-top: 11rem;
   }
   @media screen and (max-width: 480px) {
     font-weight: 700;
@@ -288,6 +296,15 @@ line-height: 36px;
     margin: 0 auto;
     padding: 25px 0px 45px 0;
   }
+  @media screen and (max-width: 768px) {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 27px;
+    text-align: center;
+    color: #d7d5d7;
+    max-width: 33rem;
+    margin: 0 auto;
+  }
   @media screen and (max-width: 480px) {
     font-weight: 600;
 font-size: 12px;
@@ -344,11 +361,8 @@ export const TextWrapper1 = styled.div`
 
   }
   @media screen and (max-width: 768px) {
-    padding: 0 30px;
-    text-align: start;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-bottom: 50px;
+    max-width: 230px;
   }
   @media screen and (max-width: 480px) {
     padding: 0 0px;
@@ -409,6 +423,12 @@ line-height: 36px;
     line-height: 15px;
 
   }
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+    text-align: left;
+    line-height: 25px;
+
+  }
   @media screen and (max-width: 480px) {
     font-weight: 600;
 font-size: 16px;
@@ -459,8 +479,9 @@ line-height: 24px;
     padding: 0;
   }
   @media screen and (max-width: 768px) {
-    font-size: 16px;
-    text-align: left;
+    font-size: 10px;
+    text-align: right;
+    line-height: 18px;
   }
   @media screen and (max-width: 480px) {
     text-align: center;
@@ -521,8 +542,8 @@ export const ImgPhone = styled.img`
   }
   @media screen and (max-width: 768px) {
     /* width: 260px; */
-    margin: 0px;
-    display: none;
+    margin: 0 20px 130px ;
+width:140px;
   }
   @media screen and (max-width: 480px) {
     width: 260px;
@@ -557,8 +578,9 @@ export const ImgPhoneTop = styled.img`
   @media screen and (max-width: 768px) {
     /* width: 260px; */
     margin: 0px;
-    display: flex;
-    
+    display: none;
+    /* height: 400px; */
+    width: 100px;
   }
   @media screen and (max-width: 480px) {
     width: 260px;
@@ -594,7 +616,7 @@ export const PhoneIcons = styled.div`
   @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: row;
-
+display: none;
     justify-content: center;
     align-items: center;
     font-size: 10px;
@@ -647,12 +669,13 @@ display: none;
   @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: row;
-
     justify-content: center;
     align-items: center;
     font-size: 10px;
     width: 8rem;
-    padding: 0px;
+    position: absolute;
+top:560px;
+    
   }
   @media screen and (max-width: 480px) {
     display: flex;
@@ -807,6 +830,11 @@ line-height: 36px;
     line-height: 15px;
 
   }
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+    line-height: 25px;
+
+  }
   @media screen and (max-width: 480px) {
     font-weight: 600;
 font-size: 16px;
@@ -856,7 +884,8 @@ line-height: 24px;
   }
  
   @media screen and (max-width: 768px) {
-    font-size: 16px;
+    font-size: 10px;
+    line-height: 18px;
   }
   @media screen and (max-width: 480px) {
     font-weight: 400;
@@ -866,5 +895,56 @@ text-align: center;
   }
   @media screen and (max-width: 280px) {
     font-size: 13px;
+  }
+`;
+
+
+export const HeroBg = styled.div`
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%; 
+   height: 100%;
+  /* overflow: hidden; */
+  display: none;
+  @media screen and (max-width:768px) {
+   
+    display: block;
+
+  }
+`;
+export const ImgBgs = styled.img`
+  width: 100%;
+  /* height: 1600px; */
+  -o-object-fit: cover;
+  object-fit: cover;
+  display: none;
+  display: ${({mobile})=> (mobile ? 'none':'block')};
+  @media screen and (max-width:1280px) {
+    height:1380px;
+  }
+  @media screen and (max-width:960px) {
+    height:1150px;
+    
+  }
+  @media screen and (max-width:820px) {
+    height:1105px;
+    
+  }
+  @media screen and (max-width:768px) {
+    height:1000px;
+    background:black; 
+
+  }
+  @media screen and (max-width:480px) {
+    height:470px;
+    background:none; 
+  display: ${({mobile})=> (mobile ? 'block':'none')};
+  }
+  @media screen and (max-width:380px) {
+    height:895px;
+    background:none; 
   }
 `;

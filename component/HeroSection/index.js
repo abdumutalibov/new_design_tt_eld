@@ -33,10 +33,9 @@ function HeroSection() {
         {/* <ImgBg src="Drivers/Background375.svg" /> */}
         <ImgBg src="Background.svg" />
       </HeroBg>
-      <div className="">
-
-      </div>
+    
       <HeroContent>
+
         <HeroH1>Advanced Fleet Management Solution</HeroH1>
         <HeroP>
           Everything you need to manage your fleet. All in one place. Driver

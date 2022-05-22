@@ -10,9 +10,12 @@ import {
   DriversWrapper,
   Heading,
   Heading1,
+  HeroBg,
   Icon,
   Icons,
   ImgBg,
+  ImgBg2,
+  ImgBgs,
   ImgPhone,
   ImgPhoneTop,
   ImgWrap,
@@ -31,7 +34,12 @@ const Drives = () => {
         <div className={styled.main}>
           <DriversImg>
             <ImgBg src="Drivers/Base (7).svg" />
+
           </DriversImg>
+<HeroBg>
+  <ImgBgs src="Drivers/Base (3).png" />
+</HeroBg>
+
           <DriversH1 id="reviews">Your driver’s favorite app</DriversH1>
           <DriversP>
             TTELD is an industry-leading electronic logging device. Our ELD
@@ -66,12 +74,11 @@ const Drives = () => {
             </Column1>
 
             <Column2>
-              {/* <ImgPhone src="phone.svg" /> */}
+             
               <ImgPhone src="Drivers/ProMax.png" />
 
               <PhoneIcons>
-                {/* <Icons src="Drivers/button-app.svg"/>
-          <Icons src="Drivers/button-play.svg"/> */}
+               
                 <Icons src="Drivers/button-app.png" />
                 <Icons src="Drivers/button-play.png" />
               </PhoneIcons>
