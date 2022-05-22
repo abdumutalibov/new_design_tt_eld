@@ -23,7 +23,7 @@ export const Nav = styled.nav`
   @media screen and (max-width:768px) {
     transition: 0.8 all ease;
     height: 90px;
-    margin-top: 0px;
+    margin-top: -241px;
 
   }
 
