@@ -15,10 +15,10 @@ export const DriversContainer = styled.div`
     background-position: center;
     object-fit: cover;
     display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-    /* background-color: red; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     height: 86.4rem;
   }
   @media screen and (max-width: 1180px) {
@@ -29,10 +29,10 @@ export const DriversContainer = styled.div`
     background-position: center;
     object-fit: cover;
     display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-    /* background-color: red; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     height: 86.4rem;
   }
   @media screen and (max-width: 1024px) {
@@ -62,8 +62,6 @@ export const DriversContainer = styled.div`
     margin-bottom: 70px;
   }
   @media screen and (max-width: 768px) {
-    /* background: url("Drivers/Base (5).png"); */
-    /* background: url("Drivers/Base1180.png"); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -71,8 +69,9 @@ export const DriversContainer = styled.div`
     display: flex;
     justify-content: center;
     background: none;
-    height: 60rem;
-    background-color: red;
+    height: 62.5rem;
+    margin: 0;
+    padding: 0;
   }
   @media screen and (max-width: 480px) {
     height: 125rem;
@@ -103,8 +102,6 @@ export const ImgBg = styled.img`
   border-bottom-left-radius: 200% 50%;
   border-bottom-right-radius: 200% 50%;
   transform: scaleX(1.1);
-  /* border-bottom-left-radius: 50% 15%;
-    border-bottom-right-radius: 85%; */
   ::before {
     position: absolute;
     top: 0;
@@ -128,7 +125,6 @@ export const ImgBg = styled.img`
     padding: 0;
   }
   @media screen and (max-width: 768px) {
-    /* background: none; */
     border-radius: 0;
     display: none;
     background-color: #2b2d31;
@@ -152,7 +148,7 @@ export const DriversWrapper = styled.div`
   max-width: 90rem;
   position: relative;
   @media screen and (max-width: 1280px) {
-   display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 50rem;
@@ -182,31 +178,28 @@ export const DriversH1 = styled.h1`
   z-index: 1;
   @media screen and (max-width: 1280px) {
     font-weight: 700;
-font-size: 40px;
-line-height: 56px;
-margin-top: 0rem;
-    /* margin-top: 8rem;
-    padding-top: 8rem; */
-    /* margin-top: 8rem; */
+    font-size: 40px;
+    line-height: 56px;
+    margin-top: 0rem;
+
     padding-top: 15rem;
   }
   @media screen and (max-width: 1180px) {
     font-weight: 700;
-font-size: 40px;
-line-height: 56px;
-margin-top: 0rem;
+    font-size: 40px;
+    line-height: 56px;
+    margin-top: 0rem;
     padding-top: 15rem;
-
   }
   @media screen and (max-width: 1024px) {
     font-weight: 700;
-font-size: 40px;
-line-height: 0px;
-margin-top: 0rem;
+    font-size: 40px;
+    line-height: 0px;
+    margin-top: 0rem;
     padding-top: 20rem;
-    padding-left:0 ;
-    padding-bottom:0 ;
-margin: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    margin: 0;
   }
   @media screen and (max-width: 960px) {
     text-align: center;
@@ -219,23 +212,20 @@ margin: 0;
     font-size: 32px;
     margin-top: 0rem;
     padding-top: 15rem;
-    /* margin: 0;
-    padding: 0; */
   }
   @media screen and (max-width: 768px) {
     text-align: center;
     font-size: 26px;
     margin-top: 0rem;
-    /* margin-top: 3rem;
-    padding-top: 16rem; */
+
     margin: 0;
     padding-top: 11rem;
   }
   @media screen and (max-width: 480px) {
     font-weight: 700;
-font-size: 24px;
-line-height: 24px;
-text-align: center;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
     margin-top: 0rem;
     padding-top: 6rem;
     margin: 0;
@@ -258,10 +248,10 @@ export const DriversP = styled.p`
   margin-top: 16px;
   @media screen and (max-width: 1280px) {
     font-weight: 600;
-font-size: 18px;
-line-height: 36px;
+    font-size: 18px;
+    line-height: 36px;
     text-align: center;
-    
+
     max-width: 46rem;
     margin: 0 auto;
     padding: 7px 0px 100px 0;
@@ -284,7 +274,6 @@ line-height: 36px;
     margin: 0 auto;
     padding: 45px 0px 65px 0;
     max-width: 44rem;
-
   }
   @media screen and (max-width: 820px) {
     font-weight: 600;
@@ -299,23 +288,22 @@ line-height: 36px;
   @media screen and (max-width: 768px) {
     font-weight: 600;
     font-size: 12px;
+    max-width: 33rem;
     line-height: 27px;
     text-align: center;
     color: #d7d5d7;
-    max-width: 33rem;
     margin: 0 auto;
   }
   @media screen and (max-width: 480px) {
     font-weight: 600;
-font-size: 12px;
-line-height: 22px;
-margin: 0;
-padding: 5px 0 42px 0;
-max-width:20rem ;
+    font-size: 12px;
+    line-height: 22px;
+    margin: 0;
+    padding: 5px 0 42px 0;
+    max-width: 20rem;
   }
 `;
 export const Column1 = styled.div`
-  /* grid-area: col1; */
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -325,7 +313,7 @@ export const Column1 = styled.div`
     margin-bottom: 50px;
   }
   @media screen and (max-width: 480px) {
-    margin:0;
+    margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
@@ -348,22 +336,18 @@ export const TextWrapper1 = styled.div`
   }
   @media screen and (max-width: 1024px) {
     margin-bottom: 58px;
-    /* margin-bottom: 5; */
   }
   @media screen and (max-width: 960px) {
     margin-bottom: 50px;
     max-width: 250px;
-
   }
   @media screen and (max-width: 820px) {
     margin-bottom: 50px;
     max-width: 230px;
-
   }
   @media screen and (max-width: 768px) {
     margin-bottom: 50px;
     max-width: 185px;
-   
   }
   @media screen and (max-width: 480px) {
     padding: 0 0px;
@@ -373,8 +357,6 @@ export const TextWrapper1 = styled.div`
     flex-direction: column;
     align-items: center;
     max-width: 20rem;
-    /* padding: 0;
-margin: 0px; */
   }
 `;
 export const ImgWrap = styled.img`
@@ -399,8 +381,8 @@ export const Heading1 = styled.h1`
   color: #fafafb;
   @media screen and (max-width: 1280px) {
     font-weight: 600;
-font-size: 22px;
-line-height: 36px;
+    font-size: 22px;
+    line-height: 36px;
   }
   @media screen and (max-width: 1024px) {
     font-weight: 600;
@@ -409,34 +391,27 @@ line-height: 36px;
     text-align: right;
     color: #fafafb;
   }
-  /* @media screen and (max-width: 1024px) {
-    font-size: 24px;
-  } */
   @media screen and (max-width: 960px) {
     font-size: 19px;
     text-align: left;
     line-height: 25px;
-
   }
   @media screen and (max-width: 820px) {
     font-size: 18px;
     text-align: left;
     line-height: 15px;
-
   }
   @media screen and (max-width: 768px) {
     font-size: 14px;
     text-align: left;
     line-height: 25px;
-
   }
   @media screen and (max-width: 480px) {
     font-weight: 600;
-font-size: 16px;
-line-height: 24px;
-padding: 0;
-margin: 0 auto;
-
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0;
+    margin: 0 auto;
   }
   @media screen and (max-width: 280px) {
     font-size: 16px;
@@ -449,12 +424,10 @@ export const Line = styled.p`
   text-align: right;
   max-width: 23rem;
   color: #a9a6ac;
-
   @media screen and (max-width: 1280px) {
     font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-
+    font-size: 14px;
+    line-height: 24px;
     margin: 0;
     padding: 0;
   }
@@ -470,7 +443,6 @@ line-height: 24px;
   @media screen and (max-width: 960px) {
     font-size: 13.5px;
     font-weight: 600;
-
   }
   @media screen and (max-width: 820px) {
     font-size: 12px;
@@ -487,10 +459,10 @@ line-height: 24px;
   @media screen and (max-width: 480px) {
     text-align: center;
     font-weight: 400;
-font-size: 12px;
-line-height: 22px;
-padding: 0;
-margin: 0;
+    font-size: 12px;
+    line-height: 22px;
+    padding: 0;
+    margin: 0;
   }
   @media screen and (max-width: 280px) {
     font-size: 13px;
@@ -502,7 +474,7 @@ export const Column2 = styled.div`
   align-items: center;
   flex-direction: column;
   padding: 0 100px 0 100px;
-position: relative;
+  position: relative;
   @media screen and (max-width: 1280px) {
     margin: 0;
     padding: 0;
@@ -515,17 +487,14 @@ position: relative;
   }
   @media screen and (max-width: 480px) {
     padding: 0;
-margin: 0;
+    margin: 0;
   }
 `;
 export const ImgPhone = styled.img`
   width: 100%;
-  /* padding: 0 56px 0 56px; */
   @media screen and (max-width: 1280px) {
-    width:317.27px;
-    /* height:657.12px; */
-    /* margin-bottom: 25px; */
-    margin: 0 26px 130px ;
+    width: 317.27px;
+    margin: 0 26px 130px;
   }
   @media screen and (max-width: 1024px) {
     width: 360px;
@@ -533,18 +502,15 @@ export const ImgPhone = styled.img`
 
   @media screen and (max-width: 960px) {
     width: 290px;
-    /* margin-bottom: 40px; */
-    margin: 0 26px 90px ;
+    margin: 0 26px 90px;
   }
   @media screen and (max-width: 820px) {
     width: 260px;
-    /* margin-bottom: 25px; */
-    margin: 0 26px 130px ;
+    margin: 0 26px 130px;
   }
   @media screen and (max-width: 768px) {
-    /* width: 260px; */
-    margin: 0 20px 130px ;
-width:140px;
+    margin: 0 20px 130px;
+    width: 160px;
   }
   @media screen and (max-width: 480px) {
     width: 260px;
@@ -555,12 +521,11 @@ width:140px;
 export const ImgPhoneTop = styled.img`
   width: 100%;
   display: none;
-  /* padding: 0 56px 0 56px; */
+
   @media screen and (max-width: 1280px) {
-    width:317.27px;
-    /* height:657.12px; */
-    /* margin-bottom: 25px; */
-    margin: 0 26px 130px ;
+    width: 317.27px;
+
+    margin: 0 26px 130px;
   }
   @media screen and (max-width: 1024px) {
     width: 360px;
@@ -568,19 +533,15 @@ export const ImgPhoneTop = styled.img`
 
   @media screen and (max-width: 960px) {
     width: 290px;
-    /* margin-bottom: 40px; */
-    margin: 0 26px 90px ;
+    margin: 0 26px 90px;
   }
   @media screen and (max-width: 820px) {
     width: 260px;
-    /* margin-bottom: 25px; */
-    margin: 0 26px 130px ;
+    margin: 0 26px 130px;
   }
   @media screen and (max-width: 768px) {
-    /* width: 260px; */
     margin: 0px;
     display: none;
-    /* height: 400px; */
     width: 100px;
   }
   @media screen and (max-width: 480px) {
@@ -617,7 +578,7 @@ export const PhoneIcons = styled.div`
   @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: row;
-display: none;
+    display: none;
     justify-content: center;
     align-items: center;
     font-size: 10px;
@@ -647,7 +608,7 @@ export const PhoneIconsTop = styled.div`
   justify-content: center;
   align-items: center;
   padding: 56px 0 106px 0;
-display: none;
+  display: none;
   @media screen and (max-width: 1280px) {
     position: absolute;
     bottom: 0px;
@@ -675,8 +636,7 @@ display: none;
     font-size: 10px;
     width: 8rem;
     position: absolute;
-top:560px;
-    
+    top: 560px;
   }
   @media screen and (max-width: 480px) {
     display: flex;
@@ -760,20 +720,19 @@ export const Column3 = styled.div`
   }
   @media screen and (max-width: 768px) {
     display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   @media screen and (max-width: 480px) {
     display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
   }
 `;
-
 export const TextWrapper = styled.div`
   max-width: 385px;
   max-height: 205px;
@@ -791,12 +750,10 @@ export const TextWrapper = styled.div`
   @media screen and (max-width: 960px) {
     margin-bottom: 50px;
     max-width: 250px;
-
   }
   @media screen and (max-width: 820px) {
     margin-bottom: 50px;
     max-width: 230px;
-   
   }
   @media screen and (max-width: 768px) {
     margin-bottom: 50px;
@@ -807,24 +764,22 @@ export const TextWrapper = styled.div`
   @media screen and (max-width: 480px) {
     /* padding: 0;
 margin-top: 0px; */
-    
-    display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  max-width: 20rem;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 20rem;
   }
 `;
-
 export const Heading = styled.h1`
   font-weight: 600;
   line-height: 48px;
   color: #fafafb;
   @media screen and (max-width: 1280px) {
     font-weight: 600;
-font-size: 22px;
-line-height: 36px;
+    font-size: 22px;
+    line-height: 36px;
   }
   @media screen and (max-width: 1024px) {
     font-size: 24px;
@@ -833,26 +788,23 @@ line-height: 36px;
     font-size: 19px;
     text-align: left;
     line-height: 25px;
-
   }
   @media screen and (max-width: 820px) {
     font-size: 18px;
     text-align: left;
     line-height: 15px;
-
   }
   @media screen and (max-width: 768px) {
     font-size: 14px;
     line-height: 25px;
-
   }
   @media screen and (max-width: 480px) {
     font-weight: 600;
-font-size: 16px;
-line-height: 24px;
-text-align: center;
-padding: 0;
-margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
   }
   @media screen and (max-width: 280px) {
     font-size: 16px;
@@ -866,8 +818,8 @@ export const TopLine = styled.p`
   max-width: 23rem;
   @media screen and (max-width: 1280px) {
     font-weight: 400;
-font-size: 14px;
-line-height: 24px;
+    font-size: 14px;
+    line-height: 24px;
 
     margin: 0;
     padding: 0;
@@ -883,8 +835,6 @@ line-height: 24px;
   @media screen and (max-width: 960px) {
     font-size: 13.5px;
     font-weight: 600;
-
-
   }
   @media screen and (max-width: 820px) {
     font-size: 12px;
@@ -893,37 +843,33 @@ line-height: 24px;
     margin: 0;
     padding: 0;
   }
- 
+
   @media screen and (max-width: 768px) {
     font-size: 10px;
     line-height: 18px;
   }
   @media screen and (max-width: 480px) {
     font-weight: 400;
-font-size: 12px;
-line-height: 22px;
-text-align: center;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
   }
   @media screen and (max-width: 280px) {
     font-size: 13px;
   }
 `;
-
-
 export const HeroBg = styled.div`
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  width: 100%; 
-   height: 100%;
+  width: 100%;
+  height: 100%;
   /* overflow: hidden; */
   display: none;
-  @media screen and (max-width:768px) {
-   
+  @media screen and (max-width: 768px) {
     display: block;
-
   }
 `;
 export const ImgBgs = styled.img`
@@ -932,30 +878,27 @@ export const ImgBgs = styled.img`
   -o-object-fit: cover;
   object-fit: cover;
   display: none;
-  display: ${({mobile})=> (mobile ? 'none':'block')};
-  @media screen and (max-width:1280px) {
-    height:1380px;
+  display: ${({ mobile }) => (mobile ? "none" : "block")};
+  @media screen and (max-width: 1280px) {
+    height: 1380px;
   }
-  @media screen and (max-width:960px) {
-    height:1150px;
-    
+  @media screen and (max-width: 960px) {
+    height: 1150px;
   }
-  @media screen and (max-width:820px) {
-    height:1105px;
-    
+  @media screen and (max-width: 820px) {
+    height: 1105px;
   }
-  @media screen and (max-width:768px) {
-    height:1000px;
-    background:black; 
-
+  @media screen and (max-width: 768px) {
+    height: 1000px;
+    background: black;
   }
-  @media screen and (max-width:480px) {
-    height:470px;
-    background:none; 
-  display: ${({mobile})=> (mobile ? 'block':'none')};
+  @media screen and (max-width: 480px) {
+    height: 470px;
+    background: none;
+    display: ${({ mobile }) => (mobile ? "block" : "none")};
   }
-  @media screen and (max-width:380px) {
-    height:895px;
-    background:none; 
+  @media screen and (max-width: 380px) {
+    height: 895px;
+    background: none;
   }
 `;

@@ -35,12 +35,12 @@ export const EasyContainer = styled.div`
     padding: 0;
   }
   @media screen and (max-width: 768px) {
-    height: 100rem;
+    height: 46rem;
     margin: 0;
     padding: 0;
   }
   @media screen and (max-width: 480px) {
-    height: 75rem;
+    height: 70rem;
   }
   @media screen and (max-width: 280px) {
     height: 110rem;
@@ -68,6 +68,8 @@ export const EasyWrapper = styled.div`
     padding: 0 10px;
     display: flex;
     flex-direction: column;
+    margin-top: 5rem;
+padding: 0;
   }
   @media screen and (max-width: 480px) {
     font-size: 2rem;
@@ -76,6 +78,8 @@ export const EasyWrapper = styled.div`
     flex-direction: column;
     justify-content: center;
   align-items: center;
+  margin-top: 4rem;
+padding: 0;
   }
 `;
 export const EasyH1 = styled.h1`
@@ -116,13 +120,16 @@ color: #1A2944;
   }
   @media screen and (max-width: 768px) {
     text-align: center;
-    font-size: 33px;
+    font-size: 26px;
+    margin: 0;
+padding: 0;
   }
   @media screen and (max-width: 480px) {
     text-align: center;
     font-weight: 700;
 font-size: 24px;
 line-height: 36px;
+margin-bottom: 10px;
 
   }
 `;
@@ -171,11 +178,12 @@ max-width: 50rem;
     margin-bottom: 43px;
   }
   @media screen and (max-width: 768px) {
-    font-size: 27px;
-    padding: 0 10px;
-    text-align: center;
-  line-height: 38px;
-/* margin-bottom:300px; */
+    font-weight: 600;
+    font-size: 12px;
+    max-width: 34rem;
+    line-height: 27px;
+    margin: 0;
+    padding: 0;
   }
   @media screen and (max-width: 480px) {
     padding: 0 10px;
@@ -213,10 +221,19 @@ export const EasyCard = styled.div`
   align-items: center;
   }
   @media screen and (max-width: 768px) {
-    font-size: 2rem;
-    padding: 0 10px;
     display: flex;
-    flex-direction: column;
+  justify-content: space-between;
+  /* justify-content: center; */
+  align-items: center;
+  
+  }
+  @media screen and (max-width: 767px) {
+    display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
   }
   @media screen and (max-width: 480px) {
     font-size: 2rem;
@@ -245,19 +262,14 @@ export const Column1 = styled.div`
   @media screen and (max-width: 768px) {
     max-width: 40rem;
     width: 100%;
-    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 0 30px; */
-
+    margin-right: 30px;
 
   }
   @media screen and (max-width: 480px) {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    /* padding: 0 30px; */
+    margin: 0;
     max-width: 140rem;
     width: 100%;
     display: flex;
@@ -283,11 +295,11 @@ export const Column2 = styled.div`
   @media screen and (max-width: 768px) {
     max-width: 40rem;
     width: 100%;
-    margin: 0;
+    margin-left: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 0 30px; */
+   
 
 
   }
@@ -301,6 +313,7 @@ export const Column2 = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
   }
 `;
 export const TextCard1 = styled.div`
@@ -342,14 +355,16 @@ margin-right: 140px;
 max-width: 22rem;
   }
   @media screen and (max-width: 768px) {
-    /* padding: 0 30px; */
     display: flex;
   flex-direction: column;
-  align-items: flex-start;
     text-align: left;
   max-width: 370px;
 width: 100%;
-margin-left: 50px;
+margin-right: 140px;
+max-width: 22rem;
+margin: 20px;
+
+  padding: 0;
   }
   @media screen and (max-width: 480px) {
     display: flex;
@@ -405,14 +420,15 @@ margin-left: 150px;
 max-width: 22rem;
   }
   @media screen and (max-width: 768px) {
-    /* padding: 0 30px; */
     display: flex;
   flex-direction: column;
-  align-items: flex-start;
     text-align: left;
   max-width: 370px;
 width: 100%;
-margin-left: 50px;
+margin-left: 150px;
+max-width: 22rem;
+margin: 20px;
+  padding: 0;
   }
   @media screen and (max-width: 480px) {
     
@@ -435,15 +451,15 @@ export const ImgWrap = styled.img`
   @media screen and (max-width: 1280px) {
    margin-bottom: 14px;
   }
-
-`;
-export const ImgWraps = styled.img`
-  width: 26px;
+  @media screen and (max-width: 768px) {
+   margin-bottom: 8px;
+   width: 20px;
+  }
+  @media screen and (max-width: 480px) {
+    width: 26px;
   height: 26px;
-  margin-bottom: px;
-  /* @media screen and (max-width: 1280px) {
-   margin-bottom: 10px;
-  } */
+  margin-bottom: 16px;
+  }
 `;
 export const Heading1 = styled.h1`
   font-weight: 600;
@@ -478,9 +494,10 @@ line-height: 36px;
 color: #1A2944;
   }  
   @media screen and (max-width: 768px) {
-    font-size: 30px;
-  padding-bottom:10px ;
-  text-align: left;
+    font-weight: 600;
+font-size: 16px;
+line-height: 36px;
+color: #1A2944;
 
   }
   @media screen and (max-width: 480px) {
@@ -518,9 +535,10 @@ line-height: 36px;
 color: #1A2944;
   }  
   @media screen and (max-width: 768px) {
-    font-size: 30px;
-  padding-bottom:10px ;
-  text-align: left;
+    font-weight: 600;
+font-size: 16px;
+line-height: 36px;
+color: #1A2944;
 
   }
   @media screen and (max-width: 480px) {
@@ -573,10 +591,13 @@ max-width: 16rem;
 
   }
   @media screen and (max-width: 768px) {
-    font-size: 24px;
-  text-align: left;
-max-width: 30rem;
-width: 100%;
+    font-weight: 400;
+font-size: 12px;
+color: #8C98A4;
+line-height: 22px;
+max-width: 13rem;
+margin: 0;
+padding: 0;
   }
   @media screen and (max-width: 480px) {
     font-weight: 400;
@@ -631,11 +652,13 @@ max-width: 15rem;
 
   }
   @media screen and (max-width: 768px) {
-    font-size: 24px;
-  text-align: left;
-max-width: 30rem;
-width: 100%;
-  }
+    font-weight: 400;
+    font-size: 12px;
+color: #8C98A4;
+line-height: 22px;
+max-width: 13rem;
+color: #8C98A4;
+}
   @media screen and (max-width: 480px) {
     font-weight: 400;
 font-size: 12px;
@@ -647,7 +670,6 @@ line-height: 22px;
     font-size: 13px;
   }
 `;
-
 export const ImgMiniMac = styled.img`
   /* width: 100%; */
   /* padding: 0 30px 0 30px; */
@@ -702,14 +724,14 @@ margin-bottom: 32px;
   }
   @media screen and (max-width: 768px) {
     width: 460px;
-    margin: 40px 0 60px 0;
+    margin: 40px 0 10px 0;
     display:block;
 
   }
   @media screen and (max-width: 480px) {
     width: 350px;
     padding-top: 30px;
-    /* margin-top: 30px; */
+    margin-bottom: 32px;
     display:block;
 padding: 0;
   }

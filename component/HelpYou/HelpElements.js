@@ -210,7 +210,6 @@ export const HelpSpan = styled.span`
   color: #faad13;
 `;
 export const HelpTitle = styled.p`
-  /* font-size: 1rem; */
   text-align: center;
   max-width: 880px;
   font-weight: 400;
@@ -225,8 +224,6 @@ line-height: 36px;
     text-align: center;
     color: #8c98a4;
     max-width: 40rem;
-    /* margin-bottom: 43px; */
-    /* max-width: 40rem; */
   }
   @media screen and (max-width: 1024px) {
     font-weight: 400;
