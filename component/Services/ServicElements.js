@@ -17,7 +17,7 @@ export const ServicesContainer = styled.div`
     height: 80rem;
   }
   @media screen and (max-width: 768px) {
-    height: 106rem;
+    height: 110rem;
   }
 
   @media screen and (max-width: 480px) {
@@ -429,15 +429,18 @@ margin: 0;
   }
   @media screen and (max-width: 768px) {
     width: 100%;
-  max-width: 41.5rem;
-  padding: 0;
+  max-width: 47.5rem;
+  padding: 0 0px;
 margin: 0 0px 0 0px;
+background: none;
   }
   @media screen and (max-width: 480px) {
     width: 100%;
-    max-width: 21.3rem;   
+    max-width: 30.3rem;   
     padding: 0;
 margin: 0;
+background: none;
+
   }
 `;
 export const FooterWrap = styled.div`
@@ -470,14 +473,16 @@ width: 100%;
     align-items: center;
     margin-right: 0;
   padding: 26px 10px 26px 10px;
-  
+  background: none;
+
+
   }
   @media screen and (max-width: 480px) {
     flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 0;
+    margin: 0;
   padding: 26px 10px 26px 10px;
   
   }
@@ -506,14 +511,20 @@ width: 100%;
   @media screen and (max-width: 768px) {
     flex-direction: column;
     margin-right: 0;
-    padding: 0;
-margin: 0;
+    padding: 30px 70px;
+margin: 0 10px;
+max-width: 60rem;
+ background: #2B2D31;
+
   }
   @media screen and (max-width: 480px) {
     flex-direction: column;
     margin-right: 0;
-    padding: 0;
-margin: 0;
+    padding: 30px 10px;
+    margin: 0 7px;
+
+max-width: 60rem;
+
   }
 `;
 export const FooterMainColumn = styled.div`
@@ -634,8 +645,22 @@ margin: 0;
     padding: 0;
 margin: 0;
     width: 100%;
+    /* text-align: right; */
+    max-width: 7rem;
   }
-
+  @media screen and (max-width: 320px) {
+    padding: 0;
+margin: 0;
+    width: 100%;
+    /* text-align: right; */
+    max-width: 7rem;
+  }
+  @media screen and (max-width: 280px) {
+    padding: 0;
+margin: 0;
+    width: 100%;
+    max-width: 6rem;
+  }
 `;
 FooterLinkItems.Col = styled.div`
 width: 100%;
@@ -1302,10 +1327,19 @@ padding: 0;
 text-align: center;
 display: block;
 }
+@media screen and (max-width: 320px) {
+font-weight: 600;
+font-size: 18px;
+line-height: 36px;
+margin: 0;
+padding: 0;
+text-align: center;
+display: block;
+}
 @media screen and (max-width: 280px) {
   font-weight: 600;
-font-size: 20px;
-line-height: 36px;
+font-size: 16px;
+line-height: 27px;
 }
 ` 
 
@@ -1401,10 +1435,18 @@ line-height: 36px;
     font-weight: 400;
 font-size: 14px;
 line-height: 36px;
+margin-right: 5px;
+  }
+  @media screen and (max-width: 320px) {
+    font-weight: 400;
+font-size: 11px;
+line-height: 36px;
+margin-right: 0px;
+
   }
   @media screen and (max-width: 280px) {
     flex-direction: column;
-    font-size: 13px;
+    font-size: 11px;
   }
 `;
 export const FooterIcon = styled.img`

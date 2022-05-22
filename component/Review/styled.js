@@ -24,8 +24,10 @@ display:none;
   }
 
   @media screen and (max-width: 768px) {
-    grid-template-columns: 1fr;
-    padding: 0 20px;
+  
+    padding: 0px;
+    margin: 0;
+    width: 100%;
   }
   @media screen and (max-width: 480px) {
     display: none;
@@ -70,8 +72,10 @@ height: 100%;
   }
 
   @media screen and (max-width: 768px) {
-    grid-template-columns: 1fr;
-    padding: 0 20px;
+   
+    width: 100%;
+    padding: 0;
+    margin: 0;
   }
 `;
 
@@ -117,6 +121,11 @@ padding: 30px 28px 20px 28px;
     margin: 0 14.6px;
 padding: 30px 20px 20px 20px;
   }
+  @media screen and (max-width: 768px) {
+    padding: 15px;
+    margin-top: 0px;
+    width: 93%;
+  }
   @media screen and (max-width: 480px) {
     padding: 15px;
     margin-top: 40px;
@@ -156,8 +165,9 @@ color: #47464D;
     line-height: 27px;
   }
   @media screen and (max-width: 768px) {
-    font-size: 14px;
+    font-size: 11.5px;
     line-height: 23px;
+    
   }
   @media screen and (max-width: 480px) {
     font-size: 14px;
@@ -194,6 +204,11 @@ export const UserImg = styled.img`
   margin-right: 12px;
   width: 48px;
   height: 48px;
+  @media screen and (max-width: 768px) {
+   
+   width: 40px;
+   
+ }
 `;
 export const UserName = styled.div`
   font-weight: 600;
@@ -225,8 +240,8 @@ line-height: 32px;
 color: #19191B;
   }
   @media screen and (max-width: 768px) {
-    font-size: 14px;
-    line-height: 23px;
+    font-size: 13px;
+    line-height: 27px;
   }
   @media screen and (max-width: 480px) {
     font-size: 14px;
@@ -250,8 +265,8 @@ export const UserInfo = styled.div`
     line-height: 23px;
   }
   @media screen and (max-width: 768px) {
-    font-size: 14px;
-    line-height: 23px;
+    font-size: 10px;
+    line-height: 15px;
   }
   @media screen and (max-width: 480px) {
     font-size: 12px;
