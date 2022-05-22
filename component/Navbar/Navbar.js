@@ -108,7 +108,7 @@ export const NavLogo = styled.a`
   @media screen and (max-width:768px){
 display: flex;
 align-items: center;
-  margin-left: 225px ;
+  margin-left: 210px ;
   }
   @media screen and (max-width:480px){
 display: flex;
