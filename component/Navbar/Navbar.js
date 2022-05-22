@@ -61,7 +61,7 @@ export const NavbarContainer = styled.div`
 
 }
 @media screen and (max-width:768px){
-  max-width: 31rem;   
+  max-width: 34rem;   
   background-color: #706e77;
 display: flex;
 align-items: center;
@@ -108,7 +108,7 @@ export const NavLogo = styled.a`
   @media screen and (max-width:768px){
 display: flex;
 align-items: center;
-  margin-left: 180px ;
+  margin-left: 210px ;
   }
   @media screen and (max-width:480px){
 display: flex;
