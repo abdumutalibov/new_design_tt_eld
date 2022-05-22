@@ -133,12 +133,8 @@ color: #FFFFFF;
   }
   @media screen and (max-width:768px) {
     font-size: 40px;
-    background-color: red;
   }
-  @media screen and (max-width:540px) {
-    font-size: 40px;
-    background-color: blue;
-  }
+
 
   @media screen and (max-width:480px) {
     font-weight: 700;

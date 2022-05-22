@@ -21,14 +21,10 @@ export const Nav = styled.nav`
   }
   @media screen and (max-width:768px) {
     transition: 0.8 all ease;
-    height: 130px;
-
-  }
-  @media screen and (max-width:540px) {
-    transition: 0.8 all ease;
     height: 90px;
 
   }
+
   @media screen and (max-width:480px){
 height: 64px;
 }
@@ -63,18 +59,14 @@ export const NavbarContainer = styled.div`
 
 }
 @media screen and (max-width:768px){
-  max-width: 44rem;   
-display: flex;
-align-items: center;
-}
-@media screen and (max-width:540px){
   max-width: 31rem;   
-  /* background-color: #706e77; */
+  background-color: #706e77;
 display: flex;
 align-items: center;
 padding: 0;
 margin: 0;
 }
+
 @media screen and (max-width:480px){
   max-width: 21.3rem;   
 display: flex;
@@ -112,8 +104,7 @@ export const NavLogo = styled.a`
    
   }
   @media screen and (max-width:768px){
- /* height: 80px;
- width: 80px; */
+
    margin: 0 auto;
   }
 `;
@@ -142,13 +133,10 @@ margin: 0;
 padding: 0;
 }
 @media screen and (max-width:768px){
-width: 180px;
+  width: 130px;
 height: 110px;
 }
-@media screen and (max-width:540px){
-width: 130px;
-height: 110px;
-}
+
   @media screen and (max-width:480px){
 height: 30px;
 }
@@ -323,18 +311,17 @@ margin: 0;
   @media screen and (max-width: 960px) {
 padding: 0;
   }
-  @media screen and (max-width: 768px) {
-    /* display: block; */
-    /* transform: translate(-50%, 0%); */
+  /* @media screen and (max-width: 768px) {
+ 
 
     position:absolute;
     top: 0;
-    right: 32px;
+    right: 23px;
     bottom: 0;
     margin: 0;
     padding: 0;
-  }
-  @media screen and (max-width: 540px) {
+  } */
+  @media screen and (max-width: 768px) {
     /* display: block; */
     /* transform: translate(-50%, 0%); */
 
@@ -342,7 +329,7 @@ padding: 0;
 align-items: center;
 position:absolute;
 top: 0;
-right: 23px;
+right: 136px;
 bottom: 0;
 margin: 0;
 padding: 0;
@@ -498,7 +485,7 @@ line-height: 20px;
 text-align: center;
 }
   }
-  @media screen and (max-width: 768px) {
+  /* @media screen and (max-width: 768px) {
     display: flex;
   align-items: center;
    width: 165px;
@@ -524,8 +511,8 @@ margin: 0;
 line-height: 20px;
 text-align: center;
 }
-  }
-  @media screen and (max-width: 540px) {
+  } */
+  @media screen and (max-width: 768px) {
     display: flex;
   align-items: center;
    width: 120px;
