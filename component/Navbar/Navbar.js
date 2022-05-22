@@ -23,12 +23,14 @@ export const Nav = styled.nav`
   @media screen and (max-width:768px) {
     transition: 0.8 all ease;
     height: 90px;
-    margin-top: -241px;
+    /* margin-top: -241px; */
 
   }
 
   @media screen and (max-width:480px){
 height: 64px;
+/* margin-top: -380px; */
+
 }
 @media screen and (max-width:320px){
 height: 60px;

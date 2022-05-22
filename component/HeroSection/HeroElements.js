@@ -7,7 +7,6 @@ export const HeroContainer = styled.div`
   height: 1450px;
   position: relative;
   z-index: 1;
-
   /* :before{
       content: '';
       position: absolute;
@@ -22,7 +21,6 @@ export const HeroContainer = styled.div`
   } */
   @media screen and (max-width:1280px) {
     height: 1340px;
-
     background: none;
   }
   @media screen and (max-width:960px) {
@@ -35,13 +33,11 @@ export const HeroContainer = styled.div`
   }
   @media screen and (max-width:768px) {
     height:900px;
-    background: none;
-
+    background: #2B2D31;
   }
   @media screen and (max-width:480px) {
     height:840px;
     /* background: none; */
-
   }
 `;
 export const HeroBg = styled.div`
@@ -73,14 +69,13 @@ export const ImgBg = styled.img`
   }
   @media screen and (max-width:768px) {
     height:965px;
-    background: none;
-    /* display: none; */
+    background:none; 
+
   }
   @media screen and (max-width:480px) {
-    height:870px;
+    height:470px;
     background:none; 
   display: ${({mobile})=> (mobile ? 'block':'none')};
-
   }
   @media screen and (max-width:380px) {
     height:895px;
@@ -110,9 +105,7 @@ font-weight: 700;
 font-size: 56px;
 line-height: 80px;
 /* identical to box height, or 143% */
-
 text-align: center;
-
 color: #FFFFFF;
   /* max-width:120rem; */
   @media screen and (max-width:1280px) {
@@ -135,17 +128,14 @@ color: #FFFFFF;
   }
   @media screen and (max-width:768px) {
     font-size: 26px;
-
+   
   }
-
-
   @media screen and (max-width:480px) {
     font-weight: 700;
 font-size: 24px;
 line-height: 36px;
 margin-bottom: 7px;
   }
-
   /* @media screen and (max-width: 320px) {
     font-size: 28px;
   } */
@@ -165,7 +155,6 @@ line-height: 36px;
 padding: 0;
 margin: 0;
 max-width: 48rem;
-
   }
   @media screen and (max-width:1024px) {
   font-weight: 400;
@@ -174,7 +163,6 @@ line-height: 36px;
 text-align: center;
 color: #FFFFFF;
 max-width: 48rem;
-
   }
   @media screen and (max-width:960px) {
     font-size: 16px;
@@ -192,16 +180,13 @@ margin: 0;
   }
 @media screen and (max-width:768px) {
     font-size: 12px;
-max-width: 33rem;
-/* background-color: red; */
+    max-width: 33rem;
   }
-
   @media screen and (max-width:480px) {
     font-weight: 400;
 font-size: 12px;
 line-height: 22px;
   }
-
   @media screen and (max-width: 320px) {
     font-size: 10px;
   }
@@ -214,13 +199,11 @@ align-items: center;
 max-width: 1500px; 
 @media screen and (max-width: 1280px){
   margin: 48px 0 72px 0;
-
 max-width: 1600px;
 padding: 0;
 }
 @media screen and (max-width: 960px){
   margin: 20px ;
-
 }
 @media screen and (max-width: 820px){
 margin: 20px ;
@@ -236,7 +219,6 @@ margin-left: 10px;
 font-size: 22px;
 @media screen and (max-width: 1280px){
 font-size: 20px;
-
 }
 @media screen and (max-width: 820px){
 font-size: 10px;
@@ -244,7 +226,7 @@ width: 300px;
 height: 300px;
 }
 @media screen and (max-width: 768px){
-font-size: 0px;
+font-size: 80px;
 width: 300px;
 height: 300px;
 }
@@ -259,38 +241,16 @@ margin-left: 10px;
 font-size: 22px;
 @media screen and (max-width: 1280px){
 font-size: 20px;
-
 }
 @media screen and (max-width: 820px){
-font-size: 20px;
-
-}
-@media screen and (max-width: 820px){
-font-size: 12px;
-
+font-size: 15px;
 }
 @media screen and (max-width: 480px){
 font-size: 14px;
-
 }
 `
 
-export const ArrowWhite = styled.img`
-margin-left: 10px;
-font-size: 25px;
-@media screen and (max-width: 820px){
-height: 14px;
-margin: 8px;
-}
-`
-export const Arrow = styled.img`
-margin-left: 10px;
-font-size: 25px;
-@media screen and (max-width: 820px){
-height: 14px;
-margin: 8px;
-}
-`
+
  export const ImgMac = styled.img`
  width: 100%;
 margin: 0 0 10px 0;
@@ -308,34 +268,12 @@ padding-right:0 ;
   }
 @media screen and (max-width:768px) {
   width: 490px;
-
   }
   @media screen and (max-width:480px) {
     width: 330px;
-
   }
   @media screen and (max-width:320px) {
     width: 270px;
-
   }
-// @media screen and (max-width:960px) {
-//     width: 700px;
-//   }
 
-// @media screen and (max-width:768px) {
-//     width: 440px;
-//   }
-
-//   @media screen and (max-width:480px) {
-//       width: 310px;
-
-//   }
- 
-//   @media screen and (max-width: 320px) {
-//     width: 270px;
-//   }
-//   @media screen and (max-width: 280px) {
-//     width: 230px;
-//   }
 `
-
