@@ -68,6 +68,14 @@ align-items: center;
 padding: 0;
 margin: 0;
 }
+@media screen and (max-width:540px){
+  max-width: 32rem;   
+  /* background-color: #706e77; */
+display: flex;
+align-items: center;
+padding: 0;
+margin: 0;
+}
 
 @media screen and (max-width:480px){
   max-width: 21.3rem;   

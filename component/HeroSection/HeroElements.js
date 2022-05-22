@@ -72,7 +72,7 @@ export const ImgBg = styled.img`
     
   }
   @media screen and (max-width:768px) {
-    height:945px;
+    height:965px;
     background: none;
     /* display: none; */
   }
@@ -134,7 +134,7 @@ color: #FFFFFF;
     font-size: 32px;
   }
   @media screen and (max-width:768px) {
-    font-size: 28px;
+    font-size: 26px;
 
   }
 
