@@ -71,8 +71,8 @@ export const DriversContainer = styled.div`
     display: flex;
     justify-content: center;
     background: none;
-    height: 75rem;
-    margin-bottom: 70px;
+    height: 60rem;
+    background-color: red;
   }
   @media screen and (max-width: 480px) {
     height: 125rem;
