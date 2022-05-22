@@ -179,8 +179,10 @@ padding: 0;
 margin: 0;
   }
 @media screen and (max-width:768px) {
-    font-size: 12px;
-    max-width: 33rem;
+  font-weight: 400;
+    font-size: 13px;
+    max-width: 35rem;
+    line-height: 27px;
   }
   @media screen and (max-width:480px) {
     font-weight: 400;

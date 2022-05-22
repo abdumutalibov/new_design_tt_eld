@@ -284,7 +284,7 @@ max-width: 40rem;
   @media screen and (max-width: 768px) {
     font-weight: 400;
     font-size: 13px;
-    max-width: 31rem;
+    max-width: 30rem;
     line-height: 27px;
   }
   @media screen and (max-width: 480px) {

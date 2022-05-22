@@ -284,11 +284,13 @@ export const DriversP = styled.p`
     max-width: 37rem;
     margin: 0 auto;
     padding: 25px 0px 45px 0;
+    color: #d7d5d7;
+
   }
   @media screen and (max-width: 768px) {
-    font-weight: 600;
-    font-size: 12px;
-    max-width: 33rem;
+    font-weight: 400;
+    font-size: 13px;
+    max-width: 34rem;
     line-height: 27px;
     text-align: center;
     color: #d7d5d7;

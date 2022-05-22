@@ -178,9 +178,9 @@ max-width: 50rem;
     margin-bottom: 43px;
   }
   @media screen and (max-width: 768px) {
-    font-weight: 600;
-    font-size: 12px;
-    max-width: 34rem;
+    font-weight: 400;
+    font-size: 13px;
+    max-width: 35rem;
     line-height: 27px;
     margin: 0;
     padding: 0;
