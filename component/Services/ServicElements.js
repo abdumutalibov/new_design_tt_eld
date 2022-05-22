@@ -429,9 +429,9 @@ margin: 0;
   }
   @media screen and (max-width: 768px) {
     width: 100%;
-  max-width: 42rem;
-  padding: 0 10px;
-
+  max-width: 41.5rem;
+  padding: 0;
+margin: 0 0px 0 0px;
   }
   @media screen and (max-width: 480px) {
     width: 100%;
@@ -462,6 +462,15 @@ width: 100%;
   @media screen and (max-width: 820px) {
   padding: 32px 25px 32px 40px;
     
+  }
+  @media screen and (max-width: 760px) {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+  padding: 26px 10px 26px 10px;
+  
   }
   @media screen and (max-width: 480px) {
     flex-direction: column;
@@ -494,6 +503,12 @@ width: 100%;
     display: flex;
     margin-right: 0;
   }
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    margin-right: 0;
+    padding: 0;
+margin: 0;
+  }
   @media screen and (max-width: 480px) {
     flex-direction: column;
     margin-right: 0;
@@ -521,6 +536,14 @@ width: 100%;
     display: flex;
     width: 100%;
   max-width: 300rem;
+  }
+  @media screen and (max-width: 768px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+margin: 0;
   }
   @media screen and (max-width: 480px) {
     flex-direction: column;
@@ -555,7 +578,12 @@ export const FooterLinkItems = styled.div`
     margin-right: 10px;
   }
   @media screen and (max-width: 768px) {
-    padding-left:18px;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   @media screen and (max-width: 480px) {
     margin: 0;
@@ -590,18 +618,24 @@ export const FooterLinkItems2 = styled.div`
     align-items: flex-end;
     /* text-align: end; */
     max-width: 130px;
+    margin: 0;
+
   }
   @media screen and (max-width: 820px) {
     margin-right: 10px;
+    margin: 0;
+  }
+  @media screen and (max-width: 768px) {
+    padding: 0;
+margin: 0;
+    width: 100%;
   }
   @media screen and (max-width: 480px) {
     padding: 0;
 margin: 0;
     width: 100%;
   }
-  @media screen and (min-width: 540px) and (max-width: 960px) {
-    margin: 0;
-  }
+
 `;
 FooterLinkItems.Col = styled.div`
 width: 100%;
@@ -629,6 +663,9 @@ width: 100%;
   }
   @media screen and (max-width: 768px) {
     margin: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   @media screen and (max-width: 480px) {
     margin-right: 0;
@@ -663,13 +700,14 @@ width: 100%;
     justify-content: space-between;
     align-items: center;
   }
+  @media screen and (max-width: 768px) {
+ margin-top: 30px;
+ 
+  }
   @media screen and (max-width: 480px) {
  margin-top: 30px;
   }
-  @media screen and (min-width: 540px) and (max-width: 960px) {
-    display: flex;
-    margin-right: 0;
-  }
+
  
 `;
 
@@ -780,9 +818,11 @@ export const FooterLinkBtn = styled.div`
     width: 100%;
   }
   @media screen and (max-width: 768px) {
-    margin: 0;
-    padding: 10px;
     width: 100%;
+    display: block;
+    display: flex;
+  justify-content: center;
+  align-items: center;
   }
   @media screen and (max-width: 480px) {
     width: 100%;
@@ -811,6 +851,17 @@ export const Btn = styled.button`
   line-height: 32px;
   transition: all 0.2s ease-in-out;
   color: #ffffff;
+  @media screen and (max-width: 768px) {
+    padding: 0px;
+    /* width: 50%; */
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 148px;
+    font-size: 15px;
+  height: 44px;
+
+  }
   @media screen and (max-width: 480px) {
     padding: 0px;
     /* width: 50%; */
@@ -820,6 +871,7 @@ export const Btn = styled.button`
     width: 148px;
     font-size: 15px;
   height: 44px;
+
   }
   @media screen and (max-width: 280px) {
     font-size: 13px;
@@ -855,6 +907,10 @@ export const FooterLink = styled.a`
   @media screen and (max-width: 820px) {
 margin-bottom: 1px;
 }
+@media screen and (max-width: 768px) {
+    font-size: 2px;
+    background-color: red;
+  }
   @media screen and (max-width: 480px) {
     font-size: 2px;
   }
@@ -884,11 +940,86 @@ text-align: left;
  {
 
 }
+@media screen and (max-width: 768px) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 100%;
+}
 @media screen and (max-width: 480px) {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: red;
+  width: 100%;
+}
+`;
+export const FooterLinks2 = styled.a`
+font-weight: 400;
+font-size: 15px;
+line-height: 30px;
+text-align: left;
+font-feature-settings: 'pnum' on, 'lnum' on;
+display: none;
+color: #CCCECE;
+@media screen and (max-width: 1280px)  {
+  font-weight: 400;
+  margin-top: 10px;
+font-size: 18px;
+line-height: 20px;
+text-align: center;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #CCCECE;
+    display: flex;
+    width: 100%;
+  }
+  @media screen and (max-width: 1024px)  {
+    font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+text-align: center;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #CCCECE;
+    display: flex;
+    max-width: 300px;
+    margin-right: 450px;
+  }
+@media screen and (max-width: 960px)  {
+  font-weight: 400;
+font-size: 13px;
+line-height: 10px;
+text-align: center;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #CCCECE;
+    display: flex;
+    max-width: 300px;
+    margin-right: 450px;
+  }
+  @media screen and (max-width: 820px)  {
+  font-weight: 400;
+font-size: 13px;
+line-height: 10px;
+text-align: center;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #CCCECE;
+    display: flex;
+    max-width: 300px;
+    margin-right: 450px;
+  }
+@media screen and (max-width: 768px) {
+  font-size: 14px;
+display: flex;
+justify-content: center;
+color: #CCCECE;
+  width: 100%;
+ 
+}
+@media screen and (max-width: 480px) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 100%;
 }
 `;
@@ -950,6 +1081,14 @@ width: 100%;
   margin: 0px 0;
   padding: 0;
 }
+@media screen and (max-width: 768px) {
+  display: none;
+font-weight: 600;
+font-size: 20px;
+line-height: 36px;
+margin: 0;
+padding: 0;
+}
 @media screen and (max-width: 480px) {
   display: none;
 font-weight: 600;
@@ -965,6 +1104,79 @@ line-height: 36px;
 }
 `
 FooterLinks.T=styled.div`
+font-weight: 400;
+font-size: 15px;
+line-height: 30px;
+text-align: left;
+font-feature-settings: 'pnum' on, 'lnum' on;
+display: none;
+color: #CCCECE;
+@media screen and (max-width: 1280px)  {
+  font-weight: 400;
+  margin-top: 10px;
+font-size: 18px;
+line-height: 20px;
+text-align: center;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #CCCECE;
+    display: flex;
+    width: 100%;
+  }
+  @media screen and (max-width: 1024px)  {
+    font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+text-align: center;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #CCCECE;
+    display: flex;
+    max-width: 300px;
+    margin-right: 450px;
+  }
+@media screen and (max-width: 960px)  {
+  font-weight: 400;
+font-size: 13px;
+line-height: 10px;
+text-align: center;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #CCCECE;
+    display: flex;
+    max-width: 300px;
+    margin-right: 450px;
+  }
+  @media screen and (max-width: 820px)  {
+  font-weight: 400;
+font-size: 13px;
+line-height: 10px;
+text-align: center;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #CCCECE;
+    display: flex;
+    max-width: 300px;
+    margin-right: 450px;
+  }
+  @media screen and (max-width: 762px)  {
+    font-size: 14px;
+display: flex;
+justify-content: center;
+align-items: center;
+display: flex;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 14px;
+display: flex;
+justify-content: center;
+display: flex;
+color: #CCCECE;
+  }
+  @media screen and (max-width: 280px) {
+    font-size: 14px;
+    display: flex;
+   
+  }
+`
+export const T2 =styled.div`
 font-weight: 400;
 font-size: 15px;
 line-height: 30px;
@@ -1057,6 +1269,10 @@ transition: 0.3s ease-out;
   @media screen and (max-width: 960px)  {
     font-size: 20px;
   }
+  @media screen and (max-width: 768px) {
+    font-size: 23px;
+    background-color: red;
+  }
   @media screen and (max-width: 480px) {
     font-size: 23px;
   }
@@ -1067,6 +1283,16 @@ transition: 0.3s ease-out;
 export const Text2 = styled.div`
   cursor: pointer;
   color: #ffffff;
+  display: none;
+  @media screen and (max-width: 768px) {
+    font-weight: 600;
+font-size: 20px;
+line-height: 36px;
+margin: 0;
+padding: 0;
+text-align: center;
+display: block;
+}
 @media screen and (max-width: 480px) {
 font-weight: 600;
 font-size: 20px;
@@ -1074,6 +1300,7 @@ line-height: 36px;
 margin: 0;
 padding: 0;
 text-align: center;
+display: block;
 }
 @media screen and (max-width: 280px) {
   font-weight: 600;
@@ -1110,6 +1337,9 @@ FooterLink.T1 = styled.div`
   }
   @media screen and (max-width: 820px)  {
     font-size: 14px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
   }
   @media screen and (max-width: 480px) {
     font-size: 16px;
@@ -1163,8 +1393,9 @@ margin: 0;
 padding: 0;
   }
   @media screen and (max-width: 768px) {
-    margin: 0 0px 0 0px;
-    padding: 0;
+    font-weight: 400;
+font-size: 14px;
+line-height: 36px;
   }
   @media screen and (max-width: 480px) {
     font-weight: 400;

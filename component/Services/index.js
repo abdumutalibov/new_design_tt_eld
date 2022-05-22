@@ -10,6 +10,7 @@ import {
   FooterLinkItems,
   FooterLinkItems2,
   FooterLinks,
+  FooterLinks2,
   FooterLinksContainer,
   FooterLinksWrapper,
   FooterMainColumn,
@@ -127,7 +128,7 @@ const Services = () => {
                   <Text2>ELD is easy to operate and feel</Text2>
                   <Text2>comfortable <Span>$105/mo.</Span></Text2>
 
-                  <FooterLinks.T>ELD device sold separately.</FooterLinks.T>
+                  <FooterLinks2>ELD device sold separately.</FooterLinks2>
 
                   <FooterLinkBtns>
                     <Btns to="/siginin">Start now</Btns>
