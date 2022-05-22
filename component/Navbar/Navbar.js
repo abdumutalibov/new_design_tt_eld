@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import Link from "next/link";
+
 export const Nav = styled.nav`
   background: ${({ scrollNav }) => (scrollNav ? "#37353B" : "transparent")};
   height: 104px;
@@ -104,8 +106,15 @@ export const NavLogo = styled.a`
    
   }
   @media screen and (max-width:768px){
-
-   margin: 0 auto;
+display: flex;
+align-items: center;
+  margin-left: 180px ;
+  }
+  @media screen and (max-width:480px){
+display: flex;
+align-items: center;
+  /* margin-left: 180px ; */
+  margin: 0 auto;
   }
 `;
 export const NavImg = styled.img`
@@ -163,7 +172,7 @@ export const MobileIcon = styled.div`
   align-items: center;
     position:absolute;
     top: 0;
-    left: 32;
+    left: 30;
     bottom: 0;
     margin: 0;
     padding: 0;
@@ -171,6 +180,7 @@ export const MobileIcon = styled.div`
     cursor: pointer;
     color: #fff;
     font-size: 43px;
+    
   }
   @media screen and (max-width: 540px) {
 
@@ -293,6 +303,17 @@ text-align: center;
 
 color: #FFFFFF;
 }
+@media screen and (max-width:768px){
+    font-weight: 400;
+font-size: 11px;
+line-height: 20px;
+/* padding: 0 1.1rem; */
+/* padding: 0 13px 0 13px; */
+text-align: center;
+color: #FFFFFF;
+padding: 0;
+margin: 0;
+}
   `;
 export const NavBtn = styled.nav`
   display: flex;
@@ -311,26 +332,13 @@ margin: 0;
   @media screen and (max-width: 960px) {
 padding: 0;
   }
-  /* @media screen and (max-width: 768px) {
- 
-
-    position:absolute;
-    top: 0;
-    right: 23px;
-    bottom: 0;
-    margin: 0;
-    padding: 0;
-  } */
   @media screen and (max-width: 768px) {
     /* display: block; */
     /* transform: translate(-50%, 0%); */
-
     display: flex;
 align-items: center;
-position:absolute;
-top: 0;
-right: 136px;
-bottom: 0;
+/* position:absolute; */
+
 margin: 0;
 padding: 0;
   }
@@ -361,7 +369,6 @@ margin: 0;
 padding: 0;
   }
 `;
-
 export const NavBtnLink = styled.a`
   border-radius: 6px;
   border: 3px solid #FFFFFF;
@@ -514,6 +521,7 @@ text-align: center;
   } */
   @media screen and (max-width: 768px) {
     display: flex;
+    justify-content: center;
   align-items: center;
    width: 120px;
     height: 48px;
@@ -526,7 +534,7 @@ padding: 0px 0px;
 margin: 0;
 border: 3px solid #FFFFFF;
 margin: 0;
- padding: 0;
+ padding: 0px;
 &:hover {
 
   display: flex;
