@@ -63,8 +63,8 @@ font-size: 22px;
   padding: 10px 20px;
   }
   @media screen and (max-width: 768px) {
-    max-width: 130px;
-  max-height: 42px;
+    max-width: 140px;
+  max-height: 45px;
   font-weight: 600;
 font-size: 13.0357px;
 line-height: 21px;
