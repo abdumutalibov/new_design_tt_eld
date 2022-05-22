@@ -362,7 +362,8 @@ export const TextWrapper1 = styled.div`
   }
   @media screen and (max-width: 768px) {
     margin-bottom: 50px;
-    max-width: 230px;
+    max-width: 185px;
+   
   }
   @media screen and (max-width: 480px) {
     padding: 0 0px;
@@ -757,7 +758,12 @@ export const Column3 = styled.div`
   @media screen and (max-width: 1024px) {
     margin-bottom: 50px;
   }
- 
+  @media screen and (max-width: 768px) {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
   @media screen and (max-width: 480px) {
     display: flex;
   flex-direction: column;
@@ -790,9 +796,14 @@ export const TextWrapper = styled.div`
   @media screen and (max-width: 820px) {
     margin-bottom: 50px;
     max-width: 230px;
-
+   
   }
-
+  @media screen and (max-width: 768px) {
+    margin-bottom: 50px;
+    max-width: 230px;
+    max-width: 185px;
+    /* background-color: red; */
+  }
   @media screen and (max-width: 480px) {
     /* padding: 0;
 margin-top: 0px; */
