@@ -32,8 +32,10 @@ display:none;
   @media screen and (max-width: 480px) {
     display: block;
     width: 100%;
-    margin: 0;
+    margin: 10px;
     padding: 0;
+    display: flex;
+    justify-content: center;
   }
 `;
 
@@ -126,10 +128,15 @@ padding: 30px 28px 20px 28px;
 padding: 30px 20px 20px 20px;
   }
   @media screen and (max-width: 480px) {
-    padding: 30px 10px 10px 10px;
+    padding: 20px 20px 10px 20px;
     max-height: 274px;
-    margin-top: 40px;
+    margin: 10px;
   
+  }
+  @media screen and (max-width: 320px) {
+    padding: 10px 10px 0px 10px;
+    max-height: 274px;
+    
   }
 `;
 export const ImgStars = styled.img`

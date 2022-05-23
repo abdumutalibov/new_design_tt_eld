@@ -18,7 +18,7 @@ export const FriendsContainer = styled.div`
     margin: 0;
   }
   @media screen and (max-width: 768px) {
-    height: 190rem;
+    height: 120rem;
     margin: 0;
     padding: 0;
   }
@@ -67,7 +67,7 @@ line-height: 56px;
     color: #1a2944;
   }
   @media screen and (max-width: 768px) {
-    font-size: 30px;
+    font-size: 26px;
     line-height: 30px;
     margin-bottom: 20px;
   }
@@ -120,6 +120,13 @@ line-height: 36px;
     color: #8c98a4;
     margin-bottom: 30px;
     max-width: 31rem;
+  }
+  @media screen and (max-width: 768px) {
+    font-weight: 400;
+font-size: 13px;
+line-height: 22px;
+max-width: 22rem;
+    padding: 10px;
   }
   @media screen and (max-width: 480px) {
     font-weight: 400;
@@ -285,9 +292,11 @@ line-height: 36px;
     margin-bottom: 14px;
   }
   @media screen and (max-width: 768px) {
-    font-size: 30px;
-    line-height: 23px;
-    margin-bottom: 24px;
+    font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+margin: 10px 0;
+padding: 0;
   }
   @media screen and (max-width: 480px) {
 font-weight: 700;
@@ -338,8 +347,10 @@ line-height: 28px;
     margin-bottom: 10px;
   }
   @media screen and (max-width: 768px) {
-    font-size: 20px;
-    line-height: 23px;
+    font-weight: 400;
+font-size: 13px;
+line-height: 22px;
+max-width: 13rem;
   }
   @media screen and (max-width: 480px) {
     font-weight: 400;
@@ -385,7 +396,7 @@ line-height: 30px;
   }
   @media screen and (max-width: 820px) {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
 
     text-align: center;
