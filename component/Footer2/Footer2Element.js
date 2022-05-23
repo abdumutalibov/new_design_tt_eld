@@ -11,7 +11,7 @@ display: none;
      align-items: center;
      flex-direction: column;
      width: 100%;
-
+margin-top: 160px;
      padding: 7px 20px 2px 20px;
      height: 100%;
      /* height: 383px; */

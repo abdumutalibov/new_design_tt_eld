@@ -22,6 +22,7 @@ const Layout = ({children}) => {
   }
   return (
     <div>
+      
       <Sidebar isOpen={isOpen} toggle={toggle}/>
         <Navbar toggle={toggle}/>
         <HeroSection/>

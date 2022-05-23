@@ -18,7 +18,7 @@ export const FriendsContainer = styled.div`
     margin: 0;
   }
   @media screen and (max-width: 768px) {
-    height: 120rem;
+    height: 90rem;
     margin: 0;
     padding: 0;
     max-width: 56rem;
