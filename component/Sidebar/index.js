@@ -1,13 +1,16 @@
 import React from "react";
-import { CloseIcon, Icon, SidebarContainer, SidebarLink, SidebarMenu, SidebarRoute, SidebarWrapper, SideBtnWrap } from "./SidebarElements";
+import { CloseIcon, Icon, Logo, SidebarContainer, SidebarLink, SidebarMenu, SidebarRoute, SidebarWrapper, SideBtnWrap } from "./SidebarElements";
 
 const Sidebar = ({isOpen, toggle}) => {
   return (
     <SidebarContainer isOpen={isOpen} onClick={toggle}>
-      <Icon onClick={toggle}>
-        <CloseIcon />
-      </Icon>
+      {/* <Icon onClick={toggle}> */}
+        {/* <CloseIcon /> */}
+      {/* </Icon> */}
       <SidebarWrapper>
+<Icon>
+  <Logo src="Signin/LogoSidebar.png"/>
+</Icon>
         <SidebarMenu>
           <SidebarLink href="#products" onClick={toggle}>Products</SidebarLink>
           <SidebarLink href="#features" onClick={toggle}>Features</SidebarLink>
@@ -17,9 +20,9 @@ const Sidebar = ({isOpen, toggle}) => {
           <SidebarLink href="#request" onClick={toggle}>Request Demo</SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-            <SidebarRoute href='/Signin'>
+            {/* <SidebarRoute href='/Signin'>
 Sigin In
-            </SidebarRoute>
+            </SidebarRoute> */}
         </SideBtnWrap>
       </SidebarWrapper>
 

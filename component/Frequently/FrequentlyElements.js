@@ -74,6 +74,12 @@ color: #1A2944;
 font-size: 24px;
 line-height: 36px;
   }
+  @media screen and (max-width: 320px) {
+    font-weight: 700;
+font-size: 20px;
+margin: 0;
+line-height: 36px;
+  }
 `;
 export const FrequntlyText = styled.p`
   font-weight: 400;
@@ -644,6 +650,12 @@ font-size: 24px;
 line-height: 36px;
 
   }
+  @media screen and (max-width: 320px) {
+    font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+
+  }
 `;
 export const LoginTxt2 = styled.div`
   font-weight: 400;
@@ -699,14 +711,24 @@ max-width: 42rem;
     padding: 0;
     text-align: center;
   }
+
   @media screen and (max-width: 480px) {
     font-weight: 400;
 font-size: 12px;
 line-height: 22px;
     text-align: center;
-    padding-bottom: 30px;      
-                                                                                                                                                                                                                                  0px;
+    padding-bottom: 30px; 
   }
+  @media screen and (max-width: 320px) {
+    font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+    text-align: center;
+    padding-bottom: 30px;  
+    max-width: 18rem;
+
+  }
+
 `;
 export const LoginTxt3 = styled.div`
   font-weight: 600;

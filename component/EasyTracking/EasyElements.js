@@ -42,6 +42,10 @@ export const EasyContainer = styled.div`
   @media screen and (max-width: 480px) {
     height: 70rem;
   }
+  @media screen and (max-width: 320px) {
+    height: 64rem;
+    margin-top: 50px;
+  }
   @media screen and (max-width: 280px) {
     height: 110rem;
   }
@@ -130,6 +134,14 @@ padding: 0;
 font-size: 24px;
 line-height: 36px;
 margin-bottom: 10px;
+max-width: 17rem;
+  }
+  @media screen and (max-width: 320px) {
+    text-align: center;
+    font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+margin-bottom: 10px;
 
   }
 `;
@@ -192,6 +204,16 @@ max-width: 50rem;
 font-size: 12px;
 line-height: 22px;
 max-width: 22rem;
+/* margin-bottom:300px; */
+  }
+  @media screen and (max-width: 320px) {
+    padding: 0 0px 0 0 0;
+    text-align: center;
+    font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+max-width: 18rem;
+margin: 0;
 /* margin-bottom:300px; */
   }
 `;
@@ -737,7 +759,9 @@ padding: 0;
   }
   @media screen and (max-width: 320px) {
     width: 320px;
-    padding-top: 30px;
+    padding-top: 0px;
+    margin-top: 30px;
+    width: 260px;
     /* margin-top: 30px; */
     display:block;
   }

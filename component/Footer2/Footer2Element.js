@@ -27,7 +27,7 @@ margin-top: 160px;
      width: 100%;
      padding: 7px 15px 2px 15px;
      height: 100%;
-     /* height: 383px; */
+     margin-top: 60px;
   }
 
 `;

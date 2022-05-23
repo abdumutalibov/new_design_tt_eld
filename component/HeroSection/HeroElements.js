@@ -135,6 +135,8 @@ color: #FFFFFF;
 font-size: 24px;
 line-height: 36px;
 margin-bottom: 7px;
+max-width: 20rem;
+
   }
   /* @media screen and (max-width: 320px) {
     font-size: 28px;
@@ -188,9 +190,13 @@ margin: 0;
     font-weight: 400;
 font-size: 12px;
 line-height: 22px;
+max-width: 22rem;
+
   }
   @media screen and (max-width: 320px) {
     font-size: 10px;
+    max-width: 18rem;
+
   }
 `
 export const HeroBgWrapper =styled.div`

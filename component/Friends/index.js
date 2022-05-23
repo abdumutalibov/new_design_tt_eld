@@ -2,8 +2,6 @@ import React, { useState } from "react";
 
 import {
   Arrow,
-  ArrowForward,
-  ArrowRight,
   FollowUs,
   FooterCard,
   FooterCard2,

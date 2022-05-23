@@ -13,6 +13,7 @@ import Frequntly from './Frequently'
 import Friends from './Friends'
 import MultipleRows from './Review/review'
 import Footer2 from './Footer2'
+import Background from './Background/Background'
 const Layout = ({children}) => {
 
   const [isOpen,setOpen] =useState(false)
@@ -20,11 +21,16 @@ const Layout = ({children}) => {
   const toggle =()=>{
     setOpen(!isOpen)
   }
+
+  // const backStateClickHandler = () => {
+  //   setMenuState(false)
+  // }
   return (
     <div>
       
       <Sidebar isOpen={isOpen} toggle={toggle}/>
         <Navbar toggle={toggle}/>
+       {isOpen ? <Background click={toggle}/>  : ''}
         <HeroSection/>
         <HelpYou/>
         <Drives/>

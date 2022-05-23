@@ -230,6 +230,17 @@ export const DriversH1 = styled.h1`
     padding-top: 6rem;
     margin: 0;
   }
+  @media screen and (max-width: 320px) {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 0rem;
+    padding-top: 6rem;
+    max-width: 18rem;
+    margin: 0 auto;
+  }
+
 `;
 export const DriversP = styled.p`
   font-size: 24px;
@@ -303,6 +314,14 @@ export const DriversP = styled.p`
     margin: 0;
     padding: 5px 0 42px 0;
     max-width: 20rem;
+  }
+  @media screen and (max-width: 320px) {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    margin: 0 auto;
+    padding: 5px 0 42px 0;
+    max-width: 18rem;
   }
 `;
 export const Column1 = styled.div`

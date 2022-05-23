@@ -231,6 +231,14 @@ margin: 0;
 padding: 0;
 max-width: 20rem;
   }
+  @media screen and (max-width: 320px) {
+    font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+margin: 0;
+padding: 0;
+max-width: 18rem;
+  }
 `;
 export const ServicesText = styled.p`
   font-weight: 400;

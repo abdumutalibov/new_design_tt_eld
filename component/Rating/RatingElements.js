@@ -33,6 +33,9 @@ export const RatingContainer = styled.div`
   @media screen and (max-width: 480px) {
     height: 40rem;
   }
+  @media screen and (max-width: 320px) {
+    height: 34rem;
+  }
   @media screen and (max-width: 280px) {
     height: 95rem;
   }
@@ -120,6 +123,13 @@ color: #1A2944;
     font-size: 26px;
     line-height: 40px;
   }
+  @media screen and (max-width: 320px) {
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 18rem;
+    margin: 0;
+    padding: 0;
+  }
 `;
 export const RatingText = styled.p`
   font-weight: 400;
@@ -180,6 +190,12 @@ max-width: 41rem;
     font-size: 16px;
     line-height: 32px;
     padding: 10px;
+  }
+  @media screen and (max-width: 320px) {
+    font-size: 12px;
+    padding: 0;
+    line-height: 25px;
+    max-width: 18rem;
   }
   @media screen and (max-width: 280px) {
     font-size: 14px;

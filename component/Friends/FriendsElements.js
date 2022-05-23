@@ -79,6 +79,13 @@ line-height: 36px;
 margin: 0;
 padding: 0;
   }
+  @media screen and (max-width: 320px) {
+    font-weight: 700;
+font-size: 20px;
+line-height: 36px;
+margin: 0;
+padding: 0;
+  }
 `;
 export const FriendsText = styled.p`
   font-weight: 400;
@@ -135,6 +142,13 @@ font-size: 12px;
 line-height: 22px;
 max-width: 20rem;
     padding: 10px;
+  }
+  @media screen and (max-width: 320px) {
+    font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+max-width: 18rem;
+    padding: 00px;
   }
   @media screen and (max-width: 280px) {
     font-size: 14px;
@@ -360,6 +374,13 @@ line-height: 22px;
 max-width: 20rem;
     /* line-height: 25px; */
   }
+  @media screen and (max-width: 320px) {
+    font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+max-width: 13rem;
+    /* line-height: 25px; */
+  }
   @media screen and (max-width: 280px) {
     font-size: 11px;
   }
@@ -405,6 +426,16 @@ line-height: 30px;
     color: #1470c6;
   }
   @media screen and (max-width: 480px) {
+    font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+
+    text-align: center;
+    color: #1470c6;
+    margin: 0 0 50px 0;
+    padding: 0;
+  }
+  @media screen and (max-width: 320px) {
     font-weight: 700;
 font-size: 16px;
 line-height: 22px;
@@ -509,6 +540,16 @@ background:none;
     padding: 0px;
     max-height: 35rem;
     margin: 100px 0 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @media screen and (max-width: 320px) {
+    flex-direction: column;
+    padding: 0px;
+    max-height: 35rem;
+    margin: 60px 0 0 0;
     padding: 0;
     display: flex;
     justify-content: center;
@@ -963,7 +1004,7 @@ align-items: center;
 
 padding: 0;
   }
-  @media screen and (max-width: 468px) {
+  @media screen and (max-width: 480px) {
     flex-direction: column;
     margin: 0;
     height: 100%;
@@ -973,6 +1014,18 @@ padding: 0;
     max-width: 47rem;
     width: 90%;
 
+    margin: 0px 0px 0 0px;
+  }
+  @media screen and (max-width: 320px) {
+    flex-direction: column;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 47rem;
+    width: 90%;
+padding: 0;
     margin: 0px 0px 0 0px;
   }
 `
