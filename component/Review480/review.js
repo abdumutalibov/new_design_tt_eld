@@ -26,15 +26,25 @@ function Review480() {
     lazyLoad: true,
     speed: 300,
     slidesToShow: 1,
+    
+centeredSlides:true,
+slidesPerView: 2,
+sliderBetween:40,
+loop:true,
+    // centerMode: true,
+    pagination:{
+el: '.swiper-pagination',
+clickable:true,
 
-    centerMode: true,
+    },
     centerPadding: "0",
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
-
+centerMode:true,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 5000,
+    centerPadding: "50px",
     // dots: true,
     beforeChange:(current, next)=> setImageIndex(next)
   };

@@ -25,9 +25,11 @@ display:none;
 
   @media screen and (max-width: 768px) {
   
-    padding: 0px;
+    padding: 0px 0;
     margin: 0;
     width: 100%;
+    height: 100%;
+    max-height: 60rem;
   }
   @media screen and (max-width: 480px) {
     display: none;
@@ -74,8 +76,10 @@ height: 100%;
   @media screen and (max-width: 768px) {
    
     width: 100%;
-    padding: 0;
+    padding: 5px 0;
     margin: 0;
+    max-height: 300rem;
+    height: 100%;
   }
 `;
 

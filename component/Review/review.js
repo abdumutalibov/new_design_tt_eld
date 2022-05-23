@@ -26,7 +26,7 @@ function Review() {
     speed: 300,
     slidesToShow: 2.3,
     centerMode: true,
-    centerPadding: "0",
+    centerPadding: "1",
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
 

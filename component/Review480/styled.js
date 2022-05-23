@@ -128,7 +128,7 @@ padding: 30px 28px 20px 28px;
 padding: 30px 20px 20px 20px;
   }
   @media screen and (max-width: 480px) {
-    padding: 20px 20px 10px 20px;
+    padding: 10px 20px 0px 20px;
     max-height: 274px;
     margin: 10px;
   
@@ -147,6 +147,7 @@ export const ImgStars = styled.img`
   }
   @media screen and (max-width: 480px) {
     margin-top: 10px;
+    width: 80px;
   }
 `;
 export const RatingP = styled.p`
@@ -180,9 +181,10 @@ color: #47464D;
   }
   @media screen and (max-width: 480px) {
     font-weight: 400;
-font-size: 11.9937px;
+font-size: 11.3px;
 line-height: 21px;
-
+margin: 0;
+padding: 0;
   }
   @media screen and (max-width: 320px) {
     font-size: 12px;
@@ -205,7 +207,7 @@ export const User = styled.div`
     padding: 20px 0 0px 0;
   }
   @media screen and (max-width: 480px) {
-    padding: 40px 0 20px 0;
+    padding: 30px 0 20px 0;
   }
 `;
 export const Col = styled.div`
