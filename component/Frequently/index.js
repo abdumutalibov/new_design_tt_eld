@@ -64,8 +64,7 @@ const Frequntly = () => {
     }
     setSelected(i);
   };
-  const [border, setBorder] = useState("1.5px solid #ffb94a");
-  const [color, setColor] = useState('#1470c6');
+
   return (
     <FrequntlyContainer id="about">
       <FrequntlyH1>Frequently asked question</FrequntlyH1>

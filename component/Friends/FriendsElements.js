@@ -488,6 +488,7 @@ export const FriendsFooter = styled.div`
     padding: 0 35px;
     max-height: 275px;
     position: relative;
+
   }
   @media screen and (max-width: 1024px) {
     margin: 0;
@@ -633,7 +634,7 @@ line-height: 36px;
     color: #333333;
    
     /* margin: 31px 0px; */
-    margin: 0;
+    margin: 0 0 18px 0;
     padding: 0;
     max-width: 24rem;
     text-align: left;
@@ -733,7 +734,7 @@ export const FooterCardImg2 = styled.img`
     /* width: 233px; */
     margin: 47px 0px 0 0px;
     position: absolute;
-    margin-left: 390px;
+    margin-left: 170px;
     display: block;
   }
   @media screen and (max-width: 1024px) {
@@ -741,7 +742,7 @@ export const FooterCardImg2 = styled.img`
     margin-top: 51px;
     padding: 0;
     position: absolute;
-    margin-left: 370px;
+    margin-left: 180px;
   }
   @media screen and (max-width: 960px) {
     width: 203px;

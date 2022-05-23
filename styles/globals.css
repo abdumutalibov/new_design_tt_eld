@@ -48,18 +48,28 @@ transform: scaleX(1.2);
 
 .content {
   color: #8b7f75;
-  max-height:0 ;
+  max-height: 0px ;
   overflow: hidden;
   /* transition: all 0.5 cubic-bezier(0,1,0,1); */
   transition: all 0.7s ease-in-out;
 
 }
 .content.show{
-  height: auto;
+  height:auto;
 max-height: 999px;
 /* transition: all 0.5s cubic-bezier(1,0,1,0); */
 transition: all 1.2s ease-in-out;
 
+}
+
+@media screen and (max-width:480px){
+  .content.show{
+    height: auto;
+  max-height: 999px;
+  /* transition: all 0.5s cubic-bezier(1,0,1,0); */
+  transition: all 1.2s ease-in-out;
+  
+  }
 }
 .color{
   color: #1470c6;

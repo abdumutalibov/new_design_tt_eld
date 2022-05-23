@@ -187,9 +187,11 @@ max-width: 41rem;
     margin: 10px 0 55px 0;
   }
   @media screen and (max-width: 480px) {
-    font-size: 16px;
-    line-height: 32px;
+    font-size: 12px;
+    line-height: 24px;
     padding: 10px;
+    max-width: 20rem;
+
   }
   @media screen and (max-width: 320px) {
     font-size: 12px;

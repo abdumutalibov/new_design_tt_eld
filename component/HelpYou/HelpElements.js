@@ -268,6 +268,8 @@ margin-bottom: 34px;
 font-size: 12px;
 line-height: 22px;
 margin-bottom: 34px;
+max-width: 20rem;
+
   }
   @media screen and (max-width: 320px) {
     font-weight: 400;
