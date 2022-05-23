@@ -25,6 +25,10 @@ export const FooterContainer = styled.div`
   @media screen and (max-width: 820px) {
     height: 75px;
   }
+  @media screen and (max-width: 768px) {
+    height: 75px;
+    display: none;
+  }
   @media screen and (max-width: 480px) {
 height: 100%;
 margin: 0;

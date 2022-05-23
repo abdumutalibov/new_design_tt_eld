@@ -22,6 +22,8 @@ import {
   IconInfo,
   IconName,
   ImgIcon,
+  MaxmWhids,
+  MaxWidth,
 } from "./FriendsElements";
 
 const Friends = () => {
@@ -113,7 +115,10 @@ const Friends = () => {
         </FriendsCard>
       </FriendsWrapper>
       <FriendsFooter>
+         <MaxmWhids>
         <FooterCard>
+
+          
           <FooterTxt>
             Manage your fleet with ease using the most comprehensive ELD
             solution on the market.
@@ -127,8 +132,8 @@ const Friends = () => {
 
         <FooterCardImg src="Friends/Phone.svg" />
         <FooterCardImg2 src="Friends/yellowPhone.png" />
-
         <FooterCard2>Point your camera to the QR code to download</FooterCard2>
+</MaxmWhids>
       </FriendsFooter>
     </FriendsContainer>
   );
