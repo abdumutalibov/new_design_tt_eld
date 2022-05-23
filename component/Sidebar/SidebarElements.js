@@ -36,7 +36,7 @@ export const SidebarWrapper = styled.div`
 `;
 
 export const Icon = styled.div`
-padding: 40px 0 20px 0;
+padding: 45px 0 20px 0;
 border-bottom: solid 1px #EAE9F2;
 `
 export const Logo = styled.img`
