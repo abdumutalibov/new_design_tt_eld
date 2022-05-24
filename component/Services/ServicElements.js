@@ -299,9 +299,9 @@ max-width: 40rem;
     font-weight: 400;
 font-size: 12px;
 line-height: 22px;
-    padding: 0 10px;
-max-width: 20rem;
-
+    /* padding: 0 10px; */
+max-width: 18.6rem;
+margin: 10px 0 31px 0;
   }
 `;
 export const ServicesH2 = styled.h2`
@@ -408,6 +408,7 @@ border-radius: 4px;
   /* display: flex;
   justify-content: center;
   align-items: center; */
+  box-shadow: -15px 20px 24px rgba(43, 45, 49, 0.12);
   @media screen and (max-width: 1280px) {
     width: 100%;
   max-width: 55rem;
@@ -441,6 +442,8 @@ margin: 0;
   padding: 0 0px;
 margin: 0 0px 0 0px;
 background: none;
+box-shadow: none;
+
   }
   @media screen and (max-width: 480px) {
     width: 100%;
@@ -501,6 +504,7 @@ export const FooterLinksContainer = styled.div`
 
 width: 100%;
   @media screen and (max-width: 820px) {
+    
   }
 `;
 export const FooterLinksWrapper = styled.div`
@@ -523,6 +527,7 @@ width: 100%;
 margin: 0 10px;
 max-width: 60rem;
  background: #2B2D31;
+ box-shadow: -15px 20px 24px rgba(43, 45, 49, 0.12);
 
   }
   @media screen and (max-width: 480px) {

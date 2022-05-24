@@ -36,8 +36,10 @@ export const HeroContainer = styled.div`
     background: #2B2D31;
   }
   @media screen and (max-width:480px) {
-    height:840px;
-    /* background: none; */
+    height:780px;
+    background: none;
+  /* background: red; */
+
   }
 `;
 export const HeroBg = styled.div`
@@ -74,11 +76,47 @@ export const ImgBg = styled.img`
   }
   @media screen and (max-width:480px) {
     height:470px;
-    background:none; 
-  display: ${({mobile})=> (mobile ? 'block':'none')};
+    /* background:none;  */
+    display: none;
+  /* display: ${({mobile})=> (mobile ? 'block':'none')}; */
   }
   @media screen and (max-width:380px) {
     height:895px;
+    background:none; 
+  }
+`;
+export const ImgBg2 = styled.img`
+  width: 100%;
+  height: 1500px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  /* display: ${({mobile})=> (mobile ? 'none':'block')}; */
+  display: none;
+  @media screen and (max-width:1280px) {
+    height:1380px;
+  }
+  @media screen and (max-width:960px) {
+    height:1150px;
+    
+  }
+  @media screen and (max-width:820px) {
+    height:1105px;
+    
+  }
+  @media screen and (max-width:768px) {
+    height:965px;
+    background:none; 
+
+  }
+  @media screen and (max-width:480px) {
+    height:790px;
+    /* background:none;  */
+    display: block;
+  /* display: ${({mobile})=> (mobile ? 'block':'none')}; */
+  }
+
+  @media screen and (max-width:320px) {
+    height:785px;
     background:none; 
   }
 `;
@@ -136,7 +174,7 @@ font-size: 24px;
 line-height: 36px;
 margin-bottom: 7px;
 max-width: 20rem;
-
+padding-top: 5rem;
   }
   /* @media screen and (max-width: 320px) {
     font-size: 28px;

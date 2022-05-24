@@ -31,7 +31,7 @@ export const RatingContainer = styled.div`
   }
 
   @media screen and (max-width: 480px) {
-    height: 40rem;
+    height: 30rem;
   }
   @media screen and (max-width: 320px) {
     height: 34rem;
@@ -121,7 +121,12 @@ color: #1A2944;
   }
   @media screen and (max-width: 480px) {
     font-size: 26px;
-    line-height: 40px;
+    line-height: 39px;
+    margin: 0;
+    padding: 0;
+    /* max-width: 14.8rem; */
+    max-width: 238px;
+/* background-color: red; */
   }
   @media screen and (max-width: 320px) {
     font-size: 20px;
@@ -191,7 +196,8 @@ max-width: 41rem;
     line-height: 24px;
     padding: 10px;
     max-width: 20rem;
-
+padding: 0;
+margin: 0px 0 14px 0;
   }
   @media screen and (max-width: 320px) {
     font-size: 12px;

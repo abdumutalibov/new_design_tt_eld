@@ -13,6 +13,7 @@ import {
   ArrowForwards,
   Arrow,
   ArrowWhite,
+  ImgBg2,
 } from "./HeroElements";
 
 
@@ -29,7 +30,7 @@ function HeroSection() {
     <HeroContainer id="products">
       <HeroBg>
         {/* <ImgBg src="Hero/Background (3).png" /> */}
-        <ImgBg mobile src="Hero/BGmobile.png" />
+        <ImgBg2 mobile src="Hero/Background (2).svg" />
         {/* <ImgBg src="Drivers/Background375.svg" /> */}
         <ImgBg src="Background.svg" />
       </HeroBg>

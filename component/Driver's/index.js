@@ -16,6 +16,7 @@ import {
   ImgBg,
   ImgBg2,
   ImgBgs,
+  ImgBgs2,
   ImgPhone,
   ImgPhoneTop,
   ImgWrap,
@@ -37,7 +38,9 @@ const Drives = () => {
 
           </DriversImg>
 <HeroBg>
+  <ImgBgs2 src="Drivers/Base480.svg" />
   <ImgBgs src="Drivers/Base (3).png" />
+
 </HeroBg>
 
           <DriversH1 id="reviews">Your driver’s favorite app</DriversH1>

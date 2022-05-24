@@ -73,6 +73,8 @@ export const FrequntlyH1 = styled.h1`
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
+    max-width: 18rem;
+    margin: 0;
   }
   @media screen and (max-width: 320px) {
     font-weight: 700;
@@ -136,6 +138,7 @@ export const FrequntlyText = styled.p`
     font-size: 12px;
     line-height: 22px;
     max-width: 19rem;
+    margin: 9px 0 30px 0;
   }
   @media screen and (max-width: 280px) {
     font-size: 14px;
@@ -616,6 +619,8 @@ export const LoginTxt1 = styled.div`
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
+    max-width: 16rem;
+    margin: 0 0 3px 0;
   }
   @media screen and (max-width: 320px) {
     font-weight: 700;

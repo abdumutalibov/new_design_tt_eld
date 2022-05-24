@@ -75,7 +75,7 @@ export const DriversContainer = styled.div`
   }
   @media screen and (max-width: 480px) {
     height: 125rem;
-    background: #2b2d31;
+    background: none;
   }
   @media screen and (max-width: 280px) {
     height: 160rem;
@@ -922,4 +922,36 @@ export const ImgBgs = styled.img`
     height: 895px;
     background: none;
   }
+`;
+export const ImgBgs2 = styled.img`
+  width: 100%;
+  /* height: 1600px; */
+  -o-object-fit: cover;
+  object-fit: cover;
+  display: none;
+  display: ${({ mobile }) => (mobile ? "none" : "block")};
+  @media screen and (max-width: 1280px) {
+    height: 1380px;
+  }
+  @media screen and (max-width: 960px) {
+    height: 1150px;
+  }
+  @media screen and (max-width: 820px) {
+    height: 1105px;
+  }
+  @media screen and (max-width: 768px) {
+    height: 1000px;
+    background: none;
+  }
+  @media screen and (max-width: 480px) {
+    /* height: 470px; */
+    height: 100%;
+    width: 100%;
+    background: none;
+    display:"block";
+  }
+  /* @media screen and (max-width: 380px) {
+    height: 895px;
+    background: none;
+  } */
 `;
