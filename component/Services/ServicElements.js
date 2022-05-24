@@ -1449,8 +1449,9 @@ line-height: 36px;
 font-size: 14px;
 line-height: 36px;
 margin-right: 5px;
+color: blue;
   }
-  @media screen and (max-width: 410px) {
+  @media screen and (max-width: 430px) {
 font-size: 13px;
 color: red;
   }
