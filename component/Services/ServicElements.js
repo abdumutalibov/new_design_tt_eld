@@ -1449,13 +1449,24 @@ line-height: 36px;
 font-size: 14px;
 line-height: 36px;
 margin-right: 5px;
+color: red;
+  }
+  @media screen and (max-width: 335px) {
+    color: yellow;
   }
   @media screen and (max-width: 320px) {
     font-weight: 400;
 font-size: 11px;
 line-height: 36px;
 margin-right: 0px;
-
+color: blue;
+  }
+  @media screen and (max-width: 295px) {
+    font-weight: 400;
+font-size: 10px;
+line-height: 36px;
+margin-right: 0px;
+color: green;
   }
   @media screen and (max-width: 280px) {
     flex-direction: column;

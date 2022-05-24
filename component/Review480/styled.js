@@ -37,6 +37,16 @@ display:none;
     display: flex;
     justify-content: center;
   }
+
+  @media screen and (max-width: 320px) {
+    display: block;
+    width: 100%;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    display: none;
+  }
   @media screen and (max-width: 280px) {
     display: block;
     width: 100%;
