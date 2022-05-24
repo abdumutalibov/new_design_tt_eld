@@ -193,6 +193,7 @@ line-height: 56px;
     line-height: 26px;
     text-align: center;
     color: #1a2944;
+    padding-top:2rem ;
   }
   @media screen and (max-width: 768px) {
     /* font-size: 2rem; */
