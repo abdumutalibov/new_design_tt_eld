@@ -612,7 +612,8 @@ export const FooterLinkItems = styled.div`
   @media screen and (max-width: 480px) {
     margin: 0;
     padding: 10px;
-    width: 100%;
+    width: 50%;
+    margin-left: 25px;
   }
   @media screen and (min-width: 540px) and (max-width: 960px) {
     margin: 0;
@@ -659,7 +660,8 @@ margin: 0;
 margin: 0;
     width: 100%;
     /* text-align: right; */
-    max-width: 7rem;
+    max-width: 9rem;
+
   }
   @media screen and (max-width: 320px) {
     padding: 0;
@@ -1449,11 +1451,9 @@ line-height: 36px;
 font-size: 14px;
 line-height: 36px;
 margin-right: 5px;
-color: blue;
   }
   @media screen and (max-width: 430px) {
-font-size: 13px;
-color: red;
+font-size: 13.5px;
   }
   @media screen and (max-width: 320px) {
     font-weight: 400;
