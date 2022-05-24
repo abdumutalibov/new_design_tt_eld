@@ -26,7 +26,8 @@ export const FrequntlyContainer = styled.div`
     height: 115rem;
   }
   @media screen and (max-width: 280px) {
-    height: 180rem;
+    height: 115rem;
+    /* background-color: red; */
   }
 `;
 export const FrequntlyH1 = styled.h1`

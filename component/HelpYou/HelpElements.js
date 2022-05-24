@@ -83,6 +83,10 @@ export const HelpWrapper = styled.div`
   max-width: 18rem;   
     font-size: 15px; 
   }
+  @media screen and (max-width: 280px) {
+  max-width: 16rem;   
+    font-size: 15px; 
+  }
 `;
 export const HelpCard = styled.div`
   background: #fff;

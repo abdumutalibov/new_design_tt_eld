@@ -84,6 +84,10 @@ export const ImgBg = styled.img`
     height:895px;
     background:none; 
   }
+  @media screen and (max-width:280px) {
+    height:895px;
+    background:none; 
+  }
 `;
 export const ImgBg2 = styled.img`
   width: 100%;
@@ -118,6 +122,11 @@ export const ImgBg2 = styled.img`
   @media screen and (max-width:320px) {
     height:785px;
     background:none; 
+  }
+  @media screen and (max-width:280px) {
+    height:778px;
+    background:none; 
+    display: block;
   }
 `;
 export const HeroContent = styled.div`

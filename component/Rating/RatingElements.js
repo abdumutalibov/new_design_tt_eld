@@ -37,7 +37,7 @@ export const RatingContainer = styled.div`
     height: 34rem;
   }
   @media screen and (max-width: 280px) {
-    height: 95rem;
+    height: 39rem;
   }
 `;
 export const ArrowNext = styled.div`
@@ -133,6 +133,13 @@ color: #1A2944;
     line-height: 30px;
     max-width: 18rem;
     margin: 0;
+    padding: 0;
+  }
+  @media screen and (max-width: 280px) {
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 18rem;
+    margin-top: 80px;
     padding: 0;
   }
 `;

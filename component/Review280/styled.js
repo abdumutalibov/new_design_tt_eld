@@ -30,21 +30,13 @@ display:none;
     padding: 0 20px;
   }
   @media screen and (max-width: 480px) {
-    display: block;
+    display:none;
+
     width: 100%;
     margin: 10px;
     padding: 0;
-    display: flex;
+    
     justify-content: center;
-  }
-  @media screen and (max-width: 280px) {
-    display: block;
-    width: 100%;
-    margin: 10px;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    display: none;
   }
 `;
 

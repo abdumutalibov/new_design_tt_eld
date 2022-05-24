@@ -29,7 +29,7 @@ export const FriendsContainer = styled.div`
     padding: 0;
   }
   @media screen and (max-width: 280px) {
-    height: 125rem;
+    height: 115rem;
   }
 `;
 export const FriendsH1 = styled.h1`

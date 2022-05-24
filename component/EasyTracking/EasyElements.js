@@ -47,7 +47,9 @@ export const EasyContainer = styled.div`
     margin-top: 50px;
   }
   @media screen and (max-width: 280px) {
-    height: 110rem;
+    height: 65rem;
+    margin-bottom: 140px;
+    padding: 0;
   }
 `;
 export const EasyWrapper = styled.div`
@@ -143,6 +145,14 @@ font-size: 20px;
 line-height: 30px;
 margin-bottom: 10px;
 
+  }
+  @media screen and (max-width: 280px) {
+    text-align: center;
+    font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+margin: 0px;
+padding: 0;
   }
 `;
 export const EasyP = styled.p`

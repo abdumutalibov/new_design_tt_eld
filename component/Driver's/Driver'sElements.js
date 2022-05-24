@@ -78,7 +78,14 @@ export const DriversContainer = styled.div`
     background: none;
   }
   @media screen and (max-width: 280px) {
-    height: 160rem;
+    /* background: url("Drivers/Base480.svg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    height: 125rem;
+    margin-bottom: 70px;
+    background: #2B2D31;
   }
 `;
 export const DriversImg = styled.div`
@@ -622,6 +629,7 @@ export const PhoneIcons = styled.div`
     font-size: 10px;
     width: 7rem;
     padding: 0px;
+    margin-top: 20px;
   }
 `;
 export const PhoneIconsTop = styled.div`
@@ -676,6 +684,7 @@ export const PhoneIconsTop = styled.div`
     font-size: 10px;
     width: 7rem;
     padding: 0px;
+    margin-top: 50px;
   }
 `;
 export const Icons = styled.img`
@@ -949,6 +958,10 @@ export const ImgBgs2 = styled.img`
     width: 100%;
     background: none;
     display:"block";
+  }
+  @media screen and (max-width: 280px) {
+    background: #2B2D31;
+    display: none;
   }
   /* @media screen and (max-width: 380px) {
     height: 895px;

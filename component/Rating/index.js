@@ -23,6 +23,7 @@ import Review from "../Review/review";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import Review1280 from "../Review1280/review";
 import Review480 from "../Review480/review";
+import Review280 from "../Review280/review";
 
 const Rating = () => {
 
@@ -101,6 +102,7 @@ const Rating = () => {
      <Review1280/>
       <Review/>
       <Review480/>
+      <Review280/>
     </RatingContainer>
   );
 };
