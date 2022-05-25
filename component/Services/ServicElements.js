@@ -88,7 +88,6 @@ export const ServicesCard = styled.div`
   border-radius: 10px;
   padding: 35px;
   border-radius: 4px;
-  
   /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); */
   box-shadow: 2px 4px 24px rgba(151, 151, 151, 0.12);
   transition: all 0.2s ease-in-out;
@@ -614,6 +613,12 @@ export const FooterLinkItems = styled.div`
     padding: 10px;
     width: 50%;
     margin-left: 25px;
+  }
+  @media screen and (max-width: 280px) {
+    margin: 0;
+    padding: 10px;
+    width: 70%;
+    margin-left: 0px;
   }
   @media screen and (min-width: 540px) and (max-width: 960px) {
     margin: 0;

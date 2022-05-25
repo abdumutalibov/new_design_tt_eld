@@ -34,7 +34,7 @@ import {
 
 const Services = () => {
   return (
-    <ServicesContainer id="pricing">
+    <ServicesContainer>
       <ServicesH1>Products suited to your needs</ServicesH1>
       <ServicesText>
         Our company provides customer service around the clock, now you can
@@ -51,7 +51,7 @@ const Services = () => {
             </ServicesTextRightItem>
           </ServicesTextRight>
         </ServicesCard>
-        <ServicesCard>
+        <ServicesCard >
           <ServicesIcon src="ProductsImgs/img2.svg" />
           <ServicesTextRight>
             <ServicesH2>PT30 ELD Device</ServicesH2>
@@ -97,7 +97,7 @@ const Services = () => {
             <ServicesH2>Instructions and sticker</ServicesH2>
             <ServicesTextRightItem>
               <ServicesP>$00.00 USD</ServicesP>
-              <ServicesIconShopping src="ProductsImgs/shopping.svg" />
+              <ServicesIconShopping src="ProductsImgs/shopping.svg"   id="pricing"/>
             </ServicesTextRightItem>
           </ServicesTextRight>
         </ServicesCard>
