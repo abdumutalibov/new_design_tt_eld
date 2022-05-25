@@ -27,7 +27,7 @@ function HeroSection() {
     setHovers(!hovers);
   };
   return (
-    <HeroContainer id="products">
+    <HeroContainer>
       <HeroBg>
         <ImgBg2 mobile src="Hero/Background (2).svg" />
         <ImgBg src="Background.svg" />

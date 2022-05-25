@@ -34,7 +34,7 @@ import {
 
 const Services = () => {
   return (
-    <ServicesContainer>
+    <ServicesContainer  id="products">
       <ServicesH1>Products suited to your needs</ServicesH1>
       <ServicesText>
         Our company provides customer service around the clock, now you can

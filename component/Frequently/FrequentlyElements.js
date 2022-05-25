@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const FrequntlyContainer = styled.div`
   height: 2100px;
-  /* height: 100%; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,7 +18,6 @@ export const FrequntlyContainer = styled.div`
   }
   @media screen and (max-width: 768px) {
     height: 130rem;
-    /* background-color: red; */
   }
 
   @media screen and (max-width: 480px) {
@@ -27,7 +25,6 @@ export const FrequntlyContainer = styled.div`
   }
   @media screen and (max-width: 280px) {
     height: 115rem;
-    /* background-color: red; */
   }
 `;
 export const FrequntlyH1 = styled.h1`

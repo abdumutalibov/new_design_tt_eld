@@ -52,16 +52,9 @@ const Navbar = ({ toggle }) => {
 
             <NavMenu>
               <NavItem>
-                <Link href="#products">
-                  <div className={styles.listItem}>
-                    <NavLinks primary>Products</NavLinks>
-                  </div>
-                </Link>
-              </NavItem>
-              <NavItem>
                 <Link href="#features">
                   <div className={styles.listItem}>
-                    <NavLinks>Features</NavLinks>
+                    <NavLinks primary>Features</NavLinks>
                   </div>
                 </Link>
               </NavItem>
@@ -69,6 +62,13 @@ const Navbar = ({ toggle }) => {
                 <Link href="#reviews">
                   <div className={styles.listItem}>
                     <NavLinks>Reviews</NavLinks>
+                  </div>
+                </Link>
+              </NavItem>
+              <NavItem>
+                <Link href="#products">
+                  <div className={styles.listItem}>
+                    <NavLinks>Products</NavLinks>
                   </div>
                 </Link>
               </NavItem>
