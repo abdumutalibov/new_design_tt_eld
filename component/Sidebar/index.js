@@ -9,7 +9,7 @@ const Sidebar = ({isOpen, toggle}) => {
       {/* </Icon> */}
       <SidebarWrapper>
 <Icon>
-  <Logo src="Signin/LogoSidebar.png"/>
+  <Logo src="Signin/SidebarLogo.png"/>
 </Icon>
         <SidebarMenu>
           <SidebarLink href="#products" onClick={toggle}>Products</SidebarLink>
