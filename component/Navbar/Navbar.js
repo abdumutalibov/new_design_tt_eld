@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Nav = styled.nav`
-  background: ${({ scrollNav }) => (scrollNav ? "#37353B" : "transparent")};
+  background: ${({ scrollNav }) => (scrollNav ? "#2B2D31" : "transparent")};
   height: 104px;
   margin-top: -240px;
   display: flex;
