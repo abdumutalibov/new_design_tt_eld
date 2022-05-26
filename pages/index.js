@@ -39,7 +39,7 @@ export default function Home() {
       <input type="email" name="email"/>
       <textarea name="message"></textarea>
     </form>
-    <Contact/>
+    {/* <Contact/> */}
       </Head>
       {/* <Editor/> */}
       {/* <Layout /> */}
