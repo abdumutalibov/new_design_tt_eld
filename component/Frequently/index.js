@@ -195,7 +195,7 @@ const Frequntly = () => {
                         placeholder="your company name"
                         required
                       />
-                      <DisplayInput>
+                      {/* <DisplayInput>
                         <FormLabel htmlFor="youremail">Your Email</FormLabel>
                         <FormInput
                           type="email"
@@ -211,10 +211,10 @@ const Frequntly = () => {
                           placeholder="Amount of trucks"
                           required
                         />
-                      </DisplayInput>
+                      </DisplayInput> */}
 
                       <FormMainCol2>
-                        {/* <FormCol12>
+                        <FormCol12>
                           <FormLabel htmlFor="youremail">Your Email</FormLabel>
                           <FormInput
                             type="email"
@@ -223,8 +223,8 @@ const Frequntly = () => {
                             placeholder="youremail@gmail.com"
                             required
                           />
-                        </FormCol12> */}
-                        {/* <FormCol2>
+                        </FormCol12>
+                        <FormCol2>
                         <FormLabel htmlFor="for">Amount of truck</FormLabel>
                         <FormInput
                           name="truckAmount"
@@ -232,7 +232,7 @@ const Frequntly = () => {
                           placeholder="Amount of trucks"
                           required
                         />
-                        </FormCol2> */}
+                        </FormCol2>
                       </FormMainCol2>
         
                       <FormButton type="submit">Send message</FormButton>
