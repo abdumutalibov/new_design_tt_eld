@@ -118,8 +118,7 @@ const Frequntly = () => {
               <LoginContainer>
                 <FormWrap>
                   <FormContent>
-
-                  {/* <form name="contact" method="POST" data-netlify="true">
+                    {/* <form name="contact" method="POST" data-netlify="true">
       <input type="hidden" name="form-name" value="contact" />
       <p>
         <input type="text" name="firstname" id="firstname" />
@@ -144,10 +143,8 @@ const Frequntly = () => {
       </p>
     </form> */}
                     <Form name="contact" method="POST" data-netlify="true">
-                    
-                     
-                    <input type="hidden" name="form-name" value="contact" />
-      {/* <p>
+                      <input type="hidden" name="form-name" value="contact" />
+                      {/* <p>
         <input type="text" name="firstname" id="firstname" />
         <label htmlFor="yourname">Your Name:</label> <br />
         <input
@@ -178,11 +175,11 @@ const Frequntly = () => {
                           />
                         </FormCol1>
                         <FormCol>
-                          <FormLabel htmlFor="last name">
+                          <FormLabel htmlFor="lastName">
                             Your last name
                           </FormLabel>
                           <FormInput
-                            id="last name"
+                            id="lastname"
                             name="name"
                             type="text"
                             placeholder="Your last name"
@@ -198,12 +195,12 @@ const Frequntly = () => {
                         placeholder="your company name"
                         required
                       />
-                      {/* <DisplayInput>
-                        <FormLabel htmlFor="for">Your Email</FormLabel>
+                      <DisplayInput>
+                        <FormLabel htmlFor="email">Your Email</FormLabel>
                         <FormInput
-                          id="email"
-                          name="email"
                           type="email"
+                          name="email"
+                          id="youremail"
                           placeholder="youremail@gmail.com"
                           required
                         />
@@ -216,7 +213,7 @@ const Frequntly = () => {
                         />
                       </DisplayInput>
 
-                      <FormMainCol2>
+                      {/* <FormMainCol2>
                         <FormCol12>
                           <FormLabel htmlFor="for">Your Email</FormLabel>
                           <FormInput
