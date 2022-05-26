@@ -130,22 +130,18 @@ const Frequntly = () => {
                         name="subject"
                         value={`You've got mail from ${submitterName}`}
                       />
-                      <input
-                        type="hidden"
-                        name="form-name"
-                        value="contact-form"
-                      />
+                      <input type="hidden" name="form-name" value="contact-form" />
 
                       <FormMainCol>
                         <FormCol1>
                           <FormLabel htmlFor="name">First Name</FormLabel>
                           <FormInput
-                            id="name"
-                            name="name"
-                            onChange={(e) => setSubmitterName(e.target.value)}
-                            type="text"
-                            placeholder="Your Name"
-                            required
+                           id="name"
+                           onChange={(e) => setSubmitterName(e.target.value)}
+                           name="name"
+                           type="text"
+                           placeholder="Your Name*"
+                           required
                           />
                         </FormCol1>
                         <FormCol>
