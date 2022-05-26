@@ -73,7 +73,7 @@ const ContactPage = () => {
 
       <main>{formVisible ? ContactForm : ConfirmationMessage}</main>
       <footer>NextJS + Netlify Forms Example by Monica Powell</footer>
-      {/* <style jsx global>
+      <style jsx global>
         {`
           html,
           body {
@@ -131,7 +131,7 @@ const ContactPage = () => {
             background-color: #051f58de;
           }
         `}
-      </style> */}
+      </style>
     </div>
   );
 };
