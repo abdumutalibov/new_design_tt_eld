@@ -119,8 +119,8 @@ const Frequntly = () => {
                 <FormWrap>
                   <FormContent>
 
-                  <form name="contact" method="POST" data-netlify="true">
-      {/* <input type="hidden" name="form-name" value="contact" />
+                  {/* <form name="contact" method="POST" data-netlify="true">
+      <input type="hidden" name="form-name" value="contact" />
       <p>
         <input type="text" name="firstname" id="firstname" />
         <label htmlFor="yourname">Your Name:</label> <br />
@@ -141,18 +141,31 @@ const Frequntly = () => {
       </p>
       <p>
         <button type="submit">Send</button>
-      </p> */}
-    
+      </p>
+    </form> */}
                     <Form name="contact" method="POST" data-netlify="true">
-                      <input
-                        type="text"
-                        name="name"
-                        id="yourname"
-                        onChange={(e) => setSubmitterName(e.target.value)}
-                      />
+                    
                      
-
-                      <FormMainCol>
+                    <input type="hidden" name="form-name" value="contact" />
+      <p>
+        <input type="text" name="firstname" id="firstname" />
+        <label htmlFor="yourname">Your Name:</label> <br />
+        <input
+          type="text"
+          name="name"
+          id="yourname"
+          onChange={(e) => setSubmitterName(e.target.value)}
+        />
+      </p>
+      <p>
+        <label htmlFor="youremail">Your Email:</label> <br />
+        <input type="email" name="email" id="youremail" />
+      </p>
+      <p>
+        <label htmlFor="yourmessage">Message:</label> <br />
+        <textarea name="message" id="yourmessage"></textarea>
+      </p>
+                      {/* <FormMainCol>
                         <FormCol1>
                           <FormLabel htmlFor="name">First Name</FormLabel>
                           <FormInput
@@ -170,7 +183,7 @@ const Frequntly = () => {
                           </FormLabel>
                           <FormInput
                             id="last name"
-                            name="lastName"
+                            name="name"
                             type="text"
                             placeholder="Your last name"
                             required
@@ -222,14 +235,13 @@ const Frequntly = () => {
                             required
                           />
                         </FormCol2>
-                      </FormMainCol2>
+                      </FormMainCol2> */}
                       {/* <input type="submit" value="Send Message" /> */}
-                      <p>
+                      {/* <p>
         <button type="submit">Send</button>
-      </p>
+      </p> */}
                       <FormButton type="submit">Send message</FormButton>
                     </Form>
-                    </form>
                   </FormContent>
                 </FormWrap>
               </LoginContainer>
