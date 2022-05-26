@@ -25,43 +25,42 @@ const ContactPage = () => {
   );
 
   const ContactForm = (
-    d
-    // <form
-    //   className="container"
-    //   method="POST"
-    //   name="contact-form"
-    //   action="contact/?success=true"
-    //   data-netlify="true"
-    //   data-netlify-honeypot="bot-field"
-    // >
-    //   <input
-    //     type="hidden"
-    //     name="subject"
-    //     value={`You've got mail from ${submitterName}`}
-    //   />
-    //   <input type="hidden" name="form-name" value="contact-form" />
-    //   <p hidden>
-    //     <label>
-    //       Don’t fill this out qqqqqqqq: <input name="bot-field" />
-    //     </label>
-    //   </p>
+    <form
+      className="container"
+      method="POST"
+      name="contact-form"
+      action="contact/?success=true"
+      data-netlify="true"
+      data-netlify-honeypot="bot-field"
+    >
+      <input
+        type="hidden"
+        name="subject"
+        value={`You've got mail from ${submitterName}`}
+      />
+      <input type="hidden" name="form-name" value="contact-form" />
+      <p hidden>
+        <label>
+          Don’t fill this out qqqqqqqq: <input name="bot-field" />
+        </label>
+      </p>
 
-    //   <label htmlFor="name">Name AZim*</label>
-    //   <input
-    //     id="name"
-    //     name="name"
+      <label htmlFor="name">Name AZim*</label>
+      <input
+        id="name"
+        name="name"
         
-    //     onChange={(e) => setSubmitterName(e.target.value)}
-    //     type="text"
-    //   />
-    //   <label htmlFor="company">Company aaaaaaaaaaaaaaa *</label>
-    //   <input id="company" name="company" required type="text" />
-    //   C
-    //   <input id="email" type="email" name="email" required />
-    //   <label htmlFor="message">Message *</label>
-    //   <textarea id="message" name="message" required />
-    //   <button type="submit">Submit</button>
-    // </form>
+        onChange={(e) => setSubmitterName(e.target.value)}
+        type="text"
+      />
+      <label htmlFor="company">Company aaaaaaaaaaaaaaa *</label>
+      <input id="company" name="company" required type="text" />
+      C
+      <input id="email" type="email" name="email" required />
+      <label htmlFor="message">Message *</label>
+      <textarea id="message" name="message" required />
+      <button type="submit">Submit</button>
+    </form>
   );
 
   return (
