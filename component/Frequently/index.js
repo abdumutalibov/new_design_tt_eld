@@ -147,7 +147,7 @@ const Frequntly = () => {
                     
                      
                     <input type="hidden" name="form-name" value="contact" />
-      <p>
+      {/* <p>
         <input type="text" name="firstname" id="firstname" />
         <label htmlFor="yourname">Your Name:</label> <br />
         <input
@@ -164,8 +164,8 @@ const Frequntly = () => {
       <p>
         <label htmlFor="yourmessage">Message:</label> <br />
         <textarea name="message" id="yourmessage"></textarea>
-      </p>
-                      {/* <FormMainCol>
+      </p> */}
+                      <FormMainCol>
                         <FormCol1>
                           <FormLabel htmlFor="name">First Name</FormLabel>
                           <FormInput
@@ -189,7 +189,7 @@ const Frequntly = () => {
                             required
                           />
                         </FormCol>
-                      </FormMainCol> */}
+                      </FormMainCol>
                       <FormLabel htmlFor="company">Company name</FormLabel>
                       <FormInput
                         id="company"
