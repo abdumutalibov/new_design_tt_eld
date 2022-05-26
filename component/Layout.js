@@ -14,6 +14,7 @@ import Friends from './Friends'
 import MultipleRows from './Review/review'
 import Footer2 from './Footer2'
 import Background from './Background/Background'
+import RequestDemo from './RequestDemo'
 const Layout = ({children}) => {
 
   const [isOpen,setOpen] =useState(false)
@@ -37,6 +38,7 @@ const Layout = ({children}) => {
         <EasyTracking/>
         <Services/>
         <Rating/>
+        <RequestDemo/>
         <Frequntly/>
         <Friends/>
         
