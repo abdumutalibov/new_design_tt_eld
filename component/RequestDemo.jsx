@@ -8,35 +8,87 @@ const RequestDemo = () => {
 
   return (
     <div  id="products/request">
-   <form
-  name="contactForm"
-  method="POST"
-  action="/contact-thanks"
-  data-netlify-honeypot="bot-field"
-  data-netlify="true"
-  id="contact-form"
-  className="contact-form"
->
-  <p className="screen-reader-text">
-    <label>Don't fill this out if you're human: <input name="bot-field" /></label>
-  </p>
-  <p className="form-row">
-    <label htmlFor="contact-form-name" className="form-label">Name</label>
-    <input type="text" name="name" id="contact-form-name" className="form-input" />
-  </p>
-  <p className="form-row">
-    <label htmlFor="contant-form-email" className="form-label">Email address</label>
-    <input type="email" name="email" id="contant-form-email" className="form-input" />
-  </p>
-  <p className="form-row">
-    <label htmlFor="contant-form-message" className="form-label">Message</label>
-    <textarea name="message" id="contant-form-message" className="form-textarea" rows="7" />
-  </p>
-  <input type="hidden" name="form-name" value="contactForm" />
-  <p className="form-row form-submit">
-    <button type="submit" className="button">Send Message</button>
-  </p>
-</form>
+      <div >
+        <form
+          method="POST"
+          name="contact-form"
+          action="contact/?success=true"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+        >
+          <input
+            type="hidden"
+            name="subject"
+            value={`You've got mail from `}
+          />
+          <input type="hidden" name="form-name" value="contact-form" />
+          <div >
+            <input
+             
+              id="name"
+              name="name"
+              type="text"
+              placeholder="Your Name*"
+              required
+            />
+            <input
+             
+              name="email"
+              type="email"
+              placeholder="Your Email*"
+              required
+            />
+                 <input
+              
+              name="email"
+              type="email"
+              placeholder="Your Email*"
+              required
+            />
+          </div>
+          <div >
+            <label htmlFor="company">Company aaaaaaaaaaaaaaa *</label>
+
+            <input
+              id="company"
+              name="company"
+              required
+              type="text"
+              placeholder="Company Name*"
+            />
+            <input
+              name="truckAmount"
+              type="number"
+              placeholder="Amount of trucks*"
+              required
+            />
+          </div>
+
+          <div >
+            <input
+              name="phone"
+              type="text"
+              placeholder="Phone*"
+              required
+            />
+          </div>
+          <div >
+            <textarea
+              required
+              rows="5"
+              name="message"
+             
+              placeholder="Type your message here..."
+            />
+          </div>
+          <div >
+            <input
+              type="submit"
+              value="Send Message"
+            />
+          </div>
+        </form>
+      </div>
     </div>
   );
 };
