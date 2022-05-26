@@ -146,7 +146,7 @@ const Frequntly = () => {
                     <Form name="contact" method="POST" data-netlify="true">
                     
                      
-                    <input type="hidden" name="form-name" value="contact" />
+                    {/* <input type="hidden" name="form-name" value="contact" />
       <p>
         <input type="text" name="firstname" id="firstname" />
         <label htmlFor="yourname">Your Name:</label> <br />
@@ -164,7 +164,7 @@ const Frequntly = () => {
       <p>
         <label htmlFor="yourmessage">Message:</label> <br />
         <textarea name="message" id="yourmessage"></textarea>
-      </p>
+      </p> */}
                       {/* <FormMainCol>
                         <FormCol1>
                           <FormLabel htmlFor="name">First Name</FormLabel>
@@ -189,7 +189,7 @@ const Frequntly = () => {
                             required
                           />
                         </FormCol>
-                      </FormMainCol>
+                      </FormMainCol> */}
                       <FormLabel htmlFor="company">Company name</FormLabel>
                       <FormInput
                         id="company"
@@ -235,7 +235,7 @@ const Frequntly = () => {
                             required
                           />
                         </FormCol2>
-                      </FormMainCol2> */}
+                      </FormMainCol2>
                       {/* <input type="submit" value="Send Message" /> */}
                       {/* <p>
         <button type="submit">Send</button>
