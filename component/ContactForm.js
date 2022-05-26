@@ -2,7 +2,7 @@ import { useState } from "react";
 export default function ContactForm() {
   const [submitterName, setSubmitterName] = useState("");
     return (
-      <form name="contact" action="/success" method="POST" data-netlify="true">
+      <form name="contact"  method="POST" data-netlify="true">
         <input type="hidden" name="form-name" value="contact" />
         <p>
   <input type="text" name="firstname" id="firstname" />
