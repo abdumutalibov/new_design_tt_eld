@@ -40,6 +40,13 @@ const RequestDemo = () => {
               placeholder="Your Email*"
               required
             />
+                 <input
+              className={styles.input}
+              name="email"
+              type="email"
+              placeholder="Your Email*"
+              required
+            />
           </div>
           <div className={styles.newUserItem}>
             <label htmlFor="company">Company aaaaaaaaaaaaaaa *</label>
