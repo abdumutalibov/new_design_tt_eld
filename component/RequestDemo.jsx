@@ -7,10 +7,9 @@ const RequestDemo = () => {
   const [submitterName, setSubmitterName] = useState("");
 
   return (
-    <div className={styles.container} id="products/request">
-      <div className={styles.row}>
+    <div  id="products/request">
+      <div >
         <form
-          className={styles.newUser}
           method="POST"
           name="contact-form"
           action="contact/?success=true"
@@ -20,39 +19,37 @@ const RequestDemo = () => {
           <input
             type="hidden"
             name="subject"
-            value={`You've got mail from ${submitterName}`}
+            value={`You've got mail from `}
           />
           <input type="hidden" name="form-name" value="contact-form" />
-          <div className={styles.newUser}>
+          <div >
             <input
-              className={styles.input}
+             
               id="name"
-              onChange={(e) => setSubmitterName(e.target.value)}
               name="name"
               type="text"
               placeholder="Your Name*"
               required
             />
             <input
-              className={styles.input}
+             
               name="email"
               type="email"
               placeholder="Your Email*"
               required
             />
                  <input
-              className={styles.input}
+              
               name="email"
               type="email"
               placeholder="Your Email*"
               required
             />
           </div>
-          <div className={styles.newUserItem}>
+          <div >
             <label htmlFor="company">Company aaaaaaaaaaaaaaa *</label>
 
             <input
-              className={styles.input}
               id="company"
               name="company"
               required
@@ -60,7 +57,6 @@ const RequestDemo = () => {
               placeholder="Company Name*"
             />
             <input
-              className={styles.input}
               name="truckAmount"
               type="number"
               placeholder="Amount of trucks*"
@@ -68,28 +64,26 @@ const RequestDemo = () => {
             />
           </div>
 
-          <div className={styles.newUserItem}>
+          <div >
             <input
-              className={styles.inputs}
               name="phone"
               type="text"
               placeholder="Phone*"
               required
             />
           </div>
-          <div className={styles.newUserItem}>
+          <div >
             <textarea
               required
               rows="5"
               name="message"
-              className={styles.textarea}
+             
               placeholder="Type your message here..."
             />
           </div>
-          <div className={styles.inpWrapper}>
+          <div >
             <input
               type="submit"
-              className={styles.btn_btn}
               value="Send Message"
             />
           </div>
