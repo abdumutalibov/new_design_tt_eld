@@ -198,7 +198,7 @@ const Frequntly = () => {
                         placeholder="your company name"
                         required
                       />
-                      <DisplayInput>
+                      {/* <DisplayInput>
                         <FormLabel htmlFor="for">Your Email</FormLabel>
                         <FormInput
                           id="email"
@@ -235,7 +235,7 @@ const Frequntly = () => {
                             required
                           />
                         </FormCol2>
-                      </FormMainCol2>
+                      </FormMainCol2> */}
                       {/* <input type="submit" value="Send Message" /> */}
                       {/* <p>
         <button type="submit">Send</button>
