@@ -196,7 +196,7 @@ const Frequntly = () => {
                         required
                       />
                       <DisplayInput>
-                        <FormLabel htmlFor="email">Your Email</FormLabel>
+                        <FormLabel htmlFor="youremail">Your Email</FormLabel>
                         <FormInput
                           type="email"
                           name="email"
