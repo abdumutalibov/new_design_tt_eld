@@ -175,12 +175,12 @@ const Frequntly = () => {
                           />
                         </FormCol1>
                         <FormCol>
-                          <FormLabel htmlFor="lastName">
+                          <FormLabel htmlFor="last">
                             Your last name
                           </FormLabel>
                           <FormInput
-                            id="lastname"
-                            name="name"
+                            id="last"
+                            name="last"
                             type="text"
                             placeholder="Your last name"
                             required
