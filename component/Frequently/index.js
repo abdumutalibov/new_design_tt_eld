@@ -1,4 +1,5 @@
-import { useState } from "react";
+import React, { useState } from "react";
+
 
 import {
   Accordion,
@@ -57,6 +58,7 @@ import {
 
 const Frequntly = () => {
   const [selected, setSelected] = useState(null);
+  const [submitterName, setSubmitterName] = useState("");
 
   const toggle = (i) => {
     if (selected === i) {
@@ -125,20 +127,35 @@ const Frequntly = () => {
             <LoginContainer>
               <FormWrap>
                 <FormContent>
-                  <Form action="#">
+                  <Form   method="POST"
+      name="contact-form"
+      action="contact/?success=true"
+      data-netlify="true"
+      data-netlify-honeypot="bot-field">
+         <input
+        type="hidden"
+        name="subject"
+        value={`You've got mail from ${submitterName}`}
+      />
+      <input type="hidden" name="form-name" value="contact-form" />
+
                     <FormMainCol>
                       <FormCol1>
-                        <FormLabel htmlFor="for">First Name</FormLabel>
+                        <FormLabel  htmlFor="name">First Name</FormLabel>
                         <FormInput
+                          id="name"
                           name="name"
+                          
+                          onChange={(e) => setSubmitterName(e.target.value)}
                           type="text"
                           placeholder="Your Name"
                           required
                         />
                       </FormCol1>
                       <FormCol>
-                        <FormLabel htmlFor="for">Your last name</FormLabel>
+                        <FormLabel htmlFor="last name">Your last name</FormLabel>
                         <FormInput
+                        id="last name"
                           name="name"
                           type="text"
                           placeholder="Your last name"
@@ -146,8 +163,9 @@ const Frequntly = () => {
                         />
                       </FormCol>
                     </FormMainCol>
-                    <FormLabel htmlFor="for">Company name</FormLabel>
+                    <FormLabel htmlFor="company">Company name</FormLabel>
                     <FormInput
+                    id="company"
                       name="company"
                       type="text"
                       placeholder="your company name"
@@ -156,6 +174,7 @@ const Frequntly = () => {
                     <DisplayInput>
                       <FormLabel htmlFor="for">Your Email</FormLabel>
                       <FormInput
+                      id="email"
                         name="email"
                         type="email"
                         placeholder="youremail@gmail.com"

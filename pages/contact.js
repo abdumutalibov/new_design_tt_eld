@@ -49,7 +49,7 @@ const ContactPage = () => {
       <input
         id="name"
         name="name"
-        required
+        
         onChange={(e) => setSubmitterName(e.target.value)}
         type="text"
       />
