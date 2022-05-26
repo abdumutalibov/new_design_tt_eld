@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-
 import {
   Accordion,
   Cl,
@@ -75,132 +74,110 @@ const Frequntly = () => {
         are looking for here please let us know and we will definitely answer
       </FrequntlyText>
       <FrequentlyWrapper>
-  
-<MaxWidth>
-
-
-        {data.map((item, i) => (
-          <FrequntlyBox2 className={selected === i ? "border" : "border1"}>
-            <Col onClick={() => toggle(i)}>
-
-             
-              <FrequntlyT2
-             className={selected === i ? "color" : "color1"}
+        <MaxWidth>
+          {data.map((item, i) => (
+            <FrequntlyBox2 className={selected === i ? "border" : "border1"}>
+              <Col onClick={() => toggle(i)}>
+                <FrequntlyT2 className={selected === i ? "color" : "color1"}>
+                  {item.question}
+                </FrequntlyT2>
+                <TitleSpan>
+                  {selected === i ? (
+                    <FrequentlyDecrement src="Frequently/minus.svg" />
+                  ) : (
+                    <FrequentlyDecrement2 src="Frequently/plus.svg" />
+                  )}
+                </TitleSpan>
+              </Col>
+              <FrequentlyP
+                className={selected === i ? "content show" : "content"}
               >
-                {item.question}
-              </FrequntlyT2>
-              <TitleSpan>
-                {selected === i ? (
-                  <FrequentlyDecrement src="Frequently/minus.svg" />
-                ) : (
-                  <FrequentlyDecrement2 src="Frequently/plus.svg" />
-                )}
-              </TitleSpan>
-            </Col>
-            <FrequentlyP
-              className={selected === i ? "content show" : "content"}
-            >
-              {item.answer}
-            </FrequentlyP>
-          </FrequntlyBox2>
-        ))}
+                {item.answer}
+              </FrequentlyP>
+            </FrequntlyBox2>
+          ))}
         </MaxWidth>
-<MainLog id="request">
-        <FrequentlyLogin>
-          <Col3  >
+        <MainLog id="request">
+          <FrequentlyLogin>
+            <Col3>
+              <LoginText>
+                <LoginTxt1>Let’s talk to you about your company</LoginTxt1>
+                <LoginTxt2>
+                  TTELD is a large, experienced team that works with many
+                  companies at once. We look forward to seeing you among our
+                  customers.
+                </LoginTxt2>
+                <LoginHr />
+                <LoginTxt3>
+                  Any problem about your booking? You can contact us on :
+                </LoginTxt3>
+                <LoginTxt4>+1 (833) 888 83 53 </LoginTxt4>
+                <LoginTxt4>info@tteld.com </LoginTxt4>
+              </LoginText>
 
-            <LoginText>
-              <LoginTxt1>Let’s talk to you about your company</LoginTxt1>
-              <LoginTxt2>
-                TTELD is a large, experienced team that works with many
-                companies at once. We look forward to seeing you among our
-                customers.
-              </LoginTxt2>
-              <LoginHr />
-              <LoginTxt3>
-                Any problem about your booking? You can contact us on :
-              </LoginTxt3>
-              <LoginTxt4>+1 (833) 888 83 53 </LoginTxt4>
-              <LoginTxt4>info@tteld.com </LoginTxt4>
-            </LoginText>
+              <LoginContainer>
+                <FormWrap>
+                  <FormContent>
+                    <Form
+                      method="POST"
+                      name="contact-form"
+                      action="contact/?success=true"
+                      data-netlify="true"
+                      data-netlify-honeypot="bot-field"
+                    >
+                      <input
+                        type="hidden"
+                        name="subject"
+                        value={`You've got mail from ${submitterName}`}
+                      />
+                      <input
+                        type="hidden"
+                        name="form-name"
+                        value="contact-form"
+                      />
 
-            <LoginContainer>
-              <FormWrap>
-                <FormContent>
-                  
-                  <Form   method="POST"
-      name="contact-form"
-      action="contact/?success=true"
-      data-netlify="true"
-      data-netlify-honeypot="bot-field">
-         <input
-        type="hidden"
-        name="subject"
-        value={`You've got mail from ${submitterName}`}
-      />
-      <input type="hidden" name="form-name" value="contact-form" />
-
-                    <FormMainCol>
-                      <FormCol1>
-                        <FormLabel  htmlFor="name">First Name</FormLabel>
-                        <FormInput
-                          id="name"
-                          name="name"
-                          
-                          onChange={(e) => setSubmitterName(e.target.value)}
-                          type="text"
-                          placeholder="Your Name"
-                          required
-                        />
-                      </FormCol1>
-                      <FormCol>
-                        <FormLabel htmlFor="last name">Your last name</FormLabel>
-                        <FormInput
-                        id="last name"
-                          name="name"
-                          type="text"
-                          placeholder="Your last name"
-                          required
-                        />
-                      </FormCol>
-                    </FormMainCol>
-                    <FormLabel htmlFor="company">Company name</FormLabel>
-                    <FormInput
-                    id="company"
-                      name="company"
-                      type="text"
-                      placeholder="your company name"
-                      required
-                    />
-                    <DisplayInput>
-                      <FormLabel htmlFor="for">Your Email</FormLabel>
+                      <FormMainCol>
+                        <FormCol1>
+                          <FormLabel htmlFor="name">First Name</FormLabel>
+                          <FormInput
+                            id="name"
+                            name="name"
+                            onChange={(e) => setSubmitterName(e.target.value)}
+                            type="text"
+                            placeholder="Your Name"
+                            required
+                          />
+                        </FormCol1>
+                        <FormCol>
+                          <FormLabel htmlFor="last name">
+                            Your last name
+                          </FormLabel>
+                          <FormInput
+                            id="last name"
+                            name="name"
+                            type="text"
+                            placeholder="Your last name"
+                            required
+                          />
+                        </FormCol>
+                      </FormMainCol>
+                      <FormLabel htmlFor="company">Company name</FormLabel>
                       <FormInput
-                      id="email"
-                        name="email"
-                        type="email"
-                        placeholder="youremail@gmail.com"
+                        id="company"
+                        name="company"
+                        type="text"
+                        placeholder="your company name"
                         required
                       />
-                      <FormLabel htmlFor="for">Amount of truck</FormLabel>
-                      <FormInput
-                        name="truckAmount"
-                        type="number"
-                        placeholder="Amount of trucks"
-                        required
-                      />
-                    </DisplayInput>
-
-                    <FormMainCol2>
-                      <FormCol12>
+                      <DisplayInput>
                         <FormLabel htmlFor="for">Your Email</FormLabel>
                         <FormInput
+                          id="email"
                           name="email"
                           type="email"
                           placeholder="youremail@gmail.com"
                           required
                         />
-                      </FormCol12>
-                      <FormCol2>
                         <FormLabel htmlFor="for">Amount of truck</FormLabel>
                         <FormInput
                           name="truckAmount"
@@ -208,35 +185,54 @@ const Frequntly = () => {
                           placeholder="Amount of trucks"
                           required
                         />
-                      </FormCol2>
-                    </FormMainCol2>
+                      </DisplayInput>
 
-                    <FormButton type="submit">Send message</FormButton>
-                  </Form>
-                </FormContent>
-              </FormWrap>
-            </LoginContainer>
+                      <FormMainCol2>
+                        <FormCol12>
+                          <FormLabel htmlFor="for">Your Email</FormLabel>
+                          <FormInput
+                            name="email"
+                            type="email"
+                            placeholder="youremail@gmail.com"
+                            required
+                          />
+                        </FormCol12>
+                        <FormCol2>
+                          <FormLabel htmlFor="for">Amount of truck</FormLabel>
+                          <FormInput
+                            name="truckAmount"
+                            type="number"
+                            placeholder="Amount of trucks"
+                            required
+                          />
+                        </FormCol2>
+                      </FormMainCol2>
+                      <input type="submit" value="Send Message" />
 
-            <LoginTextButton primary >Any problem about your booking?</LoginTextButton>
-            <LoginTextButton>
+                      <FormButton type="submit">Send message</FormButton>
+                    </Form>
+                  </FormContent>
+                </FormWrap>
+              </LoginContainer>
 
-
-              You can contact us on :
-<Cl>
-              <IconsButtonSpan>
-                <IconsText src="FooterIcons/email-icon.svg" />
-                Info@tteld.com
-              </IconsButtonSpan>
-              <IconsButtonSpan>
-                <IconsText2 src="FooterIcons/phone-icon.svg" />
-                +1 (833) 888 83 53
-              </IconsButtonSpan>
-</Cl>
-            </LoginTextButton>
-
-            
-          </Col3>
-        </FrequentlyLogin>
+              <LoginTextButton primary>
+                Any problem about your booking?
+              </LoginTextButton>
+              <LoginTextButton>
+                You can contact us on :
+                <Cl>
+                  <IconsButtonSpan>
+                    <IconsText src="FooterIcons/email-icon.svg" />
+                    Info@tteld.com
+                  </IconsButtonSpan>
+                  <IconsButtonSpan>
+                    <IconsText2 src="FooterIcons/phone-icon.svg" />
+                    +1 (833) 888 83 53
+                  </IconsButtonSpan>
+                </Cl>
+              </LoginTextButton>
+            </Col3>
+          </FrequentlyLogin>
         </MainLog>
       </FrequentlyWrapper>
     </FrequntlyContainer>
@@ -278,10 +274,8 @@ const data = [
   },
 ];
 
-
-
-
-      {/* <FrequntlyBox1>
+{
+  /* <FrequntlyBox1>
           <Col>
             <FrequntlyH2>What is TT ELD ?</FrequntlyH2>
             <FrequentlyDecrement src="Frequently/minus.svg" />
@@ -322,4 +316,5 @@ const data = [
             <FrequntlyT2>Why should I buy TT ELD</FrequntlyT2>
             <FrequentlyDecrement2 src="Frequently/plus.svg" />
           </Col2>
-        </FrequntlyBox2> */}
+        </FrequntlyBox2> */
+}
