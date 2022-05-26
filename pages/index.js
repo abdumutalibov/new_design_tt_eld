@@ -35,7 +35,7 @@ export default function Home() {
         />
       </Head>
       {/* <Editor/> */}
-      <Layout />
+      {/* <Layout /> */}
     </div>
   );
 }
