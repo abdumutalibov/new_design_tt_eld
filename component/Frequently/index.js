@@ -224,7 +224,9 @@ const Frequntly = () => {
                         </FormCol2>
                       </FormMainCol2>
                       {/* <input type="submit" value="Send Message" /> */}
-
+                      <p>
+        <button type="submit">Send</button>
+      </p>
                       <FormButton type="submit">Send message</FormButton>
                     </Form>
                   </FormContent>
