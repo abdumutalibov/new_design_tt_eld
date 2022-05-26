@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@editorjs/editorjs": "^2.24.3",
+    "@netlify/config": "^18.0.1",
     "bootstrap": "^5.1.3",
     "next": "12.1.5",
     "react": "18.1.0",
