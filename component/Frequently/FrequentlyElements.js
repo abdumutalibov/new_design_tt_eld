@@ -1236,7 +1236,7 @@ export const FormCol1 = styled.div`
 `;
 
 export const FormMainCol2 = styled.div`
-  display: flex;
+  /* display: flex; */
   max-width: 600rem;
   /* display: none; */
   @media screen and (max-width: 1280px) {
