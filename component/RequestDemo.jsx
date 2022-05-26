@@ -9,85 +9,27 @@ const RequestDemo = () => {
   return (
     <div  id="products/request">
       <div >
-        <form
-          method="POST"
-          name="contact-form"
-          action="contact/?success=true"
-          data-netlify="true"
-          data-netlify-honeypot="bot-field"
-        >
-          <input
-            type="hidden"
-            name="subject"
-            value={`You've got mail from `}
-          />
-          <input type="hidden" name="form-name" value="contact-form" />
-          <div >
-            <input
-             
-              id="name"
-              name="name"
-              type="text"
-              placeholder="Your Name*"
-              required
-            />
-            <input
-             
-              name="email"
-              type="email"
-              placeholder="Your Email*"
-              required
-            />
-                 <input
-              
-              name="email"
-              type="email"
-              placeholder="Your Email*"
-              required
-            />
-          </div>
-          <div >
-            <label htmlFor="company">Company aaaaaaaaaaaaaaa *</label>
-
-            <input
-              id="company"
-              name="company"
-              required
-              type="text"
-              placeholder="Company Name*"
-            />
-            <input
-              name="truckAmount"
-              type="number"
-              placeholder="Amount of trucks*"
-              required
-            />
-          </div>
-
-          <div >
-            <input
-              name="phone"
-              type="text"
-              placeholder="Phone*"
-              required
-            />
-          </div>
-          <div >
-            <textarea
-              required
-              rows="5"
-              name="message"
-             
-              placeholder="Type your message here..."
-            />
-          </div>
-          <div >
-            <input
-              type="submit"
-              value="Send Message"
-            />
-          </div>
-        </form>
+      <form name="contact" method="POST" data-netlify="true">
+       <input type="hidden" name="form-name" value="contact-form"/>
+        <p>
+          <label>Your Name: <input type="text" name="name" /></label>
+        </p>
+        <p>
+          <label>Your Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Your Role: <select name="role[]" multiple>
+            <option value="leader">Leader</option>
+            <option value="follower">Follower</option>
+          </select> </label>
+        </p>
+        <p>
+          <label>Message: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button type="submit">Send aaaaaaaaaaaaaaaaaaa</button>
+        </p>
+      </form>
       </div>
     </div>
   );

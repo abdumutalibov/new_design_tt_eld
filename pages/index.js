@@ -33,6 +33,11 @@ export default function Home() {
           href="https://fonts.googleapis.com/css2?family=Krona+One&display=optional"
           rel="stylesheet"
         />
+         <form name="contact-form" netlify netlify-honeypot="bot-field" action="/" hidden>
+      <input type="text" name="name"/>
+      <input type="email" name="email"/>
+      <textarea name="message"></textarea>
+    </form>
       </Head>
       {/* <Editor/> */}
       {/* <Layout /> */}
