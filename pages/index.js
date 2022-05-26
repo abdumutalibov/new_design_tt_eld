@@ -2,6 +2,7 @@ import Head from "next/head";
 import Layout from "../component/Layout";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Contact from "./contact";
 
 export default function Home() {
   return (
@@ -38,6 +39,7 @@ export default function Home() {
       <input type="email" name="email"/>
       <textarea name="message"></textarea>
     </form>
+    <Contact/>
       </Head>
       {/* <Editor/> */}
       {/* <Layout /> */}

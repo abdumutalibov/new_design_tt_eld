@@ -15,6 +15,7 @@ import MultipleRows from './Review/review'
 import Footer2 from './Footer2'
 import Background from './Background/Background'
 import SectionContact from './RequestDemo'
+import Contact from '../pages/contact'
 const Layout = ({children}) => {
 
   const [isOpen,setOpen] =useState(false)
@@ -38,7 +39,8 @@ const Layout = ({children}) => {
         <EasyTracking/>
         <Services/>
         <Rating/>
-        <SectionContact/>
+        {/* <SectionContact/> */}
+        <Contact/>
         <Frequntly/>
         <Friends/>
         
