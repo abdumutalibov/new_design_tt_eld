@@ -118,31 +118,25 @@ const Frequntly = () => {
               <LoginContainer>
                 <FormWrap>
                   <FormContent>
-         
-                    <Form
-                      method="POST"
-                      name="contact-form"
-                      action="contact/?success=true"
-                      data-netlify="true"
-                      data-netlify-honeypot="bot-field"
-                    >
+                    <Form name="contact" method="POST" data-netlify="true">
                       <input
-                        type="hidden"
-                        name="subject"
-                        value={`You've got mail from ${submitterName}`}
+                        type="text"
+                        name="name"
+                        id="yourname"
+                        onChange={(e) => setSubmitterName(e.target.value)}
                       />
-                      <input type="hidden" name="form-name" value="contact-form" />
+                     
 
                       <FormMainCol>
                         <FormCol1>
                           <FormLabel htmlFor="name">First Name</FormLabel>
                           <FormInput
-                           id="name"
-                           onChange={(e) => setSubmitterName(e.target.value)}
-                           name="name"
-                           type="text"
-                           placeholder="Your Name*"
-                           required
+                            id="name"
+                            onChange={(e) => setSubmitterName(e.target.value)}
+                            name="name"
+                            type="text"
+                            placeholder="Your Name*"
+                            required
                           />
                         </FormCol1>
                         <FormCol>
@@ -151,7 +145,7 @@ const Frequntly = () => {
                           </FormLabel>
                           <FormInput
                             id="last name"
-                            name="name"
+                            name="lastName"
                             type="text"
                             placeholder="Your last name"
                             required

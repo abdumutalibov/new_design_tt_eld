@@ -40,7 +40,7 @@ const Layout = ({children}) => {
         <Services/>
         <Rating/>
         {/* <SectionContact/> */}
-        <Contact/>
+        {/* <Contact/> */}
         <Frequntly/>
         <Friends/>
         
