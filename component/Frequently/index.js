@@ -213,30 +213,28 @@ const Frequntly = () => {
                         />
                       </DisplayInput>
 
-                      {/* <FormMainCol2>
+                      <FormMainCol2>
                         <FormCol12>
-                          <FormLabel htmlFor="for">Your Email</FormLabel>
+                          <FormLabel htmlFor="youremail">Your Email</FormLabel>
                           <FormInput
-                            name="email"
                             type="email"
+                            name="email"
+                            id="youremail"
                             placeholder="youremail@gmail.com"
                             required
                           />
                         </FormCol12>
                         <FormCol2>
-                          <FormLabel htmlFor="for">Amount of truck</FormLabel>
-                          <FormInput
-                            name="truckAmount"
-                            type="number"
-                            placeholder="Amount of trucks"
-                            required
-                          />
+                        <FormLabel htmlFor="for">Amount of truck</FormLabel>
+                        <FormInput
+                          name="truckAmount"
+                          type="number"
+                          placeholder="Amount of trucks"
+                          required
+                        />
                         </FormCol2>
-                      </FormMainCol2> */}
-                      {/* <input type="submit" value="Send Message" /> */}
-                      {/* <p>
-        <button type="submit">Send</button>
-      </p> */}
+                      </FormMainCol2>
+        
                       <FormButton type="submit">Send message</FormButton>
                     </Form>
                   </FormContent>
