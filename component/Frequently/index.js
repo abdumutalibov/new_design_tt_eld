@@ -130,19 +130,19 @@ const Frequntly = () => {
                             onChange={(e) => setSubmitterName(e.target.value)}
                             name="name"
                             type="text"
-                            placeholder="Your Name*"
+                            placeholder="First Name*"
                             required
                           />
                         </FormCol1>
                         <FormCol>
                           <FormLabel htmlFor="last">
-                            Your last name
+                            Last name
                           </FormLabel>
                           <FormInput
                             id="last"
                             name="last"
                             type="text"
-                            placeholder="Your last name"
+                            placeholder=" Last name"
                             required
                           />
                         </FormCol>
@@ -152,7 +152,7 @@ const Frequntly = () => {
                         id="company"
                         name="company"
                         type="text"
-                        placeholder="your company name"
+                        placeholder="Your company name"
                         required
                       />
                       {/* <DisplayInput>
@@ -180,7 +180,7 @@ const Frequntly = () => {
                             type="email"
                             name="email"
                             id="youremail"
-                            placeholder="youremail@gmail.com"
+                            placeholder="your-email@companiy.com"
                             required
                           />
                         </FormCol12>
