@@ -17,7 +17,9 @@ export const Button = styled.a`
   align-items: center;
   transition: all 0.2s ease-in-out;
   margin-right: 38px;
-  max-width: 230px;
+  width: 100%;
+  max-width: 840px;
+  /* background-color: red; */
   max-height: 67px;
   font-weight: 600;
 font-size: 22px;

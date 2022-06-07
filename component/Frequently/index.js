@@ -59,6 +59,16 @@ const Frequntly = () => {
   const [selected, setSelected] = useState(null);
   const [submitterName, setSubmitterName] = useState("");
 
+  const text =[
+    <div>
+          Answer: An electronic logging device (ELD) connected to the vehicle collects { <a style={{color:'red'}} href="https://store.tteld.com/">Store.tteld.com </a>} directly
+        from the CMV’s engine. The data may include the status of engine power (on/off), the speed,
+         how long the engine has been operating, how many miles have been covered, and other additional data. Then, 
+         this data is sent to the TT ELD application that demonstrates this information and enables drivers or loggers to enter 
+         some supplementary information. 
+    </div>
+  ]
+
   const toggle = (i) => {
     if (selected === i) {
       return setSelected(null);
@@ -92,10 +102,13 @@ const Frequntly = () => {
               <FrequentlyP
                 className={selected === i ? "content show" : "content"}
               >
+              
                 {item.answer}
               </FrequentlyP>
             </FrequntlyBox2>
           ))}
+      
+
         </MaxWidth>
         <MainLog id="request">
           <FrequentlyLogin>
@@ -231,33 +244,82 @@ const data = [
   {
     question: "What is TT ELD ?",
     answer:
-      "Everything you need to manage your fleet. All in one place. Driver Safety, GPS Tracking, and ELD Compliance. The most easy-to-use ELDdevice and application",
+      "Answer: Everything you need to manage your fleet. All in one place. ELD Compliance, Driver Safety, GPS Tracking. The easiest-to-use electronic logging device (ELD) and software.",
   },
   {
-    question: "How TT ELD helps us",
+    question: "How TT ELD helps us ?",
     answer:
-      "Fast Refresh will perform a full reload when you edit a file that is imported by modules outside of the React rendering tree. It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh. Fast Refresh requires at least one parent function component in your React tree.",
+      "Answer: Thanks to its multiple beneficial functions, TT ELD will help you minimize the risks, keep your activities compliant with laws, reduce fuel wastage, optimize transportation activities, diagnose your vehicles’ conditions, improve safety and security, and reduce extra costs.    ",
   },
   {
-    question: "What are the advantages of TT ELD",
+    question: "What are the advantages of TT ELD ?",
     answer:
-      "Fast Refresh will perform a full reload when you edit a file that is imported by modules outside of the React rendering tree. It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh. Fast Refresh requires at least one parent function component in your React tree.",
+      "Answer: TT ELD has a durable device and easy-to-use application with plenty of beneficial functions.",
   },
   {
-    question: "How TT ELD works",
+    question: "How does TT ELD works ?",
     answer:
-      "Fast Refresh will perform a full reload when you edit a file that is imported by modules outside of the React rendering tree. It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh. Fast Refresh requires at least one parent function component in your React tree.",
+      "Answer: An electronic logging device (ELD) connected to the vehicle collects data directly from the CMV’s engine. The data may include the status of engine power (on/off), the speed, how long the engine has been operating, how many miles have been covered, and other additional data. Then, this data is sent to the TT ELD application that demonstrates this information and enables drivers or loggers to enter some supplementary information.",
   },
   {
-    question: "Why exactly TT ELD",
+    question: "Which devices are suitable for TT ELD software ?",
     answer:
-      "Fast Refresh will perform a full reload when you edit a file that is imported by modules outside of the React rendering tree. It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh. Fast Refresh requires at least one parent function component in your React tree.",
+      "Answer:  Electronic logging devices like PT30 ELD and IOSiX ELD are the ones that can be connected to TT ELD software. ",
   },
   {
-    question: "Why should I buy TT ELD",
-    answer:
-      "Fast Refresh will perform a full reload when you edit a file that is imported by modules outside of the React rendering tree. It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh. Fast Refresh requires at least one parent function component in your React tree.",
+    question: "Can I order device from you ? ",
+   
+    answer:<>Answer: Of course, you can order device at our online store. Here is the link to our online store: <a target="_blank" rel="noreferrer" style={{color:'#4080c9', hover:'red'}} href="https://store.tteld.com/">Store.tteld.com </a> </>,
   },
+  {
+    //7
+    question: "Can I pick up my order ? ",
+    answer:
+      "Answer: You can pick up your order from our office in 799 N Court Street, Suite 7 Medina OH 44256, USA. ",
+  },
+  {
+    //8
+    question: "How does the billing system work ? ",
+    answer:
+      "Answer: Our monthly fee is 105 USD. You can join our software any time - our system will calculate the amount of money you have to pay for the time left until the end of the month, and starting with the new month, you will have to pay 105 USD. If you don’t pay on time, you won’t be able to use our software. Also, we use Stripe Payments for fee transactions. ",
+  },
+  {
+    //9
+    question: "Where can I download necessary documents ? ",
+    answer:
+      <>Answer: You can download necessary documents and manuals from our store <a target="_blank" rel="noreferrer" style={{color:'#4080c9', hover:'red'}} href="https://store.tteld.com/">(Store.tteld.com) </a> , “Resources” page of <a target="_blank" rel="noreferrer" style={{color:'#4080c9', hover:'red'}} href="https://app.tteld.com/#/auth/companies">app.tteld.com </a> or Telegram channel named “TT ELD RESOURCES” (link: <a target="_blank" rel="noreferrer" style={{color:'#4080c9', hover:'red'}} href="https://t.me/tteld_res">https://t.me/tteld_res </a> ).
+      </>,
+  },
+  {
+    //10
+    question: "Where can I watch video lessons and tutorials ?  ",
+    answer:<>Answer: Of course, you can order device at our online store. Here is the link to our online store: <a target="_blank" rel="noreferrer" style={{color:'#4080c9', hover:'red'}} href="https://t.me/tteld_res">https://t.me/tteld_res </a> </>,
+
+  },
+  {
+    //11
+    question: "Can I create IFTA reports for drivers using my ELD ?  ",
+    answer:
+      "Answer: Yes. You can create IFTA reports using our TT ELD software and device.   ",
+  },
+  {
+    //12
+    question: "Will ELD location data identify street addresses ?",
+    answer:
+      "Answer: Yes. This is possible with our GPS tracking system. ",
+  },
+  {
+    //13
+    question: "Does TT ELD have the Split-Sleeper break feature? How can I turn on the split-sleeper berth feature for my fleet ? ",
+    answer:
+      "Answer: TT ELD does have Split-Sleeper break feature and it works in compliance with FMCSA standards. You can turn it on in TT ELD’s dashboard page.",
+  },
+  // {
+  //   //14
+  //   question: "Does TT ELD have the Split-Sleeper break feature? How can I turn on the split-sleeper berth feature for my fleet ? ",
+  //   answer:
+  //     "Answer: TT ELD does have Split-Sleeper break feature and it works in compliance with FMCSA standards. You can turn it on in TT ELD’s dashboard page.",
+  // },
 ];
 
 {

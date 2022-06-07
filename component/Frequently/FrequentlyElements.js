@@ -1,30 +1,37 @@
 import styled from "styled-components";
 
 export const FrequntlyContainer = styled.div`
-  height: 2100px;
+  height: 3000px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
+  
   @media screen and (max-width: 1280px) {
     padding-top: 60px;
   }
   @media screen and (max-width: 960px) {
-    height: 118rem;
+    height: 2600px;
+    padding-top: 130px;
   }
   @media screen and (max-width: 820px) {
-    height: 115rem;
+    /* background-color: red; */
+    height: 2600px;
+
   }
   @media screen and (max-width: 768px) {
-    height: 130rem;
+    height: 2750px;
+
   }
 
   @media screen and (max-width: 480px) {
-    height: 115rem;
+    height: 2600px;
+
   }
   @media screen and (max-width: 280px) {
-    height: 115rem;
+    height: 2650px;
+
   }
 `;
 export const FrequntlyH1 = styled.h1`
@@ -317,15 +324,6 @@ export const FrequntlyBox2 = styled.div`
     padding: 3px 1px 1px 1px;
   }
 `;
-export const Col2 = styled.div`
-  display: flex;
-  margin: 24px;
-  @media screen and (max-width: 480px) {
-    font-size: 19px;
-    line-height: 32px;
-    margin: 10px;
-  }
-`;
 
 export const FrequntlyT2 = styled.h2`
   font-weight: 600;
@@ -334,33 +332,48 @@ export const FrequntlyT2 = styled.h2`
   padding: 0;
   margin-bottom: 6px;
   margin-right: auto;
+max-width: 65rem;
+text-align: left;
+
   @media screen and (max-width: 1280px) {
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
+    text-align: left;
+    max-width: 46rem;
+
   }
   @media screen and (max-width: 1024px) {
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
+    text-align: left;
+    max-width: 46rem;
   }
   @media screen and (max-width: 960px) {
     font-weight: 600;
     font-size: 22px;
-    line-height: 20px;
+    line-height: 30px;
     text-align: center;
+    text-align: left;
+    max-width: 40rem;
   }
   @media screen and (max-width: 820px) {
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
     text-align: center;
+    text-align: left;
+    max-width: 35rem;
   }
   @media screen and (max-width: 768px) {
     font-size: 16px;
-    line-height: 16px;
+    line-height: 19px;
     /* padding: 10px; */
     margin-right: auto;
+    text-align: left;
+    max-width: 35rem;
+
   }
   @media screen and (max-width: 480px) {
     font-weight: 700;
@@ -369,6 +382,10 @@ export const FrequntlyT2 = styled.h2`
     margin: 0;
     padding: 0 0 0 0;
     margin-right: auto;
+    text-align: left;
+    /* background-color: red; */
+    max-width: 17.5rem;
+    /* margin-left: auto; */
     /* margin-top: 10px; */
   }
   @media screen and (max-width: 320px) {

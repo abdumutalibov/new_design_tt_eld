@@ -137,7 +137,6 @@ export const HeroContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* background-color:red; */
   @media screen and (max-width:480px) {
   padding: 0;
 }
@@ -251,17 +250,24 @@ margin: 48px 0 72px 0;
 display: flex;
 flex-direction: row;
 align-items: center;
-max-width: 1500px; 
+width: 100%;
+max-width: 520px; 
 @media screen and (max-width: 1280px){
   margin: 48px 0 72px 0;
 max-width: 1600px;
 padding: 0;
+display: flex;
+justify-content: center;
 }
 @media screen and (max-width: 960px){
   margin: 20px ;
+  display: flex;
+justify-content: center;
 }
 @media screen and (max-width: 820px){
 margin: 20px ;
+display: flex;
+justify-content: center;
 }
 @media screen and (max-width: 480px){
   display: flex;

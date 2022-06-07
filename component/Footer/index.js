@@ -22,16 +22,16 @@ const Footer = () => {
             <Logo>
               <SocialLogo src="FooterIcons/tt_eld2.svg" />
             </Logo>
-            <SocialIconLinks href="/" target="_blank" aria-label="Facebook">
+            <SocialIconLinks href=" ">
               <Icon src="FooterIcons/email-icon.svg" />
               <SocialIconName>Info@tteld.com</SocialIconName>
             </SocialIconLinks>
 
-            <SocialIconLinks href="/" target="_blank" aria-label="Instagram">
+            <SocialIconLinks href=" " >
               <Icon src="FooterIcons/phone-icon.svg" />
               <SocialIconName>+1 (833) 888 83 53</SocialIconName>
             </SocialIconLinks>
-            <SocialIconLinks href="/" target="_blank" aria-label="YouTube">
+            <SocialIconLinks href=" " >
               <Icon src="FooterIcons/location-icon.svg" />
               <SocialIconName>
                 799 N Court Street , Medina OH 44256
@@ -39,15 +39,15 @@ const Footer = () => {
             </SocialIconLinks>
 
              <SocialIcons>
-              <SocialIconLink href="/" target="_blank" aria-label="YouTube">
+              <SocialIconLink href="#" >
                 <FaTelegramPlane />
               </SocialIconLink>
 
-              <SocialIconLink href="/" target="_blank" aria-label="Twitter">
+              <SocialIconLink href="#" >
                 <FaYoutube />
               </SocialIconLink>
 
-              <SocialIconLink href="/" target="_blank" aria-label="Linkedin">
+              <SocialIconLink href="#" >
                 <FaInstagram />
               </SocialIconLink>
             </SocialIcons> 
