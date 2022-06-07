@@ -46,7 +46,8 @@ const Navbar = ({ toggle }) => {
               
               <NavLogo>
                 
-                <NavImg src="Drivers/Logo.svg" alt="" />
+                {/* <NavImg src="Drivers/Logo.svg" alt="" /> */}
+                <NavImg src="https://tteld.com/assets/images/custom/logo.svg" alt="" />
               </NavLogo>
             </Link>
 

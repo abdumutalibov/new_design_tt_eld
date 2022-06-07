@@ -80,8 +80,13 @@ const Drives = () => {
 
               <PhoneIcons>
                
+                <a  href="https://apps.apple.com/uz/app/tt-eld/id1596279099" alt=''>
                 <Icons src="Drivers/button-app.png" />
+                </a>
+<a href="https://us.tteld.com/update/tteld.apk" alt=''>
+
                 <Icons src="Drivers/button-play.png" />
+</a>
               </PhoneIcons>
             </Column2>
 
