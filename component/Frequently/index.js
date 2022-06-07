@@ -216,6 +216,7 @@ const Frequntly = () => {
                         // type="text"
                         placeholder="Type your message here.."
                         required
+                        
                         // rows="5"
                       />
                       <FormButton type="submit">Send message</FormButton>
