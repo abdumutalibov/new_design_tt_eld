@@ -1,28 +1,27 @@
 import styled from "styled-components";
 
 export const FrequntlyContainer = styled.div`
-  height: 3000px;
+  height: 3150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-  
+  /* background-color: red; */
   @media screen and (max-width: 1280px) {
     padding-top: 60px;
   }
   @media screen and (max-width: 960px) {
-    height: 2600px;
+    height: 2900px;
     padding-top: 130px;
   }
   @media screen and (max-width: 820px) {
     /* background-color: red; */
-    height: 2600px;
+    height: 2800px;
 
   }
   @media screen and (max-width: 768px) {
-    height: 2750px;
-
+    height: 2840px;
   }
 
   @media screen and (max-width: 480px) {
@@ -30,7 +29,7 @@ export const FrequntlyContainer = styled.div`
 
   }
   @media screen and (max-width: 280px) {
-    height: 2650px;
+    height: 2660px;
 
   }
 `;
@@ -494,6 +493,7 @@ export const FrequentlyLogin = styled.div`
   background-color: #2b2d31;
   padding: 30px 70px;
   margin-top: 128px;
+
   @media screen and (max-width: 1280px) {
     padding: 50px 50px 60px 50px;
     flex-direction: column;
@@ -515,7 +515,6 @@ export const FrequentlyLogin = styled.div`
   @media screen and (max-width: 480px) {
     padding: 0 0 0px 0px;
     background-color: #2b2d31;
-
     margin-top: 90px;
 
     width: 100%;
@@ -944,7 +943,7 @@ export const LoginContainer = styled.div`
   /* margin-left: 120px; */
   /* max-height: 69rem; */
   max-width: 31rem;
-  max-height: 40rem;
+  /* max-height: 40rem; */
   width: 100%;
   background-color: white;
 
@@ -1099,6 +1098,58 @@ export const FormInput = styled.input`
   border-radius: 4px;
   font-size: 15px;
   color: #959ead;
+  @media screen and (max-width: 1280px) {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #959ead;
+    margin-bottom: 26px;
+  }
+  @media screen and (max-width: 1024px) {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #959ead;
+    margin-bottom: 25px;
+  }
+  @media screen and (max-width: 960px) {
+    max-width: 1300rem;
+    padding: 16px 15px;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  @media screen and (max-width: 820px) {
+    padding: 13px 15px;
+    font-size: 14px;
+  }
+  @media screen and (max-width: 768px) {
+    padding: 15x 15px;
+    font-size: 16px;
+  }
+  @media screen and (max-width: 480px) {
+    padding: 10px 10px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  @media screen and (max-width: 280px) {
+    padding: 10px 5px;
+    font-size: 11px;
+  }
+`;
+export const FormInputTextarea = styled.textarea`
+  padding: 16px 16px;
+  margin-bottom: 24px;
+  border: none;
+  border-radius: 4px;
+  border: 1px solid #c3cad9;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 15px;
+  color: #959ead;
+  resize: none;
   @media screen and (max-width: 1280px) {
     font-weight: 600;
     font-size: 18px;
@@ -1296,7 +1347,7 @@ export const FormCol2 = styled.div`
 export const FormCol12 = styled.div`
   display: flex;
   flex-direction: column;
-  margin-right: 12px;
+  /* margin-right: 12px; */
   @media screen and (max-width: 1280px) {
     max-width: 540rem;
     margin-right: auto;

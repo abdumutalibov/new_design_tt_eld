@@ -17,6 +17,7 @@ import {
   FormCol2,
   FormContent,
   FormInput,
+  FormInputTextarea,
   FormLabel,
   FormMainCol,
   FormMainCol2,
@@ -206,8 +207,17 @@ const Frequntly = () => {
                           required
                         />
                         </FormCol2>
+                        
                       </FormMainCol2>
-        
+                      <FormLabel htmlFor="message">Message</FormLabel>
+                      <FormInputTextarea
+                        id="message"
+                        name="message"
+                        type="text"
+                        placeholder="Type your message here.."
+                        required
+                        // rows="5"
+                      />
                       <FormButton type="submit">Send message</FormButton>
                     </Form>
                   </FormContent>
