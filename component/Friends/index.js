@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 import {
+  Alink,
   Arrow,
   FollowUs,
   FooterCard,
@@ -92,6 +93,8 @@ const Friends = () => {
             primary="true"
             dark="true"
           >
+             {/* <a href="https://t.me/tteldsupport"></a> */}
+
                Follow Us <Arrow src="Friends/Arrow.svg"/> 
           </FollowUs>
         </FriendsCard>
@@ -122,14 +125,20 @@ const Friends = () => {
             solution on the market.
           </FooterTxt>
           <FooterImgRight>
+        <a href="https://play.google.com/store/apps/details?id=com.tteld.app&hl=ru&gl=US" alt=''>
             <FooterImg src="Friends/Play.svg" />
+            </a>
+            <a  href="https://apps.apple.com/uz/app/tt-eld/id1596279099" alt=''>
+
             <FooterImg src="Friends/App.svg" />
+            </a>
           </FooterImgRight>
         </FooterCard>
         <FooterCard3>Point your camera to the QR code to download</FooterCard3>
-
+        <Alink href="https://us.tteld.com/update/tteld.apk" alt=''>
         <FooterCardImg src="Friends/Phone.svg" />
         <FooterCardImg2 src="Friends/yellowPhone.png" />
+        </Alink>
         <FooterCard2>Point your camera to the QR code to download</FooterCard2>
 </MaxmWhids>
       </FriendsFooter>

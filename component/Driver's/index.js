@@ -43,7 +43,7 @@ const Drives = () => {
 
           <DriversH1 id="reviews">Your driver’s favorite app</DriversH1>
           <DriversP>
-            TTELD is an industry-leading electronic logging device. Our ELD
+            TT ELD is an industry-leading electronic logging device. Our ELD
             compliance solution provides users with a wide variety of
             comprehensive features.
           </DriversP>
@@ -83,7 +83,7 @@ const Drives = () => {
                 <a  href="https://apps.apple.com/uz/app/tt-eld/id1596279099" alt=''>
                 <Icons src="Drivers/button-app.png" />
                 </a>
-<a href="https://us.tteld.com/update/tteld.apk" alt=''>
+<a href="https://play.google.com/store/apps/details?id=com.tteld.app&hl=ru&gl=US" alt=''>
 
                 <Icons src="Drivers/button-play.png" />
 </a>

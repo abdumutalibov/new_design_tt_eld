@@ -195,7 +195,8 @@ export const FriendsWrapper = styled.div`
     padding: 0;
     grid-template-columns: 1fr ;
     grid-gap: 0px;
-
+display: flex;
+flex-direction: column;
   }
 `;
 export const FriendsCard = styled.div`
@@ -683,6 +684,10 @@ line-height: 32px;
     margin-bottom: 30px;
   }
 `;
+export const Alink = styled.a`
+position: relative;
+`
+
 export const FooterCardImg = styled.img`
   /* margin-left: 90px; */
   margin-bottom: -33px;
@@ -748,21 +753,32 @@ export const FooterCardImg2 = styled.img`
     margin-left: 180px;
   }
   @media screen and (max-width: 960px) {
-    width: 203px;
+    /* width: 203px;
     margin-top: 80px;
     margin-left: 200px;
     padding: 0;
     position: absolute;
-    margin-top: 51px;
+    margin-top: 51px; */
+    width: 203px;
+    right:-60px;
+    padding: 0;
+    position: absolute;
+    top:-138px;
 
   }
   @media screen and (max-width: 820px) {
-    width: 173px;
+    /* width: 173px;
     margin-top: 50px;
     margin-left: 140px;
     padding: 0;
     position: absolute;
-    margin-top: 30px;
+    margin-top: 30px; */
+    width: 173px;
+    right:-40px;
+    padding: 0;
+    position: absolute;
+    top:-132px;
+
 
   }
   @media screen and (max-width: 768px) {

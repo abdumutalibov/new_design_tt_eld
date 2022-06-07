@@ -70,7 +70,7 @@ const Navbar = ({ toggle }) => {
               <NavItem>
                 <Link href="#products">
                   <div className={styles.listItem}>
-                    <NavLinks>Products</NavLinks>
+                    <NavLinks>Store</NavLinks>
                   </div>
                 </Link>
               </NavItem>

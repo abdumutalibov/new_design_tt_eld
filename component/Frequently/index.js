@@ -103,7 +103,7 @@ const Frequntly = () => {
               <LoginText>
                 <LoginTxt1>Let’s talk to you about your company</LoginTxt1>
                 <LoginTxt2>
-                  TTELD is a large, experienced team that works with many
+                  TT ELD is a large, experienced team that works with many
                   companies at once. We look forward to seeing you among our
                   customers.
                 </LoginTxt2>

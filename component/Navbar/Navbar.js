@@ -138,29 +138,33 @@ width: 114px;
 }
 @media screen and (max-width:960px){
 
-width: 110px;
+/* width: 110px;  old code */
 margin: 0;
 padding: 0;
 }
 @media screen and (max-width:820px){
 
-width: 100px;
+/* width: 100px; */
 margin: 0;
 padding: 0;
 }
 @media screen and (max-width:768px){
-  width: 130px;
-height: 110px;
+  /* width: 130px;
+height: 110px; */
 position: absolute;
 
 }
 
   @media screen and (max-width:480px){
-height: 30px;
+/* height: 30px; */
 
 }
 @media screen and (max-width:320px){
-height: 27px;
+/* height: 27px; */
+}
+@media screen and (max-width:280px){
+/* height: 38px; */
+/* width: 98px; */
 }
 `;
 export const MobileIcon = styled.div`
