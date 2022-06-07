@@ -213,7 +213,7 @@ const Frequntly = () => {
                       <FormInputTextarea
                         id="message"
                         name="message"
-                        type="text"
+                        // type="text"
                         placeholder="Type your message here.."
                         required
                         // rows="5"

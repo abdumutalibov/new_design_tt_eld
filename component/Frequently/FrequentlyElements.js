@@ -1149,7 +1149,7 @@ export const FormInputTextarea = styled.textarea`
   border-radius: 4px;
   font-size: 15px;
   color: #959ead;
-  resize: none;
+  /* resize: none; */
   @media screen and (max-width: 1280px) {
     font-weight: 600;
     font-size: 18px;
