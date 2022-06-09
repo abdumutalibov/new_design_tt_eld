@@ -54,11 +54,11 @@ centerMode:true,
     <Container>
       <Slider {...settings} className={styles.slider}>
         {userRows.map((item ,id ) => (
-          <RatingWrappers>
+          <RatingWrappers  key={id}>
 
           
           <div
-            key={id}
+          
             className={id === imageIndex ? "slides activeSlides" : "slides"}
           >
             {/* <RatingCard>{img}</RatingCard> */}

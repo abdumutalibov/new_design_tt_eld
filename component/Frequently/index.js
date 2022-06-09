@@ -87,7 +87,7 @@ const Frequntly = () => {
       <FrequentlyWrapper>
         <MaxWidth>
           {data.map((item, i) => (
-            <FrequntlyBox2 className={selected === i ? "border" : "border1"}>
+            <FrequntlyBox2 key={i} className={selected === i ? "border" : "border1"}>
               <Col onClick={() => toggle(i)}>
                 <FrequntlyT2 className={selected === i ? "color" : "color1"}>
                   {item.question}

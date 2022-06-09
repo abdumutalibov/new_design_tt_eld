@@ -71,11 +71,11 @@ const Rating = () => {
   
       <Slider {...settings}>
         {userRows.map((item ,id ) => (
-          <RatingWrapper>
+          <RatingWrapper key={id}>
 
           <div className="margin">
           <div
-            key={id}
+           
             className={id === imageIndex ? "slide activeSlide" : "slide"}
           >
             <RatingCard>
