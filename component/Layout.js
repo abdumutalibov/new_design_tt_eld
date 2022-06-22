@@ -11,11 +11,8 @@ import EasyTracking from './EasyTracking'
 import Rating from './Rating'
 import Frequntly from './Frequently'
 import Friends from './Friends'
-import MultipleRows from './Review/review'
 import Footer2 from './Footer2'
 import Background from './Background/Background'
-import SectionContact from './RequestDemo'
-import Contact from '../pages/contact'
 const Layout = ({children}) => {
 
   const [isOpen,setOpen] =useState(false)
@@ -39,14 +36,8 @@ const Layout = ({children}) => {
         <EasyTracking/>
         <Services/>
         <Rating/>
-        {/* <SectionContact/> */}
-        {/* <Contact/> */}
         <Frequntly/>
         <Friends/>
-        
-        {/* <InfoSection {...homeObjOne}/>
-        <InfoSection {...homeObjTwo}/>
-        <InfoSection {...homeObjThree}/> */}
         <Footer/>
          <Footer2/>
         {children}

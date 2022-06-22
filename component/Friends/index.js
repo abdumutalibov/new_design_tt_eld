@@ -136,8 +136,9 @@ const Friends = () => {
         </FooterCard>
         <FooterCard3>Point your camera to the QR code to download</FooterCard3>
         <Alink href="https://us.tteld.com/update/tteld.apk" alt=''>
-        <FooterCardImg src="Friends/Phone.svg" />
-        <FooterCardImg2 src="Friends/yellowPhone.png" />
+        {/* <FooterCardImg src="Friends/Phone.svg" /> */}
+        <FooterCardImg src="Friends/PhoneNew.png" />
+        {/* <FooterCardImg2 src="Friends/PhoneNew.png" /> */}
         </Alink>
         <FooterCard2>Point your camera to the QR code to download</FooterCard2>
 </MaxmWhids>

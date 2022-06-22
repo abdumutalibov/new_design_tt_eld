@@ -61,9 +61,11 @@ function HeroSection() {
             Free trial {hovers ? <ArrowForward/> : <ArrowForwards/>}
           </Button>
         </HeroBgWrapper>
-        {/* <ImgMac src="mac.svg"/> */}
-        {/* <ImgMac src="Hero/mac375.png"/> */}
-        <ImgMac src="Hero/mac.png"/>
+   
+        {/* <ImgMac src="Hero/mac.png"/> */}
+        <ImgMac src="Hero/newdesignMac.png"/>
+        {/* <ImgMac src="Hero/newdesignMac.svg"/> */}
+
 
       </HeroContent>
     </HeroContainer>

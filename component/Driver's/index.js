@@ -33,13 +33,11 @@ const Drives = () => {
         <div className={styled.main}>
           <DriversImg>
             <ImgBg src="Drivers/Base (7).svg" />
-
           </DriversImg>
-<HeroBg>
-  <ImgBgs2 src="Drivers/Base480.svg" />
-  <ImgBgs src="Drivers/Base (3).png" />
-
-</HeroBg>
+          <HeroBg>
+            <ImgBgs2 src="Drivers/Base480.svg" />
+            <ImgBgs src="Drivers/Base (3).png" />
+          </HeroBg>
 
           <DriversH1 id="reviews">Your driver’s favorite app</DriversH1>
           <DriversP>
@@ -48,7 +46,8 @@ const Drives = () => {
             comprehensive features.
           </DriversP>
           <DriversWrapper>
-            <ImgPhoneTop src="Drivers/ProMax.png" />
+            {/* <ImgPhoneTop src="Drivers/ProMax.png" /> */}
+            <ImgPhoneTop src="Drivers/iPhone12ProMax.png" />
 
             <Column1>
               <TextWrapper1>
@@ -75,18 +74,22 @@ const Drives = () => {
             </Column1>
 
             <Column2>
-             
-              <ImgPhone src="Drivers/ProMax.png" />
+              {/* <ImgPhone src="Drivers/ProMax.png" /> */}
+              <ImgPhone src="Drivers/iPhone12ProMax.png" />
 
               <PhoneIcons>
-               
-                <a  href="https://apps.apple.com/uz/app/tt-eld/id1596279099" alt=''>
-                <Icons src="Drivers/button-app.png" />
+                <a
+                  href="https://apps.apple.com/uz/app/tt-eld/id1596279099"
+                  alt=""
+                >
+                  <Icons src="Drivers/button-app.png" />
                 </a>
-<a href="https://play.google.com/store/apps/details?id=com.tteld.app&hl=ru&gl=US" alt=''>
-
-                <Icons src="Drivers/button-play.png" />
-</a>
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.tteld.app&hl=ru&gl=US"
+                  alt=""
+                >
+                  <Icons src="Drivers/button-play.png" />
+                </a>
               </PhoneIcons>
             </Column2>
 
@@ -114,11 +117,9 @@ const Drives = () => {
                   Diagnostic tools allow you to review your truck’s key
                   parameters
                 </TopLine>
-                
               </TextWrapper>
-            
             </Column3>
-              <PhoneIconsTop>
+            <PhoneIconsTop>
               <Icons src="Drivers/button-app.png" />
               <Icons src="Drivers/button-play.png" />
             </PhoneIconsTop>
